@@ -1,0 +1,134 @@
+/*
+ * Typography
+ */
+
+html {
+  font-size: 62.5%;
+  @include grid-media-query("palm") {
+    font-size: 50%;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: $graphik;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 170%;
+  letter-spacing: 0;
+  color: $black;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 800;
+  line-height: 100%;
+  margin-top: -1rem;
+  @include grid-media-query("palm") {
+    font-size: 16vw;
+  }
+}
+
+h1,
+h2 {
+  font-family: $freightBig;
+}
+
+h3 {
+  font-family: $graphik;
+  font-size: 2.8rem;
+  line-height: 135%;
+}
+
+h4 {
+  /*
+  font-family: $freightBig;
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: 0.05rem; */
+
+  @extend h5;
+}
+
+h5 {
+  font-weight: 500;
+}
+
+.banner {
+  font-family: $freightBig;
+  font-weight: 800;
+  font-size: 3vw;
+  letter-spacing: 0.05rem;
+  @include grid-media-query("palm") {
+    font-size: 4.1vw;
+  }
+  @include grid-media-query("lap") {
+    font-size: 4vw;
+  }
+  span {
+    animation-name: bravo;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+}
+
+@keyframes bravo {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 10px;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  @include hover {
+    text-decoration: none;
+  }
+}
+
+#name,
+.card {
+  a {
+    text-decoration: none;
+  }
+}
+
+nav {
+  //line-height: 0;
+  a {
+    text-decoration: none;
+    &.active {
+      font-style: italic;
+      font-weight: 300;
+    }
+    @include hover {
+      font-style: italic;
+      font-weight: 300;
+      line-height: 100%;
+    }
+  }
+}
+
+#filters {
+  cursor: pointer;
+  .active {
+    cursor: default;
+    h4 {
+      font-style: italic;
+      font-weight: 300;
+    }
+  }
+  li {
+    @include hover {
+      h4 {
+        font-style: italic;
+        font-weight: 300;
+      }
+    }
+  }
+}

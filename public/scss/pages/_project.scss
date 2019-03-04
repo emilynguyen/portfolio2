@@ -1,0 +1,16 @@
+.project-page {
+  p {
+    @extend .mb;
+  }
+}
+
+.landing {
+  img {
+    width: 100%;
+  }
+  .description {
+    @include grid-media-query("portable") {
+      margin-bottom: $space-md;
+    }
+  }
+}

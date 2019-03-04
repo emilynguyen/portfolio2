@@ -1,0 +1,18 @@
+#about-photo {
+  width: 100%;
+  min-height: 28rem;
+  background-size: cover;
+  background-image: url("../images/me.jpg");
+  background-position: center right;
+  filter: saturate(0) contrast(125%);
+  @include grid-media-query("portable") {
+    background-image: url("../images/me-horizontal.png");
+    margin-top: $space;
+  }
+}
+
+.bio {
+  p {
+    @extend .mb;
+  }
+}

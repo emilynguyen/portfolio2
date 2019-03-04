@@ -1,0 +1,87 @@
+{
+  "projects": [
+    {
+      "title": "Daily UI",
+      "url": "dailyui",
+      "icon": "daily-ui/icon.jpg",
+      "bg": "#111",
+      "text": "#fff",
+      "description": "I recently started the Daily UI Challenge to get my creativity flowing and challenge myself to explore different visual styles.",
+      "col": "1"
+    },
+    {
+      "title": "Stride Career Fair",
+      "url": "stride",
+      "icon": "stride/runner.gif",
+      "landing": "stride/stride.gif",
+      "bg": "#EC5C5A",
+      "text": "#fff",
+      "description": "I developed a website for a design-centric career fair hosted by Design at UCSD.",
+      "col": "2",
+      "summary": "<p>As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.</p><p>In collaboration with one of our visual designers, I developed the event website. I also assisted our graphic studio in creating visual collateral.</p>",
+      "button": {
+        "title": "Visit Site",
+        "link": "https://stride.designatucsd.org/"
+      },
+      "details": [
+        {
+          "title": "Key Role",
+          "content": "Lead developer"
+        },
+        {
+          "title": "Date",
+          "content": "Aug – Nov 2018"
+        },
+        {
+          "title": "Tools + Skills",
+          "content": "HTML, CSS, Sass, Jekyll"
+        },
+        {
+          "title": "Partner",
+          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> ♥ – creative director, illustrator, animator"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/designatucsd/stride\" target=\"_blank\">Github repo</a>"
+        }
+      ],
+      "sections": []
+    },
+    {
+      "title": "Burow",
+      "url": "burow",
+      "icon": "burow/burow.gif",
+      "text": "#DCEFE2",
+      "bg": "#6CA18A",
+      "description": "I branded a housing app.",
+      "col": "1",
+      "summary": "<p>Burow is a desktop web app that helps users find the perfect new home to move to. With a focus on price, walkability, and school rating, users can easily pinpoint neighborhoods within their target cities that suit their needs.</p>",
+      "button": {
+        "title": "View Demo",
+        "link": "https://drive.google.com/file/d/1a0_elaRO7U0osApLxUgap3Kg3ghxkchM/view"
+      },
+      "details": [
+        {
+          "title": "Key Roles",
+          "content": "Led the design and development of the landing page and co-led the brand design. UX was done as a team."
+        },
+        {
+          "title": "Key Skills",
+          "content": "Prototyping, brand design, web design, web development (HTML, CSS, Sass, React)"
+        },
+        {
+          "title": "Teammates",
+          "content": "Aman Gupta, Joel Sequeira, <a href='http://jaredsuasin.com/' target='_blank'>Jared Suasin</a>"
+        },
+        {
+          "title": "Date",
+          "content": "Apr – June 2018 (10 weeks)"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github repo</a><br><a href=\"https://burow.xyz/\" target=\"_blank\">burow.xyz</a>"
+        }
+      ]
+    }
+  ]
+}

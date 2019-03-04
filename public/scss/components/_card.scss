@@ -1,0 +1,12 @@
+.card {
+  &-img {
+    width: 100%;
+    transition: transform 0.3s;
+    @include hover {
+      transform: scale(0.95);
+    }
+  }
+  &-title {
+    margin-top: 0.5rem;
+  }
+}

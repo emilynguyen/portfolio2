@@ -1,0 +1,72 @@
+$dot: 1.2rem;
+
+#name {
+  display: inline-block;
+  position: relative;
+  margin-left: 2rem;
+  &::before {
+    content: "";
+    margin-left: -2rem;
+    position: absolute;
+    width: $dot;
+    height: $dot;
+    border: 1px solid currentColor;
+    box-sizing: border-box;
+    top: 0.55rem;
+    border-radius: $dot;
+  }
+  @include hover {
+    &::before {
+      background-color: currentColor;
+    }
+  }
+}
+
+nav {
+  text-align: right;
+  position: relative;
+  li {
+    display: inline-block;
+    .bar {
+      width: 3rem;
+      height: 3rem;
+      border-top: 1px solid currentColor;
+      border-right: 1px solid currentColor;
+    }
+    &.horizontal {
+      .bar {
+        margin-top: 1rem;
+      }
+    }
+
+    &.horizontal:not(.line) {
+      position: absolute;
+      right: 14rem;
+    }
+    &.horizontal:not(.line) ~ .horizontal:not(.line) {
+      right: 5.5rem;
+    }
+
+    &.vertical.line {
+      position: absolute;
+      transform: rotate(90deg);
+      transform-origin: left;
+    }
+
+    &.vertical:not(.line) {
+      position: absolute;
+      transform: rotate(90deg);
+      top: 5.5rem;
+      transform-origin: left;
+    }
+    &.vertical:not(.line) ~ .vertical:not(.line) {
+      top: 15rem;
+    }
+  }
+  a {
+    padding: 0.8rem 1.5rem;
+    @include hover {
+      //padding: 0.4rem 1.7rem 0.8rem;
+    }
+  }
+}
