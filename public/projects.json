@@ -5,8 +5,8 @@
       "url": "dailyui",
       "icon": "daily-ui/icon.jpg",
       "landing": "none",
-      "bg": "#111",
-      "text": "#fff",
+      "bg": "#121212",
+      "text": "#eee",
       "description": "I recently started the Daily UI Challenge to get my creativity flowing and challenge myself to explore different visual styles.",
       "col": "1",
       "details": [
@@ -39,8 +39,8 @@
       "title": "Google Design Exercise",
       "private": true,
       "url": "google",
-      "bg": "#6057D6",
-      "text": "#fff",
+      "bg": "#F9F9F9",
+      "text": "#333150",
       "icon": "google/icon.png",
       "description": "Google Design Exercise 2019",
       "summary": "<p><b>Option 2 — </b>Design an experience for students to discover orientation events and craft a visual system to accommodate different types of events: sports, music, visual arts, social groups, and volunteering events. Provide high-fidelity mocks for searching, browsing, and viewing the details for these different events.</p>",
@@ -130,7 +130,7 @@
       "icon": "designatucsd/icon-pink.png",
       "landing": "designatucsd/icon.png",
       "text": "#2E374B",
-      "bg": "#FFFAFA",
+      "bg": "#FFF7F7",
       "col": "1",
       "description": "I am visual + brand designer, web developer, and student leader at the largest pre-professional design community on campus.",
       "summary": "<p>Since November 2017, I’ve been a student leader at the undergraduate design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual and brand designer up until June 2018, where I designed marketing collateral, co-lead visual design workshops, and evolved brand identity. I now spearhead all our web development projects as our web developer.</p>",
@@ -199,9 +199,9 @@
       "title": "Burow",
       "url": "burow",
       "icon": "burow/burow.gif",
-      "text": "#DCEFE2",
+      "text": "#deefe3",
       "bg": "#6CA18A",
-      "description": "I branded a housing app.",
+      "description": "Brand + UX design for a housing app concept.",
       "col": "2",
       "summary": "<p>Burow is a desktop web app that helps users find the perfect new home to move to. With a focus on price, walkability, and school rating, users can easily pinpoint neighborhoods within their target cities that suit their needs.</p>",
       "button": {
@@ -228,6 +228,365 @@
         {
           "title": "Resources",
           "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github repo</a><br><a href=\"https://burow.xyz/\" target=\"_blank\">burow.xyz</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Problem",
+          "text": true,
+          "content": "<p>Popular real estate apps, such as Zillow, Trulia, and Redfin, start by asking users for a location. Users then use metrics such as price and number of beds/baths to sort through the returned listings. Additional research could then be done to find walkability, safety scores, and more for an address. This user flow works great for those looking for homes in specific neighborhoods, but what if you wanted to choose a neighborhood based on a metric?</p>"
+        },
+        {
+          "title": "Solution",
+          "text": true,
+          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h4>Existing Solution</h4><p>Enter location → receive listings → use criteria to sort through listings</p><h4>Proposed Solution</h4><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
+        },
+        {
+          "title": "Storyboarding",
+          "image": true,
+          "alt": "Mark and Sarah want to move their family from New York to California.",
+          "content": "burow/storyboard1.png",
+          "captionBefore": "<p>To better understand our target users, we started by drafting two storyboards.</p>"
+        },
+        {
+          "image": true,
+          "alt": "Jim is a student looking for an apartment for his internship in the Bay Area this summer.",
+          "content": "burow/storyboard2.png",
+          "captionAfter": "<p class=\"small-text\">Storyboards by Jared and Joel.</p>"
+        },
+        {
+          "title": "Prototyping",
+          "text": true,
+          "content": "<p>Coming soon.</p>"
+        },
+        {
+          "title": "Competitive Analysis",
+          "image": true,
+          "content": "burow/competitive-analysis.png",
+          "alt": "Landing pages of Zillow, Trulia, and Redfin",
+          "captionAfter": "<p>Zillow, Trulia, and Redfin all use real estate photos, generous negative space, and safe typefaces to create a clean, polished look. While a professional appearance increases credibility, it comes with the tradeoff of looking impersonal and detached.</p>"
+        },
+        {
+          "title": "Brand Design",
+          "text": true,
+          "content": "<p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and established a cozy, welcoming atmosphere.</p>"
+        },
+        {
+          "blockquote": true,
+          "content": "Burow—Dig around and find the neighbourhood that fits your needs!"
+        },
+        {
+          "text": true,
+          "content": "<p>To produce a homey feel, we used the theme of burrowing animals and gravitated towards warm earth tones and typefaces with gentle curves.</p>"
+        },
+        {
+          "title": "Mood Board + Style Guide",
+          "text": true,
+          "content": "Coming soon."
+        },
+        {
+          "title": "",
+          "palette": true,
+          "style": "background-color: #D5E0BA;",
+          "swatches": ["#FFFAED", "#FEA765", "#E89556", "#A6C5B5", "#7CA18E"]
+        },
+        {
+          "title": "Final Design + Demo",
+          "text": true,
+          "content": "<p>View our <a href=\"https://drive.google.com/file/d/1a0_elaRO7U0osApLxUgap3Kg3ghxkchM/view\" target=\"_blank\">demo video</a>!</p>"
+        }
+      ]
+    },
+    {
+      "title": "Salesforce × TravelBoss",
+      "url": "travelboss",
+      "icon": "travelboss/icon-blue.png",
+      "landing": "travelboss/icon.png",
+      "bg": "#24435B",
+      "text": "#fff",
+      "col": 1,
+      "description": "Reimagined a presentation template for upcoming business meetings.",
+      "summary": "<p>The task at hand was to reimagine a slide deck to create a visually compelling presentation template for upcoming meetings between Salesforce and the fictitious company TravelBoss, whose brand is similar to Airbnb.</p><p><i>Note: This was completed as a timed challenge.</i></p>",
+      "details": [
+        {
+          "title": "Key Skills",
+          "content": "Visual design, co-branding"
+        },
+        {
+          "title": "Tools",
+          "content": "Illustrator"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://drive.google.com/open?id=1jNWZi1YswKr6BxMjOUazh7-qwWl1w5o2\" target=\"_blank\">Design Process (PDF)</a><br><a href=\"https://drive.google.com/open?id=1EGBNRfvD9YCt9tTR7EI3WdgvU34ewOki\" target=\"_blank\">Final Product (PDF)</a>"
+        },
+        {
+          "title": "Date",
+          "content": "Mar 2018 (4 days)"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Problem + Solution",
+          "image": true,
+          "content": "travelboss/before.png",
+          "alt": "Original presentation slides",
+          "captionAfter": "<p>The original presentation slides were uninspiring and lacked identity. Through careful brand analysis, I crafted a bold and compelling template that embodied the energy and spirit of both the Salesforce and TravelBoss (Airbnb) brands.</p>"
+        },
+        {
+          "title": "Design Process",
+          "pdf": true,
+          "content": "https://drive.google.com/file/d/1jNWZi1YswKr6BxMjOUazh7-qwWl1w5o2/preview"
+        },
+        {
+          "title": "Final Product",
+          "image": true,
+          "content": "travelboss/final-product.png",
+          "alt": "Final product"
+        },
+        {
+          "pdf": true,
+          "content": "https://drive.google.com/file/d/1EGBNRfvD9YCt9tTR7EI3WdgvU34ewOki/preview"
+        }
+      ]
+    },
+    {
+      "title": "ERGO",
+      "url": "ergo",
+      "icon": "ergo/ergo.gif",
+      "landing": "none",
+      "text": "#fff",
+      "bg": "#40B2B0",
+      "col": 2,
+      "description": "Brand + interaction design for an ergonomics app concept.",
+      "summary": "<p><i>Our work environments can work against us</i>. Many of us, especially students and office workers, sit our lives away; this has been linked to high blood pressure, obesity, worse mental health, and more. ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different spaces, ERGO is unique in that it introduces exercises that use the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.</p>",
+      "button": {
+        "title": "View Prototype",
+        "link": "http://ergo-webapp.herokuapp.com/"
+      },
+      "details": [
+        {
+          "title": "Roles",
+          "wide": true,
+          "content": "Led the brand design and development of the HTML prototype. Interaction design was done as a team."
+        },
+        {
+          "title": "Key Skills",
+          "wide": true,
+          "content": "Needfinding, storyboarding, wireframing, rapid prototyping, visual design, web development"
+        },
+        {
+          "title": "Teammates",
+          "content": "Lauren Choy, Lindy Hernandez"
+        },
+        {
+          "title": "Date",
+          "content": "Jan – Mar 2018 (10 weeks)"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/emilynguyen/ergo\" target=\"_blank\">Github repo</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Design Brief",
+          "text": true,
+          "content": "<p>When the spaces we regularly navigate become a part of our routines, we fail to recognize how we interact with them. Our team's goal was to reassess the interactions between users and their environments to discover how these interactions could be used to fulfill unmet user needs. In particular, we were interested in human behavior within work settings and how the use of computers could contribute to successes and breakdowns.</p>"
+        },
+        {
+          "title": "Needfinding + Personas",
+          "text": true,
+          "content": "<p>We observed 3 participants in their respective work environments and discovered that wellness was a common concern between them. Using the data we collected, we constructed personas that encapsulated our target audience: people who regularly experience long periods of physical inactivity.</p>"
+        },
+        {
+          "personas": true,
+          "personaList": [
+            {
+              "icon": "images/ergo/personas/tony.svg",
+              "description": "<p>Tony is a college student who is studying all night for an exam he has the next day. He becomes immersed in his studies and doesn't realize when his posture worsens and his eyes begin to feel strained. Tony <i>needs a way to be reminded to take breaks and relieve physical stress.</i></p>"
+            },
+            {
+              "icon": "images/ergo/personas/steve.svg",
+              "description": "<p>Steve is currently studying for the MCAT using his test prep books. He is also a full-time lab technician, so he only has time to study at home before and after work. He is worried about the effects of a sedentary lifestyle, but the ergonomic tips he finds online cater to office workers who use computers. Steve <i>needs tips and exercises that are applicable to his environment.</i></p>"
+            },
+            {
+              "icon": "images/ergo/personas/wanda.svg",
+              "description": "<p>Wanda works in an office and experiences discomfort from sitting at her desk all day. She has tried a few ergonomics apps before but is sometimes too lazy to get up and perform stretches. Wanda <i>needs a tool that can successfully encourage her to be more active.</i></p>"
+            }
+          ]
+        },
+        {
+          "title": "Ideation",
+          "text": true,
+          "content": "<p>To guide us towards a solution, we reframed the insights and pain points above into opportunities:</p><ul><li>How might we remind users to take breaks and stretch after long intervals of inactivity?</li><li>How might we accommodate users in different spaces or users with different tools at their disposal?</li><li>How might we make being active enticing to users?</li><li>Additionally, how might we accommodate users with disabilities or injuries?</li></ul>"
+        },
+        {
+          "title": "Solution",
+          "text": true,
+          "content": "<p>Our solution was an ergonomics app that periodically notifies users to perform a stretch or exercise. It would be unique in that it takes into account the user's setting and suggests stretches that are applicable to the devices they're using. These suggestions could then be customized for accessibility and further flexibility. This approach sets the app apart from its competitors by providing users a more fun, personalized stretching experience.</p><p>To encourage users to actually perform the stretches provided by the app, we decided to include a social feature. Once a user is done setting up a routine, they could share their settings with their friends or coworkers so that they all receive the same notifications. By turning stretching into a group activity, the app takes advantage of the power of social influence to get users to be more active.</p>"
+        },
+        {
+          "title": "Storyboarding",
+          "image": true,
+          "content": "ergo/storyboard.jpeg",
+          "alt": "Storyboard: Natalie and Robb successfully use ERGO to reduce their respective pains",
+          "captionBefore": "<p>To explore the different scenarios in which our app could be used, my team then drew up storyboards.</p>",
+          "captionAfter": "<p><a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View all storyboards</a>.</p>"
+        },
+        {
+          "title": "Rapid Prototyping",
+          "image": true,
+          "content": "ergo/paper-prototypes.png",
+          "alt": "2 paper prototypes",
+          "captionBefore": "<p>We then created two prototypes and had participants walk through several use cases on each one. Our first prototype (left) starts by asking users what device they're working on, while the second prototype (right) asks users where they are working.</p>",
+          "captionAfter": "<p>An issue we discovered while testing was that a user's device does not tell us much about their environment (e.g. a laptop can be used anywhere). So, we decided to move forward with our second prototype. <a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View paper prototypes</a>.</p>"
+        },
+        {
+          "title": "Revisiting the Brief + Redesign",
+          "text": true,
+          "content": "<p>Upon revisiting the design brief, we realized we had strayed. While our solution provided users with exercises that were relevant for their location and setup, this was not an environmental interaction in itself. So, <i>how might various work spaces be used to help their respective occupants reach their end goals?</i></p><p>Our revised solution was to have our application suggest stretches that use surrounding objects. Environments would be grouped with other environments based on the objects that are common to them. We redefined our categories as follows:</p><ol type=\"1\"><li><i>Office</i> — possibly a cubicle or small space; stretches can utilize desks and chairs</li><li><i>Home</i> — wide array of furniture at user's disposal, disruptive exercises are not a concern</li><li><i>Indoor</i> (public) — libraries, coffee shops; stretches are seated and more discreet</li><li><i>Outdoor</i> — open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</li></ol>"
+        },
+        {
+          "title": "Wireframing",
+          "image": true,
+          "content": "ergo/wireframes.min.jpg",
+          "alt": "App flow when logged in and logged out",
+          "captionBefore": "<p>Next, we created wireframes to visualize the flow of our app.</p>",
+          "captionAfter": "<p><a href=\"/images/ergo/wireframes.jpg\" target=\"_blank\">View full-sized wireframes</a>.</p>"
+        },
+        {
+          "title": "Brand + Visual Design",
+          "image": true,
+          "content": "ergo/mockups.png",
+          "alt": "High fidelity mockups",
+          "captionBefore": "<p>Our decision to go with a light UI was made carefully after considering that working and studying often take place during the day and in well-lit spaces. We incorporated pops of a vibrant blue-green gradient to set an energizing and refreshing mood that reflects ERGO's main goal: to encourage wellness.</p>"
+        },
+        {
+          "title": "HTML Prototype",
+          "text": true,
+          "content": "<p>With our app flow and branding established, we were able to start developing our live prototype. With the help of tools such as</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li></ul><p>we built a responsive HTML prototype. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  Check out our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emilynguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
+        },
+        {
+          "title": "User Testing",
+          "image": true,
+          "content": "ergo/home-changes.png",
+          "alt": "New home page with how to get started tips and environment descriptions",
+          "captionBefore": "<p>One of the biggest problems we discovered while user testing is that ERGO had poor visibility of system status. To resolve this issue, we made labels more informative and added more descriptions throughout our app.</p>"
+        },
+        {
+          "image": true,
+          "content": "ergo/setup-changes.png",
+          "alt": "New setup page with environment name in the title"
+        },
+        {
+          "image": true,
+          "content": "ergo/icon-changes.svg",
+          "alt": "New person icon and bookmark icon",
+          "captionBefore": "<p>Another problem we had was that users did not find our icons intuitive, namely our <i>Log In</i> and <i>Favorites</i> buttons. We replaced our <i>Log In</i> icon with the universal icon for <i>Profile</i>, a person, and decided to rename our <i>Favorites</i> page to <i>Bookmarks</i>. Stretch routines are saved using URL parameters, so we decided this new title would be more fitting.</p>",
+          "captionAfter": "<p>After implementing these changes, we continued user testing and received positive feedback.</p>"
+        },
+        {
+          "title": "Final Design",
+          "text": true,
+          "content": "<p>View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> to check out our final design!</p>"
+        }
+      ]
+    },
+    {
+      "title": "Personal Work",
+      "url": "personal",
+      "icon": "personal/sushi.gif",
+      "col": 2,
+      "text": "#000",
+      "bg": "#fff",
+      "landing": "none",
+      "description": "A collection of my personal work and illustrations.",
+      "summary": "<p>A collection of my personal work and illustrations. :~)</p>",
+      "button": {
+        "title": "View on Instagram",
+        "link": "https://www.instagram.com/emilynguyen.co/"
+      },
+      "details": [
+        {
+          "title": "Tools",
+          "content": "Illustrator, Sketch"
+        },
+        {
+          "title": "Date",
+          "content": "2014 – Present"
+        }
+      ],
+      "blocks": [
+        {
+          "title": " ",
+          "image": true,
+          "alt": "Slide deck on moodboards",
+          "content": "personal/moodboard-deck.png",
+          "captionAfter": "<p>A <a href='https://docs.google.com/presentation/d/1hxCS80EelFBKxkcJHyHmXzt6Ca_OXCp8RQnv-I6MoH8/edit?usp=sharing' target='_blank'>slide deck about moodboards</a> that I created for a web design practicum I'm tutoring.</p>"
+        },
+        {
+          "title": " ",
+          "image": true,
+          "alt": "Interface for an event finder site",
+          "content": "personal/event-finder.png",
+          "captionAfter": "<p>Interface for an event finder site. 💃🏻</p>"
+        },
+        {
+          "title": " ",
+          "image": true,
+          "content": "personal/saturation.png",
+          "alt": "Colorful abstract illustration"
+        },
+        {
+          "title": " ",
+          "image": true,
+          "content": "personal/nancy.png",
+          "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
+          "captionAfter": "<p class=\"small-text\"><a href=\"https://www.instagram.com/nancy.bui\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
+        },
+        {
+          "title": " ",
+          "image": true,
+          "content": "personal/sushi.png",
+          "alt": "Sleeping hand roll",
+          "captionAfter": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\" <span class=\"small-text\">(Nov 2018)</span></p>"
+        },
+        {
+          "title": " ",
+          "image": true,
+          "content": "personal/red.png",
+          "alt": "Eyes",
+          "noPaddingMd": true,
+          "captionAfter": "<p>RED — \"Associated with energy, war, danger, strength, power, determination as well as passion, desire, and love. Enhances human metabolism, increases respiration rate, and raises blood pressure. It attracts attention more than any other color, at times signifying danger.\" <span class=\"small-text\">(Sept 2018)</span></p>"
+        },
+        {
+          "title": " ",
+          "image": true,
+          "content": "personal/cersei.png",
+          "alt": "Cersei from Game of Thrones",
+          "captionAfter": "<p class=\"small-text\">Cersei from Game of Thrones. (Oct 2015)</p>"
+        },
+        {
+          "title": " ",
+          "image": true,
+          "content": "personal/moira.png",
+          "alt": "Moira from American Horror Story: Murder House",
+          "captionAfter": "<p class=\"small-text\">Moira from American Horror Story: Murder House. (Aug 2015)</p>"
+        },
+        {
+          "title": " ",
+          "image": true,
+          "content": "personal/lydia.png",
+          "alt": "Lydia from Teen Wolf",
+          "captionAfter": "<p class=\"small-text\">Lydia from Teen Wolf. (Nov 2014)</p>"
+        },
+        {
+          "title": " ",
+          "image": true,
+          "content": "personal/kaya.png",
+          "alt": "Kaya Scodelario",
+          "captionAfter": "<p class=\"small-text\">Kaya Scodelario in Wuthering Heights. (Oct 2014)</p>"
         }
       ]
     }
