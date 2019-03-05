@@ -8,7 +8,7 @@
   <div class="grid palm-hide">
     <div id="currently" class="grid__item desk--one-half">
       <h4 class="mb-xs">Currently</h4>
-      <p>Webmaster — <a href="http://asgraphicstudio.ucsd.edu/" target="_blank">Associated Students Graphic Studio</a></p>
+      <p>Webmaster — <a href="http://asgraphicstudio.ucsd.edu/" target="_blank">A.S. Graphic Studio</a></p>
       <p>Web Developer — <a href="https://designatucsd.org/" target="_blank">Design at UCSD</a></p>
     </div>
     <div id="previously" class="grid__item desk--one-half pr-lg">
@@ -34,8 +34,10 @@
 
 {{#with projects}}
 <div class="grid" id="work-block">
-  <div class="grid__item one-whole desk--one-third">
-    <h1 class="mb-md">Work</h1>
+  <div class="grid__item desk--one-third">
+    <h1 class="mb-md palm-hide">Work</h1>
+    <p class="mb-md lap-hide desk-hide">Currently at <a href="http://asgraphicstudio.ucsd.edu/" target="_blank">A.S.
+        Graphic Studio</a> and previously at <a href="https://www.salesforce.com/" target="_blank">Salesforce</a>.</p>
     <ul id="filters">
       <li class="active">
         <h4>All Work</h4>
@@ -50,31 +52,65 @@
         <h4>Product</h4>
       </li>
     </ul>
-
+    <div class="portable-hide">
+      {{#each projects}}
+      {{#unless archive}}
+      {{#unless private}}
+      {{#if_mod 3 0}}
+      {{> card}}
+      {{/if_mod}}
+      {{/unless}}
+      {{/unless}}
+      {{/each}}
+    </div>
   </div>
-  <div class="grid__item palm-hide desk--one-third portable--one-half">
+  <div class="grid__item desk--one-third portable-hide">
     {{#each projects}}
     {{#unless archive}}
     {{#unless private}}
-    {{#if_eq col 1}}
+    {{#if_mod 3 1}}
     {{> card}}
-    {{/if_eq}}
+    {{/if_mod}}
     {{/unless}}
     {{/unless}}
     {{/each}}
   </div>
-  <div class="grid__item palm-hide desk--one-third portable--one-half">
+  <div class="grid__item desk--one-third portable-hide">
     {{#each projects}}
     {{#unless archive}}
     {{#unless private}}
-    {{#if_eq col 2}}
+    {{#if_mod 3 2}}
     {{> card}}
-    {{/if_eq}}
+    {{/if_mod}}
     {{/unless}}
     {{/unless}}
     {{/each}}
   </div>
-  <div class="grid__item one-whole desk-hide lap-hide">
+  <!-- Portable 2 col gallery -->
+  <div class="grid__item lap--one-half palm-hide desk-hide">
+    {{#each projects}}
+    {{#unless archive}}
+    {{#unless private}}
+    {{#if_mod 2 1}}
+    {{> card}}
+    {{/if_mod}}
+    {{/unless}}
+    {{/unless}}
+    {{/each}}
+  </div>
+  <div class="grid__item lap--one-half palm-hide desk-hide">
+    {{#each projects}}
+    {{#unless archive}}
+    {{#unless private}}
+    {{#if_mod 2 0}}
+    {{> card}}
+    {{/if_mod}}
+    {{/unless}}
+    {{/unless}}
+    {{/each}}
+  </div>
+  <!-- Palm 1 col gallery -->
+  <div class="grid__item lap-hide desk-hide">
     {{#each projects}}
     {{#unless archive}}
     {{#unless private}}

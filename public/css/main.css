@@ -833,7 +833,7 @@ table {
     display: none; } }
 
 #content {
-  max-width: 1080px;
+  max-width: 1024px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -981,6 +981,9 @@ h4 {
   @media only screen and (min-width: 481px) and (max-width: 1023px) {
     #banner {
       font-size: 4vw; } }
+  @media only screen and (min-width: 1024px) {
+    #banner {
+      font-size: 4rem; } }
   #banner span {
     -webkit-animation-name: bravo;
             animation-name: bravo;

@@ -86,6 +86,9 @@ h4 {
   @include grid-media-query("lap") {
     font-size: 4vw;
   }
+  @include grid-media-query("desk") {
+    font-size: 4rem;
+  }
   span {
     animation-name: bravo;
     animation-duration: 1000ms;
