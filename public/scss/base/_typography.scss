@@ -19,6 +19,25 @@ body {
   color: $black;
 }
 
+.blockquote {
+  font-size: 2.5rem;
+  font-style: italic;
+  line-height: 155%;
+}
+
+.small-text {
+  font-size: 80%;
+  font-style: italic;
+}
+
+b {
+  font-weight: 500;
+}
+
+i {
+  font-style: italic;
+}
+
 h1 {
   font-size: 8rem;
   font-weight: 800;
@@ -34,6 +53,12 @@ h2 {
   font-family: $freightBig;
 }
 
+h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 100%;
+}
+
 h3 {
   font-family: $graphik;
   font-size: 2.8rem;
@@ -41,27 +66,21 @@ h3 {
 }
 
 h4 {
-  /*
-  font-family: $freightBig;
-  font-weight: 500;
-  font-size: 1.8rem;
-  letter-spacing: 0.05rem; */
-
-  @extend h5;
-}
-
-h5 {
   font-weight: 500;
 }
 
-.banner {
+#palm-banner {
+  h1 {
+    font-size: 6rem;
+    font-size: 11.5vw;
+  }
+}
+
+#banner {
   font-family: $freightBig;
   font-weight: 800;
   font-size: 3vw;
   letter-spacing: 0.05rem;
-  @include grid-media-query("palm") {
-    font-size: 4.1vw;
-  }
   @include grid-media-query("lap") {
     font-size: 4vw;
   }

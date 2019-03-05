@@ -5,3 +5,10 @@
     }
   }
 }
+
+@mixin shrink-on-hover {
+  transition: transform 0.3s;
+  @include hover {
+    transform: scale(0.95);
+  }
+}
