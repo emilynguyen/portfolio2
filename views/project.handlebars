@@ -42,7 +42,7 @@
         <h2>{{title}}</h2>
         {{{captionBefore}}}
         {{#if link}}<a href="{{link}}" target="_blank">{{/if}}
-          <img src="/images/{{content}}" class="image-link {{#if captionBefore}}mt{{/if}} {{#if captionAfter}}mb{{/if}}"
+          <img src="/images/{{content}}" class="{{#if link}}image-link{{/if}} {{#if captionBefore}}mt{{/if}} {{#if captionAfter}}mb{{/if}}"
             alt="{{alt}}">{{#if
           link}}</a>{{/if}}
         {{{captionAfter}}}

@@ -26,6 +26,6 @@ body {
     width: 100%;
   }
   @include grid-media-query("palm") {
-    min-height: 17rem;
+    min-height: 16.5rem;
   }
 }
