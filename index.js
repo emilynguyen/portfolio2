@@ -10,6 +10,12 @@ hbs.registerHelper("if_not_eq", function(a, b, opts) {
   if (a != b) return opts.fn(this);
   else return opts.inverse(this);
 });
+hbs.registerHelper("if_mod", function(a, b, opts) {
+  var index = opts.data.index + 1;
+
+  if (index % a === b) return opts.fn(this);
+  else return opts.inverse(this);
+});
 
 var app = express();
 
