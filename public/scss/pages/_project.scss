@@ -4,7 +4,7 @@
   }
 }
 
-.landing {
+.project-content {
   img {
     width: 100%;
   }
@@ -13,4 +13,32 @@
       margin-bottom: $space-md;
     }
   }
+}
+
+.block {
+  h2 {
+    margin-bottom: 3rem;
+  }
+  ul {
+    list-style-type: circle;
+  }
+  ol {
+    list-style-type: decimal;
+  }
+  li {
+    margin-left: $space-md;
+  }
+}
+
+.pdf {
+  width: 100%;
+  max-height: 60rem;
+  height: 50vh;
+  @include grid-media-query("palm") {
+    height: 40vh;
+  }
+}
+
+.image-link {
+  @include shrink-on-hover;
 }

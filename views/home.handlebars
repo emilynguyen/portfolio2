@@ -1,18 +1,18 @@
 <div class="top">
   <div class="grid lap-hide desk-hide">
-    <div class="grid__item ">
-      <div id="banner-palm" class="banner palm">Emily is a designer + developer.</div>
+    <div id="palm-banner" class="grid__item pr-md">
+      <h1>Emily is a designer + developer.</h1>
     </div>
 
   </div>
   <div class="grid palm-hide">
     <div id="currently" class="grid__item desk--one-half">
-      <h5 class="mb">Currently</h5>
+      <h4 class="mb">Currently</h4>
       <p>Webmaster — <a href="http://asgraphicstudio.ucsd.edu/" target="_blank">Associated Students Graphic Studio</a></p>
       <p>Web Developer — <a href="https://designatucsd.org/" target="_blank">Design at UCSD</a></p>
     </div>
     <div id="previously" class="grid__item desk--one-half pr-lg">
-      <h5 class="mb">Previously</h5>
+      <h4 class="mb">Previously</h4>
       <p>Visual Experience Design Intern — <a href="https://www.salesforce.com/" target="_blank">Salesforce</a></p>
       <p>Visual + Brand Designer — <a href="https://designatucsd.org/" target="_blank">Design at UCSD</a></p>
     </div>
@@ -22,20 +22,20 @@
 <!--
 <div class="grid mb-md">
   <div class="grid__item one-whole">
-    <h5>View My Work ↓</h5>
+    <h4>View My Work ↓</h4>
   </div>
 </div> -->
 
 <div class="grid mb-lg palm-hide">
   <div class="grid__item ">
-    <div id="banner-desk" class="banner desk">Emily is a designer + developer.</div>
+    <div id="banner">Emily is a designer + developer.</div>
   </div>
 </div>
 
 {{#with projects}}
 <div class="grid" id="work-block">
   <div class="grid__item one-whole desk--one-third">
-    <h1 class="mb-md">Work</h1>
+    <h1 class="mb">Work</h1>
     <ul id="filters">
       <li class="active">
         <h4>All Work</h4>
@@ -86,103 +86,53 @@
 {{/with}}
 
 
-<script> {
-    let waves = 6;
+<script>
+  let waves = 6;
 
-    function docify(str) {
-      document.getElementsByClassName('banner-desk').innerHTML = "";
-      for (let i = 0; i < str.length; i++) {
-        let el = document.createElement('div');
-        let c = str.charAt(i);
-        if (c === " ") {
-          el.appendChild(document.createTextNode('\u00A0'));
-        }
-        else {
-          el.appendChild(document.createTextNode(c));
-        }
-
-        el.setAttribute('data-phi', i * Math.PI / (10 - waves));
-        el.style.transform = "";
-        document.getElementById('banner-desk').appendChild(el);
-        console.log(el);
+  function docify(str) {
+    document.getElementsByClassName('banner').innerHTML = "";
+    for (let i = 0; i < str.length; i++) {
+      let el = document.createElement('div');
+      let c = str.charAt(i);
+      if (c === " ") {
+        el.appendChild(document.createTextNode('\u00A0'));
       }
-      document.getElementById('banner-desk').appendChild(document.createElement('br'));
+      else {
+        el.appendChild(document.createTextNode(c));
+      }
+
+      el.setAttribute('data-phi', i * Math.PI / (10 - waves));
+      el.style.transform = "";
+      document.getElementById('banner').appendChild(el);
+      console.log(el);
     }
-
-    let omeg = 0.6,
-      ampl = 5,
-      wrap = document.getElementById('banner-desk'),
-      time = 0;
-
-    function anim() {
-
-      if (omeg * time > 2 * Math.PI) {
-        time = 0;
-      }
-      for (let k = 0; k < wrap.childNodes.length; k++) {
-        let elem = wrap.childNodes[k];
-        let phi = elem.getAttribute('data-phi');
-        elem.style.transform = 'translateY(' + ampl * Math.sin(omeg * time + phi / 2) + 'px)';
-      }
-      time += 6 / 100;
-      requestAnimationFrame(anim);
-    };
-
-    wrap.innerHTML = "";
-
-    var wavytext = 'Emily is a designer + developer.';
-
-    docify(wavytext);
-    anim();
+    document.getElementById('banner').appendChild(document.createElement('br'));
   }
-</script>
-<script> {
-    let waves = 6;
 
-    function docify(str) {
-      document.getElementsByClassName('banner-palm').innerHTML = "";
-      for (let i = 0; i < str.length; i++) {
-        let el = document.createElement('div');
-        let c = str.charAt(i);
-        if (c === " ") {
-          el.appendChild(document.createTextNode('\u00A0'));
-        }
-        else {
-          el.appendChild(document.createTextNode(c));
-        }
+  let omeg = 0.6,
+    ampl = 5,
+    wrap = document.getElementById('banner'),
+    time = 0;
 
-        el.setAttribute('data-phi', i * Math.PI / (10 - waves));
-        el.style.transform = "";
-        document.getElementById('banner-palm').appendChild(el);
-        console.log(el);
-      }
-      document.getElementById('banner-palm').appendChild(document.createElement('br'));
+  function anim() {
+
+    if (omeg * time > 2 * Math.PI) {
+      time = 0;
     }
+    for (let k = 0; k < wrap.childNodes.length; k++) {
+      let elem = wrap.childNodes[k];
+      let phi = elem.getAttribute('data-phi');
+      elem.style.transform = 'translateY(' + ampl * Math.sin(omeg * time + phi / 2) + 'px)';
+    }
+    time += 6 / 100;
+    requestAnimationFrame(anim);
+  };
 
-    let omeg = 0.6,
-      ampl = 2,
-      wrap = document.getElementById('banner-palm'),
-      time = 0;
+  wrap.innerHTML = "";
 
-    function anim() {
+  var wavytext = 'Emily is a designer + developer.';
 
-      if (omeg * time > 2 * Math.PI) {
-        time = 0;
-      }
-      for (let k = 0; k < wrap.childNodes.length; k++) {
-        let elem = wrap.childNodes[k];
-        let phi = elem.getAttribute('data-phi');
-        elem.style.transform = 'translateY(' + ampl * Math.sin(omeg * time + phi / 2) + 'px)';
-      }
-      time += 6 / 100;
-      requestAnimationFrame(anim);
-    };
+  docify(wavytext);
+  anim();
 
-    wrap.innerHTML = "";
-
-    var wavytext = 'Emily is a designer + developer.';
-
-    docify(wavytext);
-    anim();
-  }
 </script>

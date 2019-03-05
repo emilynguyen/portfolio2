@@ -4,10 +4,86 @@
       "title": "Daily UI",
       "url": "dailyui",
       "icon": "daily-ui/icon.jpg",
+      "landing": "none",
       "bg": "#111",
       "text": "#fff",
       "description": "I recently started the Daily UI Challenge to get my creativity flowing and challenge myself to explore different visual styles.",
-      "col": "1"
+      "col": "1",
+      "details": [
+        {
+          "title": "Tools",
+          "content": "Sketch"
+        },
+        {
+          "title": "Date",
+          "content": "Feb 2019 – Present"
+        }
+      ],
+      "blocks": [
+        {
+          "image": true,
+          "alt": "Daily UI #002 — Credit Card Checkout",
+          "content": "daily-ui/daily-ui_2.jpg",
+          "noPaddingMd": true,
+          "captionAfter": "<p><i>Daily UI #002 — Credit Card Checkout</i></p>"
+        },
+        {
+          "image": true,
+          "alt": "Daily UI #001 — Sign Up",
+          "content": "daily-ui/daily-ui_1.jpg",
+          "captionAfter": "<p><i>Daily UI #001 — Sign Up</i>. An app that lets you send virtual red envelopes. 🌸</p>"
+        }
+      ]
+    },
+    {
+      "title": "Google Design Exercise",
+      "private": true,
+      "url": "google",
+      "bg": "#6057D6",
+      "text": "#fff",
+      "icon": "google/icon.png",
+      "description": "Google Design Exercise 2019",
+      "summary": "<p><b>Option 2 — </b>Design an experience for students to discover orientation events and craft a visual system to accommodate different types of events: sports, music, visual arts, social groups, and volunteering events. Provide high-fidelity mocks for searching, browsing, and viewing the details for these different events.</p>",
+      "details": [
+        {
+          "title": "Tools",
+          "content": "Sketch"
+        },
+        {
+          "title": "Date",
+          "content": "Jan 15–22, 2019"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://drive.google.com/open?id=1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud\" target=\"_blank\">Design Process (PDF)</a><br><a href=\"https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY\" target=\"_blank\">Final Mockups</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Design Process",
+          "pdf": true,
+          "content": "https://drive.google.com/file/d/1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud/preview"
+        },
+        {
+          "title": "Final Product",
+          "image": true,
+          "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
+          "content": "google/mocks/home.png",
+          "captionBefore": "<b>Home / browse</b>"
+        },
+        {
+          "image": true,
+          "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
+          "content": "google/mocks/home-filtered.png",
+          "captionBefore": "<p><b>Home / browse</b> — <i>Sports</i> and <i>Volunteering</i> events filtered out</p>"
+        },
+        {
+          "image": true,
+          "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
+          "content": "google/mocks/details.png",
+          "captionBefore": "<b>Event details</b>"
+        }
+      ]
     },
     {
       "title": "Stride Career Fair",
@@ -33,13 +109,14 @@
           "content": "Aug – Nov 2018"
         },
         {
+          "title": "Partner",
+          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> ♥ — creative director, illustrator, animator"
+        },
+        {
           "title": "Tools + Skills",
           "content": "HTML, CSS, Sass, Jekyll"
         },
-        {
-          "title": "Partner",
-          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> ♥ – creative director, illustrator, animator"
-        },
+
         {
           "title": "Resources",
           "content": "<a href=\"https://github.com/designatucsd/stride\" target=\"_blank\">Github repo</a>"
@@ -48,13 +125,84 @@
       "sections": []
     },
     {
+      "title": "Design at UCSD",
+      "url": "designatucsd",
+      "icon": "designatucsd/icon-pink.png",
+      "landing": "designatucsd/icon.png",
+      "text": "#2E374B",
+      "bg": "#FFFAFA",
+      "col": "1",
+      "description": "I am visual + brand designer, web developer, and student leader at the largest pre-professional design community on campus.",
+      "summary": "<p>Since November 2017, I’ve been a student leader at the undergraduate design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual and brand designer up until June 2018, where I designed marketing collateral, co-lead visual design workshops, and evolved brand identity. I now spearhead all our web development projects as our web developer.</p>",
+      "details": [
+        {
+          "title": "Roles",
+          "wide": true,
+          "content": "Visual and Brand Designer (Nov 2017 – June 2018)<br>Web Developer (June 2018 – Present)"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Our Mission",
+          "blockquote": true,
+          "content": "To establish an open community of aspiring designers, to inspire creative confidence, and to ease students into industry."
+        },
+        {
+          "title": "Web Projects",
+          "image": true,
+          "content": "designatucsd/web.png",
+          "captionBefore": "<p>As our web developer, I collaborate with our visual design team to create websites for events, workshops, and email campaigns. Two of the biggest projects I've worked on so far are <a href='/stride'>Stride Career Fair</a> and <a href='/frontiers'>Design Frontiers: Intuit</a>.</p>"
+        },
+        {
+          "title": "Highlighted Graphics",
+          "image": true,
+          "content": "designatucsd/visual.png",
+          "alt": "Figma + Invision Workshop event graphic"
+        },
+        {
+          "title": "Workshops",
+          "pdf": true,
+          "content": "https://drive.google.com/file/d/1HwQxDAd1A_c5rm5USoLbufpbU_1WzC20/preview",
+          "captionBefore": "<h4>Illustrator Workshop (Winter 2018)</h4>"
+        },
+        {
+          "pdf": true,
+          "content": "https://drive.google.com/file/d/1NrHveXnywVB2vrzyGBQGHxpgDfUC4bb3/preview",
+          "captionBefore": "<h4>Color + Typography Workshop (Spring 2018)</h4>"
+        },
+        {
+          "title": "Soft Rebrand",
+          "text": true,
+          "content": "<p>During my term as a visual and brand designer, my co and I introduced a new, illustration-heavy creative direction that refreshed the face of Design at UCSD.</p><h4>Problem</h4><p>While crafting graphics for the org, we quickly noted a few flaws in our visual system that inspired us to rethink the branding guidelines surrounding our marketing visuals. The existing system for creating event banners involved placing color overlays over photos, with each color representing a different event type:</p><ul><li>Yellow — industry events</li><li>Red — social events</li><li>Green — design skill workshops</li><li>Blue — data + research workshops</li></ul></p>"
+        },
+        {
+          "image": true,
+          "content": "designatucsd/banners-before.png",
+          "captionAfter": "<p>Major issues we ran into included:</p><p><ul><li>Visual style was outdated and limited creativity. Design at UCSD is a community of young, eager designers, and we wanted a fun and contemporary look to reflect this.</li><li>Our event type distribution was too unbalanced to justify using a color-based system. Over the course of the 2017–2018 school year, Design at UCSD held 13 design skill workshops, 9 social events, 6 industry events, and only 1 data + research workshop.</li><li>Banners were not unique to each event. Social media is fast-paced, and more interest could be generated by using eye-catching visuals.</li></ul></p>"
+        },
+        {
+          "image": true,
+          "content": "designatucsd/banners-after.png",
+          "captionBefore": "<h4>Solution</h4><p>To reflect current design trends and craft a unique identity for each event, we decided to retire the color-based system and start creating dedicated illustrations for each banner. We used a flat design style and incorporated derivations of our original 4 colors to stay on-brand.</p>",
+          "captionAfter": "<p class='small-text'>Shout-out to <a href='https://nancybui.co/' target='_blank'>Nancy</a>, <a href='http://laurenchoy.com' target='_blank'>Lauren</a>, and <a href='https://lucylouxu.com/' target='_blank'>Lucy</a>.</p>"
+        },
+        {
+          "image": true,
+          "content": "designatucsd/fb-before-after.png",
+          "alt": "Side-by-side comparison of a Facebook event from Jan 2018 and the same event from Jan 2019, showing an increase in interest",
+          "captionBefore": "<p>Our soft rebrand was received positively by our leadership board and Design at UCSD saw an increase in online member engagement.</p>"
+        }
+      ]
+    },
+
+    {
       "title": "Burow",
       "url": "burow",
       "icon": "burow/burow.gif",
       "text": "#DCEFE2",
       "bg": "#6CA18A",
       "description": "I branded a housing app.",
-      "col": "1",
+      "col": "2",
       "summary": "<p>Burow is a desktop web app that helps users find the perfect new home to move to. With a focus on price, walkability, and school rating, users can easily pinpoint neighborhoods within their target cities that suit their needs.</p>",
       "button": {
         "title": "View Demo",

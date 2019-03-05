@@ -8,7 +8,7 @@
     </div>
   </div>
 
-  <div class="grid landing">
+  <div class="grid project-content">
     <div class="grid__item desk--one-third description">
       {{#if summary}}{{{summary}}}{{else}}{{description}}{{/if}}
       {{#if button}}
@@ -16,9 +16,58 @@
       {{/if}}
     </div>
     <div class="grid__item desk--two-thirds">
+      <div class="grid mb">
+        {{#each details}}
+
+        <div class="grid__item {{#if wide}}desk--two-thirds portable--one-whole {{else}}desk--one-third portable--one-half {{/if}} mb-xs">
+          <h4>{{title}}</h4>
+          <p>{{{content}}}</p>
+        </div>
+        {{/each}}
+      </div>
+      {{#if_not_eq landing "none"}}
       <img src="/images/{{#if landing}}{{landing}}{{else}}{{icon}}{{/if}}" alt="{{title}}">
+      {{/if_not_eq}}
+      <!-- CONTENT BLOCKS START HERE -->
+      {{#each blocks}}
+      <div class="block {{#if title}}mt-lg{{/if}}">
+
+
+        {{#if text}}
+        <h2 class="mb">{{title}}</h2>
+        {{{content}}}
+        {{/if}}
+
+        {{#if image}}
+        <h2>{{title}}</h2>
+        {{{captionBefore}}}
+        {{#if link}}<a href="{{link}}" target="_blank">{{/if}}
+          <img src="/images/{{content}}" class="image-link {{#if captionBefore}}mt{{/if}} {{#if captionAfter}}mb{{/if}}"
+            alt="{{alt}}">{{#if
+          link}}</a>{{/if}}
+        {{{captionAfter}}}
+        {{/if}}
+
+        {{#if blockquote}}
+        <h2 class="mb">{{title}}</h2>
+        <p class="blockquote">{{{content}}}</p>
+        {{/if}}
+
+        {{#if pdf}}
+        <h2>{{title}}</h2>
+        {{{captionBefore}}}
+        <iframe class="pdf {{#if captionBefore}}mt{{/if}} {{#if captionAfter}}mb{{/if}}" src="{{content}}"></iframe>
+        {{{captionAfter}}}
+        {{/if}}
+
+      </div>
+      {{/each}}
     </div>
   </div>
+</div>
+
+<div class="grid">
+
 </div>
 
 {{/with}}
