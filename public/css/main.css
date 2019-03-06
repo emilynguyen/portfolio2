@@ -843,6 +843,9 @@ body {
   @media only screen and (max-width: 480px) {
     .layout, #content, footer {
       width: 85%; } }
+  @media (min-width: 2400px) {
+    .layout, #content, footer {
+      max-width: 130rem; } }
 
 #content {
   padding-top: 6%;
@@ -1098,20 +1101,20 @@ nav a {
   #name a {
     padding: 1rem 1rem 1rem 3rem;
     margin-left: -3rem; }
-  #name::before {
-    content: "";
-    margin-left: -2rem;
-    position: absolute;
-    width: 1.2rem;
-    height: 1.2rem;
-    border: 1px solid currentColor;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    top: 0.55rem;
-    border-radius: 1.2rem; }
-  @media (hover: hover) {
-    #name:hover::before {
-      background-color: currentColor; } }
+    #name a::before {
+      content: "";
+      margin-left: -2rem;
+      position: absolute;
+      width: 1.2rem;
+      height: 1.2rem;
+      border: 1px solid currentColor;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      top: 0.55rem;
+      border-radius: 1.2rem; }
+    @media (hover: hover) {
+      #name a:hover::before {
+        background-color: currentColor; } }
 
 nav {
   text-align: right;

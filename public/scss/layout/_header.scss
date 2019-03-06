@@ -7,21 +7,21 @@ $dot: 1.2rem;
   a {
     padding: 1rem 1rem 1rem 3rem;
     margin-left: -3rem;
-  }
-  &::before {
-    content: "";
-    margin-left: -2rem;
-    position: absolute;
-    width: $dot;
-    height: $dot;
-    border: 1px solid currentColor;
-    box-sizing: border-box;
-    top: 0.55rem;
-    border-radius: $dot;
-  }
-  @include hover {
     &::before {
-      background-color: currentColor;
+      content: "";
+      margin-left: -2rem;
+      position: absolute;
+      width: $dot;
+      height: $dot;
+      border: 1px solid currentColor;
+      box-sizing: border-box;
+      top: 0.55rem;
+      border-radius: $dot;
+    }
+    @include hover {
+      &::before {
+        background-color: currentColor;
+      }
     }
   }
 }
