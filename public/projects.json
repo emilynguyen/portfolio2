@@ -5,8 +5,8 @@
       "url": "dailyui",
       "icon": "daily-ui/icon.jpg",
       "landing": "none",
-      "bg": "#121212",
-      "text": "#eee",
+      "bg": "#222",
+      "text": "#fff",
       "description": "I recently started the Daily UI Challenge to get my creativity flowing and challenge myself to explore different visual styles.",
       "col": "1",
       "details": [
@@ -129,8 +129,8 @@
       "url": "designatucsd",
       "icon": "designatucsd/icon-pink.png",
       "landing": "designatucsd/icon.png",
-      "text": "#474B58",
-      "bg": "#FFF7F7",
+      "text": "#454545",
+      "bg": "#fcfcfc",
       "col": "1",
       "description": "I am a visual + brand designer, web developer, and student leader at the largest pre-professional design community on campus.",
       "summary": "<p>Since November 2017, I’ve been a student leader at the undergraduate design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual and brand designer up until June 2018, where I designed marketing collateral, co-lead visual design workshops, and evolved brand identity. I now spearhead all our web development projects as our web developer.</p>",
@@ -204,7 +204,7 @@
       "archive": true,
       "url": "frontiers",
       "icon": "designatucsd/frontiers-fa18.png",
-      "bg": "#a4daf2",
+      "bg": "#e1f0f7",
       "text": "#055c84",
       "description": "I developed a website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
       "summary": "<p>Design Frontiers is a series of design sprints hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that showcases the application of design thinking to fields beyond traditional design, such as <a href=\"https://medium.com/design-at-ucsd/students-explore-designing-for-education-at-inaugural-design-frontiers-b06f909553c7\" target=\"_blank\">education</a> and <a href=\"https://frontierssp18.designatucsd.org/\" target=\"_blank\">healthcare</a>. For our Fall 2018 event, we partnered with Intuit to allow students to tackle real product design challenges alongside leading designers in the financial software space.</p><p>As Design at UCSD's web developer, I collaborated with our visual designers to build the website and also facilitated the design sprint the day of.</p>",
@@ -251,15 +251,15 @@
       "details": [
         {
           "title": "Key Roles",
-          "content": "Led the design and development of the landing page and co-led the brand design. UX was done as a team."
+          "content": "Led the brand design + design and development of the landing page. UX was done as a team."
         },
         {
           "title": "Key Skills",
-          "content": "Prototyping, brand design, web design, web development (HTML, CSS, Sass, React)"
+          "content": "Brand design, web design, web development (HTML, CSS, Sass, React)"
         },
         {
           "title": "Teammates",
-          "content": "Aman Gupta, Joel Sequeira, <a href='http://jaredsuasin.com/' target='_blank'>Jared Suasin</a>"
+          "content": "Aman Gupta, Joel Sequeira, Jared Suasin"
         },
         {
           "title": "Date",
@@ -283,12 +283,14 @@
         },
         {
           "title": "Storyboarding",
+          "hide": true,
           "image": true,
           "alt": "Mark and Sarah want to move their family from New York to California.",
           "content": "burow/storyboard1.png",
           "captionBefore": "<p>To better understand our target users, we started by drafting two storyboards.</p>"
         },
         {
+          "hide": true,
           "image": true,
           "alt": "Jim is a student looking for an apartment for his internship in the Bay Area this summer.",
           "content": "burow/storyboard2.png",
@@ -296,6 +298,7 @@
         },
         {
           "title": "Prototyping",
+          "hide": true,
           "text": true,
           "content": "<p>Coming soon.</p>"
         },
@@ -320,9 +323,10 @@
           "content": "<p>To produce a homey feel, we used the theme of burrowing animals and gravitated towards warm earth tones and typefaces with gentle curves.</p>"
         },
         {
-          "title": "Mood Board + Style Guide",
-          "text": true,
-          "content": "Coming soon."
+          "title": "Mood Board",
+          "hide": true,
+          "image": true,
+          "content": "burow/mood-board.png"
         },
         {
           "title": "",
@@ -398,7 +402,7 @@
       "text": "#fff",
       "bg": "#40B2B0",
       "col": 2,
-      "description": "Brand + interaction design for an ergonomics app concept.",
+      "description": "Brand + interaction design + web development for an ergonomics app concept.",
       "summary": "<p><i>Our work environments can work against us</i>. Many of us, especially students and office workers, sit our lives away; this has been linked to high blood pressure, obesity, worse mental health, and more. ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different spaces, ERGO is unique in that it introduces exercises that use the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.</p>",
       "button": {
         "title": "View Prototype",

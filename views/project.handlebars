@@ -30,6 +30,7 @@
       {{/if_not_eq}}
       <!-- CONTENT BLOCKS START HERE -->
       {{#each blocks}}
+      {{#unless hide}}
       <div class="block {{#if title}}has-title{{/if}}">
 
 
@@ -61,6 +62,7 @@
         {{/if}}
 
       </div>
+      {{/unless}}
       {{/each}}
     </div>
   </div>
