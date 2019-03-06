@@ -7,7 +7,7 @@ html {
   @include grid-media-query("palm") {
     font-size: 50%;
   }
-  @media (min-width: 2400px) {
+  @media (min-width: $huge) {
     font-size: 0.45vw;
   }
 }
