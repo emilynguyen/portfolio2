@@ -110,7 +110,7 @@
         },
         {
           "title": "Partner",
-          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> ♥ — creative director, illustrator, animator"
+          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> ♥&#xFE0E; — creative director, illustrator, animator"
         },
         {
           "title": "Tools + Skills",
@@ -132,7 +132,7 @@
       "text": "#474B58",
       "bg": "#FFF7F7",
       "col": "1",
-      "description": "I am visual + brand designer, web developer, and student leader at the largest pre-professional design community on campus.",
+      "description": "I am a visual + brand designer, web developer, and student leader at the largest pre-professional design community on campus.",
       "summary": "<p>Since November 2017, I’ve been a student leader at the undergraduate design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual and brand designer up until June 2018, where I designed marketing collateral, co-lead visual design workshops, and evolved brand identity. I now spearhead all our web development projects as our web developer.</p>",
       "details": [
         {
@@ -171,6 +171,11 @@
           "captionBefore": "<h4>Color + Typography Workshop (Spring 2018)</h4>"
         },
         {
+          "pdf": true,
+          "content": "https://drive.google.com/file/d/1J9QJcaHDMmxp_cQ1ngxLMGF0DFVvsnD_/preview",
+          "captionBefore": "<h4>Front-End Workshop: Bootstrap (Winter 2019)</h4>"
+        },
+        {
           "title": "Soft Rebrand",
           "text": true,
           "content": "<p>During my term as a visual and brand designer, my co and I introduced a new, illustration-heavy creative direction that refreshed the face of Design at UCSD.</p><h4>Problem</h4><p>While crafting graphics for the org, we quickly noted a few flaws in our visual system that inspired us to rethink the branding guidelines surrounding our marketing visuals. The existing system for creating event banners involved placing color overlays over photos, with each color representing a different event type:</p><ul><li>Yellow — industry events</li><li>Red — social events</li><li>Green — design skill workshops</li><li>Blue — data + research workshops</li></ul></p>"
@@ -194,7 +199,42 @@
         }
       ]
     },
-
+    {
+      "title": "Design Frontiers: Intuit",
+      "archive": true,
+      "url": "frontiers",
+      "icon": "designatucsd/frontiers-fa18.png",
+      "bg": "#a4daf2",
+      "text": "#055c84",
+      "description": "I developed a website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
+      "summary": "<p>Design Frontiers is a series of design sprints hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that showcases the application of design thinking to fields beyond traditional design, such as <a href=\"https://medium.com/design-at-ucsd/students-explore-designing-for-education-at-inaugural-design-frontiers-b06f909553c7\" target=\"_blank\">education</a> and <a href=\"https://frontierssp18.designatucsd.org/\" target=\"_blank\">healthcare</a>. For our Fall 2018 event, we partnered with Intuit to allow students to tackle real product design challenges alongside leading designers in the financial software space.</p><p>As Design at UCSD's web developer, I collaborated with our visual designers to build the website and also facilitated the design sprint the day of.</p>",
+      "button": {
+        "title": "Visit Site",
+        "link": "https://frontiers.designatucsd.org/"
+      },
+      "details": [
+        {
+          "title": "Role",
+          "content": "Lead developer"
+        },
+        {
+          "title": "Date",
+          "content": "Aug – Nov 2018"
+        },
+        {
+          "title": "Tools + Skills",
+          "content": "HTML, CSS, Sass, Gulp"
+        },
+        {
+          "title": "Teammates",
+          "content": "Nancy Bui, Lauren Choy, Lucy Xu"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/designatucsd/frontiersfa18\" target=\"_blank\">Github repo</a>"
+        }
+      ]
+    },
     {
       "title": "Burow",
       "url": "burow",
@@ -587,6 +627,30 @@
           "content": "personal/kaya.png",
           "alt": "Kaya Scodelario",
           "captionAfter": "<p class=\"small-text\">Kaya Scodelario in Wuthering Heights. (Oct 2014)</p>"
+        }
+      ]
+    },
+    {
+      "title": "Remember That I Love You",
+      "archive": true,
+      "url": "remember-that-i-love-you",
+      "icon": "remember-that-i-love-you/icon.png",
+      "bg": "#141F25",
+      "text": "#FFFDF4",
+      "description": "Poster design for UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration.",
+      "summary": "<p>For <a href=\"https://www.facebook.com/events/159412424744568/\" target=\"_blank\">UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration (PCC)</a>, I served on the Official Cultural Cabinet as a graphic designer. PCC is one of the org's biggest events, and includes dancing, singing, and live theater. This year's production, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>, tackled themes of LGBTQ, mental health, and family. I created a poster and accompanying marketing collateral that helped draw in 400+ attendees.</p>",
+      "details": [
+        {
+          "title": "Role",
+          "content": "Graphic designer"
+        },
+        {
+          "title": "Tools",
+          "content": "Illustrator"
+        },
+        {
+          "title": "Date",
+          "content": "Jan – Mar 2018"
         }
       ]
     }

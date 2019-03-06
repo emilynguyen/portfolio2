@@ -42,13 +42,16 @@
 </head>
 
 <body style="background-color: {{bg}} !important; color: {{text}} !important">
-  <div id="content">
-    {{> header }}
+  <div class="body-wrapper">
+    <div id="content">
+      {{> header }}
 
-    {{{body}}}
+      {{{body}}}
 
-    {{> footer }}
+
+    </div>
   </div>
+  {{> footer }}
 
 </body>
 

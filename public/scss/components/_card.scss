@@ -1,9 +1,18 @@
 .card {
   &-img {
     width: 100%;
-    @include shrink-on-hover;
+    transition: opacity 0.3s;
+    @include hover {
+      opacity: 0;
+    }
   }
   &-title {
     margin-top: 0.5rem;
   }
+}
+
+.card-img-container {
+  line-height: 0;
+  margin-bottom: $space;
+  @include shrink-on-hover;
 }

@@ -28,6 +28,14 @@
   li {
     margin-left: $space-md;
   }
+  &.has-title {
+    @include grid-media-query("portable") {
+      margin-top: $space-md;
+    }
+    @include grid-media-query("desk") {
+      margin-top: $space-lg;
+    }
+  }
 }
 
 .pdf {
