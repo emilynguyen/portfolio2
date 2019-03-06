@@ -14,12 +14,17 @@
 }
 
 #work-block {
+  @include grid-media-query("desk") {
+    margin-top: $space;
+  }
+  /*
   h1 {
     margin-bottom: $space;
     @include grid-media-query("palm") {
       margin-top: $space;
     }
   }
+  */
 }
 
 #filters {

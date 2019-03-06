@@ -11,7 +11,7 @@ hbs.registerHelper("if_not_eq", function(a, b, opts) {
   else return opts.inverse(this);
 });
 hbs.registerHelper("if_mod", function(a, b, opts) {
-  var index = opts.data.index + 1;
+  var index = opts.data.index;
 
   if (index % a === b) return opts.fn(this);
   else return opts.inverse(this);
@@ -27,8 +27,18 @@ app.use(express.static(__dirname + "/public"));
 var projects = require("./public/projects.json");
 
 app.get("/", function(req, res) {
+  // Filter out private and archived projects
+  var gallery = [];
+  var projectArray = projects.projects;
+  var i;
+  for (i = 0; i < projectArray.length; i++) {
+    if (!projectArray[i].archive && !projectArray[i].private) {
+      gallery.push(projectArray[i]);
+    }
+  }
+
   res.render("home", {
-    projects,
+    gallery,
     title: "Emily Nguyen | Designer + Developer",
     url: "",
     description:
@@ -47,8 +57,18 @@ app.get("/about", function(req, res) {
 });
 
 app.get("/archive", function(req, res) {
+  // Filter out private and unarchived projects
+  var archive = [];
+  var projectArray = projects.projects;
+  var i;
+  for (i = 0; i < projectArray.length; i++) {
+    if (projectArray[i].archive && !projectArray[i].private) {
+      archive.push(projectArray[i]);
+    }
+  }
+
   res.render("archive", {
-    projects,
+    archive,
     title: "Archive | Emily Nguyen",
     url: "archive",
     description: ""
@@ -96,7 +116,7 @@ app.get("/:project", function(req, res) {
   });
 });
 
-app.get("/archive/:project", function*(req, res) {
+app.get("/archive/:project", function(req, res) {
   var inputTitle = req.params.project;
 
   // Check if valid project url
@@ -117,7 +137,9 @@ app.get("/archive/:project", function*(req, res) {
         projects,
         currProject,
         title: currProject.title + " | Emily Nguyen",
-        description: currProject.description
+        description: currProject.description,
+        text: currProject.text,
+        bg: currProject.bg
       });
       return;
     }

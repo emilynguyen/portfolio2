@@ -1,19 +1,20 @@
 footer {
-  margin-top: $space-md;
+  @extend .layout;
+  height: $footer-height-palm;
   @include grid-media-query("palm") {
     text-align: center;
   }
   @include grid-media-query("lap") {
-    margin-top: $space-lg;
+    height: $footer-height-lap;
   }
   @include grid-media-query("desk") {
-    margin-top: $space-lg;
+    height: $footer-height-desk;
   }
 }
 
 #socials {
   @include grid-media-query("palm") {
-    margin-top: $space;
+    margin-top: 1.5rem;
   }
   @include grid-media-query("lap") {
     text-align: right;
@@ -32,9 +33,9 @@ footer {
   li {
     display: inline-block;
     &:not(:first-child) {
-      margin-left: 0.5rem;
-      @include grid-media-query("desk") {
-        margin-left: 0.8rem;
+      margin-left: 0.8rem;
+      @include grid-media-query("lap") {
+        margin-left: 0.5rem;
       }
     }
   }

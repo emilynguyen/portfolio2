@@ -1,10 +1,12 @@
-<div class="top">
+<!--
+  <div class="top">
   <div class="grid lap-hide desk-hide">
     <div id="palm-banner" class="grid__item pr-md">
       <h1>Emily is a designer + developer.</h1>
     </div>
-
   </div>
+
+
   <div class="grid palm-hide">
     <div id="currently" class="grid__item desk--one-half">
       <h4 class="mb-xs">Currently</h4>
@@ -16,6 +18,14 @@
       <p>Visual Experience Design Intern — <a href="https://www.salesforce.com/" target="_blank">Salesforce</a></p>
       <p>Visual + Brand Designer — <a href="https://designatucsd.org/" target="_blank">Design at UCSD</a></p>
     </div>
+  </div> 
+</div> -->
+
+<div class="top">
+  <div class="grid ">
+    <div id="title" class="grid__item">
+      <h1>Emily is a designer + developer.</h1>
+    </div>
   </div>
 </div>
 
@@ -26,18 +36,24 @@
   </div>
 </div> -->
 
+<!--
 <div class="grid mb-lg palm-hide">
   <div class="grid__item ">
     <div id="banner">Emily is a designer + developer.</div>
   </div>
+</div> -->
+
+<div class="grid">
+  <div class="grid__item">
+    <p class="mb-md ">Currently at <a href="http://asgraphicstudio.ucsd.edu/" target="_blank">A.S.
+        Graphic Studio</a> and previously at <a href="https://www.salesforce.com/" target="_blank">Salesforce</a>.</p>
+  </div>
 </div>
 
-{{#with projects}}
 <div class="grid" id="work-block">
   <div class="grid__item desk--one-third">
-    <h1 class="mb-md palm-hide">Work</h1>
-    <p class="mb-md lap-hide desk-hide">Currently at <a href="http://asgraphicstudio.ucsd.edu/" target="_blank">A.S.
-        Graphic Studio</a> and previously at <a href="https://www.salesforce.com/" target="_blank">Salesforce</a>.</p>
+    <h1 class="mb-md palm-hide desk-hide lap-hide">Work</h1>
+
     <ul id="filters">
       <li class="active">
         <h4>All Work</h4>
@@ -53,76 +69,58 @@
       </li>
     </ul>
     <div class="portable-hide">
-      {{#each projects}}
-      {{#unless archive}}
-      {{#unless private}}
+      {{#each gallery}}
       {{#if_mod 3 0}}
       {{> card}}
       {{/if_mod}}
-      {{/unless}}
-      {{/unless}}
       {{/each}}
     </div>
   </div>
   <div class="grid__item desk--one-third portable-hide">
-    {{#each projects}}
-    {{#unless archive}}
-    {{#unless private}}
+    {{#each gallery}}
     {{#if_mod 3 1}}
     {{> card}}
     {{/if_mod}}
-    {{/unless}}
-    {{/unless}}
     {{/each}}
   </div>
   <div class="grid__item desk--one-third portable-hide">
-    {{#each projects}}
-    {{#unless archive}}
-    {{#unless private}}
+    {{#each gallery}}
     {{#if_mod 3 2}}
     {{> card}}
     {{/if_mod}}
-    {{/unless}}
-    {{/unless}}
+
     {{/each}}
   </div>
   <!-- Portable 2 col gallery -->
   <div class="grid__item lap--one-half palm-hide desk-hide">
-    {{#each projects}}
-    {{#unless archive}}
-    {{#unless private}}
+    {{#each gallery}}
+
     {{#if_mod 2 1}}
     {{> card}}
     {{/if_mod}}
-    {{/unless}}
-    {{/unless}}
+
     {{/each}}
   </div>
   <div class="grid__item lap--one-half palm-hide desk-hide">
-    {{#each projects}}
-    {{#unless archive}}
-    {{#unless private}}
+    {{#each gallery}}
+
     {{#if_mod 2 0}}
     {{> card}}
     {{/if_mod}}
-    {{/unless}}
-    {{/unless}}
+
     {{/each}}
   </div>
   <!-- Palm 1 col gallery -->
   <div class="grid__item lap-hide desk-hide">
-    {{#each projects}}
-    {{#unless archive}}
-    {{#unless private}}
+    {{#each gallery}}
+
     {{> card}}
-    {{/unless}}
-    {{/unless}}
+
     {{/each}}
   </div>
 </div>
-{{/with}}
 
-
+<!--
 <script>
   let waves = 6;
 
@@ -173,3 +171,4 @@
   anim();
 
 </script>
+-->
