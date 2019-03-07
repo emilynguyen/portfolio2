@@ -1014,7 +1014,8 @@ h2 {
 h2 {
   font-size: 4rem;
   font-weight: 800;
-  line-height: 100%; }
+  line-height: 100%;
+  letter-spacing: 0.1rem; }
 
 h3 {
   font-family: Graphik, Helvetica, sans-serif;
