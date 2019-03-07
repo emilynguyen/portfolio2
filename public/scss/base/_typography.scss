@@ -5,7 +5,7 @@
 html {
   font-size: 62.5%;
   @include grid-media-query("palm") {
-    font-size: 50%;
+    font-size: 51%;
   }
   @media (min-width: $huge) {
     font-size: 0.45vw;
@@ -16,7 +16,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: $graphik;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height: 170%;
   letter-spacing: 0;
   color: $black;
@@ -62,7 +62,6 @@ i {
 h1 {
   @extend .title-pr;
   font-size: 8rem;
-  font-weight: 800;
   line-height: 100%;
   margin-top: -1rem;
   @include grid-media-query("palm") {
@@ -76,6 +75,7 @@ h1 {
 h1,
 h2 {
   font-family: $freightBig;
+  font-weight: 700;
 }
 
 h2 {
