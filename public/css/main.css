@@ -1022,7 +1022,7 @@ h2 {
 h2 {
   font-size: 4rem;
   font-weight: 800;
-  line-height: 100%;
+  line-height: 110%;
   letter-spacing: 0.05rem; }
 
 h3 {
@@ -1292,7 +1292,8 @@ footer {
 
 @media only screen and (max-width: 1023px) {
   .project-content .description {
-    margin-bottom: 5rem; } }
+    margin-bottom: 5rem;
+    margin-bottom: 2rem; } }
 
 .block h2 {
   margin-bottom: 3rem; }
