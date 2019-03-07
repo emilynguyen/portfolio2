@@ -13,6 +13,7 @@
   .description {
     @include grid-media-query("portable") {
       margin-bottom: $space-md;
+      margin-bottom: $space;
     }
   }
 }

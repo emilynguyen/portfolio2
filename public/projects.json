@@ -638,6 +638,7 @@
         {
           "title": " ",
           "image": true,
+          "hide": true,
           "content": "personal/saturation.png",
           "alt": "Colorful abstract illustration"
         },
