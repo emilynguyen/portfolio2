@@ -801,7 +801,9 @@ table {
 .mb-xs {
   margin-bottom: 0.5rem; }
 
-.mb, #filters li, .project-page p, .bio p {
+.mb, #filters li, .project-page p,
+.project-page ul,
+.project-page ol, .bio p {
   margin-bottom: 2rem; }
 
 .mb-md, .top {
@@ -1257,7 +1259,7 @@ footer {
 
 @media only screen and (min-width: 1024px) {
   #work-block {
-    margin-top: 2rem; } }
+    margin-top: 12rem; } }
 
 #filters {
   display: none; }
@@ -1301,7 +1303,8 @@ footer {
 
 @media only screen and (min-width: 1024px) {
   .block.has-title {
-    margin-top: 12rem; } }
+    margin-top: 12rem;
+    margin-top: 8rem; } }
 
 .pdf {
   width: 100%;

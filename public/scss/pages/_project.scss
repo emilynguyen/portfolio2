@@ -1,5 +1,7 @@
 .project-page {
-  p {
+  p,
+  ul,
+  ol {
     @extend .mb;
   }
 }
@@ -34,6 +36,7 @@
     }
     @include grid-media-query("desk") {
       margin-top: $space-lg;
+      margin-top: 8rem;
     }
   }
 }

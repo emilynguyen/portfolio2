@@ -16,7 +16,8 @@
 
 #work-block {
   @include grid-media-query("desk") {
-    margin-top: $space;
+    margin-top: $space-lg;
+    //margin-top: 8rem;
   }
 }
 
