@@ -60,10 +60,12 @@ i {
 }
 
 h1 {
-  @extend .title-pr;
+  font-family: $freightBig;
+  font-weight: 900;
   font-size: 8rem;
   line-height: 100%;
   margin-top: -1rem;
+  @extend .title-pr;
   @include grid-media-query("palm") {
     font-size: 5.5rem;
   }
@@ -72,21 +74,13 @@ h1 {
   }
 }
 
-h1,
 h2 {
-  font-family: $freightBig;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 4rem;
-  font-weight: 800;
-  line-height: 110%;
-  letter-spacing: 0.05rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 140%;
 }
 
 h3 {
-  font-family: $graphik;
   font-size: 2.8rem;
   line-height: 135%;
 }

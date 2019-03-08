@@ -20,7 +20,7 @@
 
 .block {
   h2 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
   ul {
     list-style-type: circle;
@@ -33,10 +33,11 @@
   }
   &.has-title {
     @include grid-media-query("portable") {
-      margin-top: $space-md;
+      //margin-top: $space-md;
+      margin-top: 5.5rem;
     }
     @include grid-media-query("desk") {
-      margin-top: $space-lg;
+      //margin-top: $space-lg;
       margin-top: 8rem;
     }
   }

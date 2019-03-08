@@ -919,20 +919,21 @@ footer {
   font-style: italic;
 }
 */
+@font-face {
+  font-family: "Freight Big Pro";
+  src: url("../fonts/freightbig/FreightBigPro-Black.woff2") format("woff2"), url("../fonts/freightbig/FreightBigPro-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal; }
+
 /*
 @font-face {
   font-family: "Freight Big Pro";
-  src: url("../fonts/freightbig/FreightBigPro-Black.woff2") format("woff2"),
-    url("../fonts/freightbig/FreightBigPro-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-} */
-@font-face {
-  font-family: "Freight Big Pro";
-  src: url("../fonts/freightbig/FreightBigPro-Bold.woff2") format("woff2"), url("../fonts/freightbig/FreightBigPro-Bold.woff") format("woff");
+  src: url("../fonts/freightbig/FreightBigPro-Bold.woff2") format("woff2"),
+    url("../fonts/freightbig/FreightBigPro-Bold.woff") format("woff");
   font-weight: 700;
-  font-style: normal; }
-
+  font-style: normal;
+}
+*/
 @font-face {
   font-family: "Graphik";
   src: url("../fonts/graphik/Graphik-Regular.woff2") format("woff2"), url("../fonts/graphik/Graphik-Regular.woff") format("woff");
@@ -1004,6 +1005,8 @@ i {
     padding-right: 0; } }
 
 h1 {
+  font-family: "Freight Big Pro", "Caslon", serif;
+  font-weight: 900;
   font-size: 8rem;
   line-height: 100%;
   margin-top: -1rem; }
@@ -1014,19 +1017,12 @@ h1 {
     h1 {
       font-size: 5.5rem; } }
 
-h1,
 h2 {
-  font-family: "Freight Big Pro", "Caslon", serif;
-  font-weight: 700; }
-
-h2 {
-  font-size: 4rem;
-  font-weight: 800;
-  line-height: 110%;
-  letter-spacing: 0.05rem; }
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 140%; }
 
 h3 {
-  font-family: Graphik, Helvetica, sans-serif;
   font-size: 2.8rem;
   line-height: 135%; }
 
@@ -1296,7 +1292,7 @@ footer {
     margin-bottom: 2rem; } }
 
 .block h2 {
-  margin-bottom: 3rem; }
+  margin-bottom: 2rem; }
 
 .block ul {
   list-style-type: circle; }
@@ -1309,11 +1305,10 @@ footer {
 
 @media only screen and (max-width: 1023px) {
   .block.has-title {
-    margin-top: 5rem; } }
+    margin-top: 5.5rem; } }
 
 @media only screen and (min-width: 1024px) {
   .block.has-title {
-    margin-top: 12rem;
     margin-top: 8rem; } }
 
 .pdf {
