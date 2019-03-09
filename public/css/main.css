@@ -1199,10 +1199,10 @@ footer {
     transition: -webkit-transform 0.6s;
     transition: transform 0.6s;
     transition: transform 0.6s, -webkit-transform 0.6s; }
-    @media (hover: hover) {
-      #socials-list svg:hover {
-        -webkit-transform: translateY(-1.5rem);
-                transform: translateY(-1.5rem); } }
+  @media (hover: hover) {
+    #socials-list a:hover svg {
+      -webkit-transform: translateY(-1.5rem);
+              transform: translateY(-1.5rem); } }
 
 .card-img {
   width: 100%;
