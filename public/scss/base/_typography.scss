@@ -93,13 +93,14 @@ h4 {
   font-family: $freightBig;
   font-weight: 800;
   font-size: 3vw;
-  letter-spacing: 0.05rem;
   @include grid-media-query("lap") {
     font-size: 4vw;
   }
   @include grid-media-query("desk") {
-    font-size: 4rem;
-    //font-size: 6rem;
+    font-size: 3.5vw;
+  }
+  @media (min-width: 1800px) {
+    font-size: 6.3rem;
   }
   span {
     animation-name: bravo;
