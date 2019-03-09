@@ -7,7 +7,7 @@
   background-size: cover;
   background-image: url("../images/site/me/me.jpg");
   background-position: center right;
-  filter: saturate(0) contrast(125%);
+  // filter: saturate(0) contrast(125%);
   @include grid-media-query("portable") {
     background-image: url("../images/site/me/me-horizontal.png");
   }

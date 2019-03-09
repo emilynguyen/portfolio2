@@ -197,7 +197,7 @@
         {
           "title": "Roles",
           "wide": true,
-          "content": "Visual and Brand Designer (Nov 2017 – June 2018)<br>Web Developer (June 2018 – Present)"
+          "content": "Web Developer (June 2018 – Present)<br>Visual and Brand Designer (Nov 2017 – June 2018)"
         }
       ],
       "blocks": [
@@ -457,9 +457,9 @@
       "title": "ERGO",
       "url": "ergo",
       "icon": "ergo/ergo.gif",
-      "landing": "none",
+      "landing": "ergo/isometric.png",
       "text": "#fff",
-      "bg": "#40B2B0",
+      "bg": "#7CCCBE",
       "col": 2,
       "description": "Brand + interaction design + web development for an ergonomics app concept.",
       "summary": "<p><i>Our work environments can work against us</i>. Many of us, especially students and office workers, sit our lives away; this has been linked to high blood pressure, obesity, worse mental health, and more. ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different spaces, ERGO is unique in that it introduces exercises that use the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.</p>",

@@ -847,7 +847,7 @@ body {
       width: 85%; } }
   @media (min-width: 2400px) {
     .layout, #content, footer {
-      max-width: 130rem; } }
+      max-width: 140rem; } }
 
 #content {
   padding-top: 6%;
@@ -1032,14 +1032,16 @@ h4 {
 #banner {
   font-family: "Freight Big Pro", "Caslon", serif;
   font-weight: 800;
-  font-size: 3vw;
-  letter-spacing: 0.05rem; }
+  font-size: 3vw; }
   @media only screen and (min-width: 481px) and (max-width: 1023px) {
     #banner {
       font-size: 4vw; } }
   @media only screen and (min-width: 1024px) {
     #banner {
-      font-size: 4rem; } }
+      font-size: 3.5vw; } }
+  @media (min-width: 1800px) {
+    #banner {
+      font-size: 6.3rem; } }
   #banner span {
     -webkit-animation-name: bravo;
             animation-name: bravo;
@@ -1111,7 +1113,7 @@ nav a {
       position: absolute;
       width: 1.2rem;
       height: 1.2rem;
-      border: 1px solid currentColor;
+      border: 0.1rem solid currentColor;
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       top: 0.55rem;
@@ -1128,8 +1130,8 @@ nav {
     nav li .bar {
       width: 3rem;
       height: 3rem;
-      border-top: 1px solid currentColor;
-      border-right: 1px solid currentColor; }
+      border-top: 0.1rem solid currentColor;
+      border-right: 0.1rem solid currentColor; }
     nav li.horizontal .bar {
       margin-top: 1rem; }
     nav li.horizontal:not(.line) {
@@ -1233,16 +1235,26 @@ footer {
   font-weight: 500;
   text-decoration: none;
   background-color: none;
-  border: currentColor 1px solid; }
+  border: currentColor 0.1rem solid; }
   @media (hover: hover) {
     .btn:hover {
       background-color: var(--btn-bg);
       color: var(--btn-text); } }
 
+#yellow {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  height: 43rem;
+  left: 0;
+  z-index: -9999; }
+
+#banner-container {
+  position: relative;
+  width: 100%; }
+
 #banner {
-  background-color: #fff399;
   width: 100%;
-  height: 32rem;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1257,14 +1269,12 @@ footer {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none; }
+          user-select: none;
+  position: absolute;
+  top: -4.5rem; }
   @media only screen and (min-width: 481px) and (max-width: 1023px) {
     #banner {
-      height: 28rem; } }
-
-@media only screen and (min-width: 1024px) {
-  #work-block {
-    margin-top: 12rem; } }
+      top: -3.5rem; } }
 
 #filters {
   display: none; }
@@ -1337,9 +1347,7 @@ footer {
   height: 30vw;
   background-size: cover;
   background-image: url("../images/site/me/me.jpg");
-  background-position: center right;
-  -webkit-filter: saturate(0) contrast(125%);
-          filter: saturate(0) contrast(125%); }
+  background-position: center right; }
   @media only screen and (max-width: 1023px) {
     #about-photo {
       background-image: url("../images/site/me/me-horizontal.png"); } }

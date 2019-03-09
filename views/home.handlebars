@@ -1,4 +1,7 @@
-<!--
+<div id="yellow">
+
+</div>
+
 <div class="top">
   <div class="grid lap-hide desk-hide">
     <div id="title" class="grid__item">
@@ -6,15 +9,16 @@
     </div>
   </div>
 
-  
-  <div class="grid palm-hide">
-    <div class="grid__item desk--two-thirds pr-lg">
-      <p><b>I love crafting visual experiences and seeing them through to implementation. Previously at <a href="https://www.salesforce.com/"
-            target="_blank">Salesforce</a>.</b></p>
+
+
+  <div class="grid mb-md palm-hide">
+    <div id="banner-container" class="grid__item ">
+      <div id="banner">Emily is a designer + developer.</div>
     </div>
-  </div> 
+  </div>
 
 
+  <!--
   <div class="grid palm-hide">
     <div id="currently" class="grid__item desk--one-half">
       <h4 class="mb-xs">Currently</h4>
@@ -26,10 +30,11 @@
       <p>Visual Experience Design Intern — <a href="https://www.salesforce.com/" target="_blank">Salesforce</a></p>
       <p>Visual + Brand Designer — <a href="https://designatucsd.org/" target="_blank">Design at UCSD</a></p>
     </div>
-  </div> 
-</div> -->
+  </div>  -->
+</div>
 
 
+<!--
 <div class="top">
   <div class="grid ">
     <div id="title" class="grid__item">
@@ -38,20 +43,9 @@
   </div>
 </div>
 
-<!--
-<div class="grid mb-md">
-  <div class="grid__item one-whole">
-    <h4>View My Work ↓</h4>
-  </div>
-</div> -->
-
-<!--
-<div class="grid mb-md palm-hide">
-  <div class="grid__item ">
-    <div id="banner">Emily is a designer + developer.</div>
-  </div>
-</div>
 -->
+
+
 
 <!--
 
@@ -62,30 +56,13 @@
 </div> -->
 
 <div class="grid" id="work-block">
-  <div class="grid__item desk--one-third">
-    <h1 class="mb-md palm-hide desk-hide lap-hide">Work</h1>
-
-    <ul id="filters">
-      <li class="active">
-        <h4>All Work</h4>
-      </li>
-      <li>
-        <h4>Visual</h4>
-      </li>
-      <li>
-        <h4>Dev</h4>
-      </li>
-      <li>
-        <h4>Product</h4>
-      </li>
-    </ul>
-    <div class="portable-hide">
-      {{#each gallery}}
-      {{#if_mod 3 0}}
-      {{> card}}
-      {{/if_mod}}
-      {{/each}}
-    </div>
+  <!-- Desk 3 col gallery -->
+  <div class="grid__item desk--one-third portable-hide">
+    {{#each gallery}}
+    {{#if_mod 3 0}}
+    {{> card}}
+    {{/if_mod}}
+    {{/each}}
   </div>
   <div class="grid__item desk--one-third portable-hide">
     {{#each gallery}}
@@ -99,7 +76,6 @@
     {{#if_mod 3 2}}
     {{> card}}
     {{/if_mod}}
-
     {{/each}}
   </div>
   <!-- Portable 2 col gallery -->
@@ -132,7 +108,7 @@
 </div>
 
 
-<!--
+
 <script>
   let waves = 6;
 
@@ -182,4 +158,4 @@
   docify(wavytext);
   anim();
 
-</script> -->
+</script>
