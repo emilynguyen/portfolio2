@@ -42,8 +42,12 @@ footer {
   svg {
     height: 2.6rem;
     transition: transform 0.6s;
+  }
+  a {
     @include hover {
-      transform: translateY(-1.5rem);
+      svg {
+        transform: translateY(-1.5rem);
+      }
     }
   }
 }
