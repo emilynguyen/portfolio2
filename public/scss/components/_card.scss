@@ -2,6 +2,9 @@
   &-img {
     width: 100%;
     transition: opacity 0.3s;
+    &.darken {
+      filter: brightness(98%) saturate(105%);
+    }
     @include hover {
       opacity: 0.07;
     }

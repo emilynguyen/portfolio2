@@ -1,9 +1,11 @@
 <div class="card mb-md">
   <a href="/{{url}}">
     <div style="background-color: {{bg}}" class="card-img-container">
-      <img class="card-img" src="images/{{icon}}" alt="">
+      <img class="card-img {{#if darkenIcon}}darken{{/if}}" src="images/{{icon}}" alt="">
     </div>
-    <h4 class="card-title mb-xs">{{title}}</h4>
+    <h2 class="card-title ">{{title}}</h2>
+
   </a>
+  <div class="sub mb-xs">{{sub}}</div>
   <p class="card-description">{{description}}</p>
 </div>
