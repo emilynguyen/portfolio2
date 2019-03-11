@@ -2,12 +2,13 @@
   "projects": [
     {
       "title": "Salesforce Design Internship",
+      "sub": "UX Research + Visual",
       "url": "salesforce",
       "icon": "salesforce/sf-west.jpg",
       "landing": "salesforce/logo.png",
       "bg": "#fcfdff",
       "text": "#16325c",
-      "description": "UX research + visual design for an upcoming learning platform.",
+      "description": "Supported an upcoming learning platform.",
       "summary": "<p>This past summer, I completed my first internship! I had the pleasure of joining Salesforce’s Global Enablement — Tech Ops team as a Visual Experience Design Intern.</p><p>Tech Ops built internal technology that helped streamline workplace operations and was working on an online learning platform when I came on board. I supported this project by leading usability testing sessions and utilizing my insights to assist in a UI redesign. I also created brand collateral for this product and provided additional visual communication needs.</p>",
       "details": [
         {
@@ -61,6 +62,7 @@
     },
     {
       "title": "Daily UI",
+      "sub": "UI Design",
       "url": "dailyui",
       "icon": "daily-ui/icon.jpg",
       "landing": "none",
@@ -146,12 +148,13 @@
     },
     {
       "title": "Stride Career Fair",
+      "sub": "Front-End",
       "url": "stride",
       "icon": "stride/runner.gif",
       "landing": "stride/stride.gif",
       "bg": "#EC5C5A",
       "text": "#fff",
-      "description": "I developed a website for a design-centric career fair hosted by Design at UCSD.",
+      "description": "Developed a website for a design-centric career fair hosted by Design at UCSD.",
       "col": "2",
       "summary": "<p>As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.</p><p>In collaboration with one of our visual designers, I developed the event website. I also assisted our graphic studio in creating visual collateral.</p>",
       "button": {
@@ -185,13 +188,14 @@
     },
     {
       "title": "Design at UCSD",
+      "sub": "Visual + Brand + Web Dev",
       "url": "designatucsd",
       "icon": "designatucsd/icon-pink.png",
       "landing": "designatucsd/icon.png",
       "text": "#333",
       "bg": "#fcfcfc",
       "col": "1",
-      "description": "I am a visual + brand designer, web developer, and student leader at the largest pre-professional design community on campus.",
+      "description": "I am a student leader at the largest pre-professional design community on campus.",
       "summary": "<p>Since November 2017, I’ve been a student leader at the undergraduate design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual and brand designer up until June 2018, where I designed marketing collateral, co-lead visual design workshops, and evolved brand identity. I now spearhead all our web development projects as our web developer.</p>",
       "details": [
         {
@@ -259,13 +263,62 @@
       ]
     },
     {
+      "title": "A.S. Graphic Studio",
+      "archive": true,
+      "url": "asgs",
+      "sub": "Visual + Front-End",
+      "icon": "asgs/asgs.gif",
+      "darkenIcon": true,
+      "bg": "#f7f7f7",
+      "text": "#555",
+      "description": "Redesigned and developed a new website for Associated Students Graphic Studio.",
+      "summary": "<p>In between my assigned projects as Associated Students Graphic Studio's new webmaster, I took the initiative to revamp their 9-year-old website. I gave the site a visual refresh that closer aligned with our fun brand and used modern web development practices to improve content management.</p>",
+      "button": {
+        "title": "Visit Site",
+        "link": "http://asgraphicstudio.ucsd.edu"
+      },
+      "details": [
+        {
+          "title": "Role",
+          "content": "Lead designer and developer"
+        },
+        {
+          "title": "Tools + Skills",
+          "content": "Sketch, HTML, CSS, Sass, Jekyll"
+        },
+        {
+          "title": "Date",
+          "content": "Dec 2018 – Jan 2019"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/emilynguyen/asgs\" target=\"_blank\">Github repo</a><br><a href=\"http://asgraphicstudio.ucsd.edu/archive_010719/\" target=\"_blank\">Old site</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Old Site",
+          "image": true,
+          "link": "http://asgraphicstudio.ucsd.edu/archive_010719/",
+          "content": "asgs/old-asgs.png"
+        },
+        {
+          "title": "Process",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        }
+      ]
+    },
+    {
       "title": "Design Frontiers: Intuit",
+      "sub": "Front-End",
       "archive": true,
       "url": "frontiers",
       "icon": "designatucsd/frontiers-fa18.png",
+      "darkenIcon": true,
       "bg": "#e1f0f7",
       "text": "#055c84",
-      "description": "I developed a website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
+      "description": "Developed a website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
       "summary": "<p>Design Frontiers is a series of design sprints hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that showcases the application of design thinking to fields beyond traditional design, such as <a href=\"https://medium.com/design-at-ucsd/students-explore-designing-for-education-at-inaugural-design-frontiers-b06f909553c7\" target=\"_blank\">education</a> and <a href=\"https://frontierssp18.designatucsd.org/\" target=\"_blank\">healthcare</a>. For our Fall 2018 event, we partnered with Intuit to allow students to tackle real product design challenges alongside leading designers in the financial software space.</p><p>As Design at UCSD's web developer, I collaborated with our visual designers to build the website and also facilitated the design sprint the day of.</p>",
       "button": {
         "title": "Visit Site",
@@ -295,173 +348,15 @@
       ]
     },
     {
-      "title": "Burow",
-      "url": "burow",
-      "icon": "burow/burow.gif",
-      "text": "#deefe3",
-      "bg": "#6CA18A",
-      "description": "Brand + UX design for a housing app concept.",
-      "col": "2",
-      "summary": "<p>Burow is a desktop web app that helps users find the perfect new home to move to. With a focus on price, walkability, and school rating, users can easily pinpoint neighborhoods within their target cities that suit their needs.</p>",
-      "button": {
-        "title": "View Demo",
-        "link": "https://drive.google.com/file/d/1a0_elaRO7U0osApLxUgap3Kg3ghxkchM/view"
-      },
-      "details": [
-        {
-          "title": "Key Roles",
-          "content": "Led the brand design + design and development of the landing page. UX was done as a team."
-        },
-        {
-          "title": "Key Skills",
-          "content": "Brand design, web design, web development (HTML, CSS, Sass, React)"
-        },
-        {
-          "title": "Teammates",
-          "content": "Aman Gupta, Joel Sequeira, Jared Suasin"
-        },
-        {
-          "title": "Date",
-          "content": "Apr – June 2018 (10 weeks)"
-        },
-        {
-          "title": "Resources",
-          "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github repo</a><br><a href=\"https://burow.xyz/\" target=\"_blank\">burow.xyz</a>"
-        }
-      ],
-      "blocks": [
-        {
-          "title": "Problem",
-          "text": true,
-          "content": "<p>Popular real estate apps, such as Zillow, Trulia, and Redfin, start by asking users for a location. Users then use metrics such as price and number of beds/baths to sort through the returned listings. Additional research could then be done to find walkability, safety scores, and more for an address. This user flow works great for those looking for homes in specific neighborhoods, but what if you wanted to choose a neighborhood based on a metric?</p>"
-        },
-        {
-          "title": "Solution",
-          "text": true,
-          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h4>Existing Solution</h4><p>Enter location → receive listings → use criteria to sort through listings</p><h4>Proposed Solution</h4><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
-        },
-        {
-          "title": "Storyboarding",
-          "hide": true,
-          "image": true,
-          "alt": "Mark and Sarah want to move their family from New York to California.",
-          "content": "burow/storyboard1.png",
-          "captionBefore": "<p>To better understand our target users, we started by drafting two storyboards.</p>"
-        },
-        {
-          "hide": true,
-          "image": true,
-          "alt": "Jim is a student looking for an apartment for his internship in the Bay Area this summer.",
-          "content": "burow/storyboard2.png",
-          "captionAfter": "<p class=\"small-text\">Storyboards by Jared and Joel.</p>"
-        },
-        {
-          "title": "Prototyping",
-          "hide": true,
-          "text": true,
-          "content": "<p>Coming soon.</p>"
-        },
-        {
-          "title": "Competitive Analysis",
-          "image": true,
-          "content": "burow/competitive-analysis.png",
-          "alt": "Landing pages of Zillow, Trulia, and Redfin",
-          "captionAfter": "<p>Zillow, Trulia, and Redfin all use real estate photos, generous negative space, and safe typefaces to create a clean, polished look. While a professional appearance increases credibility, it comes with the tradeoff of looking impersonal and detached.</p>"
-        },
-        {
-          "title": "Brand Design",
-          "text": true,
-          "content": "<p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and established a cozy, welcoming atmosphere.</p>"
-        },
-        {
-          "blockquote": true,
-          "content": "Burow—Dig around and find the neighbourhood that fits your needs!"
-        },
-        {
-          "text": true,
-          "content": "<p>To produce a homey feel, we used the theme of burrowing animals and gravitated towards warm earth tones and typefaces with gentle curves.</p>"
-        },
-        {
-          "title": "Mood Board",
-          "hide": true,
-          "image": true,
-          "content": "burow/mood-board.png"
-        },
-        {
-          "title": "",
-          "palette": true,
-          "style": "background-color: #D5E0BA;",
-          "swatches": ["#FFFAED", "#FEA765", "#E89556", "#A6C5B5", "#7CA18E"]
-        },
-        {
-          "title": "Final Design + Demo",
-          "text": true,
-          "content": "<p>View our <a href=\"https://drive.google.com/file/d/1a0_elaRO7U0osApLxUgap3Kg3ghxkchM/view\" target=\"_blank\">demo video</a>!</p>"
-        }
-      ]
-    },
-    {
-      "title": "Salesforce × TravelBoss",
-      "url": "travelboss",
-      "icon": "travelboss/icon-blue.png",
-      "landing": "travelboss/icon.png",
-      "bg": "#24435B",
-      "text": "#fff",
-      "col": 1,
-      "description": "A co-branding challenge that I'm proud of.",
-      "summary": "<p>The task at hand was to reimagine a slide deck to create a visually compelling presentation template for upcoming meetings between Salesforce and the fictitious company TravelBoss, whose brand is similar to Airbnb.</p><p><i>Note: This was completed as a timed challenge.</i></p>",
-      "details": [
-        {
-          "title": "Key Skills",
-          "content": "Visual design, co-branding"
-        },
-        {
-          "title": "Tools",
-          "content": "Illustrator"
-        },
-        {
-          "title": "Resources",
-          "content": "<a href=\"https://drive.google.com/open?id=1jNWZi1YswKr6BxMjOUazh7-qwWl1w5o2\" target=\"_blank\">Design Process (PDF)</a><br><a href=\"https://drive.google.com/open?id=1EGBNRfvD9YCt9tTR7EI3WdgvU34ewOki\" target=\"_blank\">Final Product (PDF)</a>"
-        },
-        {
-          "title": "Date",
-          "content": "Mar 2018 (4 days)"
-        }
-      ],
-      "blocks": [
-        {
-          "title": "Problem + Solution",
-          "image": true,
-          "content": "travelboss/before.png",
-          "alt": "Original presentation slides",
-          "captionAfter": "<p>The original presentation slides were uninspiring and lacked identity. Through careful brand analysis, I crafted a bold and compelling template that embodied the energy and spirit of both the Salesforce and TravelBoss (Airbnb) brands.</p>"
-        },
-        {
-          "title": "Design Process",
-          "pdf": true,
-          "content": "https://drive.google.com/file/d/1jNWZi1YswKr6BxMjOUazh7-qwWl1w5o2/preview"
-        },
-        {
-          "title": "Final Product",
-          "image": true,
-          "content": "travelboss/final-product.png",
-          "alt": "Final product"
-        },
-        {
-          "pdf": true,
-          "content": "https://drive.google.com/file/d/1EGBNRfvD9YCt9tTR7EI3WdgvU34ewOki/preview"
-        }
-      ]
-    },
-    {
       "title": "ERGO",
+      "sub": "Brand + Interaction + Web Dev",
       "url": "ergo",
       "icon": "ergo/ergo.gif",
       "landing": "ergo/isometric.png",
       "text": "#fff",
       "bg": "#7CCCBE",
       "col": 2,
-      "description": "Brand + interaction design + web development for an ergonomics app concept.",
+      "description": "An ergonomics app concept.",
       "summary": "<p><i>Our work environments can work against us</i>. Many of us, especially students and office workers, sit our lives away; this has been linked to high blood pressure, obesity, worse mental health, and more. ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different spaces, ERGO is unique in that it introduces exercises that use the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.</p>",
       "button": {
         "title": "View Prototype",
@@ -597,7 +492,170 @@
       ]
     },
     {
+      "title": "Burow",
+      "sub": "Brand + Visual + UX",
+      "url": "burow",
+      "icon": "burow/burow.gif",
+      "text": "#deefe3",
+      "bg": "#6CA18A",
+      "description": "A housing app concept.",
+      "col": "2",
+      "summary": "<p>Burow is a desktop web app that helps users find the perfect new home to move to. With a focus on price, walkability, and school rating, users can easily pinpoint neighborhoods within their target cities that suit their needs.</p>",
+      "button": {
+        "title": "View Demo",
+        "link": "https://drive.google.com/file/d/1a0_elaRO7U0osApLxUgap3Kg3ghxkchM/view"
+      },
+      "details": [
+        {
+          "title": "Key Roles",
+          "content": "Led the brand design and design + development of the landing page. UX was done as a team."
+        },
+        {
+          "title": "Key Skills",
+          "content": "Brand design, web design, web development (HTML, CSS, Sass, React)"
+        },
+        {
+          "title": "Teammates",
+          "content": "Aman Gupta, Joel Sequeira, Jared Suasin"
+        },
+        {
+          "title": "Date",
+          "content": "Apr – June 2018 (10 weeks)"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github repo</a><br><a href=\"https://burow.xyz/\" target=\"_blank\">burow.xyz</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Problem",
+          "text": true,
+          "content": "<p>Popular real estate apps, such as Zillow, Trulia, and Redfin, start by asking users for a location. Users then use metrics such as price and number of beds/baths to sort through the returned listings. Additional research could then be done to find walkability, safety scores, and more for an address. This user flow works great for those looking for homes in specific neighborhoods, but what if you wanted to choose a neighborhood based on a metric?</p>"
+        },
+        {
+          "title": "Solution",
+          "text": true,
+          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h4>Existing Solution</h4><p>Enter location → receive listings → use criteria to sort through listings</p><h4>Proposed Solution</h4><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
+        },
+        {
+          "title": "Storyboarding",
+          "hide": true,
+          "image": true,
+          "alt": "Mark and Sarah want to move their family from New York to California.",
+          "content": "burow/storyboard1.png",
+          "captionBefore": "<p>To better understand our target users, we started by drafting two storyboards.</p>"
+        },
+        {
+          "hide": true,
+          "image": true,
+          "alt": "Jim is a student looking for an apartment for his internship in the Bay Area this summer.",
+          "content": "burow/storyboard2.png",
+          "captionAfter": "<p class=\"small-text\">Storyboards by Jared and Joel.</p>"
+        },
+        {
+          "title": "Prototyping",
+          "hide": true,
+          "text": true,
+          "content": "<p>Coming soon.</p>"
+        },
+        {
+          "title": "Competitive Analysis",
+          "image": true,
+          "content": "burow/competitive-analysis.png",
+          "alt": "Landing pages of Zillow, Trulia, and Redfin",
+          "captionAfter": "<p>Zillow, Trulia, and Redfin all use real estate photos, generous negative space, and safe typefaces to create a clean, polished look. While a professional appearance increases credibility, it comes with the tradeoff of looking impersonal and detached.</p>"
+        },
+        {
+          "title": "Brand Design",
+          "text": true,
+          "content": "<p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and established a cozy, welcoming atmosphere.</p>"
+        },
+        {
+          "blockquote": true,
+          "content": "Burow—Dig around and find the neighbourhood that fits your needs!"
+        },
+        {
+          "text": true,
+          "content": "<p>To produce a homey feel, we used the theme of burrowing animals and gravitated towards warm earth tones and typefaces with gentle curves.</p>"
+        },
+        {
+          "title": "Mood Board",
+          "hide": true,
+          "image": true,
+          "content": "burow/mood-board.png"
+        },
+        {
+          "title": "",
+          "palette": true,
+          "style": "background-color: #D5E0BA;",
+          "swatches": ["#FFFAED", "#FEA765", "#E89556", "#A6C5B5", "#7CA18E"]
+        },
+        {
+          "title": "Final Design + Demo",
+          "text": true,
+          "content": "<p>View our <a href=\"https://drive.google.com/file/d/1a0_elaRO7U0osApLxUgap3Kg3ghxkchM/view\" target=\"_blank\">demo video</a>!</p>"
+        }
+      ]
+    },
+    {
+      "title": "Salesforce × TravelBoss",
+      "sub": "Brand Design",
+      "url": "travelboss",
+      "icon": "travelboss/icon-blue.png",
+      "landing": "travelboss/icon.png",
+      "bg": "#24435B",
+      "text": "#fff",
+      "col": 1,
+      "description": "A co-branding challenge that I'm proud of.",
+      "summary": "<p>The task at hand was to reimagine a slide deck to create a visually compelling presentation template for upcoming meetings between Salesforce and the fictitious company TravelBoss, whose brand is similar to Airbnb.</p><p><i>Note: This was completed as a timed challenge.</i></p>",
+      "details": [
+        {
+          "title": "Key Skills",
+          "content": "Visual design, co-branding"
+        },
+        {
+          "title": "Tools",
+          "content": "Illustrator"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://drive.google.com/open?id=1jNWZi1YswKr6BxMjOUazh7-qwWl1w5o2\" target=\"_blank\">Design Process (PDF)</a><br><a href=\"https://drive.google.com/open?id=1EGBNRfvD9YCt9tTR7EI3WdgvU34ewOki\" target=\"_blank\">Final Product (PDF)</a>"
+        },
+        {
+          "title": "Date",
+          "content": "Mar 2018 (4 days)"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Problem + Solution",
+          "image": true,
+          "content": "travelboss/before.png",
+          "alt": "Original presentation slides",
+          "captionAfter": "<p>The original presentation slides were uninspiring and lacked identity. Through careful brand analysis, I crafted a bold and compelling template that embodied the energy and spirit of both the Salesforce and TravelBoss (Airbnb) brands.</p>"
+        },
+        {
+          "title": "Design Process",
+          "pdf": true,
+          "content": "https://drive.google.com/file/d/1jNWZi1YswKr6BxMjOUazh7-qwWl1w5o2/preview"
+        },
+        {
+          "title": "Final Product",
+          "image": true,
+          "content": "travelboss/final-product.png",
+          "alt": "Final product"
+        },
+        {
+          "pdf": true,
+          "content": "https://drive.google.com/file/d/1EGBNRfvD9YCt9tTR7EI3WdgvU34ewOki/preview"
+        }
+      ]
+    },
+
+    {
       "title": "Personal Work",
+      "sub": "Illustration",
       "url": "personal",
       "icon": "personal/sushi.gif",
       "col": 2,
@@ -696,9 +754,11 @@
     },
     {
       "title": "Remember That I Love You",
+      "sub": "Graphic Design",
       "archive": true,
       "url": "remember-that-i-love-you",
       "icon": "remember-that-i-love-you/icon.png",
+      "darkenIcon": true,
       "bg": "#141F25",
       "text": "#FFFDF4",
       "description": "Poster design for UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration.",

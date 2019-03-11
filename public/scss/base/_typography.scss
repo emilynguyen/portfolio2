@@ -51,20 +51,18 @@ i {
   }
 }
 
-#title {
-  h1 {
-    @include grid-media-query("palm") {
-      padding-right: 0;
-    }
-  }
-}
-
 h1 {
+  /*
   font-family: $freightBig;
   font-weight: 900;
   font-size: 8rem;
-  line-height: 100%;
-  margin-top: -1rem;
+  line-height: 100%; 
+  margin-top: -1rem; */
+  font-family: $graphik;
+  font-weight: 500;
+  font-size: 8rem;
+  line-height: 105%;
+  letter-spacing: -0.2rem;
   @extend .title-pr;
   @include grid-media-query("palm") {
     font-size: 5.5rem;
@@ -78,6 +76,7 @@ h2 {
   font-size: 2.5rem;
   font-weight: 500;
   line-height: 140%;
+  letter-spacing: -0.02rem;
 }
 
 h3 {
@@ -89,9 +88,26 @@ h4 {
   font-weight: 500;
 }
 
+#title,
 #banner {
-  font-family: $freightBig;
-  font-weight: 800;
+  *,
+  h1 {
+    font-family: $freightBig;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 100%;
+  }
+}
+
+#title {
+  h1 {
+    @include grid-media-query("palm") {
+      padding-right: 0;
+    }
+  }
+}
+
+#banner {
   font-size: 3vw;
   @include grid-media-query("lap") {
     font-size: 4vw;
@@ -168,4 +184,13 @@ nav {
       }
     }
   }
+}
+
+.sub {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: $red;
+  font-size: 70%;
+  letter-spacing: 0.02rem;
+  margin-top: -0.2rem;
 }
