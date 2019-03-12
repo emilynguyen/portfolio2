@@ -122,7 +122,7 @@
           "image": true,
           "content": "red-envelope/flow.png",
           "captionBefore": "<p>To visualize the interactions within my product, I created a flow diagram based off popular mobile payment services. I've omitted sign up/log in and other standard screens to focus on the new features.</p>",
-          "captionAfter": "<p class='small-text'><a href='/images/red-envelope/flow.png' target='_blank'>View full-sized  flow diagram</a>.</p>"
+          "captionAfter": "<p class='small-text'><a href='/images/red-envelope/flow.svg' target='_blank'>View full-sized  flow diagram</a>.</p>"
         },
         {
           "title": "Brand Design + Mockups",
