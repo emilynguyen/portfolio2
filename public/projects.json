@@ -32,7 +32,7 @@
         {
           "title": "UX Research",
           "text": true,
-          "content": "<p>The online learning tool that my team was working on aimed to centralize learning at Salesforce, which involved understanding the needs of 2 users:</p><ul><li><i>Enabler</i> (Manager) — Creates and assigns learning. Needs to be able to manage their courses + assignments and view the progress of their employees.</li><li><i>Learner</i> (Employee) — Receives and completes learning. Needs to be able to track their progress, enroll in classes, and receive notifications.</li></ul><p>At the time that I had joined the project, the product was in its third release. The lead UX designer on my team had recently left the company, but had completed user testing for the Enabler point of view beforehand. My task was to continue where she had left off and conduct usability testing for the Learner.</p><p>I was currently the only designer on Tech Ops, making this an intimidating task. I quickly learned the importance of being a self-starter and reached out to designers from other teams for mentorship. Using their guidance and the recordings + notes that the previous designer had left for me, I created a user testing plan and contacted 6 new hires across various positions for interviews. Afterwards, I synthesized my insights and presented them to my team.</p>"
+          "content": "<p>The online learning tool that my team was working on aimed to centralize learning at Salesforce, which involved understanding the needs of 2 users:</p><ul><li><span><i>Enabler</i> (Manager) — Creates and assigns learning. Needs to be able to manage their courses + assignments and view the progress of their employees.</span></li><li><span><i>Learner</i> (Employee) — Receives and completes learning. Needs to be able to track their progress, enroll in classes, and receive notifications.</span></li></ul><p>At the time that I had joined the project, the product was in its third release. The lead UX designer on my team had recently left the company, but had completed user testing for the Enabler point of view beforehand. My task was to continue where she had left off and conduct usability testing for the Learner.</p><p>I was currently the only designer on Tech Ops, making this an intimidating task. I quickly learned the importance of being a self-starter and reached out to designers from other teams for mentorship. Using their guidance and the recordings + notes that the previous designer had left for me, I created a user testing plan and contacted 6 new hires across various positions for interviews. Afterwards, I synthesized my insights and presented them to my team.</p>"
         },
         {
           "title": "UI Redesign + Brand Collateral",
@@ -56,7 +56,60 @@
         {
           "title": "Takeaways",
           "text": true,
-          "content": "<ul><li>Actively seek out opportunities and make the most of your internship. My main task was to conduct usability testing, but through coffee chats I connected with designers outside of my team that invited me to do additional work. Because of this, I was able to make deeper contributions, meet more mentors, and explore interests outside of what I was hired for.</li><li>Continue to grow outside of work. Being from Southern California, San Francisco was a refreshing shift in perspective that helped me understand the world just a little bit better.</li></ul><p>Thank you to Gyo, Megan, Matt, and the lovely interns I met along the way.</p>"
+          "content": "<ul><li><span>Actively seek out opportunities and make the most of your internship. My main task was to conduct usability testing, but through coffee chats I connected with designers outside of my team that invited me to do additional work. Because of this, I was able to make deeper contributions, meet more mentors, and explore interests outside of what I was hired for.</span></li><li><span>Continue to grow outside of work. Being from Southern California, San Francisco was a refreshing shift in perspective that helped me understand the world just a little bit better.</span></li></ul><p>Thank you to Gyo, Megan, Matt, and the lovely interns I met along the way.</p>"
+        }
+      ]
+    },
+    {
+      "title": "Digitizing the Red Envelope Experience",
+      "sub": "Product",
+      "url": "red-envelope",
+      "icon": "red-envelope/icon.min.jpg",
+      "landing": "red-envelope/icon.jpg",
+      "bg": "#C9534F",
+      "text": "#FFE8B3",
+      "description": "A reimagination of the digital red envelope.",
+      "summary": "<p>This past Lunar New Year, <a href='https://radiichina.com/8-jaw-dropping-statistics-from-spring-festival-2019/' target='_blank'>over 800 million red envelopes</a> were sent and received digitally. While being able to exchange envelopes virtually is convenient, existing solutions are heavily gamified, detracting from the cultural focus that physical red envelope exchanges hold. I evaluated these solutions and surveyed Lunar New Year celebrants to discover how to translate the cultural aspects of the red envelope exchange into the user experience.</p><p>This project was inspired by my own experiences as a Vietnamese American. Chúc mừng năm mới! 🧧</p><p><b>Note: work in progress.</b></p>",
+      "details": [
+        {
+          "title": "Key Skills",
+          "content": "Product design, brand + visual design"
+        },
+        {
+          "title": "Date",
+          "content": "Mar 2019 – Present"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "What is a Red Envelope?",
+          "text": true,
+          "content": "<p>Red envelopes are small, decorative packets that are gifted to friends and family during special occasions and holidays. The color red symbolizes good luck in Chinese and other East Asian cultures. The envelopes usually contain clean, crisp cash and are most commonly presented on Lunar New Year by elders to the younger.</p>"
+        },
+        {
+          "title": "Problem",
+          "text": true,
+          "content": "<p>Unfortunately, not everyone can spend the holidays with their friends and family. Online payment services make it easy to send money, but the cultural significance of the red envelope is lost. <i>Lunar New Year celebrants need a way to digitally exchange red envelopes so that they can celebrate their culture with loved ones who are far away.</i></p>"
+        },
+        {
+          "title": "Current Solution",
+          "text": true,
+          "content": "<p>In 2014, the massive Chinese messaging and mobile payment platform WeChat introduced a feature that allows users to send and receive virtual red envelopes. Several competing tech companies began rolling out similar functions. While these services solve our problem at a glance, I observed several major pain points of WeChat’s red packet feature:</p><h4>1. Too big of an emphasis placed on cash-based incentives.</h4><p>Cash incentives and gamification have caused virtual red envelope services to be met with criticism for turning the tradition into a monetary venture. Examples include:</p><ul><li><span>Users can send packets to groups and randomize the amounts in each envelope. In stark contrast, the amount of money in physical red envelopes is often chosen intentionally based on cultural beliefs.<img src='/images/red-envelope/wechat-random.png' alt='' style='max-width: 25rem;'></span></li><li><span>In 2014, a popular Chinese New Year special <a href='https://www.techinasia.com/wechat-1-billion-red-envelopes-chinese-new-year-2015' target='_blank'>used WeChat’s red packets to give away over $80 million</a> to its viewers. Users would shake their phones for a chance to win red envelopes.</span></li></ul><p>Additionally, the gamification of the red envelope exchange has turned it into an impersonal process, encouraging users to receive money from strangers. This makes users more <a href='https://www.techinasia.com/red-envelope-scams-on-wechat' target='_blank'>suspect to fraud</a>. Incidents have been reported of users falling for phishing attacks while “receiving” envelopes, hosting fake giveaways to gain followers, and more.</p><h4>2. Too similar to other mobile payment services.</h4><p>Underneath the themed interface, WeChat’s red packet feature functions exactly like Venmo, Cash App, and co. The red + gold design and inclusion of envelope illustrations are the only aspects of the service that translate culture.<img src='/images/red-envelope/wechat-screens.png' alt='WeChat screens'></p><h4>3. Can only exchange between WeChat users.</h4><p>WeChat and its competitors have a predominantly Chinese user base, leaving a gap in the market. <a href='https://www.similarweb.com/blog/mobile-messaging-app-map-2018' target='_blank'>For 89% of the world, WhatsApp and Facebook Messenger are the most popular messaging apps</a>.</p>"
+        },
+        {
+          "title": "New Solution",
+          "text": true,
+          "content": "<p>For my app concept, my main goal was to preserve the culture held in the physical red envelope experience. I planned to minimize the amount of cash incentives + gamification involved, introduce new features to help translate traditions, and craft a unique brand identity. Since my solution is a standalone app, it would be able to serve users coming from multiple messaging platforms.</p>"
+        },
+        {
+          "title": "Research",
+          "text": true,
+          "content": "<p>To discover how to bring more cultural elements into the app's experience, I interviewed 8 (fun fact: this is the Chinese lucky number) celebrants who partook in red envelope exchange. Participants were aged between 19 and 58, and my questions focused on the role red envelopes played in their celebrations. Main takeaways:</p><ol><li><span>All said receiving/gifting an envelope involved a customary expression of gratitude. Namely:<ul><li><span>Wishing the other person luck + prosperity</span></li><li><span>Giving a personal message</span></li><li><span>Bowing your head</span></li></ul></span></li><li><span>7 said they’ve spent a New Years away from home.<ul><li><span>6 of these 7 have had envelopes left for them to open when they returned home or had left envelopes for others.</span></li><li><span>4 of these 7 have used a payment service to send/receive money in place of an envelope.</span></li></ul></span></li><li><span>4 felt that the red envelopes were more significant than the cash inside.<ul><li><span>“I think [red envelopes] are really symbolic of prosperity and respect.”</span></li></ul></span></li></ol>"
+        },
+        {
+          "title": "Main Features",
+          "text": true,
+          "content": "<p>Using my research insights, I am currently deciding on the main features. Stay tuned!</p>"
         }
       ]
     },
@@ -241,12 +294,12 @@
         {
           "title": "Soft Rebrand",
           "text": true,
-          "content": "<p>During my term as a visual and brand designer, my co and I introduced a new, illustration-heavy creative direction that refreshed the face of Design at UCSD.</p><h4>Problem</h4><p>While crafting graphics for the org, we quickly noted a few flaws in our visual system that inspired us to rethink the branding guidelines surrounding our marketing visuals. The existing system for creating event banners involved placing color overlays over photos, with each color representing a different event type:</p><ul><li>Yellow — industry events</li><li>Red — social events</li><li>Green — design skill workshops</li><li>Blue — data + research workshops</li></ul></p>"
+          "content": "<p>During my term as a visual and brand designer, my co and I introduced a new, illustration-heavy creative direction that refreshed the face of Design at UCSD.</p><h4>Problem</h4><p>While crafting graphics for the org, we quickly noted a few flaws in our visual system that inspired us to rethink the branding guidelines surrounding our marketing visuals. The existing system for creating event banners involved placing color overlays over photos, with each color representing a different event type:</p><ul><li><span>Yellow — industry events</span></li><li><span>Red — social events</span></li><li><span>Green — design skill workshops</span></li><li><span>Blue — data + research workshops</span></li></ul></p>"
         },
         {
           "image": true,
           "content": "designatucsd/banners-before.png",
-          "captionAfter": "<p>Major issues we ran into included:</p><p><ul><li>Visual style was outdated and limited creativity. Design at UCSD is a community of young, eager designers, and we wanted a fun and contemporary look to reflect this.</li><li>Our event type distribution was too unbalanced to justify using a color-based system. Over the course of the 2017–2018 school year, Design at UCSD held 13 design skill workshops, 9 social events, 6 industry events, and only 1 data + research workshop.</li><li>Banners were not unique to each event. Social media is fast-paced, and more interest could be generated by using eye-catching visuals.</li></ul></p>"
+          "captionAfter": "<p>Major issues we ran into included:</p><p><ul><li><span>Visual style was outdated and limited creativity. Design at UCSD is a community of young, eager designers, and we wanted a fun and contemporary look to reflect this.</span></li><li><span>Our event type distribution was too unbalanced to justify using a color-based system. Over the course of the 2017–2018 school year, Design at UCSD held 13 design skill workshops, 9 social events, 6 industry events, and only 1 data + research workshop.</span></li><li><span>Banners were not unique to each event. Social media is fast-paced, and more interest could be generated by using eye-catching visuals.</span></li></ul></p>"
         },
         {
           "image": true,
@@ -417,7 +470,7 @@
         {
           "title": "Ideation",
           "text": true,
-          "content": "<p>To guide us towards a solution, we reframed the insights and pain points above into opportunities:</p><ul><li>How might we remind users to take breaks and stretch after long intervals of inactivity?</li><li>How might we accommodate users in different spaces or users with different tools at their disposal?</li><li>How might we make being active enticing to users?</li><li>Additionally, how might we accommodate users with disabilities or injuries?</li></ul>"
+          "content": "<p>To guide us towards a solution, we reframed the insights and pain points above into opportunities:</p><ul><li><span>How might we remind users to take breaks and stretch after long intervals of inactivity?</span></li><li><span>How might we accommodate users in different spaces or users with different tools at their disposal?</span></li><li><span>How might we make being active enticing to users?</span></li><li><span>Additionally, how might we accommodate users with disabilities or injuries?</span></li></ul>"
         },
         {
           "title": "Solution",
@@ -443,7 +496,7 @@
         {
           "title": "Revisiting the Brief + Redesign",
           "text": true,
-          "content": "<p>Upon revisiting the design brief, we realized we had strayed. While our solution provided users with exercises that were relevant for their location and setup, this was not an environmental interaction in itself. So, <i>how might various work spaces be used to help their respective occupants reach their end goals?</i></p><p>Our revised solution was to have our application suggest stretches that use surrounding objects. Environments would be grouped with other environments based on the objects that are common to them. We redefined our categories as follows:</p><ol type=\"1\"><li><i>Office</i> — possibly a cubicle or small space; stretches can utilize desks and chairs</li><li><i>Home</i> — wide array of furniture at user's disposal, disruptive exercises are not a concern</li><li><i>Indoor</i> (public) — libraries, coffee shops; stretches are seated and more discreet</li><li><i>Outdoor</i> — open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</li></ol>"
+          "content": "<p>Upon revisiting the design brief, we realized we had strayed. While our solution provided users with exercises that were relevant for their location and setup, this was not an environmental interaction in itself. So, <i>how might various work spaces be used to help their respective occupants reach their end goals?</i></p><p>Our revised solution was to have our application suggest stretches that use surrounding objects. Environments would be grouped with other environments based on the objects that are common to them. We redefined our categories as follows:</p><ol type=\"1\"><li><span><i>Office</i> — possibly a cubicle or small space; stretches can utilize desks and chairs</span></li><li><span><i>Home</i> — wide array of furniture at user's disposal, disruptive exercises are not a concern</span></li><li><span><i>Indoor</i> (public) — libraries, coffee shops; stretches are seated and more discreet</span></li><li><span><i>Outdoor</i> — open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</span></li></ol>"
         },
         {
           "title": "Wireframing",
@@ -463,7 +516,7 @@
         {
           "title": "HTML Prototype",
           "text": true,
-          "content": "<p>With our app flow and branding established, we were able to start developing our live prototype. With the help of tools such as</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li></ul><p>we built a responsive HTML prototype. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  Check out our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emilynguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
+          "content": "<p>With our app flow and branding established, we were able to start developing our live prototype. With the help of tools such as</p><ul><li><span>Node.js (Express + Handlebars)</span></li><li><span>Sass</span></li></ul><p>we built a responsive HTML prototype. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  Check out our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emilynguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
         },
         {
           "title": "User Testing",
@@ -493,6 +546,7 @@
     },
     {
       "title": "Burow",
+      "archive": true,
       "sub": "Brand + Visual + UX",
       "url": "burow",
       "icon": "burow/burow.gif",
