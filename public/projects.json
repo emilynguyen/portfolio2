@@ -66,7 +66,7 @@
       "url": "red-envelope",
       "icon": "red-envelope/icon.min.jpg",
       "landing": "red-envelope/icon.jpg",
-      "bg": "#C9534F",
+      "bg": "#C9564F",
       "text": "#FFE8B3",
       "description": "A reimagination of the digital red envelope.",
       "summary": "<p>This past Lunar New Year, <a href='https://radiichina.com/8-jaw-dropping-statistics-from-spring-festival-2019/' target='_blank'>over 800 million red envelopes</a> were sent and received digitally. While being able to exchange envelopes virtually is convenient, existing solutions are heavily gamified, detracting from the cultural focus that physical red envelope exchanges hold. I evaluated these solutions and surveyed Lunar New Year celebrants to discover how to translate the cultural aspects of the red envelope exchange into the user experience.</p><p>This project was inspired by my own experiences as a Vietnamese American. Chúc mừng năm mới! 🧧</p><p><b>Note: work in progress.</b></p>",
