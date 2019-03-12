@@ -158,6 +158,7 @@ app.get("/:project", function(req, res) {
         projects,
         currProject,
         title: currProject.title + " | Emily Nguyen",
+        url: currProject.url,
         description: currProject.description,
         text: currProject.text,
         bg: currProject.bg
@@ -193,6 +194,7 @@ app.get("/archive/:project", function(req, res) {
         projects,
         currProject,
         title: currProject.title + " | Emily Nguyen",
+        url: currProject.url,
         description: currProject.description,
         text: currProject.text,
         bg: currProject.bg
