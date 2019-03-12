@@ -3,6 +3,7 @@
   ul,
   ol {
     @extend .mb;
+    margin-bottom: 3rem;
   }
 }
 
@@ -27,7 +28,8 @@
 
 .block {
   h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 2.7rem;
+    //font-size: 3rem;
   }
   ul {
     list-style-type: disc;
