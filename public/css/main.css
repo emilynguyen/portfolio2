@@ -1023,14 +1023,17 @@ h1 {
       letter-spacing: -0.2rem; } }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 500;
   line-height: 130%;
   letter-spacing: -0.02rem; }
 
 h3 {
-  font-size: 2.8rem;
-  line-height: 135%; }
+  font-size: 2rem;
+  line-height: 140%;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+  letter-spacing: -0.01rem; }
 
 h4 {
   font-weight: 500; }
@@ -1193,7 +1196,7 @@ footer {
   color: #ff5252;
   font-size: 70%;
   letter-spacing: 0.01rem;
-  margin-top: -0.1rem; }
+  margin-top: -0.6rem; }
 
 .btn {
   display: inline-block;
@@ -1282,6 +1285,11 @@ footer {
   #previously {
     margin-top: 2rem; } }
 
+.project-page p,
+.project-page ul,
+.project-page ol {
+  margin-bottom: 3rem; }
+
 .project-content img {
   width: 100%; }
 
@@ -1295,7 +1303,7 @@ footer {
   margin: 2rem 0; }
 
 .block h2 {
-  margin-bottom: 2rem; }
+  margin-bottom: 2.7rem; }
 
 .block ul {
   list-style-type: disc; }
