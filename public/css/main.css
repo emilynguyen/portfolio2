@@ -881,7 +881,7 @@ footer {
       min-height: calc(100vh - 8vw); } }
 
 .top {
-  min-height: 16.5rem;
+  min-height: 17.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -893,10 +893,10 @@ footer {
     width: 100%; }
   @media only screen and (min-width: 481px) and (max-width: 1023px) {
     .top {
-      min-height: 17.3rem; } }
+      min-height: 18.3rem; } }
   @media only screen and (min-width: 1024px) {
     .top {
-      min-height: 17.7rem; } }
+      min-height: 18.8rem; } }
 
 /*
  * @font-face declarations
@@ -1009,20 +1009,23 @@ h1 {
   margin-top: -1rem; */
   font-family: Graphik, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 8rem;
-  line-height: 105%;
-  letter-spacing: -0.2rem; }
+  font-size: 7.5rem;
+  line-height: 110%;
+  letter-spacing: -0.1rem; }
   @media only screen and (max-width: 480px) {
     h1 {
       font-size: 5.5rem; } }
   @media only screen and (min-width: 481px) and (max-width: 1023px) {
     h1 {
       font-size: 5.5rem; } }
+  @media only screen and (min-width: 1024px) {
+    h1 {
+      letter-spacing: -0.2rem; } }
 
 h2 {
   font-size: 2.5rem;
   font-weight: 500;
-  line-height: 140%;
+  line-height: 130%;
   letter-spacing: -0.02rem; }
 
 h3 {
@@ -1032,54 +1035,6 @@ h3 {
 h4 {
   font-weight: 500; }
 
-#title *,
-#title h1,
-#banner *,
-#banner h1 {
-  font-family: "Freight Big Pro", "Caslon", serif;
-  font-weight: 900;
-  letter-spacing: 0;
-  line-height: 100%; }
-
-@media only screen and (max-width: 480px) {
-  #title h1 {
-    padding-right: 0; } }
-
-#banner {
-  font-size: 3vw; }
-  @media only screen and (min-width: 481px) and (max-width: 1023px) {
-    #banner {
-      font-size: 4vw; } }
-  @media only screen and (min-width: 1024px) {
-    #banner {
-      font-size: 3.5vw; } }
-  @media (min-width: 1800px) {
-    #banner {
-      font-size: 6.3rem; } }
-  #banner span {
-    -webkit-animation-name: bravo;
-            animation-name: bravo;
-    -webkit-animation-duration: 1000ms;
-            animation-duration: 1000ms;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out; }
-
-@-webkit-keyframes bravo {
-  from {
-    top: 0px; }
-  to {
-    top: 10px; } }
-
-@keyframes bravo {
-  from {
-    top: 0px; }
-  to {
-    top: 10px; } }
-
 a {
   color: inherit;
   text-decoration: underline; }
@@ -1087,7 +1042,7 @@ a {
     a:hover {
       text-decoration: none; } }
 
-#name a,
+#nav-name a,
 .card a {
   text-decoration: none; }
 
@@ -1102,34 +1057,14 @@ nav a {
       font-weight: 300;
       line-height: 100%; } }
 
-#filters {
-  cursor: pointer; }
-  #filters .active {
-    cursor: default; }
-    #filters .active h4 {
-      font-style: italic;
-      font-weight: 300; }
-  @media (hover: hover) {
-    #filters li:hover h4 {
-      font-style: italic;
-      font-weight: 300; } }
-
-.sub {
-  text-transform: uppercase;
-  font-weight: 500;
-  color: #ff5252;
-  font-size: 70%;
-  letter-spacing: 0.02rem;
-  margin-top: -0.2rem; }
-
-#name {
+#nav-name {
   display: inline-block;
   position: relative;
   margin-left: 2rem; }
-  #name a {
+  #nav-name a {
     padding: 1rem 1rem 1rem 3rem;
     margin-left: -3rem; }
-    #name a::before {
+    #nav-name a::before {
       content: "";
       margin-left: -2rem;
       position: absolute;
@@ -1141,7 +1076,7 @@ nav a {
       top: 0.55rem;
       border-radius: 1.2rem; }
     @media (hover: hover) {
-      #name a:hover::before {
+      #nav-name a:hover::before {
         background-color: currentColor; } }
 
 nav {
@@ -1252,6 +1187,14 @@ footer {
       -webkit-transform: scale(0.95);
               transform: scale(0.95); } }
 
+.sub {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #ff5252;
+  font-size: 70%;
+  letter-spacing: 0.01rem;
+  margin-top: -0.1rem; }
+
 .btn {
   display: inline-block;
   padding: 2rem 2.2rem 1.7rem;
@@ -1296,10 +1239,31 @@ footer {
       -ms-user-select: none;
           user-select: none;
   position: absolute;
-  top: -4.5rem; }
+  top: -5rem;
+  font-size: 3vw; }
   @media only screen and (min-width: 481px) and (max-width: 1023px) {
     #banner {
-      top: -3.5rem; } }
+      top: -4rem;
+      font-size: 4vw; } }
+  @media only screen and (min-width: 1024px) {
+    #banner {
+      font-size: 3.5vw; } }
+  @media (min-width: 1800px) {
+    #banner {
+      font-size: 6.3rem; } }
+
+#title *,
+#title h1,
+#banner *,
+#banner h1 {
+  font-family: "Freight Big Pro", "Caslon", serif;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 100%; }
+
+@media only screen and (max-width: 480px) {
+  #title h1 {
+    padding-right: 0; } }
 
 #filters {
   display: none; }
@@ -1326,17 +1290,37 @@ footer {
     margin-bottom: 5rem;
     margin-bottom: 2rem; } }
 
+.text img {
+  display: block;
+  margin: 2rem 0; }
+
 .block h2 {
   margin-bottom: 2rem; }
 
 .block ul {
-  list-style-type: circle; }
+  list-style-type: disc; }
 
 .block ol {
   list-style-type: decimal; }
 
+.block ul ul,
+.block ul ol,
+.block ol ul,
+.block ol ol {
+  margin-top: 2rem; }
+
 .block li {
-  margin-left: 5rem; }
+  margin-left: 5rem;
+  padding-right: 1rem; }
+  .block li span {
+    position: relative;
+    left: 1rem; }
+  @media only screen and (max-width: 480px) {
+    .block li {
+      margin-left: 4rem;
+      padding-right: 0.5rem; }
+      .block li span {
+        left: 0.5rem; } }
 
 @media only screen and (max-width: 1023px) {
   .block.has-title {

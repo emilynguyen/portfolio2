@@ -18,18 +18,44 @@
   }
 }
 
+.text {
+  img {
+    display: block;
+    margin: $space 0;
+  }
+}
+
 .block {
   h2 {
     margin-bottom: 2rem;
   }
   ul {
-    list-style-type: circle;
+    list-style-type: disc;
   }
   ol {
     list-style-type: decimal;
   }
+  ul,
+  ol {
+    ul,
+    ol {
+      margin-top: $space;
+    }
+  }
   li {
     margin-left: $space-md;
+    padding-right: 1rem;
+    span {
+      position: relative;
+      left: 1rem;
+    }
+    @include grid-media-query("palm") {
+      margin-left: 4rem;
+      padding-right: 0.5rem;
+      span {
+        left: 0.5rem;
+      }
+    }
   }
   &.has-title {
     @include grid-media-query("portable") {

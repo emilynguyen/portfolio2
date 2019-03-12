@@ -24,10 +24,37 @@
   pointer-events: none;
   user-select: none;
   position: absolute;
-  top: -4.5rem;
+  top: -5rem;
+  font-size: 3vw;
   @include grid-media-query("lap") {
     //height: 28rem;
-    top: -3.5rem;
+    top: -4rem;
+    font-size: 4vw;
+  }
+  @include grid-media-query("desk") {
+    font-size: 3.5vw;
+  }
+  @media (min-width: 1800px) {
+    font-size: 6.3rem;
+  }
+}
+
+#title,
+#banner {
+  *,
+  h1 {
+    font-family: $freightBig;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 100%;
+  }
+}
+
+#title {
+  h1 {
+    @include grid-media-query("palm") {
+      padding-right: 0;
+    }
   }
 }
 
