@@ -1,4 +1,4 @@
-$dot: 1.2rem;
+$dot: 1.3rem;
 
 #nav-name {
   display: inline-block;
@@ -15,7 +15,7 @@ $dot: 1.2rem;
       height: $dot;
       border: 0.1rem solid currentColor;
       box-sizing: border-box;
-      top: 0.55rem;
+      top: 0.71rem;
       border-radius: $dot;
     }
     @include hover {

@@ -10,7 +10,7 @@
 
   <div class="grid project-content">
     <div class="grid__item desk--one-third description">
-      {{#if summary}}{{{summary}}}{{else}}{{description}}{{/if}}
+      {{#if summary}}{{{summary}}}{{else}}<p>{{description}}</p>{{/if}}
       {{#if button}}
       <a href="{{button.link}}" target="_blank" class="btn mt mb" style="--btn-bg: {{text}}; --btn-text: {{bg}}">{{button.title}}</a>
       {{/if}}

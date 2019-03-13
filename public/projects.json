@@ -127,7 +127,7 @@
         {
           "title": "Brand Design + Mockups",
           "text": true,
-          "content": "This is currently in progress; stay tuned!"
+          "content": "<p>This is currently in progress; stay tuned!</p>"
         }
       ]
     },
@@ -731,8 +731,8 @@
       "url": "personal",
       "icon": "personal/sushi.gif",
       "col": 2,
-      "text": "#222",
-      "bg": "#fff",
+      "text": "#000",
+      "bg": "#ffe4e2",
       "landing": "none",
       "description": "A collection of my personal work and illustrations.",
       "summary": "<p>A collection of my personal work and illustrations. :~)</p>",
