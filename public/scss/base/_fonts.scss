@@ -19,7 +19,7 @@
   font-weight: 300;
   font-style: italic;
 }
-*/
+
 
 @font-face {
   font-family: "Freight Big Pro";
@@ -29,7 +29,7 @@
   font-style: normal;
 }
 
-/*
+
 @font-face {
   font-family: "Freight Big Pro";
   src: url("../fonts/freightbig/FreightBigPro-Bold.woff2") format("woff2"),
@@ -37,7 +37,7 @@
   font-weight: 700;
   font-style: normal;
 }
-*/
+
 
 @font-face {
   font-family: "Graphik";
@@ -47,7 +47,7 @@
   font-style: normal;
 }
 
-/*
+
 @font-face {
   font-family: "Graphik";
   src: url("../fonts/graphik/Graphik-RegularItalic.woff2") format("woff2"),
@@ -55,11 +55,28 @@
   font-weight: 400;
   font-style: italic;
 }
-*/
+
 @font-face {
   font-family: "Graphik";
   src: url("../fonts/graphik/Graphik-Medium.woff2") format("woff2"),
     url("../fonts/graphik/Graphik-Medium.woff") format("woff");
   font-weight: 500;
+  font-style: normal;
+}
+*/
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/circular/CircularStd-Book.woff2") format("woff2"),
+    url("../fonts/circular/CircularStd-Book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/circular/CircularStd-Bold.woff2") format("woff2"),
+    url("../fonts/circular/CircularStd-Bold.woff") format("woff");
+  font-weight: 600;
   font-style: normal;
 }

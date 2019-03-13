@@ -43,6 +43,15 @@ sup,
 tt,
 var,
 b,
+h1,
+h2,
+h3,
+h4,
+.small,
+.sub,
+.btn,
+#banner *,
+#banner h1,
 u,
 i,
 center,
@@ -881,7 +890,7 @@ footer {
       min-height: calc(100vh - 8vw); } }
 
 .top {
-  min-height: 17.5rem;
+  min-height: 17.7rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -893,10 +902,10 @@ footer {
     width: 100%; }
   @media only screen and (min-width: 481px) and (max-width: 1023px) {
     .top {
-      min-height: 18.3rem; } }
+      min-height: 18.5rem; } }
   @media only screen and (min-width: 1024px) {
     .top {
-      min-height: 18.8rem; } }
+      min-height: 18.7rem; } }
 
 /*
  * @font-face declarations
@@ -918,14 +927,17 @@ footer {
   font-weight: 300;
   font-style: italic;
 }
-*/
+
+
 @font-face {
   font-family: "Freight Big Pro";
-  src: url("../fonts/freightbig/FreightBigPro-Black.woff2") format("woff2"), url("../fonts/freightbig/FreightBigPro-Black.woff") format("woff");
+  src: url("../fonts/freightbig/FreightBigPro-Black.woff2") format("woff2"),
+    url("../fonts/freightbig/FreightBigPro-Black.woff") format("woff");
   font-weight: 900;
-  font-style: normal; }
+  font-style: normal;
+}
 
-/*
+
 @font-face {
   font-family: "Freight Big Pro";
   src: url("../fonts/freightbig/FreightBigPro-Bold.woff2") format("woff2"),
@@ -933,14 +945,17 @@ footer {
   font-weight: 700;
   font-style: normal;
 }
-*/
+
+
 @font-face {
   font-family: "Graphik";
-  src: url("../fonts/graphik/Graphik-Regular.woff2") format("woff2"), url("../fonts/graphik/Graphik-Regular.woff") format("woff");
+  src: url("../fonts/graphik/Graphik-Regular.woff2") format("woff2"),
+    url("../fonts/graphik/Graphik-Regular.woff") format("woff");
   font-weight: 400;
-  font-style: normal; }
+  font-style: normal;
+}
 
-/*
+
 @font-face {
   font-family: "Graphik";
   src: url("../fonts/graphik/Graphik-RegularItalic.woff2") format("woff2"),
@@ -948,11 +963,25 @@ footer {
   font-weight: 400;
   font-style: italic;
 }
-*/
+
 @font-face {
   font-family: "Graphik";
-  src: url("../fonts/graphik/Graphik-Medium.woff2") format("woff2"), url("../fonts/graphik/Graphik-Medium.woff") format("woff");
+  src: url("../fonts/graphik/Graphik-Medium.woff2") format("woff2"),
+    url("../fonts/graphik/Graphik-Medium.woff") format("woff");
   font-weight: 500;
+  font-style: normal;
+}
+*/
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/circular/CircularStd-Book.woff2") format("woff2"), url("../fonts/circular/CircularStd-Book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/circular/CircularStd-Bold.woff2") format("woff2"), url("../fonts/circular/CircularStd-Bold.woff") format("woff");
+  font-weight: 600;
   font-style: normal; }
 
 /*
@@ -969,10 +998,10 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: Graphik, Helvetica, sans-serif;
+  font-family: "Circular", Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 170%;
+  font-size: 1.7rem;
+  line-height: 160%;
   letter-spacing: 0;
   color: #222; }
 
@@ -985,8 +1014,18 @@ body {
   font-size: 80%;
   font-style: italic; }
 
-b {
-  font-weight: 500; }
+
+b,
+h1,
+h2,
+h3,
+h4,
+.small,
+.sub,
+.btn,
+#banner *,
+#banner h1 {
+  font-weight: 600; }
 
 i {
   font-style: italic; }
@@ -1001,14 +1040,7 @@ i {
       padding-right: 12rem; } }
 
 h1 {
-  /*
-  font-family: $freightBig;
-  font-weight: 900;
-  font-size: 8rem;
-  line-height: 100%; 
-  margin-top: -1rem; */
-  font-family: Graphik, Helvetica, sans-serif;
-  font-weight: 500;
+  font-family: "Circular", Helvetica, sans-serif;
   font-size: 7.5rem;
   line-height: 110%;
   letter-spacing: -0.1rem; }
@@ -1024,19 +1056,20 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  font-weight: 500;
   line-height: 130%;
   letter-spacing: -0.02rem; }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   line-height: 140%;
   margin-bottom: 0.4rem;
-  font-weight: 500;
-  letter-spacing: -0.01rem; }
+  letter-spacing: -0.02rem; }
 
 h4 {
-  font-weight: 500; }
+  margin-bottom: 0.2rem; }
+
+.small, .sub, .btn {
+  font-size: 80%; }
 
 a {
   color: inherit;
@@ -1048,6 +1081,10 @@ a {
 #nav-name a,
 .card a {
   text-decoration: none; }
+
+.project-page p,
+.project-page li {
+  opacity: 0.75; }
 
 nav a {
   text-decoration: none; }
@@ -1071,13 +1108,13 @@ nav a {
       content: "";
       margin-left: -2rem;
       position: absolute;
-      width: 1.2rem;
-      height: 1.2rem;
+      width: 1.3rem;
+      height: 1.3rem;
       border: 0.1rem solid currentColor;
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
-      top: 0.55rem;
-      border-radius: 1.2rem; }
+      top: 0.71rem;
+      border-radius: 1.3rem; }
     @media (hover: hover) {
       #nav-name a:hover::before {
         background-color: currentColor; } }
@@ -1191,19 +1228,14 @@ footer {
               transform: scale(0.95); } }
 
 .sub {
-  text-transform: uppercase;
-  font-weight: 500;
-  color: #ff5252;
-  font-size: 70%;
-  letter-spacing: 0.01rem;
-  margin-top: -0.6rem; }
+  color: #ef675e;
+  margin-top: -0.4rem; }
 
 .btn {
   display: inline-block;
-  padding: 2rem 2.2rem 1.7rem;
+  padding: 1.7rem 2.2rem 1.7rem;
   white-space: nowrap;
   line-height: 0;
-  font-weight: 500;
   text-decoration: none;
   background-color: none;
   border: currentColor 0.1rem solid; }
@@ -1242,8 +1274,16 @@ footer {
       -ms-user-select: none;
           user-select: none;
   position: absolute;
-  top: -5rem;
+  top: -5.2rem;
   font-size: 3vw; }
+  #banner *,
+  #banner h1 {
+    letter-spacing: -0.2rem;
+    line-height: 100%; }
+    @media only screen and (min-width: 481px) and (max-width: 1023px) {
+      #banner *,
+      #banner h1 {
+        letter-spacing: -0.1rem; } }
   @media only screen and (min-width: 481px) and (max-width: 1023px) {
     #banner {
       top: -4rem;
@@ -1254,15 +1294,6 @@ footer {
   @media (min-width: 1800px) {
     #banner {
       font-size: 6.3rem; } }
-
-#title *,
-#title h1,
-#banner *,
-#banner h1 {
-  font-family: "Freight Big Pro", "Caslon", serif;
-  font-weight: 900;
-  letter-spacing: 0;
-  line-height: 100%; }
 
 @media only screen and (max-width: 480px) {
   #title h1 {
@@ -1364,9 +1395,7 @@ footer {
   height: 30vw;
   background-size: cover;
   background-image: url("../images/site/me/me.jpg");
-  background-position: center right;
-  -webkit-filter: saturate(0) contrast(125%);
-          filter: saturate(0) contrast(125%); }
+  background-position: center right; }
   @media only screen and (max-width: 1023px) {
     #about-photo {
       background-image: url("../images/site/me/me-horizontal.png"); } }

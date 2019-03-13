@@ -14,10 +14,10 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: $graphik;
+  font-family: $circular;
   font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 170%;
+  font-size: 1.7rem;
+  line-height: 160%;
   letter-spacing: 0;
   color: $black;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 b {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 i {
@@ -52,18 +52,12 @@ i {
 }
 
 h1 {
-  /*
-  font-family: $freightBig;
-  font-weight: 900;
-  font-size: 8rem;
-  line-height: 100%; 
-  margin-top: -1rem; */
-  font-family: $graphik;
-  font-weight: 500;
+  @extend b;
+  @extend .title-pr;
+  font-family: $circular;
   font-size: 7.5rem;
   line-height: 110%;
   letter-spacing: -0.1rem;
-  @extend .title-pr;
   @include grid-media-query("palm") {
     font-size: 5.5rem;
   }
@@ -76,23 +70,30 @@ h1 {
 }
 
 h2 {
-  //font-size: 2.5rem;
   font-size: 3rem;
-  font-weight: 500;
+  @extend b;
   line-height: 130%;
   letter-spacing: -0.02rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   line-height: 140%;
   margin-bottom: 0.4rem;
-  font-weight: 500;
-  letter-spacing: -0.01rem;
+  @extend b;
+  letter-spacing: -0.02rem;
 }
 
 h4 {
-  font-weight: 500;
+  @extend b;
+  margin-bottom: 0.2rem;
+}
+
+.small {
+  font-size: 80%;
+  //letter-spacing: 0.01rem;
+  //text-transform: uppercase;
+  @extend b;
 }
 
 a {
@@ -107,6 +108,13 @@ a {
 .card {
   a {
     text-decoration: none;
+  }
+}
+
+.project-page {
+  p,
+  li {
+    opacity: 0.75;
   }
 }
 

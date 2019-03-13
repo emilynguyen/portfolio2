@@ -53,7 +53,7 @@ footer {
 
 .top {
   @extend .mb-md;
-  min-height: 17.5rem;
+  min-height: 17.7rem;
   display: flex;
   width: 100%;
   align-items: flex-end;
@@ -61,9 +61,9 @@ footer {
     width: 100%;
   }
   @include grid-media-query("lap") {
-    min-height: 18.3rem;
+    min-height: 18.5rem;
   }
   @include grid-media-query("desk") {
-    min-height: 18.8rem;
+    min-height: 18.7rem;
   }
 }
