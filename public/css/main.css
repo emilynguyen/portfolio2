@@ -1085,10 +1085,6 @@ a {
 .card a {
   text-decoration: none; }
 
-.project-page p,
-.project-page li {
-  opacity: 0.75; }
-
 nav a {
   text-decoration: none; }
   nav a.active {
@@ -1322,7 +1318,8 @@ footer {
 .project-page p,
 .project-page ul,
 .project-page ol {
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  color: var(--text); }
 
 .project-content img {
   width: 100%; }

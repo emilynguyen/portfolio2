@@ -73,6 +73,29 @@ hbs.registerHelper("get_darker", function(a, b, opts) {
   return getLightness(color1) < getLightness(color2) ? color1 : color2;
 });
 
+hbs.registerHelper("lower_opacity", function(a, opts) {
+  var color = a;
+
+  function getRGBA(hex) {
+    // If 3 digits, convert to 6
+    if (hex.length === 4) {
+      hex += hex.substring(1, 4);
+    }
+
+    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+
+    var r = parseInt(result[1], 16);
+    var g = parseInt(result[2], 16);
+    var b = parseInt(result[3], 16);
+    var a = 0.75;
+
+    var rgba = "rgba(" + r + ", " + g + ", " + b + ", " + a + ")";
+    return rgba;
+  }
+
+  return getRGBA(color);
+});
+
 var app = express();
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
