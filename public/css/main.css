@@ -1003,7 +1003,7 @@ body {
   font-size: 1.7rem;
   line-height: 160%;
   letter-spacing: 0;
-  color: #222; }
+  color: #333; }
 
 .blockquote {
   font-size: 2rem;
@@ -1043,7 +1043,7 @@ h1 {
   font-family: "Circular", Helvetica, sans-serif;
   font-size: 7.5rem;
   line-height: 110%;
-  letter-spacing: -0.1rem; }
+  letter-spacing: -0.15rem; }
   @media only screen and (max-width: 480px) {
     h1 {
       font-size: 5.5rem; } }
