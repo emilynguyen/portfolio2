@@ -7,7 +7,7 @@
       "icon": "salesforce/sf-west.jpg",
       "landing": "salesforce/logo.png",
       "bg": "#fcfdff",
-      "text": "#16325c",
+      "text": "#212b3a",
       "description": "Supported an upcoming learning platform.",
       "summary": "<p>This past summer, I completed my first internship! I had the pleasure of joining Salesforce’s Global Enablement — Tech Ops team as a Visual Experience Design Intern.</p><p>Tech Ops built internal technology that helped streamline workplace operations and was working on an online learning platform when I came on board. I supported this project by leading usability testing sessions and utilizing my insights to assist in a UI redesign. I also created brand collateral for this product and provided additional visual communication needs.</p>",
       "details": [
@@ -263,7 +263,7 @@
       "url": "designatucsd",
       "icon": "designatucsd/icon-pink.png",
       "landing": "designatucsd/icon.png",
-      "text": "#555",
+      "text": "#444",
       "bg": "#fcfcfc",
       "col": "1",
       "description": "I am a student leader at the largest pre-professional design community on campus.",
