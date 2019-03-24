@@ -1,24 +1,25 @@
-<div id="yellow">
+<div id="home-page">
+  <canvas id="yellow">
 
-</div>
+  </canvas>
 
-<div class="top">
-  <div class="grid lap-hide desk-hide">
-    <div id="title" class="grid__item">
-      <h1>Emily is a designer + developer.</h1>
+  <div class="top">
+    <div class="grid lap-hide desk-hide">
+      <div id="title" class="grid__item">
+        <h1>Emily is a designer + developer.</h1>
+      </div>
     </div>
-  </div>
 
 
 
-  <div class="grid mb-md palm-hide">
-    <div id="banner-container" class="grid__item ">
-      <div id="banner">Emily is a designer + developer.</div>
+    <div class="grid mb-md palm-hide">
+      <div id="banner-container" class="grid__item ">
+        <div id="banner">Emily is a designer + developer.</div>
+      </div>
     </div>
-  </div>
 
 
-  <!--
+    <!--
   <div class="grid palm-hide">
     <div id="currently" class="grid__item desk--one-half">
       <h4 class="mb-xs">Currently</h4>
@@ -31,10 +32,10 @@
       <p>Visual + Brand Designer — <a href="https://designatucsd.org/" target="_blank">Design at UCSD</a></p>
     </div>
   </div>  -->
-</div>
+  </div>
 
 
-<!--
+  <!--
 <div class="top">
   <div class="grid ">
     <div id="title" class="grid__item">
@@ -47,7 +48,7 @@
 
 
 
-<!--
+  <!--
 
 <div class="grid">
   <div class="grid__item">
@@ -55,58 +56,15 @@
   </div>
 </div> -->
 
-<div class="grid" id="work-block">
-  <!-- Desk 3 col gallery -->
-  <div class="grid__item desk--one-third portable-hide">
+  <div class="grid" id="work-block">
     {{#each gallery}}
-    {{#if_mod 3 0}}
-    {{> card}}
-    {{/if_mod}}
+    <div class="grid__item one-whole desk--one-third lap--one-half">
+      {{> card}}
+    </div>
     {{/each}}
   </div>
-  <div class="grid__item desk--one-third portable-hide">
-    {{#each gallery}}
-    {{#if_mod 3 1}}
-    {{> card}}
-    {{/if_mod}}
-    {{/each}}
-  </div>
-  <div class="grid__item desk--one-third portable-hide">
-    {{#each gallery}}
-    {{#if_mod 3 2}}
-    {{> card}}
-    {{/if_mod}}
-    {{/each}}
-  </div>
-  <!-- Portable 2 col gallery -->
-  <div class="grid__item lap--one-half palm-hide desk-hide">
-    {{#each gallery}}
 
-    {{#if_mod 2 0}}
-    {{> card}}
-    {{/if_mod}}
-
-    {{/each}}
-  </div>
-  <div class="grid__item lap--one-half palm-hide desk-hide">
-    {{#each gallery}}
-
-    {{#if_mod 2 1}}
-    {{> card}}
-    {{/if_mod}}
-
-    {{/each}}
-  </div>
-  <!-- Palm 1 col gallery -->
-  <div class="grid__item lap-hide desk-hide">
-    {{#each gallery}}
-
-    {{> card}}
-
-    {{/each}}
-  </div>
-</div>
-
+</div> <!-- /#home-page -->
 
 
 <script>
@@ -158,4 +116,41 @@
   docify(wavytext);
   anim();
 
+</script>
+
+<!--
+<script src="/scripts/granim.min.js"></script> -->
+<script>
+
+  /*
+  var granimInstance = new Granim({
+  element: '#yellow',
+  direction: 'left-right',
+  isPausedWhenNotInView: true,
+  states: {
+  "default-state": {
+  gradients: [
+  ['#22E787', '#22E787'],
+  ['#3D5AFE', '#3D5AFE'],
+  ['#F85C5C', '#F85C5C'],
+  ['#7B56FF', '#7B56FF']
+  ]
+  }
+  }
+  });
+
+  var granimInstance = new Granim({
+  element: '#yellow',
+  direction: 'left-right',
+  isPausedWhenNotInView: true,
+  states: {
+  "default-state": {
+  gradients: [
+  ['#EAA7A3', '#E27975'],
+  ['#E27975', '#8485D8'],
+  ['#8485D8', '#EAA7A3']
+  ]
+  }
+  }
+  }); */
 </script>

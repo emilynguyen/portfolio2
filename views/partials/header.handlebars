@@ -1,27 +1,29 @@
-<div class="grid mb">
-  <div class=" grid__item one-half">
-    <h4 id="nav-name"><a href="/"><span class="palm-hide">Emily Nguyen</span><span style="user-select: none;">&nbsp;</span></a></h4>
-  </div>
-  <div class="grid__item one-half">
-    <nav>
-      <ul>
-        <li class="horizontal">
-          <h4><a href="/" {{#if_eq url ""}} class="active" {{/if_eq}}>Work</a></h4>
-        </li>
-        <li class="horizontal">
-          <h4><a href="/about" {{#if_eq url "about"}} class="active" {{/if_eq}}>About</a></h4>
-        </li>
-        <li class="horizontal line">
-          <div class="bar"></div>
-        </li>
+<header>
+  <div class="grid mb">
+    <div class=" grid__item one-half">
+      <h4 id="nav-name"><a href="/"><span class="palm-hide">Emily Nguyen</span><span style="user-select: none;">&nbsp;</span></a></h4>
+    </div>
+    <div class="grid__item one-half">
+      <nav>
+        <ul>
+          <li class="horizontal">
+            <h4><a href="/" {{#if_eq url ""}} class="active" {{/if_eq}}>Work</a></h4>
+          </li>
+          <li class="horizontal">
+            <h4><a href="/about" {{#if_eq url "about"}} class="active" {{/if_eq}}>About</a></h4>
+          </li>
+          <li class="horizontal line">
+            <div class="bar"></div>
+          </li>
 
-        <li class="vertical">
-          <h4><a href="/archive" {{#if_eq url "archive"}} class="active" {{/if_eq}}>Archive</a></h4>
-        </li>
-        <li class="vertical">
-          <h4><a href="https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view" target="_blank">Resume</a></h4>
-        </li>
-      </ul>
-    </nav>
+          <li class="vertical">
+            <h4><a href="/archive" {{#if_eq url "archive"}} class="active" {{/if_eq}}>Archive</a></h4>
+          </li>
+          <li class="vertical">
+            <h4><a href="https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view" target="_blank">Resume</a></h4>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
-</div>
+</header>

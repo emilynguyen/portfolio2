@@ -41,7 +41,7 @@
   <title>{{title}}</title>
 </head>
 
-<body style="background-color: {{bg}} !important; color: {{text}} !important">
+<body {{#if home}} id="home-page" {{/if}} style="background-color: {{bg}} !important; color: {{text}} !important">
   <div class="body-wrapper">
     <div id="content">
       {{> header }}

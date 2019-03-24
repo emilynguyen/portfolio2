@@ -12,3 +12,9 @@
     transform: scale(0.95);
   }
 }
+
+@mixin huge {
+  @media (min-width: $huge) {
+    @content;
+  }
+}
