@@ -121,7 +121,8 @@ app.get("/", function(req, res) {
     title: "Emily Nguyen | Designer + Developer",
     url: "",
     description:
-      "Designer + developer + HCI student that loves crafting visual experiences and seeing them through to implementation."
+      "Designer + developer + HCI student that loves crafting visual experiences and seeing them through to implementation.",
+    home: true
   });
 });
 

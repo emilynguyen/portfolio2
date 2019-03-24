@@ -1,9 +1,16 @@
+#home-page header,
+#banner-container {
+  //color: white;
+}
+
 #yellow {
-  //background-color: $yellow;
+  //background-color: #212121;
+  //background-color: #f76157;
+  // background-color: $red;
   width: 100vw;
   position: absolute;
   top: 0;
-  height: 43rem;
+  height: 45rem;
   left: 0;
   z-index: -9999;
 }
@@ -58,7 +65,7 @@
 
 #work-block {
   @include grid-media-query("desk") {
-    //margin-top: 15rem;
+    // margin-top: 22rem;
   }
   img {
     // filter: saturate(105%) brightness(95%);

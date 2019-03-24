@@ -11,7 +11,7 @@ body {
   @include grid-media-query("palm") {
     width: 85%;
   }
-  @media (min-width: $huge) {
+  @mixin huge {
     max-width: 140rem;
   }
 }
