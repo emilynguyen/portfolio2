@@ -1,60 +1,4 @@
 <div id="home-page">
-  <canvas id="yellow">
-
-  </canvas>
-
-  <div class="top">
-    <div class="grid lap-hide desk-hide">
-      <div id="title" class="grid__item">
-        <h1>Emily is a designer + developer.</h1>
-      </div>
-    </div>
-
-
-
-    <div class="grid mb-md palm-hide">
-      <div id="banner-container" class="grid__item ">
-        <div id="banner">Emily is a designer + developer.</div>
-      </div>
-    </div>
-
-
-    <!--
-  <div class="grid palm-hide">
-    <div id="currently" class="grid__item desk--one-half">
-      <h4 class="mb-xs">Currently</h4>
-      <p>Webmaster — <a href="http://asgraphicstudio.ucsd.edu/" target="_blank">A.S. Graphic Studio</a></p>
-      <p>Web Developer — <a href="https://designatucsd.org/" target="_blank">Design at UCSD</a></p>
-    </div>
-    <div id="previously" class="grid__item desk--one-half pr-lg">
-      <h4 class="mb-xs">Previously</h4>
-      <p>Visual Experience Design Intern — <a href="https://www.salesforce.com/" target="_blank">Salesforce</a></p>
-      <p>Visual + Brand Designer — <a href="https://designatucsd.org/" target="_blank">Design at UCSD</a></p>
-    </div>
-  </div>  -->
-  </div>
-
-
-  <!--
-<div class="top">
-  <div class="grid ">
-    <div id="title" class="grid__item">
-      <h1>Emily is a designer + developer.</h1>
-    </div>
-  </div>
-</div>
-
--->
-
-
-
-  <!--
-
-<div class="grid">
-  <div class="grid__item">
-    <p class="mb-md ">Previously at <a href="https://www.salesforce.com/" target="_blank">Salesforce</a>.</p>
-  </div>
-</div> -->
 
   <div class="grid" id="work-block">
     {{#each gallery}}
@@ -63,9 +7,7 @@
     </div>
     {{/each}}
   </div>
-
 </div> <!-- /#home-page -->
-
 
 <script>
   let waves = 6;
@@ -118,39 +60,57 @@
 
 </script>
 
-<!--
-<script src="/scripts/granim.min.js"></script> -->
-<script>
 
+<script src="/scripts/granim.min.js"></script>
+<script>
   /*
   var granimInstance = new Granim({
-  element: '#yellow',
-  direction: 'left-right',
-  isPausedWhenNotInView: true,
-  states: {
-  "default-state": {
-  gradients: [
-  ['#22E787', '#22E787'],
-  ['#3D5AFE', '#3D5AFE'],
-  ['#F85C5C', '#F85C5C'],
-  ['#7B56FF', '#7B56FF']
-  ]
-  }
-  }
+    element: '#yellow',
+    direction: 'left-right',
+    isPausedWhenNotInView: true,
+    states: {
+      "default-state": {
+        gradients: [
+          ['#EF675E', '#EF675E'],
+          ['#5E94EF', '#5E94EF'],
+          ['#5EEFD2', '#5EEFD2'],
+          ['#5E65EF', '#5E65EF']
+        ]
+      }
+    }
+  });
+*/
+
+  /*
+    var granimInstance = new Granim({
+      element: '#yellow',
+      direction: 'left-right',
+      isPausedWhenNotInView: true,
+      states: {
+        "default-state": {
+          gradients: [
+  
+            ['#F7DDDB', '#F7DDDB'],
+            ['#cfe3f1', '#cfe3f1'],
+            ['#cbc9e8', '#cbc9e8']
+          ]
+        }
+      }
+    }); */
+  var granimInstance = new Granim({
+    element: '#bg',
+    direction: 'left-right',
+    isPausedWhenNotInView: true,
+    states: {
+      "default-state": {
+        gradients: [
+          ['#fcd1d6', '#F7DDDB'],
+          ['#F7DDDB', '#cfe3f1'],
+          ['#cfe3f1', '#cbc9e8'],
+          ['#cbc9e8', '#fcd1d6']
+        ]
+      }
+    }
   });
 
-  var granimInstance = new Granim({
-  element: '#yellow',
-  direction: 'left-right',
-  isPausedWhenNotInView: true,
-  states: {
-  "default-state": {
-  gradients: [
-  ['#EAA7A3', '#E27975'],
-  ['#E27975', '#8485D8'],
-  ['#8485D8', '#EAA7A3']
-  ]
-  }
-  }
-  }); */
 </script>

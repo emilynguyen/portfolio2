@@ -43,8 +43,17 @@
 
 <body {{#if home}} id="home-page" {{/if}} style="background-color: {{bg}} !important; color: {{text}} !important">
   <div class="body-wrapper">
+    <div id="header-container">
+      {{#if home}}
+      <canvas id="bg">
+
+      </canvas>
+      {{/if}}
+      <div id="header">
+        {{> header }}
+      </div>
+    </div>
     <div id="content">
-      {{> header }}
 
       {{{body}}}
 

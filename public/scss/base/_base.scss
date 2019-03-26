@@ -4,7 +4,7 @@ body {
 
 .layout {
   //max-width: 1024px;
-  max-width: 1400px;
+  max-width: 140rem;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -18,7 +18,7 @@ body {
 
 #content {
   @extend .layout;
-  padding-top: 6%;
+  //padding-top: 6%;
   padding-bottom: $space-md;
   @include grid-media-query("lap") {
     padding-bottom: $space-lg;
@@ -57,6 +57,8 @@ footer {
   display: flex;
   width: 100%;
   align-items: flex-end;
+  //position: absolute;
+  //top: $top-bottom-space;
   .grid {
     width: 100%;
   }

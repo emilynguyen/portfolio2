@@ -4,7 +4,7 @@
       "title": "Salesforce Design Internship",
       "sub": "UX Research + Visual",
       "url": "salesforce",
-      "icon": "salesforce/sf-west.jpg",
+      "icon": "salesforce/icon.png",
       "landing": "salesforce/logo.png",
       "bg": "#fcfdff",
       "text": "#212b3a",
@@ -57,365 +57,6 @@
           "title": "Takeaways",
           "text": true,
           "content": "<ul><li><span>Actively seek out opportunities and make the most of your internship. My main task was to conduct usability testing, but through coffee chats I connected with designers outside of my team that invited me to do additional work. Because of this, I was able to make deeper contributions, meet more mentors, and explore interests outside of what I was hired for.</span></li><li><span>Continue to grow outside of work. Being from Southern California, San Francisco was a refreshing shift in perspective that helped me understand the world just a little bit better.</span></li></ul><p>Thank you to Gyo, Megan, Matt, and the lovely interns I met along the way.</p>"
-        }
-      ]
-    },
-    {
-      "title": "Digitizing the Red Envelope Experience",
-      "sub": "Product",
-      "url": "red-envelope",
-      "icon": "red-envelope/icon.min.jpg",
-      "landing": "red-envelope/icon.jpg",
-      "bg": "#C9564F",
-      "text": "#FFF0CD",
-      "description": "A reimagination of the digital red envelope.",
-      "summary": "<p>This past Lunar New Year, <a href='https://radiichina.com/8-jaw-dropping-statistics-from-spring-festival-2019/' target='_blank'>over 800 million red envelopes</a> were sent and received digitally. While being able to exchange envelopes virtually is convenient, existing solutions are heavily gamified, detracting from the cultural focus that physical red envelope exchanges hold. I evaluated these solutions and surveyed Lunar New Year celebrants to discover how to translate the cultural aspects of the red envelope exchange into the user experience.</p><p>This project was inspired by my own experiences as a Vietnamese American. Chúc mừng năm mới! 🧧</p><p><b>Note: work in progress.</b></p>",
-      "details": [
-        {
-          "title": "Key Skills",
-          "content": "Product design, brand + visual design"
-        },
-        {
-          "title": "Date",
-          "content": "Mar 2019 – Present"
-        }
-      ],
-      "blocks": [
-        {
-          "title": "What is a Red Envelope?",
-          "text": true,
-          "content": "<p>Red envelopes are small, decorative packets that are gifted to friends and family during special occasions and holidays. The color red symbolizes good luck in Chinese and other East Asian cultures. The envelopes usually contain clean, crisp cash and are most commonly presented on Lunar New Year by elders to the younger.</p>"
-        },
-        {
-          "title": "Problem",
-          "text": true,
-          "content": "<p>Unfortunately, not everyone can spend the holidays with their friends and family. Online payment services make it easy to send money, but the cultural significance of the red envelope is lost. <i>Lunar New Year celebrants need a way to digitally exchange red envelopes so that they can celebrate their culture with loved ones who are far away.</i></p>"
-        },
-        {
-          "title": "Current Solution",
-          "text": true,
-          "content": "<p>In 2014, the massive Chinese messaging and mobile payment platform WeChat introduced a feature that allows users to send and receive virtual red envelopes. Several competing tech companies began rolling out similar functions. While these services solve our problem at a glance, I observed several major pain points of WeChat’s red packet feature:</p><h3>1. Too big of an emphasis placed on cash-based incentives.</h3><p>Cash incentives and gamification have caused virtual red envelope services to be met with criticism for turning the tradition into a monetary venture. Examples include:</p><ul><li><span>Users can send packets to groups and randomize the amounts in each envelope. In stark contrast, the amount of money in physical red envelopes is often chosen intentionally based on cultural beliefs.<img src='/images/red-envelope/wechat-random.png' alt='' style='max-width: 25rem;'></span></li><li><span>In 2014, a popular Chinese New Year special <a href='https://www.techinasia.com/wechat-1-billion-red-envelopes-chinese-new-year-2015' target='_blank'>used WeChat’s red packets to give away over $80 million</a> to its viewers. Users would shake their phones for a chance to win red envelopes.</span></li></ul><p>Additionally, the gamification of the red envelope exchange has turned it into an impersonal process, encouraging users to receive money from strangers. This makes users more <a href='https://www.techinasia.com/red-envelope-scams-on-wechat' target='_blank'>suspect to fraud</a>. Incidents have been reported of users falling for phishing attacks while “receiving” envelopes, hosting fake giveaways to gain followers, and more.</p><h3>2. Too similar to other mobile payment services.</h3><p>Underneath the themed interface, WeChat’s red packet feature functions exactly like Venmo, Cash App, and co. Users enter the amount they’d like to send, add a message to go along with it, and then confirm. The red + gold design and inclusion of envelope illustrations are the only aspects of the service that translate culture.<img src='/images/red-envelope/wechat-screens.png' alt='WeChat screens'></p><h3>3. Can only exchange between WeChat users.</h3><p>WeChat and its competitors have a predominantly Chinese user base, leaving a gap in the market. <a href='https://www.similarweb.com/blog/mobile-messaging-app-map-2018' target='_blank'>For 89% of the world, WhatsApp and Facebook Messenger are the most popular messaging apps</a>.</p>"
-        },
-        {
-          "title": "New Solution",
-          "text": true,
-          "content": "<p>For my app concept, my main goal was to preserve the culture held in the physical red envelope experience. I planned to minimize the amount of cash incentives + gamification involved, introduce new features to help translate traditions, and craft a unique brand identity. Since my solution is a standalone app, it would be able to serve users coming from multiple messaging platforms.</p>"
-        },
-        {
-          "title": "Research",
-          "text": true,
-          "content": "<p>To discover how to bring more cultural elements into the app's experience, I interviewed 8 (fun fact: this is the Chinese lucky number) celebrants who partook in red envelope exchange. Participants were aged between 19 and 58, and my questions focused on the role red envelopes played in their celebrations. Main takeaways:</p><h3>All said receiving/gifting an envelope involved a customary expression of gratitude.</h3><ul><li><span>Wishing the other person luck + prosperity</span></li><li><span>Giving a personal message</span></li><li><span>Bowing your head</span></li></ul><h3>7 said they’ve spent a New Years away from home.</h3><p>6 of these 7 have had envelopes left for them to open when they returned home or had left envelopes for others.<br>4 of these 7 have used a payment service to send/receive money in place of an envelope.</p><h3>7 felt that the red envelopes were an important part of their celebration.</h3><p></p><h3>4 felt that the red envelopes were more significant than the cash inside.</h3><p>“I think [red envelopes] are really symbolic of prosperity and respect.”</p><p>From my research, it was clear that users valued the red envelope itself. I kept this in mind moving forward.</p>"
-        },
-        {
-          "title": "Research",
-          "hide": true,
-          "text": true,
-          "content": "<p>To discover how to bring more cultural elements into the app's experience, I interviewed 8 (fun fact: this is the Chinese lucky number) celebrants who partook in red envelope exchange. Participants were aged between 19 and 58, and my questions focused on the role red envelopes played in their celebrations. Main takeaways:</p><ol><li><span>All said receiving/gifting an envelope involved a customary expression of gratitude. Namely:<ul><li><span>Wishing the other person luck + prosperity</span></li><li><span>Giving a personal message</span></li><li><span>Bowing your head</span></li></ul></span></li><li><span>7 said they’ve spent a New Years away from home.<ul><li><span>6 of these 7 have had envelopes left for them to open when they returned home or had left envelopes for others.</span></li><li><span>4 of these 7 have used a payment service to send/receive money in place of an envelope.</span></li></ul></span></li><li><span>7 felt that the red envelopes were an important part of their celebration.</span></li><li><span>4 felt that the red envelopes were more significant than the cash inside.<ul><li><span>“I think [red envelopes] are really symbolic of prosperity and respect.”</span></li></ul></span></li></ol><p>From my research, it was clear that users valued the red envelope itself. I kept this in mind moving forward.</p>"
-        },
-        {
-          "title": "Main Features",
-          "text": true,
-          "content": "<p>Using my research insights, I decided on the following main features:</p><ul><li>Add ability to send photo/video messages — Allows users to send more personalized messages and show actions (e.g. bowing).</li><li>Remove ability to send envelopes to groups — 1:1 transactions closer simulate the in-person experience.</li><li>Custom envelopes — Allows senders to choose from a variety of red envelope designs or scan a physical envelope.</li><li>Interactive envelope prep — Users will have to slide on-screen cash into an on-screen envelope. This process for gifting money further simulates the in-person experience while hindering ingenuine transactions.</li></ul>"
-        },
-        {
-          "title": "User Flow",
-          "image": true,
-          "content": "red-envelope/flow.png",
-          "captionBefore": "<p>To visualize the interactions within my product, I created a flow diagram based off popular mobile payment services. I've omitted sign up/log in and other standard screens to focus on the new features.</p>",
-          "captionAfter": "<p class='small-text'><a href='/images/red-envelope/flow.svg' target='_blank'>View full-sized  flow diagram</a>.</p>"
-        },
-        {
-          "title": "Brand Design + Mockups",
-          "text": true,
-          "content": "<p>This is currently in progress; stay tuned!</p>"
-        }
-      ]
-    },
-    {
-      "title": "Daily UI",
-      "sub": "UI Design",
-      "url": "dailyui",
-      "icon": "daily-ui/icon.jpg",
-      "landing": "none",
-      "bg": "#222",
-      "text": "#fff",
-      "description": "I recently started the Daily UI Challenge to get my creativity flowing and challenge myself to explore different visual styles.",
-      "col": "1",
-      "details": [
-        {
-          "title": "Tools",
-          "content": "Sketch"
-        },
-        {
-          "title": "Date",
-          "content": "Feb 2019 – Present"
-        }
-      ],
-      "blocks": [
-        {
-          "image": true,
-          "alt": "Daily UI #002 — Credit Card Checkout",
-          "content": "daily-ui/daily-ui_2.jpg",
-          "noPaddingMd": true,
-          "captionAfter": "<p><i>Daily UI #002 — Credit Card Checkout</i></p>"
-        },
-        {
-          "image": true,
-          "alt": "Daily UI #001 — Sign Up",
-          "content": "daily-ui/daily-ui_1.jpg",
-          "captionAfter": "<p><i>Daily UI #001 — Sign Up</i>. An app that lets you send virtual red envelopes. 🌸</p>"
-        }
-      ]
-    },
-    {
-      "title": "Google Design Exercise",
-      "private": true,
-      "url": "google",
-      "bg": "#F9F9F9",
-      "text": "#333150",
-      "icon": "google/icon.png",
-      "description": "Google Design Exercise 2019",
-      "summary": "<p><b>Option 2 — </b>Design an experience for students to discover orientation events and craft a visual system to accommodate different types of events: sports, music, visual arts, social groups, and volunteering events. Provide high-fidelity mocks for searching, browsing, and viewing the details for these different events.</p>",
-      "details": [
-        {
-          "title": "Tools",
-          "content": "Sketch"
-        },
-        {
-          "title": "Date",
-          "content": "Jan 15–22, 2019"
-        },
-        {
-          "title": "Resources",
-          "content": "<a href=\"https://drive.google.com/open?id=1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud\" target=\"_blank\">Design Process (PDF)</a><br><a href=\"https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY\" target=\"_blank\">Final Mockups</a>"
-        }
-      ],
-      "blocks": [
-        {
-          "title": "Design Process",
-          "pdf": true,
-          "content": "https://drive.google.com/file/d/1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud/preview"
-        },
-        {
-          "title": "Final Product",
-          "image": true,
-          "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
-          "content": "google/mocks/home.png",
-          "captionBefore": "<b>Home / browse</b>"
-        },
-        {
-          "image": true,
-          "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
-          "content": "google/mocks/home-filtered.png",
-          "captionBefore": "<p><b>Home / browse</b> — <i>Sports</i> and <i>Volunteering</i> events filtered out</p>"
-        },
-        {
-          "image": true,
-          "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
-          "content": "google/mocks/details.png",
-          "captionBefore": "<b>Event details</b>"
-        }
-      ]
-    },
-    {
-      "title": "Stride Career Fair",
-      "sub": "Front-End",
-      "url": "stride",
-      "icon": "stride/runner.gif",
-      "landing": "stride/stride.gif",
-      "bg": "#FCECB9",
-      "text": "#222",
-      "description": "Developed a website for a design-centric career fair hosted by Design at UCSD.",
-      "col": "2",
-      "summary": "<p>As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.</p><p>In collaboration with one of our visual designers, I developed the event website. I also assisted our graphic studio in creating visual collateral.</p>",
-      "button": {
-        "title": "Visit Site",
-        "link": "https://stride.designatucsd.org/"
-      },
-      "details": [
-        {
-          "title": "Key Role",
-          "content": "Lead developer"
-        },
-        {
-          "title": "Date",
-          "content": "Aug – Nov 2018"
-        },
-        {
-          "title": "Partner",
-          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> ♥&#xFE0E; — creative director, illustrator, animator"
-        },
-        {
-          "title": "Tools + Skills",
-          "content": "HTML, CSS, Sass, Jekyll"
-        },
-
-        {
-          "title": "Resources",
-          "content": "<a href=\"https://github.com/designatucsd/stride\" target=\"_blank\">Github repo</a>"
-        }
-      ],
-      "sections": []
-    },
-    {
-      "title": "Design at UCSD",
-      "sub": "Visual + Brand + Web Dev",
-      "url": "designatucsd",
-      "icon": "designatucsd/icon-pink.png",
-      "landing": "none",
-      "text": "#444",
-      "bg": "#fcfcfc",
-      "col": "1",
-      "description": "I am a student leader at the largest pre-professional design community on campus.",
-      "summary": "<p>Since November 2017, I’ve been a student leader at the undergraduate design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual and brand designer up until June 2018, where I designed marketing collateral, co-lead visual design workshops, and evolved brand identity. I now spearhead all our web development projects as our web developer.</p>",
-      "details": [
-        {
-          "title": "Roles",
-          "wide": true,
-          "content": "Web Developer (June 2018 – Present)<br>Visual and Brand Designer (Nov 2017 – June 2018)"
-        }
-      ],
-      "blocks": [
-        {
-          "title": "Our Mission",
-          "blockquote": true,
-          "content": "To establish an open community of aspiring designers, to inspire creative confidence, and to ease students into industry."
-        },
-        {
-          "title": "Web Projects",
-          "image": true,
-          "content": "designatucsd/web.png",
-          "captionBefore": "<p>As our web developer, I collaborate with our visual design team to create websites for events, workshops, and email campaigns. Two of the biggest projects I've worked on so far are <a href='/stride'>Stride Career Fair</a> and <a href='/frontiers'>Design Frontiers: Intuit</a>.</p>"
-        },
-        {
-          "title": "Highlighted Graphics",
-          "image": true,
-          "content": "designatucsd/visual.png",
-          "alt": "Figma + Invision Workshop event graphic"
-        },
-        {
-          "title": "Workshops",
-          "pdf": true,
-          "content": "https://drive.google.com/file/d/1HwQxDAd1A_c5rm5USoLbufpbU_1WzC20/preview",
-          "captionBefore": "<h4>Illustrator Workshop (Winter 2018)</h4>"
-        },
-        {
-          "pdf": true,
-          "content": "https://drive.google.com/file/d/1NrHveXnywVB2vrzyGBQGHxpgDfUC4bb3/preview",
-          "captionBefore": "<h4>Color + Typography Workshop (Spring 2018)</h4>"
-        },
-        {
-          "pdf": true,
-          "content": "https://drive.google.com/file/d/1J9QJcaHDMmxp_cQ1ngxLMGF0DFVvsnD_/preview",
-          "captionBefore": "<h4>Front-End Workshop: Bootstrap (Winter 2019)</h4>"
-        },
-        {
-          "title": "Soft Rebrand",
-          "text": true,
-          "content": "<p>During my term as a visual and brand designer, my co and I introduced a new, illustration-heavy creative direction that refreshed the face of Design at UCSD.</p><h4>Problem</h4><p>While crafting graphics for the org, we quickly noted a few flaws in our visual system that inspired us to rethink the branding guidelines surrounding our marketing visuals. The existing system for creating event banners involved placing color overlays over photos, with each color representing a different event type:</p><ul><li><span>Yellow — industry events</span></li><li><span>Red — social events</span></li><li><span>Green — design skill workshops</span></li><li><span>Blue — data + research workshops</span></li></ul></p>"
-        },
-        {
-          "image": true,
-          "content": "designatucsd/banners-before.png",
-          "captionAfter": "<p>Major issues we ran into included:</p><p><ul><li><span>Visual style was outdated and limited creativity. Design at UCSD is a community of young, eager designers, and we wanted a fun and contemporary look to reflect this.</span></li><li><span>Our event type distribution was too unbalanced to justify using a color-based system. Over the course of the 2017–2018 school year, Design at UCSD held 13 design skill workshops, 9 social events, 6 industry events, and only 1 data + research workshop.</span></li><li><span>Banners were not unique to each event. Social media is fast-paced, and more interest could be generated by using eye-catching visuals.</span></li></ul></p>"
-        },
-        {
-          "image": true,
-          "content": "designatucsd/banners-after.png",
-          "captionBefore": "<h4>Solution</h4><p>To reflect current design trends and craft a unique identity for each event, we decided to retire the color-based system and start creating dedicated illustrations for each banner. We used a flat design style and incorporated derivations of our original 4 colors to stay on-brand.</p>",
-          "captionAfter": "<p class='small-text'>Shout-out to <a href='https://nancybui.co/' target='_blank'>Nancy</a>, <a href='http://laurenchoy.com' target='_blank'>Lauren</a>, and <a href='https://lucylouxu.com/' target='_blank'>Lucy</a>.</p>"
-        },
-        {
-          "image": true,
-          "content": "designatucsd/fb-before-after.png",
-          "alt": "Side-by-side comparison of a Facebook event from Jan 2018 and the same event from Jan 2019, showing an increase in interest",
-          "captionBefore": "<p>Our soft rebrand was received positively by our leadership board and Design at UCSD saw an increase in online member engagement.</p>"
-        }
-      ]
-    },
-    {
-      "title": "A.S. Graphic Studio",
-      "archive": true,
-      "url": "asgs",
-      "sub": "Visual + Front-End",
-      "icon": "asgs/asgs.gif",
-      "darkenIcon": true,
-      "bg": "#f7f7f7",
-      "text": "#555",
-      "description": "Redesigned and developed a new website for Associated Students Graphic Studio.",
-      "summary": "<p>In between my assigned projects as Associated Students Graphic Studio's new webmaster, I took the initiative to revamp their 9-year-old website. I gave the site a visual refresh that closer aligned with our fun brand and used modern web development practices to improve content management.</p>",
-      "button": {
-        "title": "Visit Site",
-        "link": "http://asgraphicstudio.ucsd.edu"
-      },
-      "details": [
-        {
-          "title": "Role",
-          "content": "Lead designer and developer"
-        },
-        {
-          "title": "Tools + Skills",
-          "content": "Sketch, HTML, CSS, Sass, Jekyll"
-        },
-        {
-          "title": "Date",
-          "content": "Dec 2018 – Jan 2019"
-        },
-        {
-          "title": "Resources",
-          "content": "<a href=\"https://github.com/emilynguyen/asgs\" target=\"_blank\">Github repo</a><br><a href=\"http://asgraphicstudio.ucsd.edu/archive_010719/\" target=\"_blank\">Old site</a>"
-        }
-      ],
-      "blocks": [
-        {
-          "title": "Old Site",
-          "image": true,
-          "link": "http://asgraphicstudio.ucsd.edu/archive_010719/",
-          "content": "asgs/old-asgs.png"
-        },
-        {
-          "title": "Process",
-          "text": true,
-          "content": "<p>Coming soon!</p>"
-        }
-      ]
-    },
-    {
-      "title": "Design Frontiers: Intuit",
-      "sub": "Front-End",
-      "archive": true,
-      "url": "frontiers",
-      "icon": "designatucsd/frontiers-fa18.min.jpg",
-      "landing": "designatucsd/frontiers-fa18.jpg",
-      "darkenIcon": true,
-      "bg": "#e1f0f7",
-      "text": "#055c84",
-      "description": "Developed a website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
-      "summary": "<p>Design Frontiers is a series of design sprints hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that showcases the application of design thinking to fields beyond traditional design, such as <a href=\"https://medium.com/design-at-ucsd/students-explore-designing-for-education-at-inaugural-design-frontiers-b06f909553c7\" target=\"_blank\">education</a> and <a href=\"https://frontierssp18.designatucsd.org/\" target=\"_blank\">healthcare</a>. For our Fall 2018 event, we partnered with Intuit to allow students to tackle real product design challenges alongside leading designers in the financial software space.</p><p>As Design at UCSD's web developer, I collaborated with our visual designers to build the website and also facilitated the design sprint the day of.</p>",
-      "button": {
-        "title": "Visit Site",
-        "link": "https://frontiers.designatucsd.org/"
-      },
-      "details": [
-        {
-          "title": "Role",
-          "content": "Lead developer"
-        },
-        {
-          "title": "Date",
-          "content": "Aug – Nov 2018"
-        },
-        {
-          "title": "Tools + Skills",
-          "content": "HTML, CSS, Sass, Gulp"
-        },
-        {
-          "title": "Teammates",
-          "content": "Nancy Bui, Lauren Choy, Lucy Xu"
-        },
-        {
-          "title": "Resources",
-          "content": "<a href=\"https://github.com/designatucsd/frontiersfa18\" target=\"_blank\">Github repo</a>"
         }
       ]
     },
@@ -560,6 +201,280 @@
           "title": "Final Design",
           "text": true,
           "content": "<p>View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> to check out our final design!</p>"
+        }
+      ]
+    },
+    {
+      "title": "Digitizing the Red Envelope Experience",
+      "sub": "Product",
+      "url": "red-envelope",
+      "icon": "red-envelope/icon.min.jpg",
+      "landing": "red-envelope/icon.jpg",
+      "bg": "#C9564F",
+      "text": "#FFF0CD",
+      "description": "A reimagination of the digital red envelope.",
+      "summary": "<p>This past Lunar New Year, <a href='https://radiichina.com/8-jaw-dropping-statistics-from-spring-festival-2019/' target='_blank'>over 800 million red envelopes</a> were sent and received digitally. While being able to exchange envelopes virtually is convenient, existing solutions are heavily gamified, detracting from the cultural focus that physical red envelope exchanges hold. I evaluated these solutions and surveyed Lunar New Year celebrants to discover how to translate the cultural aspects of the red envelope exchange into the user experience.</p><p>This project was inspired by my own experiences as a Vietnamese American. Chúc mừng năm mới! 🧧</p><p><b>Note: work in progress.</b></p>",
+      "details": [
+        {
+          "title": "Key Skills",
+          "content": "Product design, brand + visual design"
+        },
+        {
+          "title": "Date",
+          "content": "Mar 2019 – Present"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "What is a Red Envelope?",
+          "text": true,
+          "content": "<p>Red envelopes are small, decorative packets that are gifted to friends and family during special occasions and holidays. The color red symbolizes good luck in Chinese and other East Asian cultures. The envelopes usually contain clean, crisp cash and are most commonly presented on Lunar New Year by elders to the younger.</p>"
+        },
+        {
+          "title": "Problem",
+          "text": true,
+          "content": "<p>Unfortunately, not everyone can spend the holidays with their friends and family. Online payment services make it easy to send money, but the cultural significance of the red envelope is lost. <i>Lunar New Year celebrants need a way to digitally exchange red envelopes so that they can celebrate their culture with loved ones who are far away.</i></p>"
+        },
+        {
+          "title": "Current Solution",
+          "text": true,
+          "content": "<p>In 2014, the massive Chinese messaging and mobile payment platform WeChat introduced a feature that allows users to send and receive virtual red envelopes. Several competing tech companies began rolling out similar functions. While these services solve our problem at a glance, I observed several major pain points of WeChat’s red packet feature:</p><h3>1. Too big of an emphasis placed on cash-based incentives.</h3><p>Cash incentives and gamification have caused virtual red envelope services to be met with criticism for turning the tradition into a monetary venture. Examples include:</p><ul><li><span>Users can send packets to groups and randomize the amounts in each envelope. In stark contrast, the amount of money in physical red envelopes is often chosen intentionally based on cultural beliefs.<img src='/images/red-envelope/wechat-random.png' alt='' style='max-width: 25rem;'></span></li><li><span>In 2014, a popular Chinese New Year special <a href='https://www.techinasia.com/wechat-1-billion-red-envelopes-chinese-new-year-2015' target='_blank'>used WeChat’s red packets to give away over $80 million</a> to its viewers. Users would shake their phones for a chance to win red envelopes.</span></li></ul><p>Additionally, the gamification of the red envelope exchange has turned it into an impersonal process, encouraging users to receive money from strangers. This makes users more <a href='https://www.techinasia.com/red-envelope-scams-on-wechat' target='_blank'>suspect to fraud</a>. Incidents have been reported of users falling for phishing attacks while “receiving” envelopes, hosting fake giveaways to gain followers, and more.</p><h3>2. Too similar to other mobile payment services.</h3><p>Underneath the themed interface, WeChat’s red packet feature functions exactly like Venmo, Cash App, and co. Users enter the amount they’d like to send, add a message to go along with it, and then confirm. The red + gold design and inclusion of envelope illustrations are the only aspects of the service that translate culture.<img src='/images/red-envelope/wechat-screens.png' alt='WeChat screens'></p><h3>3. Can only exchange between WeChat users.</h3><p>WeChat and its competitors have a predominantly Chinese user base, leaving a gap in the market. <a href='https://www.similarweb.com/blog/mobile-messaging-app-map-2018' target='_blank'>For 89% of the world, WhatsApp and Facebook Messenger are the most popular messaging apps</a>.</p>"
+        },
+        {
+          "title": "New Solution",
+          "text": true,
+          "content": "<p>For my app concept, my main goal was to preserve the culture held in the physical red envelope experience. I planned to minimize the amount of cash incentives + gamification involved, introduce new features to help translate traditions, and craft a unique brand identity. Since my solution is a standalone app, it would be able to serve users coming from multiple messaging platforms.</p>"
+        },
+        {
+          "title": "Research",
+          "text": true,
+          "content": "<p>To discover how to bring more cultural elements into the app's experience, I interviewed 8 (fun fact: this is the Chinese lucky number) celebrants who partook in red envelope exchange. Participants were aged between 19 and 58, and my questions focused on the role red envelopes played in their celebrations. Main takeaways:</p><h3>All said receiving/gifting an envelope involved a customary expression of gratitude.</h3><ul><li><span>Wishing the other person luck + prosperity</span></li><li><span>Giving a personal message</span></li><li><span>Bowing your head</span></li></ul><h3>7 said they’ve spent a New Years away from home.</h3><p>6 of these 7 have had envelopes left for them to open when they returned home or had left envelopes for others.<br>4 of these 7 have used a payment service to send/receive money in place of an envelope.</p><h3>7 felt that the red envelopes were an important part of their celebration.</h3><p></p><h3>4 felt that the red envelopes were more significant than the cash inside.</h3><p>“I think [red envelopes] are really symbolic of prosperity and respect.”</p><p>From my research, it was clear that users valued the red envelope itself. I kept this in mind moving forward.</p>"
+        },
+        {
+          "title": "Research",
+          "hide": true,
+          "text": true,
+          "content": "<p>To discover how to bring more cultural elements into the app's experience, I interviewed 8 (fun fact: this is the Chinese lucky number) celebrants who partook in red envelope exchange. Participants were aged between 19 and 58, and my questions focused on the role red envelopes played in their celebrations. Main takeaways:</p><ol><li><span>All said receiving/gifting an envelope involved a customary expression of gratitude. Namely:<ul><li><span>Wishing the other person luck + prosperity</span></li><li><span>Giving a personal message</span></li><li><span>Bowing your head</span></li></ul></span></li><li><span>7 said they’ve spent a New Years away from home.<ul><li><span>6 of these 7 have had envelopes left for them to open when they returned home or had left envelopes for others.</span></li><li><span>4 of these 7 have used a payment service to send/receive money in place of an envelope.</span></li></ul></span></li><li><span>7 felt that the red envelopes were an important part of their celebration.</span></li><li><span>4 felt that the red envelopes were more significant than the cash inside.<ul><li><span>“I think [red envelopes] are really symbolic of prosperity and respect.”</span></li></ul></span></li></ol><p>From my research, it was clear that users valued the red envelope itself. I kept this in mind moving forward.</p>"
+        },
+        {
+          "title": "Main Features",
+          "text": true,
+          "content": "<p>Using my research insights, I decided on the following main features:</p><ul><li>Add ability to send photo/video messages — Allows users to send more personalized messages and show actions (e.g. bowing).</li><li>Remove ability to send envelopes to groups — 1:1 transactions closer simulate the in-person experience.</li><li>Custom envelopes — Allows senders to choose from a variety of red envelope designs or scan a physical envelope.</li><li>Interactive envelope prep — Users will have to slide on-screen cash into an on-screen envelope. This process for gifting money further simulates the in-person experience while hindering ingenuine transactions.</li></ul>"
+        },
+        {
+          "title": "User Flow",
+          "image": true,
+          "content": "red-envelope/flow.png",
+          "captionBefore": "<p>To visualize the interactions within my product, I created a flow diagram based off popular mobile payment services. I've omitted sign up/log in and other standard screens to focus on the new features.</p>",
+          "captionAfter": "<p class='small-text'><a href='/images/red-envelope/flow.svg' target='_blank'>View full-sized  flow diagram</a>.</p>"
+        },
+        {
+          "title": "Brand Design + Mockups",
+          "text": true,
+          "content": "<p>This is currently in progress; stay tuned!</p>"
+        }
+      ]
+    },
+    {
+      "title": "Stride Career Fair",
+      "sub": "Front-End",
+      "url": "stride",
+      "icon": "stride/runner.gif",
+      "landing": "stride/stride.gif",
+      "bg": "#FCECB9",
+      "text": "#222",
+      "description": "Developed a website for a design-centric career fair hosted by Design at UCSD.",
+      "col": "2",
+      "summary": "<p>As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.</p><p>In collaboration with one of our visual designers, I developed the event website. I also assisted our graphic studio in creating visual collateral.</p>",
+      "button": {
+        "title": "Visit Site",
+        "link": "https://stride.designatucsd.org/"
+      },
+      "details": [
+        {
+          "title": "Key Role",
+          "content": "Lead developer"
+        },
+        {
+          "title": "Date",
+          "content": "Aug – Nov 2018"
+        },
+        {
+          "title": "Partner",
+          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> ♥&#xFE0E; — creative director, illustrator, animator"
+        },
+        {
+          "title": "Tools + Skills",
+          "content": "HTML, CSS, Sass, Jekyll"
+        },
+
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/designatucsd/stride\" target=\"_blank\">Github repo</a>"
+        }
+      ],
+      "sections": []
+    },
+    {
+      "title": "Design at UCSD",
+      "sub": "Visual + Brand + Web Dev",
+      "url": "designatucsd",
+      "icon": "designatucsd/icon-pink.png",
+      "landing": "none",
+      "text": "#444",
+      "bg": "#fcfcfc",
+      "col": "1",
+      "description": "I am a student leader at the largest pre-professional design community on campus.",
+      "summary": "<p>Since November 2017, I’ve been a student leader at the undergraduate design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual and brand designer up until June 2018, where I designed marketing collateral, co-lead visual design workshops, and evolved brand identity. I now spearhead all our web development projects as our web developer.</p>",
+      "details": [
+        {
+          "title": "Roles",
+          "wide": true,
+          "content": "Web Developer (June 2018 – Present)<br>Visual and Brand Designer (Nov 2017 – June 2018)"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Our Mission",
+          "blockquote": true,
+          "content": "To establish an open community of aspiring designers, to inspire creative confidence, and to ease students into industry."
+        },
+        {
+          "title": "Web Projects",
+          "image": true,
+          "content": "designatucsd/web.png",
+          "captionBefore": "<p>As our web developer, I collaborate with our visual design team to create websites for events, workshops, and email campaigns. Two of the biggest projects I've worked on so far are <a href='/stride'>Stride Career Fair</a> and <a href='/frontiers'>Design Frontiers: Intuit</a>.</p>"
+        },
+        {
+          "title": "Highlighted Graphics",
+          "image": true,
+          "content": "designatucsd/visual.png",
+          "alt": "Figma + Invision Workshop event graphic"
+        },
+        {
+          "title": "Workshops",
+          "pdf": true,
+          "content": "https://drive.google.com/file/d/1HwQxDAd1A_c5rm5USoLbufpbU_1WzC20/preview",
+          "captionBefore": "<h4>Illustrator Workshop (Winter 2018)</h4>"
+        },
+        {
+          "pdf": true,
+          "content": "https://drive.google.com/file/d/1NrHveXnywVB2vrzyGBQGHxpgDfUC4bb3/preview",
+          "captionBefore": "<h4>Color + Typography Workshop (Spring 2018)</h4>"
+        },
+        {
+          "pdf": true,
+          "content": "https://drive.google.com/file/d/1J9QJcaHDMmxp_cQ1ngxLMGF0DFVvsnD_/preview",
+          "captionBefore": "<h4>Front-End Workshop: Bootstrap (Winter 2019)</h4>"
+        },
+        {
+          "title": "Soft Rebrand",
+          "text": true,
+          "content": "<p>During my term as a visual and brand designer, my co and I introduced a new, illustration-heavy creative direction that refreshed the face of Design at UCSD.</p><h4>Problem</h4><p>While crafting graphics for the org, we quickly noted a few flaws in our visual system that inspired us to rethink the branding guidelines surrounding our marketing visuals. The existing system for creating event banners involved placing color overlays over photos, with each color representing a different event type:</p><ul><li><span>Yellow — industry events</span></li><li><span>Red — social events</span></li><li><span>Green — design skill workshops</span></li><li><span>Blue — data + research workshops</span></li></ul></p>"
+        },
+        {
+          "image": true,
+          "content": "designatucsd/banners-before.png",
+          "captionAfter": "<p>Major issues we ran into included:</p><p><ul><li><span>Visual style was outdated and limited creativity. Design at UCSD is a community of young, eager designers, and we wanted a fun and contemporary look to reflect this.</span></li><li><span>Our event type distribution was too unbalanced to justify using a color-based system. Over the course of the 2017–2018 school year, Design at UCSD held 13 design skill workshops, 9 social events, 6 industry events, and only 1 data + research workshop.</span></li><li><span>Banners were not unique to each event. Social media is fast-paced, and more interest could be generated by using eye-catching visuals.</span></li></ul></p>"
+        },
+        {
+          "image": true,
+          "content": "designatucsd/banners-after.png",
+          "captionBefore": "<h4>Solution</h4><p>To reflect current design trends and craft a unique identity for each event, we decided to retire the color-based system and start creating dedicated illustrations for each banner. We used a flat design style and incorporated derivations of our original 4 colors to stay on-brand.</p>",
+          "captionAfter": "<p class='small-text'>Shout-out to <a href='https://nancybui.co/' target='_blank'>Nancy</a>, <a href='http://laurenchoy.com' target='_blank'>Lauren</a>, and <a href='https://lucylouxu.com/' target='_blank'>Lucy</a>.</p>"
+        },
+        {
+          "image": true,
+          "content": "designatucsd/fb-before-after.png",
+          "alt": "Side-by-side comparison of a Facebook event from Jan 2018 and the same event from Jan 2019, showing an increase in interest",
+          "captionBefore": "<p>Our soft rebrand was received positively by our leadership board and Design at UCSD saw an increase in online member engagement.</p>"
+        }
+      ]
+    },
+
+    {
+      "title": "A.S. Graphic Studio",
+      "archive": true,
+      "url": "asgs",
+      "sub": "Visual + Front-End",
+      "icon": "asgs/asgs.gif",
+      "darkenIcon": true,
+      "bg": "#f7f7f7",
+      "text": "#555",
+      "description": "Redesigned and developed a new website for Associated Students Graphic Studio.",
+      "summary": "<p>In between my assigned projects as Associated Students Graphic Studio's new webmaster, I took the initiative to revamp their 9-year-old website. I gave the site a visual refresh that closer aligned with our fun brand and used modern web development practices to improve content management.</p>",
+      "button": {
+        "title": "Visit Site",
+        "link": "http://asgraphicstudio.ucsd.edu"
+      },
+      "details": [
+        {
+          "title": "Role",
+          "content": "Lead designer and developer"
+        },
+        {
+          "title": "Tools + Skills",
+          "content": "Sketch, HTML, CSS, Sass, Jekyll"
+        },
+        {
+          "title": "Date",
+          "content": "Dec 2018 – Jan 2019"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/emilynguyen/asgs\" target=\"_blank\">Github repo</a><br><a href=\"http://asgraphicstudio.ucsd.edu/archive_010719/\" target=\"_blank\">Old site</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Old Site",
+          "image": true,
+          "link": "http://asgraphicstudio.ucsd.edu/archive_010719/",
+          "content": "asgs/old-asgs.png"
+        },
+        {
+          "title": "Process",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        }
+      ]
+    },
+    {
+      "title": "Design Frontiers: Intuit",
+      "sub": "Front-End",
+      "archive": true,
+      "url": "frontiers",
+      "icon": "designatucsd/frontiers-fa18.min.jpg",
+      "landing": "designatucsd/frontiers-fa18.jpg",
+      "darkenIcon": true,
+      "bg": "#e1f0f7",
+      "text": "#055c84",
+      "description": "Developed a website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
+      "summary": "<p>Design Frontiers is a series of design sprints hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that showcases the application of design thinking to fields beyond traditional design, such as <a href=\"https://medium.com/design-at-ucsd/students-explore-designing-for-education-at-inaugural-design-frontiers-b06f909553c7\" target=\"_blank\">education</a> and <a href=\"https://frontierssp18.designatucsd.org/\" target=\"_blank\">healthcare</a>. For our Fall 2018 event, we partnered with Intuit to allow students to tackle real product design challenges alongside leading designers in the financial software space.</p><p>As Design at UCSD's web developer, I collaborated with our visual designers to build the website and also facilitated the design sprint the day of.</p>",
+      "button": {
+        "title": "Visit Site",
+        "link": "https://frontiers.designatucsd.org/"
+      },
+      "details": [
+        {
+          "title": "Role",
+          "content": "Lead developer"
+        },
+        {
+          "title": "Date",
+          "content": "Aug – Nov 2018"
+        },
+        {
+          "title": "Tools + Skills",
+          "content": "HTML, CSS, Sass, Gulp"
+        },
+        {
+          "title": "Teammates",
+          "content": "Nancy Bui, Lauren Choy, Lucy Xu"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/designatucsd/frontiersfa18\" target=\"_blank\">Github repo</a>"
         }
       ]
     },
@@ -725,7 +640,88 @@
         }
       ]
     },
-
+    {
+      "title": "Daily UI",
+      "sub": "UI Design",
+      "url": "dailyui",
+      "icon": "daily-ui/icon.jpg",
+      "landing": "none",
+      "bg": "#222",
+      "text": "#fff",
+      "description": "I recently started the Daily UI Challenge to get my creativity flowing and challenge myself to explore different visual styles.",
+      "col": "1",
+      "details": [
+        {
+          "title": "Tools",
+          "content": "Sketch"
+        }
+      ],
+      "blocks": [
+        {
+          "image": true,
+          "alt": "Daily UI #002 — Credit Card Checkout",
+          "content": "daily-ui/daily-ui_2.jpg",
+          "noPaddingMd": true,
+          "captionAfter": "<p><i>Daily UI #002 — Credit Card Checkout</i></p>"
+        },
+        {
+          "image": true,
+          "alt": "Daily UI #001 — Sign Up",
+          "content": "daily-ui/daily-ui_1.jpg",
+          "captionAfter": "<p><i>Daily UI #001 — Sign Up</i>. An app that lets you send virtual red envelopes. 🌸</p>"
+        }
+      ]
+    },
+    {
+      "title": "Google Design Exercise",
+      "private": true,
+      "url": "google",
+      "bg": "#F9F9F9",
+      "text": "#333150",
+      "icon": "google/icon.png",
+      "description": "Google Design Exercise 2019",
+      "summary": "<p><b>Option 2 — </b>Design an experience for students to discover orientation events and craft a visual system to accommodate different types of events: sports, music, visual arts, social groups, and volunteering events. Provide high-fidelity mocks for searching, browsing, and viewing the details for these different events.</p>",
+      "details": [
+        {
+          "title": "Tools",
+          "content": "Sketch"
+        },
+        {
+          "title": "Date",
+          "content": "Jan 15–22, 2019"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://drive.google.com/open?id=1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud\" target=\"_blank\">Design Process (PDF)</a><br><a href=\"https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY\" target=\"_blank\">Final Mockups</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Design Process",
+          "pdf": true,
+          "content": "https://drive.google.com/file/d/1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud/preview"
+        },
+        {
+          "title": "Final Product",
+          "image": true,
+          "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
+          "content": "google/mocks/home.png",
+          "captionBefore": "<b>Home / browse</b>"
+        },
+        {
+          "image": true,
+          "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
+          "content": "google/mocks/home-filtered.png",
+          "captionBefore": "<p><b>Home / browse</b> — <i>Sports</i> and <i>Volunteering</i> events filtered out</p>"
+        },
+        {
+          "image": true,
+          "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
+          "content": "google/mocks/details.png",
+          "captionBefore": "<b>Event details</b>"
+        }
+      ]
+    },
     {
       "title": "Personal Work",
       "sub": "Illustration",
