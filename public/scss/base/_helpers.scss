@@ -38,7 +38,7 @@
   $name: nth($breakpoint, 1);
   @include grid-media-query($name) {
     .#{$name}-hide {
-      display: none;
+      display: none !important;
     }
   }
 }

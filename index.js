@@ -130,6 +130,7 @@ app.get("/about", function(req, res) {
   res.render("about", {
     projects,
     title: "About | Emily Nguyen",
+    h1: "About",
     url: "about",
     description:
       "Designer + developer + HCI student that loves crafting visual experiences and seeing them through to implementation."
@@ -150,6 +151,7 @@ app.get("/archive", function(req, res) {
   res.render("archive", {
     archive,
     title: "Archive | Emily Nguyen",
+    h1: "Archive",
     url: "archive",
     description: ""
   });
@@ -182,6 +184,7 @@ app.get("/:project", function(req, res) {
         projects,
         currProject,
         title: currProject.title + " | Emily Nguyen",
+        h1: currProject.title,
         url: currProject.url,
         description: currProject.description,
         text: currProject.text,
@@ -218,6 +221,7 @@ app.get("/archive/:project", function(req, res) {
         projects,
         currProject,
         title: currProject.title + " | Emily Nguyen",
+        h1: currProject.title,
         url: currProject.url,
         description: currProject.description,
         text: currProject.text,

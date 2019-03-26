@@ -26,6 +26,11 @@ $dot: 1.3rem;
   }
 }
 
+#nav-name,
+nav {
+  z-index: 9999;
+}
+
 nav {
   text-align: right;
   position: relative;
@@ -71,6 +76,48 @@ nav {
     padding: 0.8rem 1.5rem;
     @include hover {
       //padding: 0.4rem 1.7rem 0.8rem;
+    }
+  }
+}
+
+#header-container {
+  position: relative;
+}
+
+#header {
+  @extend .layout;
+  position: relative;
+  padding-top: $top-bottom-space;
+  padding-bottom: $top-bottom-space;
+  padding-bottom: 3.4rem;
+  @include grid-media-query(lap-up) {
+    padding-bottom: $space-md;
+  }
+
+  .h1-container {
+    height: 100%;
+    padding-right: $space-md; // adjust for breakpoints
+    display: flex;
+    align-items: flex-end;
+    //  background-color: blue;
+    min-height: 17.5rem;
+    @include grid-media-query(lap) {
+      min-height: 18rem;
+    }
+    @include grid-media-query(desk) {
+      min-height: 18.5rem;
+    }
+  }
+  h1 {
+    padding-bottom: 0;
+  }
+}
+
+#home-page {
+  #header {
+    padding-bottom: $top-bottom-space;
+    @include grid-media-query(lap-up) {
+      height: 25rem;
     }
   }
 }
