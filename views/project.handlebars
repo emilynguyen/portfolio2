@@ -58,6 +58,21 @@
         {{{captionAfter}}}
         {{/if}}
 
+        {{#if palette}}
+        <h2>{{title}}</h2>
+        <div class="swatches">
+          {{#each content}}
+          <div class="swatch" style="background-color: {{this}}">
+            <div class="hex">
+              {{this}}
+
+            </div>
+          </div>
+
+          {{/each}}
+        </div>
+        {{/if}}
+
       </div>
       {{/unless}}
       {{/each}}

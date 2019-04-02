@@ -576,8 +576,8 @@
         {
           "title": "",
           "palette": true,
-          "style": "background-color: #D5E0BA;",
-          "swatches": ["#FFFAED", "#FEA765", "#E89556", "#A6C5B5", "#7CA18E"]
+          "hide": true,
+          "content": ["#FFFAED", "#FEA765", "#E89556", "#A6C5B5", "#7CA18E"]
         },
         {
           "title": "Final Design + Demo",
@@ -845,6 +845,71 @@
         {
           "title": "Date",
           "content": "Jan – Mar 2018"
+        }
+      ]
+    },
+    {
+      "title": "How Far I'll Go",
+      "sub": "Graphic Design",
+      "archive": true,
+      "url": "how-far-ill-go",
+      "filters": ["visual"],
+      "icon": "how-far-ill-go/shirt-folded.min.jpg",
+      "landing": "how-far-ill-go/shirt-folded.jpg",
+      "bg": "#fff6ea",
+      "text": "#54514f",
+      "description": "Shirt design for UCSD Kaibigang Pilipin@’s 27th annual high school conference.",
+      "summary": "<p>Themed after the animated Disney film <i>Moana</i>, UCSD Kaibigang Pilipin@'s 27th Annual High School Conference was held February 3rd, 2018. These high school conferences are coordinated in collaboration with the Student Promoted Access Center for Education and Service and aim to empower high school students to pursue higher education. This year, I was invited to create a shirt design for the event.</p>",
+      "details": [
+        {
+          "title": "Role",
+          "content": "Graphic designer"
+        },
+        {
+          "title": "Tools",
+          "content": "Illustrator"
+        },
+        {
+          "title": "Date",
+          "content": "Oct – Nov 2017"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Mood Board",
+          "image": true,
+          "content": "how-far-ill-go/mood-board.png"
+        },
+        {
+          "title": "Color Palette",
+          "hide": true,
+          "palette": true,
+          "content": ["#f4e4cc", "#9baaa7", "#c98b72"]
+        },
+        {
+          "title": "Graphic",
+          "image": true,
+          "content": "how-far-ill-go/graphic.png"
+        },
+        {
+          "title": "Shirt Design",
+          "image": true,
+          "content": "how-far-ill-go/shirt-front.jpg"
+        },
+        {
+          "image": true,
+          "content": "how-far-ill-go/shirt-back.jpg"
+        },
+        {
+          "image": true,
+          "content": "how-far-ill-go/fred-courtney.jpg",
+          "alt": "Facilitators sharing a bagel"
+        },
+        {
+          "image": true,
+          "content": "how-far-ill-go/funcies.jpg",
+          "alt": "Group of facilitators",
+          "captionAfter": "<p class=\"small-text\">Photos by <a href=\"https://www.flickr.com/photos/ucsdkp/sets/72157665721439808/\" target=\"_blank\">Jasmine Atanacio</a>.</p>"
         }
       ]
     }
