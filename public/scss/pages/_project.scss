@@ -84,3 +84,30 @@
 .image-link {
   @include shrink-on-hover;
 }
+
+.swatches {
+  //  display: flex;
+  //justify-content: space-around;
+  width: 100%;
+}
+.swatch {
+  display: inline-block;
+  //border: 1px solid var(--text);
+  width: 100%;
+  height: 15rem;
+
+  text-align: center;
+  text-transform: uppercase;
+  &:not(:last-child) {
+    margin-bottom: $space;
+  }
+  .hex {
+    //  font-size: 200%;
+    //font-weight: bold;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
