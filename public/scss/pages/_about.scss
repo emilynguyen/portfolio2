@@ -13,6 +13,14 @@
   }
 }
 
+#about-tagline {
+  padding-right: $space;
+  white-space: nowrap;
+  @media screen and (max-width: 750px) {
+    white-space: initial;
+  }
+}
+
 .bio {
   p {
     // Margin under p

@@ -60,17 +60,21 @@
 
         {{#if palette}}
         <h2>{{title}}</h2>
-        <div class="swatches">
+        {{{captionBefore}}}
+        <div class="swatches" style="grid-template-columns: {{#each content}}1fr {{/each}};">
           {{#each content}}
-          <div class="swatch" style="background-color: {{this}}">
-            <div class="hex">
-              {{this}}
-
+          <div class="swatch" style="--border-color: {{text}}">
+            <div class="wrapper">
+              <div class="sample" style="background-color: {{this}}">
+              </div>
+              <div class="hex">
+                {{this}}
+              </div>
             </div>
           </div>
-
           {{/each}}
         </div>
+        {{{captionAfter}}}
         {{/if}}
 
       </div>
