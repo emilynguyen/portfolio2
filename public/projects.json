@@ -206,7 +206,7 @@
     },
     {
       "title": "Digitizing the Red Envelope Experience",
-      "sub": "Product",
+      "sub": "Product Design",
       "url": "red-envelope",
       "icon": "red-envelope/icon.min.jpg",
       "landing": "red-envelope/icon.jpg",
@@ -478,7 +478,7 @@
     },
     {
       "title": "Burow",
-      "sub": "Brand Design",
+      "sub": "Brand + Web Design",
       "url": "burow",
       "icon": "burow/burow.gif",
       "text": "#deefe3",
@@ -639,6 +639,78 @@
         {
           "pdf": true,
           "content": "https://drive.google.com/file/d/1EGBNRfvD9YCt9tTR7EI3WdgvU34ewOki/preview"
+        }
+      ]
+    },
+    {
+      "title": "How Far I'll Go",
+      "sub": "Graphic Design",
+      "url": "how-far-ill-go",
+      "filters": ["visual"],
+      "icon": "how-far-ill-go/shirt-folded.min.jpg",
+      "landing": "how-far-ill-go/shirt-folded.jpg",
+      "bg": "#fff6ea",
+      "text": "#54514f",
+      "description": "Shirt design for UCSD Kaibigang Pilipin@’s 27th annual high school conference.",
+      "summary": "<p>Themed after the animated Disney film <i>Moana</i>, UCSD Kaibigang Pilipin@'s 27th Annual High School Conference was held February 3rd, 2018. These high school conferences are coordinated in collaboration with the Student Promoted Access Center for Education and Service and aim to empower high school students to pursue higher education. This year, I was invited to create a shirt design for the event.</p>",
+      "details": [
+        {
+          "title": "Role",
+          "content": "Graphic designer"
+        },
+        {
+          "title": "Tools",
+          "content": "Illustrator"
+        },
+        {
+          "title": "Date",
+          "content": "Oct – Nov 2017"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Mood Board",
+          "image": true,
+          "content": "how-far-ill-go/mood-board.png"
+        },
+        {
+          "title": "Color Palette",
+          "captionBefore": "<p>By slightly softening Moana's playful beach color palette, I added an air of maturity that reflected the event's goals of growth and personal development.</p>",
+          "palette": true,
+          "content": ["#f4e4cc", "#9baaa7", "#c98b72"]
+        },
+        {
+          "title": "Marketing Collateral",
+          "image": true,
+          "alt": "Square graphic",
+          "content": "how-far-ill-go/graphic.png"
+        },
+        {
+          "image": true,
+          "alt": "Facebook banner",
+          "content": "how-far-ill-go/banner.png"
+        },
+        {
+          "title": "Shirt Design",
+          "image": true,
+          "alt": "Front of t-shirt design",
+          "content": "how-far-ill-go/shirt-front.jpg"
+        },
+        {
+          "image": true,
+          "hide": true,
+          "content": "how-far-ill-go/shirt-back.jpg"
+        },
+        {
+          "image": true,
+          "content": "how-far-ill-go/fred-courtney.jpg",
+          "alt": "Facilitators sharing a bagel"
+        },
+        {
+          "image": true,
+          "content": "how-far-ill-go/funcies.jpg",
+          "alt": "Group of facilitators",
+          "captionAfter": "<p class=\"small-text\">Photos by <a href=\"https://www.flickr.com/photos/ucsdkp/sets/72157665721439808/\" target=\"_blank\">Jasmine Atanacio</a>.</p>"
         }
       ]
     },
@@ -847,72 +919,6 @@
         {
           "title": "Date",
           "content": "Jan – Mar 2018"
-        }
-      ]
-    },
-    {
-      "title": "How Far I'll Go",
-      "sub": "Graphic Design",
-      "archive": true,
-      "url": "how-far-ill-go",
-      "filters": ["visual"],
-      "icon": "how-far-ill-go/shirt-folded.min.jpg",
-      "landing": "how-far-ill-go/shirt-folded.jpg",
-      "bg": "#fff6ea",
-      "text": "#54514f",
-      "description": "Shirt design for UCSD Kaibigang Pilipin@’s 27th annual high school conference.",
-      "summary": "<p>Themed after the animated Disney film <i>Moana</i>, UCSD Kaibigang Pilipin@'s 27th Annual High School Conference was held February 3rd, 2018. These high school conferences are coordinated in collaboration with the Student Promoted Access Center for Education and Service and aim to empower high school students to pursue higher education. This year, I was invited to create a shirt design for the event.</p>",
-      "details": [
-        {
-          "title": "Role",
-          "content": "Graphic designer"
-        },
-        {
-          "title": "Tools",
-          "content": "Illustrator"
-        },
-        {
-          "title": "Date",
-          "content": "Oct – Nov 2017"
-        }
-      ],
-      "blocks": [
-        {
-          "title": "Mood Board",
-          "image": true,
-          "content": "how-far-ill-go/mood-board.png"
-        },
-        {
-          "title": "Color Palette",
-          "hide": true,
-          "palette": true,
-          "content": ["#f4e4cc", "#9baaa7", "#c98b72"]
-        },
-        {
-          "title": "Graphic",
-          "image": true,
-          "content": "how-far-ill-go/graphic.png"
-        },
-        {
-          "title": "Shirt Design",
-          "image": true,
-          "content": "how-far-ill-go/shirt-front.jpg"
-        },
-        {
-          "image": true,
-          "hide": true,
-          "content": "how-far-ill-go/shirt-back.jpg"
-        },
-        {
-          "image": true,
-          "content": "how-far-ill-go/fred-courtney.jpg",
-          "alt": "Facilitators sharing a bagel"
-        },
-        {
-          "image": true,
-          "content": "how-far-ill-go/funcies.jpg",
-          "alt": "Group of facilitators",
-          "captionAfter": "<p class=\"small-text\">Photos by <a href=\"https://www.flickr.com/photos/ucsdkp/sets/72157665721439808/\" target=\"_blank\">Jasmine Atanacio</a>.</p>"
         }
       ]
     }

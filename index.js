@@ -130,7 +130,7 @@ app.get("/about", function(req, res) {
   res.render("about", {
     projects,
     title: "About | Emily Nguyen",
-    h1: "About",
+    h1: "<span id='about-tagline'>Poor vision, good eye <wbr>for design</span>",
     url: "about",
     description:
       "Designer + developer + HCI student that loves crafting visual experiences and seeing them through to implementation."
