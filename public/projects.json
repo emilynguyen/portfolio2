@@ -398,7 +398,6 @@
       "url": "asgs",
       "sub": "Visual + Front-End",
       "icon": "asgs/asgs.gif",
-      "darkenIcon": true,
       "bg": "#f7f7f7",
       "text": "#555",
       "description": "Redesigned and developed a new website for Associated Students Graphic Studio.",
@@ -446,7 +445,6 @@
       "url": "frontiers",
       "icon": "designatucsd/frontiers-fa18.min.jpg",
       "landing": "designatucsd/frontiers-fa18.jpg",
-      "darkenIcon": true,
       "bg": "#e1f0f7",
       "text": "#055c84",
       "description": "Developed a website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
@@ -480,8 +478,7 @@
     },
     {
       "title": "Burow",
-      "archive": true,
-      "sub": "Brand + Visual + UX",
+      "sub": "Brand Design",
       "url": "burow",
       "icon": "burow/burow.gif",
       "text": "#deefe3",
@@ -566,6 +563,11 @@
         {
           "text": true,
           "content": "<p>To produce a homey feel, we used the theme of burrowing animals and gravitated towards warm earth tones and typefaces with gentle curves.</p>"
+        },
+        {
+          "title": "Process",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
         },
         {
           "title": "Mood Board",
@@ -898,6 +900,7 @@
         },
         {
           "image": true,
+          "hide": true,
           "content": "how-far-ill-go/shirt-back.jpg"
         },
         {
