@@ -52,7 +52,6 @@ h4,
 .btn,
 .swatch .hex,
 #banner,
-#banner-palm,
 u,
 i,
 center,
@@ -1034,8 +1033,7 @@ h4,
 .card-sub,
 .btn,
 .swatch .hex,
-#banner,
-#banner-palm {
+#banner {
   font-weight: 500; }
 
 i {
@@ -1214,7 +1212,7 @@ nav {
   margin-bottom: 3.6rem;
   padding-right: 5rem; }
   @media only screen and (max-width: 1023px) {
-    #currently-previously .grid__item:first-child {
+    #currently-previously .grid__item:not(:last-child) {
       margin-bottom: 2rem; } }
 
 /*
@@ -1323,7 +1321,7 @@ footer {
   left: 0;
   z-index: -9999; }
 
-#banner-container, #banner-container-palm {
+#banner-container {
   color: #ffd0d0;
   background-color: #3a73ff;
   top: 0;
@@ -1341,19 +1339,19 @@ footer {
   margin-top: 0.5rem;
   height: 35vw; }
   @media (hover: hover) {
-    #banner-container:hover, #banner-container-palm:hover {
+    #banner-container:hover {
       color: #3a73ff;
       background-color: #ffd0d0; } }
   @media only screen and (min-width: 1024px) {
-    #banner-container, #banner-container-palm {
+    #banner-container {
       height: 35rem;
       height: 25vw; } }
   @media (min-width: 1800px) {
-    #banner-container, #banner-container-palm {
+    #banner-container {
       font-size: 6.3rem;
       height: 45rem; } }
 
-#banner, #banner-palm {
+#banner {
   width: 100%;
   text-align: center;
   display: -webkit-box;
@@ -1373,15 +1371,22 @@ footer {
   font-size: 4vw;
   letter-spacing: -0.15vw; }
   @media only screen and (min-width: 481px) and (max-width: 1023px) {
-    #banner, #banner-palm {
+    #banner {
       top: -4rem; } }
   @media only screen and (min-width: 1024px) {
-    #banner, #banner-palm {
+    #banner {
       font-size: 3.5vw; } }
   @media (min-width: 1800px) {
-    #banner, #banner-palm {
+    #banner {
       font-size: 6.3rem; } }
 
+/*
+#banner-container-palm {
+  @extend #banner-container;
+}
+#banner-palm {
+  @extend #banner;
+} */
 @media only screen and (max-width: 480px) {
   #title h1 {
     padding-right: 0; } }

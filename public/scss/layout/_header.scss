@@ -133,7 +133,7 @@ nav {
 
   @include grid-media-query(portable) {
     .grid__item {
-      &:first-child {
+      &:not(:last-child) {
         margin-bottom: $space;
       }
     }
