@@ -27,11 +27,45 @@
     </div>
   </div>
   {{#if_eq url "" }}
+  <!--
   <div id="banner-palm" class="h1-container">
     <h1>Emily is a designer + developer.</h1>
   </div>
   <div id="banner-container">
     <div id="banner">Emily is a designer + developer.</div>
+  </div> -->
+  <div class="home-header-container">
+    <div class="grid">
+      <div id="currently-previously">
+        <div class="grid__item desk--one-half">
+          <h4>Currently</h4>
+          <p>Webmaster — <a href='http://asgraphicstudio.ucsd.edu' target='_blank'>A.S. Graphic Studio</a><br>Web
+            Developer
+            — <a href='http://designatucsd.org' target='_blank'>Design at UCSD</a></p>
+        </div>
+        <div class="grid__item desk--one-half">
+          <h4>Previously</h4>
+          <p>Visual Experience Design Intern — <a href='https://salesforce.com' target='_blank'>Salesforce</a><br>Visual
+            +
+            Brand Designer
+            — <a href='http://designatucsd.org' target='_blank'>Design at UCSD</a></p>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="grid mb-md">
+      <div class="grid__item palm-hide">
+        <div id="banner-container">
+          <div id="banner">Emily is a designer + developer.</div>
+        </div>
+      </div>
+      <div class="grid__item lap-up-hide">
+        <div id="banner-container-palm">
+          <div id="banner-palm">Emily is a designer + developer.</div>
+        </div>
+      </div>
+    </div>
   </div>
   {{/if_eq}}
   {{#if h1}}

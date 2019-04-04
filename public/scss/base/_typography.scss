@@ -16,7 +16,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: $circular;
   font-weight: 400;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   line-height: 160%;
   letter-spacing: 0;
   color: $black;
@@ -34,7 +34,7 @@ body {
 }
 
 b {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 i {
@@ -57,7 +57,7 @@ h1 {
   font-family: $circular;
   font-size: 7.5rem;
   line-height: 110%;
-  letter-spacing: -0.15rem;
+  letter-spacing: -0.2rem;
   @include grid-media-query("palm") {
     font-size: 5.5rem;
   }
@@ -65,7 +65,7 @@ h1 {
     font-size: 5.5rem;
   }
   @include grid-media-query("desk") {
-    letter-spacing: -0.2rem;
+    letter-spacing: -0.25rem;
   }
 }
 
@@ -93,8 +93,8 @@ h4 {
 }
 
 .small {
-  font-size: 70%;
-  //letter-spacing: 0.1rem;
+  font-size: 65%;
+  letter-spacing: 0.01rem;
   text-transform: uppercase;
   @extend b;
 }

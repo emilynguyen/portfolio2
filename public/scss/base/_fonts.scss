@@ -75,8 +75,18 @@
 
 @font-face {
   font-family: "Circular";
+  src: url("../fonts/circular/CircularStd-Medium.woff2") format("woff2"),
+    url("../fonts/circular/CircularStd-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*
+@font-face {
+  font-family: "Circular";
   src: url("../fonts/circular/CircularStd-Bold.woff2") format("woff2"),
     url("../fonts/circular/CircularStd-Bold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
+*/

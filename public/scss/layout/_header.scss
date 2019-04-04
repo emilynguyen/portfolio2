@@ -88,7 +88,6 @@ nav {
   @extend .layout;
   position: relative;
   padding-top: $top-bottom-space;
-  padding-bottom: $top-bottom-space;
   padding-bottom: 3.4rem;
   @include grid-media-query(lap-up) {
     padding-bottom: $space-md;
@@ -113,7 +112,36 @@ nav {
   }
 }
 
+#home-header {
+  @extend #header;
+  padding-bottom: 0 !important;
+}
+
+.home-header-container {
+  margin-top: 2.7rem;
+  @include grid-media-query(lap) {
+    margin-top: 0.7rem;
+  }
+  @include grid-media-query(desk) {
+    margin-top: 11.5rem;
+  }
+}
+
+#currently-previously {
+  margin-bottom: 3.6rem;
+  padding-right: $space-md;
+
+  @include grid-media-query(portable) {
+    .grid__item {
+      &:first-child {
+        margin-bottom: $space;
+      }
+    }
+  }
+}
+/*
 #home-page {
+
   #header {
     padding-bottom: $top-bottom-space;
     @include grid-media-query(lap-up) {
@@ -121,3 +149,4 @@ nav {
     }
   }
 }
+*/

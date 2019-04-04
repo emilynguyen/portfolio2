@@ -7,14 +7,22 @@ $space-md: 5rem;
 $space-lg: 12rem;
 
 $huge: 2400px;
+$big: 1800px;
 
 $yellow: #feff8c; // highlighter
 $yellow: #fff399;
 //$yellow: #fff56e;
 $black: #000;
+$black: #222;
+
 $black: #333;
+$blue: #3a73ff;
 
 $red: #ef675e;
+$red: #3a73ff;
+$pink: #ffd0d0;
+$dark-pink: darken($pink, 30%);
+$dark-pink: #ff4870;
 
 $footer-height-palm: calc(7rem + 5vw); //Palm
 $footer-height-lap: calc(3rem + 5vw); // Lap
