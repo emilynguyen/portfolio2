@@ -49,15 +49,12 @@
 
       </canvas>
       {{/if}}
-      <div id="header">
+      <div id="{{#if home}}home-{{/if}}header">
         {{> header }}
       </div>
     </div>
     <div id="content">
-
       {{{body}}}
-
-
     </div>
   </div>
   {{> footer }}

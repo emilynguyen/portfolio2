@@ -480,7 +480,8 @@
       "title": "Burow",
       "sub": "Brand + Web Design",
       "url": "burow",
-      "icon": "burow/burow.gif",
+      "icon": "burow/icon.png",
+      "laning": "burow/burow.gif",
       "text": "#deefe3",
       "bg": "#6CA18A",
       "description": "A housing app concept.",
@@ -557,8 +558,16 @@
           "content": "<p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and established a cozy, welcoming atmosphere.</p>"
         },
         {
+          "image": true,
+          "content": "burow/mood-board.png"
+        },
+        {
           "blockquote": true,
           "content": "Burow—Dig around and find the neighbourhood that fits your needs!"
+        },
+        {
+          "image": true,
+          "content": "burow/icon-browser.png"
         },
         {
           "text": true,
@@ -569,12 +578,7 @@
           "text": true,
           "content": "<p>Coming soon!</p>"
         },
-        {
-          "title": "Mood Board",
-          "hide": true,
-          "image": true,
-          "content": "burow/mood-board.png"
-        },
+
         {
           "title": "",
           "palette": true,

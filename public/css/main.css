@@ -51,8 +51,8 @@ h4,
 .card-sub,
 .btn,
 .swatch .hex,
-#banner *,
-#banner h1,
+#banner,
+#banner-palm,
 u,
 i,
 center,
@@ -811,7 +811,7 @@ table {
 .mb-xs {
   margin-bottom: 0.5rem; }
 
-.mb, #filters li, .project-page p,
+.mb, .project-page p,
 .project-page ul,
 .project-page ol, .bio p {
   margin-bottom: 2rem; }
@@ -851,13 +851,13 @@ table {
 body {
   background-color: #fefefe; }
 
-.layout, #content, #header, footer {
+.layout, #content, #header, #home-header, footer {
   max-width: 140rem;
   width: 80%;
   margin-left: auto;
   margin-right: auto; }
   @media only screen and (max-width: 480px) {
-    .layout, #content, #header, footer {
+    .layout, #content, #header, #home-header, footer {
       width: 85%; } }
 
 #content {
@@ -981,10 +981,19 @@ footer {
 
 @font-face {
   font-family: "Circular";
-  src: url("../fonts/circular/CircularStd-Bold.woff2") format("woff2"), url("../fonts/circular/CircularStd-Bold.woff") format("woff");
-  font-weight: 600;
+  src: url("../fonts/circular/CircularStd-Medium.woff2") format("woff2"), url("../fonts/circular/CircularStd-Medium.woff") format("woff");
+  font-weight: 500;
   font-style: normal; }
 
+/*
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/circular/CircularStd-Bold.woff2") format("woff2"),
+    url("../fonts/circular/CircularStd-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+*/
 /*
  * Typography
  */
@@ -1001,7 +1010,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: "Circular", Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   line-height: 160%;
   letter-spacing: 0;
   color: #333; }
@@ -1025,9 +1034,9 @@ h4,
 .card-sub,
 .btn,
 .swatch .hex,
-#banner *,
-#banner h1 {
-  font-weight: 600; }
+#banner,
+#banner-palm {
+  font-weight: 500; }
 
 i {
   font-style: italic; }
@@ -1045,7 +1054,7 @@ h1 {
   font-family: "Circular", Helvetica, sans-serif;
   font-size: 7.5rem;
   line-height: 110%;
-  letter-spacing: -0.15rem; }
+  letter-spacing: -0.2rem; }
   @media only screen and (max-width: 480px) {
     h1 {
       font-size: 5.5rem; } }
@@ -1054,7 +1063,7 @@ h1 {
       font-size: 5.5rem; } }
   @media only screen and (min-width: 1024px) {
     h1 {
-      letter-spacing: -0.2rem; } }
+      letter-spacing: -0.25rem; } }
 
 h2 {
   font-size: 3rem;
@@ -1073,7 +1082,8 @@ h4 {
   margin-bottom: 0.2rem; }
 
 .small, .card-sub, .btn, .swatch .hex {
-  font-size: 70%;
+  font-size: 65%;
+  letter-spacing: 0.01rem;
   text-transform: uppercase; }
 
 a {
@@ -1162,15 +1172,14 @@ nav {
 #header-container {
   position: relative; }
 
-#header {
+#header, #home-header {
   position: relative;
   padding-top: 6vw;
-  padding-bottom: 6vw;
   padding-bottom: 3.4rem; }
   @media only screen and (min-width: 481px) {
-    #header {
+    #header, #home-header {
       padding-bottom: 5rem; } }
-  #header .h1-container {
+  #header .h1-container, #home-header .h1-container {
     height: 100%;
     padding-right: 5rem;
     display: -webkit-box;
@@ -1181,20 +1190,44 @@ nav {
             align-items: flex-end;
     min-height: 17.5rem; }
     @media only screen and (min-width: 481px) and (max-width: 1023px) {
-      #header .h1-container {
+      #header .h1-container, #home-header .h1-container {
         min-height: 18rem; } }
     @media only screen and (min-width: 1024px) {
-      #header .h1-container {
+      #header .h1-container, #home-header .h1-container {
         min-height: 18.5rem; } }
-  #header h1 {
+  #header h1, #home-header h1 {
     padding-bottom: 0; }
 
-#home-page #header {
-  padding-bottom: 6vw; }
-  @media only screen and (min-width: 481px) {
-    #home-page #header {
-      height: 25rem; } }
+#home-header {
+  padding-bottom: 0 !important; }
 
+.home-header-container {
+  margin-top: 2.7rem; }
+  @media only screen and (min-width: 481px) and (max-width: 1023px) {
+    .home-header-container {
+      margin-top: 0.7rem; } }
+  @media only screen and (min-width: 1024px) {
+    .home-header-container {
+      margin-top: 11.5rem; } }
+
+#currently-previously {
+  margin-bottom: 3.6rem;
+  padding-right: 5rem; }
+  @media only screen and (max-width: 1023px) {
+    #currently-previously .grid__item:first-child {
+      margin-bottom: 2rem; } }
+
+/*
+#home-page {
+
+  #header {
+    padding-bottom: $top-bottom-space;
+    @include grid-media-query(lap-up) {
+      height: 25rem;
+    }
+  }
+}
+*/
 footer {
   height: calc(7rem + 5vw); }
   @media only screen and (max-width: 480px) {
@@ -1266,8 +1299,8 @@ footer {
               transform: scale(0.95); } }
 
 .card-sub {
-  color: #ef675e;
-  margin-top: -0.4rem; }
+  color: #3a73ff;
+  margin: 0 0 0.05rem; }
 
 .btn {
   display: inline-block;
@@ -1283,7 +1316,6 @@ footer {
       color: var(--btn-text); } }
 
 #bg {
-  background-color: #fcdddb;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1291,14 +1323,9 @@ footer {
   left: 0;
   z-index: -9999; }
 
-@media only screen and (min-width: 801px) {
-  #banner-palm {
-    display: none !important; } }
-
-#banner-container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+#banner-container, #banner-container-palm {
+  color: #ffd0d0;
+  background-color: #3a73ff;
   top: 0;
   left: 0;
   display: -webkit-box;
@@ -1311,12 +1338,22 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   z-index: 1;
-  margin-top: 0.5rem; }
-  @media only screen and (max-width: 800px) {
-    #banner-container {
-      display: none; } }
+  margin-top: 0.5rem;
+  height: 35vw; }
+  @media (hover: hover) {
+    #banner-container:hover, #banner-container-palm:hover {
+      color: #3a73ff;
+      background-color: #ffd0d0; } }
+  @media only screen and (min-width: 1024px) {
+    #banner-container, #banner-container-palm {
+      height: 35rem;
+      height: 25vw; } }
+  @media (min-width: 1800px) {
+    #banner-container, #banner-container-palm {
+      font-size: 6.3rem;
+      height: 45rem; } }
 
-#banner {
+#banner, #banner-palm {
   width: 100%;
   text-align: center;
   display: -webkit-box;
@@ -1333,49 +1370,21 @@ footer {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  font-size: 3vw; }
-  #banner *,
-  #banner h1 {
-    letter-spacing: -0.2rem;
-    line-height: 100%; }
-    @media only screen and (min-width: 481px) and (max-width: 1023px) {
-      #banner *,
-      #banner h1 {
-        letter-spacing: -0.1rem; } }
+  font-size: 4vw;
+  letter-spacing: -0.15vw; }
   @media only screen and (min-width: 481px) and (max-width: 1023px) {
-    #banner {
-      top: -4rem;
-      font-size: 4vw; } }
+    #banner, #banner-palm {
+      top: -4rem; } }
   @media only screen and (min-width: 1024px) {
-    #banner {
+    #banner, #banner-palm {
       font-size: 3.5vw; } }
   @media (min-width: 1800px) {
-    #banner {
+    #banner, #banner-palm {
       font-size: 6.3rem; } }
 
 @media only screen and (max-width: 480px) {
   #title h1 {
     padding-right: 0; } }
-
-#work-block {
-  margin-top: calc(6vw + 1rem); }
-
-#filters {
-  display: none; }
-  @media only screen and (max-width: 1023px) {
-    #filters {
-      margin-bottom: 5rem; } }
-  @media only screen and (max-width: 1023px) {
-    #filters li {
-      margin-right: 2rem; } }
-  @media only screen and (max-width: 1023px) {
-    #filters li,
-    #filters h4 {
-      display: inline; } }
-
-@media only screen and (max-width: 1023px) {
-  #previously {
-    margin-top: 2rem; } }
 
 .project-page p,
 .project-page ul,
