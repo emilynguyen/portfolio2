@@ -40,10 +40,6 @@
   }
 }
 
-#banner-container-palm {
-  @extend #banner-container;
-}
-
 #banner {
   width: 100%;
   text-align: center;
@@ -65,10 +61,13 @@
     font-size: 6.3rem;
   }
 }
-
+/*
+#banner-container-palm {
+  @extend #banner-container;
+}
 #banner-palm {
   @extend #banner;
-}
+} */
 
 #title {
   h1 {
