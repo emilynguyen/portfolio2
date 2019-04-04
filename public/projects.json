@@ -205,6 +205,131 @@
       ]
     },
     {
+      "title": "Burow",
+      "sub": "Brand + Web Design",
+      "url": "burow",
+      "icon": "burow/icon.png",
+      "text": "#edfcef",
+      "bg": "#6CA18A",
+      "description": "A cozy housing app concept.",
+      "col": "2",
+      "summary": "<p>Burow is a desktop web app that helps users find the perfect new neighborhood to move to. By reversing the user flow of existing real estate apps and ditching the professional look, Burow provides a unique home hunting experience.</p><p>I worked in a team of 4 to bring to life a working demo of this concept.</p>",
+      "details": [
+        {
+          "title": "Key Roles",
+          "content": "Lead brand designer, visual designer"
+        },
+        {
+          "title": "Key Skills",
+          "content": "Brand design, web design, illustration, web development (React)"
+        },
+        {
+          "title": "Deliverables",
+          "content": "Branding guidelines, design + development of the landing page"
+        },
+        {
+          "title": "Teammates",
+          "content": "Aman Gupta, Joel Sequeira, Jared Suasin"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github repo</a><br><a href='https://drive.google.com/file/d/1a0_elaRO7U0osApLxUgap3Kg3ghxkchM/view' target='_blank'>Demo video</a><br><a href=\"https://burow.xyz/\" target=\"_blank\">burow.xyz</a>"
+        },
+        {
+          "title": "Date",
+          "content": "Apr – June 2018 (10 weeks)"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Problem",
+          "text": true,
+          "content": "<p>Popular real estate apps, such as Zillow, Trulia, and Redfin, start by asking users for a location. Users then use metrics such as price and number of beds/baths to sort through the returned listings. Additional research could then be done to find walkability, safety scores, and more for an address. This user flow works great for those looking for homes in specific neighborhoods, but what if you wanted to choose a neighborhood based on a metric?</p>"
+        },
+        {
+          "title": "Solution",
+          "text": true,
+          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h4>Existing Solution</h4><p>Enter location → receive listings → use criteria to sort through listings</p><h4>Proposed Solution</h4><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
+        },
+        {
+          "title": "Storyboarding",
+          "hide": true,
+          "image": true,
+          "alt": "Mark and Sarah want to move their family from New York to California.",
+          "content": "burow/storyboard1.png",
+          "captionBefore": "<p>To better understand our target users, we started by drafting two storyboards.</p>"
+        },
+        {
+          "hide": true,
+          "image": true,
+          "alt": "Jim is a student looking for an apartment for his internship in the Bay Area this summer.",
+          "content": "burow/storyboard2.png",
+          "captionAfter": "<p class=\"small-text\">Storyboards by Jared and Joel.</p>"
+        },
+        {
+          "title": "Prototyping",
+          "hide": true,
+          "text": true,
+          "content": "<p>Coming soon.</p>"
+        },
+        {
+          "title": "Competitive Analysis",
+          "image": true,
+          "content": "burow/competitive-analysis.png",
+          "alt": "Landing pages of Zillow, Trulia, and Redfin",
+          "captionAfter": "<p>Zillow, Trulia, and Redfin all use real estate photos, generous negative space, and safe typefaces to create a clean, polished look. While a professional appearance increases credibility, it comes with the tradeoff of looking impersonal and detached.</p>"
+        },
+        {
+          "title": "Brand Design",
+          "text": true,
+          "content": "<p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p>"
+        },
+
+        {
+          "title": " ",
+          "image": true,
+          "alt": "Mood board",
+          "content": "burow/mood-board.png",
+          "captionBefore": "<h3>Mood Board</h3>"
+        },
+        {
+          "title": " ",
+          "blockquote": true,
+          "content": "Burow—Dig around and find the neighbourhood that fits your needs!",
+          "captionBefore": "<h3>Color + Typography</h3>",
+          "captionAfter": "<p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves.</p>"
+        },
+        {
+          "palette": true,
+          "color": "#555",
+          "content": ["#FFFAED", "#FEA765", "#8EB7A2"]
+        },
+        {
+          "title": " ",
+          "image": true,
+          "captionBefore": "<h3>Illustrations</h3><p>We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity.</p>",
+          "content": "burow/illustration.png"
+        },
+        {
+          "title": " ",
+          "image": true,
+          "captionBefore": "<h3>UI Elements</h3><p>UI elements were also rounded to support the warm brand.</p>",
+          "content": "burow/ui.png"
+        },
+        {
+          "title": "Final Landing Page",
+          "image": true,
+          "content": "burow/icon-browser.png"
+        },
+        {
+          "title": "Bonus Collateral",
+          "hide": true,
+          "text": true,
+          "content": ""
+        }
+      ]
+    },
+    {
       "title": "Digitizing the Red Envelope Experience",
       "sub": "Product Design",
       "url": "red-envelope",
@@ -473,122 +598,6 @@
         {
           "title": "Resources",
           "content": "<a href=\"https://github.com/designatucsd/frontiersfa18\" target=\"_blank\">Github repo</a>"
-        }
-      ]
-    },
-    {
-      "title": "Burow",
-      "sub": "Brand + Web Design",
-      "url": "burow",
-      "icon": "burow/icon.png",
-      "laning": "burow/burow.gif",
-      "text": "#deefe3",
-      "bg": "#6CA18A",
-      "description": "A housing app concept.",
-      "col": "2",
-      "summary": "<p>Burow is a desktop web app that helps users find the perfect new home to move to. With a focus on price, walkability, and school rating, users can easily pinpoint neighborhoods within their target cities that suit their needs.</p>",
-      "button": {
-        "title": "View Demo",
-        "link": "https://drive.google.com/file/d/1a0_elaRO7U0osApLxUgap3Kg3ghxkchM/view"
-      },
-      "details": [
-        {
-          "title": "Key Roles",
-          "content": "Led the brand design and design + development of the landing page. UX was done as a team."
-        },
-        {
-          "title": "Key Skills",
-          "content": "Brand design, web design, web development (HTML, CSS, Sass, React)"
-        },
-        {
-          "title": "Teammates",
-          "content": "Aman Gupta, Joel Sequeira, Jared Suasin"
-        },
-        {
-          "title": "Date",
-          "content": "Apr – June 2018 (10 weeks)"
-        },
-        {
-          "title": "Resources",
-          "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github repo</a><br><a href=\"https://burow.xyz/\" target=\"_blank\">burow.xyz</a>"
-        }
-      ],
-      "blocks": [
-        {
-          "title": "Problem",
-          "text": true,
-          "content": "<p>Popular real estate apps, such as Zillow, Trulia, and Redfin, start by asking users for a location. Users then use metrics such as price and number of beds/baths to sort through the returned listings. Additional research could then be done to find walkability, safety scores, and more for an address. This user flow works great for those looking for homes in specific neighborhoods, but what if you wanted to choose a neighborhood based on a metric?</p>"
-        },
-        {
-          "title": "Solution",
-          "text": true,
-          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h4>Existing Solution</h4><p>Enter location → receive listings → use criteria to sort through listings</p><h4>Proposed Solution</h4><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
-        },
-        {
-          "title": "Storyboarding",
-          "hide": true,
-          "image": true,
-          "alt": "Mark and Sarah want to move their family from New York to California.",
-          "content": "burow/storyboard1.png",
-          "captionBefore": "<p>To better understand our target users, we started by drafting two storyboards.</p>"
-        },
-        {
-          "hide": true,
-          "image": true,
-          "alt": "Jim is a student looking for an apartment for his internship in the Bay Area this summer.",
-          "content": "burow/storyboard2.png",
-          "captionAfter": "<p class=\"small-text\">Storyboards by Jared and Joel.</p>"
-        },
-        {
-          "title": "Prototyping",
-          "hide": true,
-          "text": true,
-          "content": "<p>Coming soon.</p>"
-        },
-        {
-          "title": "Competitive Analysis",
-          "image": true,
-          "content": "burow/competitive-analysis.png",
-          "alt": "Landing pages of Zillow, Trulia, and Redfin",
-          "captionAfter": "<p>Zillow, Trulia, and Redfin all use real estate photos, generous negative space, and safe typefaces to create a clean, polished look. While a professional appearance increases credibility, it comes with the tradeoff of looking impersonal and detached.</p>"
-        },
-        {
-          "title": "Brand Design",
-          "text": true,
-          "content": "<p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and established a cozy, welcoming atmosphere.</p>"
-        },
-        {
-          "image": true,
-          "content": "burow/mood-board.png"
-        },
-        {
-          "blockquote": true,
-          "content": "Burow—Dig around and find the neighbourhood that fits your needs!"
-        },
-        {
-          "image": true,
-          "content": "burow/icon-browser.png"
-        },
-        {
-          "text": true,
-          "content": "<p>To produce a homey feel, we used the theme of burrowing animals and gravitated towards warm earth tones and typefaces with gentle curves.</p>"
-        },
-        {
-          "title": "Process",
-          "text": true,
-          "content": "<p>Coming soon!</p>"
-        },
-
-        {
-          "title": "",
-          "palette": true,
-          "hide": true,
-          "content": ["#FFFAED", "#FEA765", "#E89556", "#A6C5B5", "#7CA18E"]
-        },
-        {
-          "title": "Final Design + Demo",
-          "text": true,
-          "content": "<p>View our <a href=\"https://drive.google.com/file/d/1a0_elaRO7U0osApLxUgap3Kg3ghxkchM/view\" target=\"_blank\">demo video</a>!</p>"
         }
       ]
     },
