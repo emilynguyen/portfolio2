@@ -48,7 +48,9 @@
 
         {{#if blockquote}}
         <h2 class="mb">{{title}}</h2>
+        {{{captionBefore}}}
         <p class="blockquote">{{{content}}}</p>
+        {{{captionAfter}}}
         {{/if}}
 
         {{#if pdf}}
@@ -63,7 +65,7 @@
         {{{captionBefore}}}
         <div class="swatches" style="grid-template-columns: {{#each content}}1fr {{/each}};">
           {{#each content}}
-          <div class="swatch" style="--border-color: {{text}}">
+          <div class="swatch" style="--color: {{text}}; {{#if ../color}}color: {{../color}}{{/if}}">
             <div class="wrapper">
               <div class="sample" style="background-color: {{this}}">
               </div>

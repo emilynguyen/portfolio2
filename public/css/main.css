@@ -1526,9 +1526,8 @@ footer {
       .swatch .sample {
         height: 80%; } }
   .swatch .hex {
-    font-weight: normal;
     text-align: center;
-    color: var(--border-color);
+    color: var(--color);
     background-color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;

@@ -148,9 +148,8 @@ $swatch-height: 80%;
   }
   .hex {
     @extend .small;
-    font-weight: normal;
     text-align: center;
-    color: var(--border-color);
+    color: var(--color);
     background-color: #fff;
     display: flex;
     justify-content: center;
