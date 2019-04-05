@@ -196,7 +196,8 @@ app.get("/:project", function(req, res) {
 
   // Otherwise, show 404
   res.render("404", {
-    title: "Page Not Found | Emily Nguyen"
+    title: "Page Not Found | Emily Nguyen",
+    h1: "404 — Page Not Found"
   });
 });
 
@@ -233,7 +234,8 @@ app.get("/archive/:project", function(req, res) {
 
   // Otherwise, show 404
   res.render("404", {
-    title: "Page Not Found | Emily Nguyen"
+    title: "Page Not Found | Emily Nguyen",
+    h1: "404 — Page Not Found"
   });
 });
 
