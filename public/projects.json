@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "title": "Salesforce Design Internship",
-      "sub": "UX Research + Visual",
+      "title": "Salesforce Internship",
+      "sub": "UX Research + Visual Design",
       "url": "salesforce",
       "icon": "salesforce/icon.png",
       "landing": "salesforce/logo.png",
@@ -57,6 +57,42 @@
           "title": "Takeaways",
           "text": true,
           "content": "<ul><li><span>Actively seek out opportunities and make the most of your internship. My main task was to conduct usability testing, but through coffee chats I connected with designers outside of my team that invited me to do additional work. Because of this, I was able to make deeper contributions, meet more mentors, and explore interests outside of what I was hired for.</span></li><li><span>Continue to grow outside of work. Being from Southern California, San Francisco was a refreshing shift in perspective that helped me understand the world just a little bit better.</span></li></ul><p>Thank you to Gyo, Megan, Matt, and the lovely interns I met along the way.</p>"
+        }
+      ]
+    },
+    {
+      "title": "Sun God Festival 2019",
+      "sub": "Front-End + Web Design",
+      "url": "sgf",
+      "icon": "sgf/icon.gif",
+      "text": "#242424",
+      "bg": "#eaf0f4",
+      "description": "Website for the 37th annual Sun God Music Festival.",
+      "summary": "<p>Sun God Festival is a student-curated, daylong music and arts festival at UC San Diego. Named as one of Live Nation’s \"Top 5 College Concerts That Should Be Actual Festivals\", Sun God is the largest campus-wide event and brings in 20,000+ attendees each year. Past acts include Drake, Kendrick Lamar, Jhené Aiko, Khalid, and My Chemical Romance.</p><p>This year, I was given the opportunity to build the website for the festival. I worked closely with the creative director to execute his vision and also designed several pages.</p><p>The site will be dropping soon; stay tuned! 🤘🏻</p>",
+      "butto": {
+        "title": "Visit Site",
+        "link": "http://sgf.ucsd.edu"
+      },
+      "details": [
+        {
+          "title": "Roles",
+          "content": "Developer, web designer"
+        },
+        {
+          "title": "Tools",
+          "content": "HTML, CSS, Sass, Jekyll, Javascript (jQuery)"
+        },
+        {
+          "title": "Partner",
+          "content": "Tim Lee — creative director, lead web designer"
+        },
+        {
+          "title": "Date",
+          "content": "Feb – Apr 2019"
+        },
+        {
+          "titl": "Resources",
+          "conten": "<a href=\"https://github.com/emilynguyen/sgf19\" target=\"_blank\">Github repo</a>"
         }
       ]
     },
@@ -657,9 +693,9 @@
     },
     {
       "title": "How Far I'll Go",
+      "archive": true,
       "sub": "Graphic Design",
       "url": "how-far-ill-go",
-      "filters": ["visual"],
       "icon": "how-far-ill-go/shirt-folded.min.jpg",
       "landing": "how-far-ill-go/shirt-folded.jpg",
       "bg": "#fff6ea",

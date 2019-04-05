@@ -1297,12 +1297,12 @@ footer {
               transform: scale(0.95); } }
 
 .card-sub {
-  color: #3a73ff;
+  color: #3d64f0;
   margin: 0 0 0.05rem; }
 
 .btn {
   display: inline-block;
-  padding: 1.7rem 2.2rem 1.7rem;
+  padding: 1.8rem 2.2rem 1.6rem;
   white-space: nowrap;
   line-height: 0;
   text-decoration: none;
@@ -1322,8 +1322,8 @@ footer {
   z-index: -9999; }
 
 #banner-container {
-  color: #ffd0d0;
-  background-color: #3a73ff;
+  color: #ffcfcf;
+  background-color: #3d64f0;
   top: 0;
   left: 0;
   display: -webkit-box;
@@ -1340,8 +1340,8 @@ footer {
   height: 35vw; }
   @media (hover: hover) {
     #banner-container:hover {
-      color: #3a73ff;
-      background-color: #ffd0d0; } }
+      color: #3d64f0;
+      background-color: #ffcfcf; } }
   @media only screen and (min-width: 1024px) {
     #banner-container {
       height: 35rem;
