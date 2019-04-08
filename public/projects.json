@@ -68,8 +68,8 @@
       "text": "#242424",
       "bg": "#eaf0f4",
       "description": "Website for the 37th annual Sun God Music Festival.",
-      "summary": "<p>Sun God Festival is a student-curated, daylong music and arts festival at UC San Diego. Named as one of Live Nation’s \"Top 5 College Concerts That Should Be Actual Festivals\", Sun God is the largest campus-wide event and brings in 20,000+ attendees each year. Past acts include Drake, Kendrick Lamar, Jhené Aiko, Khalid, and My Chemical Romance.</p><p>This year, I was given the opportunity to build the website for the festival. I worked closely with the creative director to execute his vision and also designed several pages.</p><p>The site will be dropping soon; stay tuned! 🤘🏻</p>",
-      "butto": {
+      "summary": "<p>Sun God Festival is a student-curated, daylong music and arts festival at UC San Diego. Named as one of Live Nation’s \"Top 5 College Concerts That Should Be Actual Festivals\", Sun God is the largest campus-wide event and brings in 20,000+ attendees each year. Past acts include Drake, Kendrick Lamar, Jhené Aiko, Khalid, and My Chemical Romance.</p><p>This year, I was given the opportunity to build the website for the festival. I worked closely with the creative director to execute his vision and also designed several pages.</p>",
+      "button": {
         "title": "Visit Site",
         "link": "http://sgf.ucsd.edu"
       },
@@ -91,8 +91,8 @@
           "content": "Feb – Apr 2019"
         },
         {
-          "titl": "Resources",
-          "conten": "<a href=\"https://github.com/emilynguyen/sgf19\" target=\"_blank\">Github repo</a>"
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/emilynguyen/sgf19\" target=\"_blank\">Github repo</a>"
         }
       ]
     },
