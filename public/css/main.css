@@ -1119,11 +1119,14 @@ nav a {
       position: absolute;
       width: 1.3rem;
       height: 1.3rem;
-      border: 0.1rem solid currentColor;
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       top: 0.71rem;
-      border-radius: 1.3rem; }
+      border-radius: 1.3rem;
+      border: 1px solid currentColor; }
+    @media only screen and (min-width: 1024px) {
+      #nav-name a {
+        border-width: 0.1rem; } }
     @media (hover: hover) {
       #nav-name a:hover::before {
         background-color: currentColor; } }
@@ -1140,8 +1143,11 @@ nav {
     nav li .bar {
       width: 3rem;
       height: 3rem;
-      border-top: 0.1rem solid currentColor;
-      border-right: 0.1rem solid currentColor; }
+      border-top: 1px solid currentColor;
+      border-right: 1px solid currentColor; }
+      @media only screen and (min-width: 1024px) {
+        nav li .bar {
+          border-width: 0.1rem; } }
     nav li.horizontal .bar {
       margin-top: 1rem; }
     nav li.horizontal:not(.line) {
