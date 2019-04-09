@@ -94,6 +94,13 @@
           "title": "Resources",
           "content": "<a href=\"https://github.com/emilynguyen/sgf19\" target=\"_blank\">Github repo</a>"
         }
+      ],
+      "blocks": [
+        {
+          "image": true,
+          "content": "sgf/lineup.gif",
+          "alt": "Lineup hover"
+        }
       ]
     },
     {
