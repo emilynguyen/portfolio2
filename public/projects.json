@@ -353,6 +353,16 @@
           "content": ["#FFFAED", "#FEA765", "#8EB7A2"]
         },
         {
+          "image": true,
+          "alt": "Aqua Grotesque",
+          "content": "burow/aqua-grotesque.png"
+        },
+        {
+          "image": true,
+          "alt": "Karla",
+          "content": "burow/karla.png"
+        },
+        {
           "title": " ",
           "image": true,
           "captionBefore": "<h3>Illustrations</h3><p>We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity.</p>",
