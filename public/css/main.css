@@ -1331,7 +1331,7 @@ footer {
   z-index: -9999; }
 
 #banner-container {
-  color: #ffcfcf;
+  color: #ffe2e2;
   background-color: #3d64f0;
   top: 0;
   left: 0;
@@ -1350,7 +1350,7 @@ footer {
   @media (hover: hover) {
     #banner-container:hover {
       color: #3d64f0;
-      background-color: #ffcfcf; } }
+      background-color: #ffe2e2; } }
   @media only screen and (min-width: 1024px) {
     #banner-container {
       height: 35rem;
