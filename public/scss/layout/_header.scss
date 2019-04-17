@@ -1,6 +1,7 @@
 $dot: 1.3rem;
 
 #nav-name {
+  white-space: nowrap;
   display: inline-block;
   position: relative;
   margin-left: 2rem;
@@ -36,9 +37,34 @@ nav {
 
 nav {
   text-align: right;
-  position: relative;
   li {
     display: inline-block;
+  }
+}
+
+.nav-horizontal {
+  margin-top: 0.1rem;
+  white-space: nowrap;
+  .line {
+    display: none;
+  }
+  li:not(:last-child) {
+    margin-right: 1.5rem;
+
+    @include grid-media-query(lap-up) {
+      margin-right: 2.5rem;
+    }
+  }
+  h4 {
+    @include grid-media-query(palm) {
+      font-size: 90%;
+    }
+  }
+}
+
+.nav-corner {
+  position: relative;
+  li {
     .bar {
       width: 3rem;
       height: 3rem;
@@ -53,7 +79,6 @@ nav {
         margin-top: 1rem;
       }
     }
-
     &.horizontal:not(.line) {
       position: absolute;
       right: 14rem;
@@ -101,10 +126,9 @@ nav {
 
   .h1-container {
     height: 100%;
-    padding-right: $space-md; // adjust for breakpoints
+    //  padding-right: $space-md; // adjust for breakpoints
     display: flex;
     align-items: flex-end;
-    //  background-color: blue;
     min-height: 17.5rem;
     @include grid-media-query(lap) {
       min-height: 18rem;
@@ -126,10 +150,10 @@ nav {
 .home-header-container {
   margin-top: 2.7rem;
   @include grid-media-query(lap) {
-    margin-top: 0.7rem;
+    //margin-top: 0.7rem;
   }
   @include grid-media-query(desk) {
-    margin-top: 11.5rem;
+    //margin-top: 11.5rem;
   }
 }
 

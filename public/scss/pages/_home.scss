@@ -61,13 +61,10 @@
     font-size: 6.3rem;
   }
 }
-/*
-#banner-container-palm {
-  @extend #banner-container;
-}
+
 #banner-palm {
-  @extend #banner;
-} */
+  margin: $space-md 0;
+}
 
 #title {
   h1 {
