@@ -1223,9 +1223,6 @@ nav {
     @media only screen and (min-width: 481px) {
       .nav-horizontal li:not(:last-child) {
         margin-right: 2.5rem; } }
-  @media only screen and (max-width: 480px) {
-    .nav-horizontal h4 {
-      font-size: 90%; } }
 
 .nav-corner {
   position: relative; }
