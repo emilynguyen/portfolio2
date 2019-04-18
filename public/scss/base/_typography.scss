@@ -5,7 +5,7 @@
 html {
   font-size: 62.5%;
   @include grid-media-query("palm") {
-    font-size: 51%;
+    font-size: 52%;
   }
   @media (min-width: $huge) {
     font-size: 0.42vw;
@@ -93,10 +93,12 @@ h4 {
 }
 
 .small {
-  font-size: 65%;
-  font-size: 62%;
+  font-size: 8px;
   letter-spacing: 0.01rem;
   text-transform: uppercase;
+  @include grid-media-query("lap-up") {
+    font-size: 62%;
+  }
   //@extend b;
 }
 
