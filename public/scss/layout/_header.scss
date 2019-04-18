@@ -125,16 +125,22 @@ nav {
   }
 
   .h1-container {
-    height: 100%;
-    //  padding-right: $space-md; // adjust for breakpoints
-    display: flex;
-    align-items: flex-end;
-    min-height: 17.5rem;
-    @include grid-media-query(lap) {
-      min-height: 18rem;
+    margin-top: $space-md;
+    @include grid-media-query(lap-up) {
+      margin-top: $space-lg;
     }
-    @include grid-media-query(desk) {
-      min-height: 18.5rem;
+    &-corner {
+      height: 100%;
+      padding-right: $space-md; // adjust for breakpoints
+      display: flex;
+      align-items: flex-end;
+      min-height: 17.5rem;
+      @include grid-media-query(lap) {
+        min-height: 18rem;
+      }
+      @include grid-media-query(desk) {
+        min-height: 18.5rem;
+      }
     }
   }
   h1 {

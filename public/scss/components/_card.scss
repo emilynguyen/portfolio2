@@ -20,7 +20,7 @@
 .card-sub {
   @extend .small;
   //color: $dark-pink;
-  color: darken($blue, 0%);
-  //color: rgba(0, 0, 0, 0.3);
-  margin: 0 0 0.05rem;
+  color: darken($blue, 5%);
+  //margin: 0 0 0.05rem;
+  margin: 0.8rem 0 0 0;
 }
