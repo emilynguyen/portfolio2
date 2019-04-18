@@ -124,9 +124,9 @@ $breakpoints: (
  * Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
  * have been set to ‘true’.
  */
-$breakpoint-has-widths: ("palm", "lap", "portable", "desk") !default;
-$breakpoint-has-push: ("palm", "lap", "portable", "desk") !default;
-$breakpoint-has-pull: ("palm", "lap", "portable", "desk") !default;
+$breakpoint-has-widths: ("palm", "lap", "lap-up", "portable", "desk") !default;
+$breakpoint-has-push: ("palm", "lap", "lap-up", "portable", "desk") !default;
+$breakpoint-has-pull: ("palm", "lap", "lap-up", "portable", "desk") !default;
 
 /**
  * You do not need to edit anything from this line onward; csswizardry-grids is
