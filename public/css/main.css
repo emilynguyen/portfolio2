@@ -628,6 +628,83 @@ table {
   .lap--eleven-twelfths {
     width: 91.666%; } }
 
+@media only screen and (min-width: 481px) {
+  /**
+     * Whole
+     */
+  .lap-up--one-whole {
+    width: 100%; }
+  /**
+     * Halves
+     */
+  .lap-up--one-half, .lap-up--two-quarters, .lap-up--three-sixths, .lap-up--four-eighths, .lap-up--five-tenths, .lap-up--six-twelfths {
+    width: 50%; }
+  /**
+     * Thirds
+     */
+  .lap-up--one-third, .lap-up--two-sixths, .lap-up--four-twelfths {
+    width: 33.333%; }
+  .lap-up--two-thirds, .lap-up--four-sixths, .lap-up--eight-twelfths {
+    width: 66.666%; }
+  /**
+     * Quarters
+     */
+  .lap-up--one-quarter, .lap-up--two-eighths, .lap-up--three-twelfths {
+    width: 25%; }
+  .lap-up--three-quarters, .lap-up--six-eighths, .lap-up--nine-twelfths {
+    width: 75%; }
+  /**
+     * Fifths
+     */
+  .lap-up--one-fifth, .lap-up--two-tenths {
+    width: 20%; }
+  .lap-up--two-fifths, .lap-up--four-tenths {
+    width: 40%; }
+  .lap-up--three-fifths, .lap-up--six-tenths {
+    width: 60%; }
+  .lap-up--four-fifths, .lap-up--eight-tenths {
+    width: 80%; }
+  /**
+     * Sixths
+     */
+  .lap-up--one-sixth, .lap-up--two-twelfths {
+    width: 16.666%; }
+  .lap-up--five-sixths, .lap-up--ten-twelfths {
+    width: 83.333%; }
+  /**
+     * Eighths
+     */
+  .lap-up--one-eighth {
+    width: 12.5%; }
+  .lap-up--three-eighths {
+    width: 37.5%; }
+  .lap-up--five-eighths {
+    width: 62.5%; }
+  .lap-up--seven-eighths {
+    width: 87.5%; }
+  /**
+     * Tenths
+     */
+  .lap-up--one-tenth {
+    width: 10%; }
+  .lap-up--three-tenths {
+    width: 30%; }
+  .lap-up--seven-tenths {
+    width: 70%; }
+  .lap-up--nine-tenths {
+    width: 90%; }
+  /**
+     * Twelfths
+     */
+  .lap-up--one-twelfth {
+    width: 8.333%; }
+  .lap-up--five-twelfths {
+    width: 41.666%; }
+  .lap-up--seven-twelfths {
+    width: 58.333%; }
+  .lap-up--eleven-twelfths {
+    width: 91.666%; } }
+
 @media only screen and (max-width: 1023px) {
   /**
      * Whole
@@ -999,7 +1076,7 @@ html {
   font-size: 62.5%; }
   @media only screen and (max-width: 480px) {
     html {
-      font-size: 52%; } }
+      font-size: 53%; } }
   @media (min-width: 2400px) {
     html {
       font-size: 0.42vw; } }
@@ -1064,7 +1141,7 @@ h2 {
 
 h2,
 h3 {
-  letter-spacing: -0.06rem; }
+  letter-spacing: -0.05rem; }
 
 h3 {
   font-size: 2.2rem;
@@ -1075,7 +1152,7 @@ h4 {
   margin-bottom: 0.2rem; }
 
 .small, .card-sub, .btn, .swatch .hex {
-  font-size: 8px;
+  font-size: 9px;
   letter-spacing: 0.01rem;
   text-transform: uppercase; }
   @media only screen and (min-width: 481px) {
