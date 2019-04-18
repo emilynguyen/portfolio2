@@ -96,10 +96,10 @@ h4 {
   font-size: 9px;
   letter-spacing: 0.01rem;
   text-transform: uppercase;
+  @extend b;
   @include grid-media-query("lap-up") {
-    font-size: 62%;
+    font-size: 60%;
   }
-  //@extend b;
 }
 
 a {

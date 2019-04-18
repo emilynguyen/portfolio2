@@ -50,7 +50,6 @@ nav {
   }
   li:not(:last-child) {
     margin-right: 1.5rem;
-
     @include grid-media-query(lap-up) {
       margin-right: 2.5rem;
     }
@@ -120,7 +119,7 @@ nav {
   }
 
   .h1-container {
-    margin-top: $space-md;
+    margin-top: 8rem;
     @include grid-media-query(lap-up) {
       margin-top: $space-lg;
     }
