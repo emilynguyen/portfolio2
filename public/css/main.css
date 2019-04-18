@@ -47,6 +47,10 @@ h1,
 h2,
 h3,
 h4,
+.small,
+.card-sub,
+.btn,
+.swatch .hex,
 #banner,
 u,
 i,
@@ -1105,6 +1109,10 @@ h1,
 h2,
 h3,
 h4,
+.small,
+.card-sub,
+.btn,
+.swatch .hex,
 #banner {
   font-weight: 500; }
 
@@ -1157,7 +1165,7 @@ h4 {
   text-transform: uppercase; }
   @media only screen and (min-width: 481px) {
     .small, .card-sub, .btn, .swatch .hex {
-      font-size: 62%; } }
+      font-size: 60%; } }
 
 a {
   color: inherit;
@@ -1270,7 +1278,7 @@ nav {
     #header, #home-header {
       padding-bottom: 5rem; } }
   #header .h1-container, #home-header .h1-container {
-    margin-top: 5rem; }
+    margin-top: 8rem; }
     @media only screen and (min-width: 481px) {
       #header .h1-container, #home-header .h1-container {
         margin-top: 12rem; } }
