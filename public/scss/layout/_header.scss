@@ -55,11 +55,6 @@ nav {
       margin-right: 2.5rem;
     }
   }
-  h4 {
-    @include grid-media-query(palm) {
-      font-size: 90%;
-    }
-  }
 }
 
 .nav-corner {
