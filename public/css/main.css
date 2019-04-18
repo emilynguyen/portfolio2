@@ -47,10 +47,6 @@ h1,
 h2,
 h3,
 h4,
-.small,
-.card-sub,
-.btn,
-.swatch .hex,
 #banner,
 u,
 i,
@@ -1032,10 +1028,6 @@ h1,
 h2,
 h3,
 h4,
-.small,
-.card-sub,
-.btn,
-.swatch .hex,
 #banner {
   font-weight: 500; }
 
@@ -1072,7 +1064,7 @@ h2 {
 
 h2,
 h3 {
-  letter-spacing: -0.05rem; }
+  letter-spacing: -0.06rem; }
 
 h3 {
   font-size: 2.2rem;
@@ -1084,6 +1076,7 @@ h4 {
 
 .small, .card-sub, .btn, .swatch .hex {
   font-size: 65%;
+  font-size: 62%;
   letter-spacing: 0.01rem;
   text-transform: uppercase; }
 
@@ -1201,20 +1194,26 @@ nav {
     #header, #home-header {
       padding-bottom: 5rem; } }
   #header .h1-container, #home-header .h1-container {
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    min-height: 17.5rem; }
-    @media only screen and (min-width: 481px) and (max-width: 1023px) {
+    margin-top: 5rem; }
+    @media only screen and (min-width: 481px) {
       #header .h1-container, #home-header .h1-container {
-        min-height: 18rem; } }
-    @media only screen and (min-width: 1024px) {
-      #header .h1-container, #home-header .h1-container {
-        min-height: 18.5rem; } }
+        margin-top: 12rem; } }
+    #header .h1-container-corner, #home-header .h1-container-corner {
+      height: 100%;
+      padding-right: 5rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      min-height: 17.5rem; }
+      @media only screen and (min-width: 481px) and (max-width: 1023px) {
+        #header .h1-container-corner, #home-header .h1-container-corner {
+          min-height: 18rem; } }
+      @media only screen and (min-width: 1024px) {
+        #header .h1-container-corner, #home-header .h1-container-corner {
+          min-height: 18.5rem; } }
   #header h1, #home-header h1 {
     padding-bottom: 0; }
 
@@ -1313,8 +1312,8 @@ footer {
               transform: scale(0.95); } }
 
 .card-sub {
-  color: #3d64f0;
-  margin: 0 0 0.05rem; }
+  color: #2551ee;
+  margin: 0.8rem 0 0 0; }
 
 .btn {
   display: inline-block;
