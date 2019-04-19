@@ -1495,13 +1495,19 @@ footer {
   margin-bottom: 3rem;
   color: var(--text); }
 
-.project-content img {
+.project-page img {
   width: 100%; }
 
 @media only screen and (max-width: 1023px) {
-  .project-content .description {
+  .project-page .description {
     margin-bottom: 5rem;
     margin-bottom: 2rem; } }
+
+.project-page .intro {
+  margin-bottom: 12rem; }
+  @media only screen and (max-width: 1023px) {
+    .project-page .intro {
+      margin-bottom: 8rem; } }
 
 .text img {
   display: block;
@@ -1534,6 +1540,9 @@ footer {
       padding-right: 0.5rem; }
       .block li span {
         left: 0.5rem; } }
+
+.block:not(.has-title) {
+  margin-top: 2rem; }
 
 @media only screen and (max-width: 1023px) {
   .block.has-title {
@@ -1589,6 +1598,7 @@ footer {
 }
 */
 .swatches {
+  margin-bottom: 0.7rem;
   display: grid;
   grid-gap: 1rem; }
   @media only screen and (min-width: 481px) {

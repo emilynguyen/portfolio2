@@ -1,9 +1,7 @@
 {{#with currProject}}
 <div class="project-page" style="--text: {{#lower_opacity text}}{{/lower_opacity}}">
 
-
-
-  <div class="grid project-content">
+  <div class="grid intro">
     <div class="grid__item desk--one-third description">
       {{#if summary}}{{{summary}}}{{else}}<p>{{description}}</p>{{/if}}
       {{#if button}}
@@ -23,68 +21,72 @@
       {{#if_not_eq landing "none"}}
       <img src="/images/{{#if landing}}{{landing}}{{else}}{{icon}}{{/if}}" alt="{{title}}">
       {{/if_not_eq}}
-      <!-- CONTENT BLOCKS START HERE -->
-      {{#each blocks}}
-      {{#unless hide}}
-      <div class="block {{#if title}}has-title{{/if}}">
+    </div>
+  </div> <!-- /.intro -->
 
 
-        {{#if text}}
-        <h2 class="mb">{{title}}</h2>
-        <div class="text">
-          {{{content}}}
-        </div>
-        {{/if}}
 
-        {{#if image}}
-        <h2>{{title}}</h2>
-        {{{captionBefore}}}
-        {{#if link}}<a href="{{link}}" target="_blank">{{/if}}
-          <img src="/images/{{content}}" class="{{#if link}}image-link{{/if}} {{#if captionBefore}}mt{{/if}} {{#if captionAfter}}mb{{/if}}"
-            alt="{{alt}}">{{#if
-          link}}</a>{{/if}}
-        {{{captionAfter}}}
-        {{/if}}
+  <!-- CONTENT BLOCKS START HERE -->
+  {{#each blocks}}
+  {{#unless hide}}
+  <div class="grid block {{#if title}} has-title{{/if}}">
+    <div class=" grid__item desk--one-third">
+      <h2>{{title}}</h2>
+    </div>
+    <div class="grid__item desk--two-thirds">
 
-        {{#if blockquote}}
-        <h2 class="mb">{{title}}</h2>
-        {{{captionBefore}}}
-        <p class="blockquote">{{{content}}}</p>
-        {{{captionAfter}}}
-        {{/if}}
+      {{#if text}}
+      <div class="text">
+        {{{content}}}
+      </div>
+      {{/if}}
 
-        {{#if pdf}}
-        <h2>{{title}}</h2>
-        {{{captionBefore}}}
-        <iframe class="pdf {{#if captionBefore}}mt{{/if}} {{#if captionAfter}}mb{{/if}}" src="{{content}}"></iframe>
-        {{{captionAfter}}}
-        {{/if}}
+      {{#if image}}
+      {{{captionBefore}}}
+      {{#if link}}<a href="{{link}}" target="_blank">{{/if}}
+        <img src="/images/{{content}}" class="{{#if link}}image-link{{/if}} {{#if captionBefore}}mt{{/if}} {{#if captionAfter}}mb{{/if}}"
+          alt="{{alt}}">{{#if
+        link}}</a>{{/if}}
+      {{{captionAfter}}}
+      {{/if}}
 
-        {{#if palette}}
-        <h2>{{title}}</h2>
-        {{{captionBefore}}}
-        <div class="swatches" style="grid-template-columns: {{#each content}}1fr {{/each}};">
-          {{#each content}}
-          <div class="swatch" style="--color: {{text}}; {{#if ../color}}color: {{../color}}{{/if}}">
-            <div class="wrapper">
-              <div class="sample" style="background-color: {{this}}">
-              </div>
-              <div class="hex">
-                {{this}}
-              </div>
+      {{#if blockquote}}
+      {{{captionBefore}}}
+      <p class="blockquote">{{{content}}}</p>
+      {{{captionAfter}}}
+      {{/if}}
+
+      {{#if pdf}}
+      {{{captionBefore}}}
+      <iframe class="pdf {{#if captionBefore}}mt{{/if}} {{#if captionAfter}}mb{{/if}}" src="{{content}}"></iframe>
+      {{{captionAfter}}}
+      {{/if}}
+
+      {{#if palette}}
+      {{{captionBefore}}}
+      <div class="swatches" style="grid-template-columns: {{#each content}}1fr {{/each}};">
+        {{#each content}}
+        <div class="swatch" style="--color: {{text}}; {{#if ../color}}color: {{../color}}{{/if}}">
+          <div class="wrapper">
+            <div class="sample" style="background-color: {{this}}">
+            </div>
+            <div class="hex">
+              {{this}}
             </div>
           </div>
-          {{/each}}
         </div>
-        {{{captionAfter}}}
-        {{/if}}
-
+        {{/each}}
       </div>
-      {{/unless}}
-      {{/each}}
+      {{{captionAfter}}}
+      {{/if}}
+
     </div>
   </div>
-</div>
+
+  {{/unless}}
+  {{/each}}
+
+</div> <!-- /.project-page -->
 
 <div class="grid">
 

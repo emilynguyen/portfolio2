@@ -6,9 +6,6 @@
     margin-bottom: 3rem;
     color: var(--text);
   }
-}
-
-.project-content {
   img {
     width: 100%;
   }
@@ -16,6 +13,12 @@
     @include grid-media-query("portable") {
       margin-bottom: $space-md;
       margin-bottom: $space;
+    }
+  }
+  .intro {
+    margin-bottom: $space-lg;
+    @include grid-media-query(portable) {
+      margin-bottom: 8rem;
     }
   }
 }
@@ -60,14 +63,17 @@
       }
     }
   }
+  &:not(.has-title) {
+    margin-top: $space;
+  }
   &.has-title {
     @include grid-media-query("portable") {
-      //margin-top: $space-md;
       margin-top: 5.5rem;
+      // margin-top: $space;
     }
     @include grid-media-query("desk") {
-      //margin-top: $space-lg;
       margin-top: 8rem;
+      // margin-top: 0;
     }
   }
 }
@@ -114,6 +120,7 @@
 */
 
 .swatches {
+  margin-bottom: 0.7rem;
   display: grid;
   grid-gap: 1rem;
   @include grid-media-query(lap-up) {
