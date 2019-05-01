@@ -120,7 +120,7 @@
     },
     {
       "title": "ERGO",
-      "sub": "Brand + Interaction + Web Dev",
+      "sub": "Interaction Design + Web Dev",
       "url": "ergo",
       "icon": "ergo/ergo.gif",
       "landing": "ergo/isometric.png",
@@ -137,7 +137,7 @@
         {
           "title": "Roles",
           "wide": true,
-          "content": "Led the brand design and development of the HTML prototype. Interaction design was done as a team."
+          "content": "Led the brand + UI design and development of the HTML prototype. Interaction design was done as a team."
         },
         {
           "title": "Key Skills",
@@ -399,6 +399,7 @@
     },
     {
       "title": "Digitizing the Red Envelope Experience",
+      "archive": true,
       "sub": "Product Design",
       "url": "red-envelope",
       "icon": "red-envelope/icon.min.jpg",
@@ -510,7 +511,7 @@
     },
     {
       "title": "Design at UCSD",
-      "sub": "Visual + Brand + Web Dev",
+      "sub": "Brand Design + Web Dev",
       "url": "designatucsd",
       "icon": "designatucsd/icon-isometric.png",
       "landing": "none",
