@@ -509,6 +509,52 @@
       "sections": []
     },
     {
+      "title": "A.S. Graphic Studio",
+      "url": "asgs",
+      "sub": "Visual + Front-End",
+      "icon": "asgs/icon.png",
+      "landing": "asgs/home.png",
+      "bg": "#f7f7f7",
+      "text": "#555",
+      "description": "Redesigned and developed a new website for Associated Students Graphic Studio.",
+      "summary": "<p>In between my assigned projects as Associated Students Graphic Studio's new webmaster, I took the initiative to revamp their 9-year-old website. I gave the site a visual refresh that closer aligned with our fun brand and used modern web development practices to improve content management.</p>",
+      "button": {
+        "title": "Visit Site",
+        "link": "http://asgraphicstudio.ucsd.edu"
+      },
+      "details": [
+        {
+          "title": "Role",
+          "content": "Lead designer and developer"
+        },
+        {
+          "title": "Tools + Skills",
+          "content": "Sketch, HTML, CSS, Sass, Jekyll"
+        },
+        {
+          "title": "Date",
+          "content": "Dec 2018 – Jan 2019"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/emilynguyen/asgs\" target=\"_blank\">Github repo</a><br><a href=\"http://asgraphicstudio.ucsd.edu/archive_010719/\" target=\"_blank\">Old site</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Old Site",
+          "image": true,
+          "link": "http://asgraphicstudio.ucsd.edu/archive_010719/",
+          "content": "asgs/old-asgs.png"
+        },
+        {
+          "title": "Process",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        }
+      ]
+    },
+    {
       "title": "Design at UCSD",
       "sub": "Brand Design + Web Dev",
       "url": "designatucsd",
@@ -581,53 +627,6 @@
           "content": "designatucsd/fb-before-after.png",
           "alt": "Side-by-side comparison of a Facebook event from Jan 2018 and the same event from Jan 2019, showing an increase in interest",
           "captionBefore": "<p>Our soft rebrand was received positively by our leadership board and Design at UCSD saw an increase in online member engagement.</p>"
-        }
-      ]
-    },
-
-    {
-      "title": "A.S. Graphic Studio",
-      "archive": true,
-      "url": "asgs",
-      "sub": "Visual + Front-End",
-      "icon": "asgs/asgs.gif",
-      "bg": "#f7f7f7",
-      "text": "#555",
-      "description": "Redesigned and developed a new website for Associated Students Graphic Studio.",
-      "summary": "<p>In between my assigned projects as Associated Students Graphic Studio's new webmaster, I took the initiative to revamp their 9-year-old website. I gave the site a visual refresh that closer aligned with our fun brand and used modern web development practices to improve content management.</p>",
-      "button": {
-        "title": "Visit Site",
-        "link": "http://asgraphicstudio.ucsd.edu"
-      },
-      "details": [
-        {
-          "title": "Role",
-          "content": "Lead designer and developer"
-        },
-        {
-          "title": "Tools + Skills",
-          "content": "Sketch, HTML, CSS, Sass, Jekyll"
-        },
-        {
-          "title": "Date",
-          "content": "Dec 2018 – Jan 2019"
-        },
-        {
-          "title": "Resources",
-          "content": "<a href=\"https://github.com/emilynguyen/asgs\" target=\"_blank\">Github repo</a><br><a href=\"http://asgraphicstudio.ucsd.edu/archive_010719/\" target=\"_blank\">Old site</a>"
-        }
-      ],
-      "blocks": [
-        {
-          "title": "Old Site",
-          "image": true,
-          "link": "http://asgraphicstudio.ucsd.edu/archive_010719/",
-          "content": "asgs/old-asgs.png"
-        },
-        {
-          "title": "Process",
-          "text": true,
-          "content": "<p>Coming soon!</p>"
         }
       ]
     },
