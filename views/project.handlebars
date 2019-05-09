@@ -1,95 +1,79 @@
 {{#with currProject}}
-<div class="project-page" style="--text: {{#lower_opacity text}}{{/lower_opacity}}">
 
-  <div class="grid intro">
-    <div class="grid__item desk--one-third description">
-      {{#if summary}}{{{summary}}}{{else}}<p>{{description}}</p>{{/if}}
-      {{#if button}}
-      <a href="{{button.link}}" target="_blank" class="btn mt mb" style="--btn-bg: {{text}}; --btn-text: {{bg}}">{{button.title}}</a>
-      {{/if}}
+<div id="project-page" class="mt-2 mb-4 portable--mb-3">
+  <div class="grid">
+    <div class="grid__item mb-3 portable--mb-2">
+      {{#ifCond landing "!=" "none"}}
+      <img src="/images/{{landing}}" alt="{{title}}">
+      {{/ifCond}}
     </div>
-    <div class="grid__item desk--two-thirds">
-      <div class="grid mb-xs">
-        {{#each details}}
+    <div class="grid__item {{@root.col1}}">
+      <h2 class="portable--mb-2">{{title}}</h2>
+      {{#if button}}<div class="mt-2 portable--mb-2"><a class="btn" href="{{button.link}}" target="_blank">{{button.title}}</a></div>{{/if}}
+    </div>
+    <div class="grid__item {{@root.col2}}">
 
-        <div class="grid__item {{#if wide}}desk--two-thirds portable--one-whole {{else}}desk--one-third portable--one-half {{/if}} mb-xs">
+      <div class="grid">
+        <div class="grid__item mb-2">
+          {{{overview}}}
+        </div>
+        {{#each details}}
+        <div class="grid__item one-half {{#if wide}}palm--one-whole{{/if}} mb-2">
           <h4>{{title}}</h4>
           <p>{{{content}}}</p>
         </div>
         {{/each}}
       </div>
-      {{#if_not_eq landing "none"}}
-      <img src="/images/{{#if landing}}{{landing}}{{else}}{{icon}}{{/if}}" alt="{{title}}">
-      {{/if_not_eq}}
-    </div>
-  </div> <!-- /.intro -->
-
-
-
-  <!-- CONTENT BLOCKS START HERE -->
-  {{#each blocks}}
-  {{#unless hide}}
-  <div class="grid block {{#if title}} has-title{{/if}}">
-    <div class=" grid__item desk--one-third">
-      <h2>{{title}}</h2>
-    </div>
-    <div class="grid__item desk--two-thirds">
-
-      {{#if text}}
-      <div class="text">
-        {{{content}}}
-      </div>
-      {{/if}}
-
-      {{#if image}}
-      {{{captionBefore}}}
-      {{#if link}}<a href="{{link}}" target="_blank">{{/if}}
-        <img src="/images/{{content}}" class="{{#if link}}image-link{{/if}} {{#if captionBefore}}mt{{/if}} {{#if captionAfter}}mb{{/if}}"
-          alt="{{alt}}">{{#if
-        link}}</a>{{/if}}
-      {{{captionAfter}}}
-      {{/if}}
-
-      {{#if blockquote}}
-      {{{captionBefore}}}
-      <p class="blockquote">{{{content}}}</p>
-      {{{captionAfter}}}
-      {{/if}}
-
-      {{#if pdf}}
-      {{{captionBefore}}}
-      <iframe class="pdf {{#if captionBefore}}mt{{/if}} {{#if captionAfter}}mb{{/if}}" src="{{content}}"></iframe>
-      {{{captionAfter}}}
-      {{/if}}
-
-      {{#if palette}}
-      {{{captionBefore}}}
-      <div class="swatches" style="grid-template-columns: {{#each content}}1fr {{/each}};">
-        {{#each content}}
-        <div class="swatch" style="--color: {{text}}; {{#if ../color}}color: {{../color}}{{/if}}">
-          <div class="wrapper">
-            <div class="sample" style="background-color: {{this}}">
-            </div>
-            <div class="hex">
-              {{this}}
-            </div>
-          </div>
-        </div>
-        {{/each}}
-      </div>
-      {{{captionAfter}}}
-      {{/if}}
-
     </div>
   </div>
+  {{#each blocks}}
+  {{#unless hide}}
+  <div class="grid mt-3 portable--mt-3">
 
+
+    <!-- TEXT -->
+
+
+    {{#if text}}
+    <div class="grid__item {{@root.col1}}">
+      {{#if title}}<h2 class="sub portable--mb-2">{{title}}</h2>{{/if}}
+    </div>
+    <div class="grid__item {{@root.col2}}">
+      {{{content}}}
+    </div>
+
+    <!-- IMAGE -->
+
+    {{else if image}}
+
+    {{#ifCond captionBefore "||" title}}
+    <div class="grid__item {{@root.col1}}">
+      {{#if title}}
+      <h2 class="sub mb-3 portable--mb-1 {{#if captionBefore}}portable--mb-2{{/if}}">{{title}}</h2>{{/if}}
+    </div>
+    <div class="grid__item {{@root.col2}}">{{{captionBefore}}}</div>
+    {{/ifCond}}
+    <div class="grid__item">
+      <img class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-3{{/if}}"
+        src="/images/{{content}}" alt="{{alt}}">
+    </div>
+    {{#if captionAfter}}
+    <div class="grid__item {{@root.col1}}"></div>
+    <div class="grid__item {{@root.col2}}">{{{captionAfter}}}</div>
+    {{/if}}
+
+
+    {{/if}}
+
+
+  </div>
   {{/unless}}
   {{/each}}
 
-</div> <!-- /.project-page -->
-
-<div class="grid">
-
 </div>
+
+
+
+
 
 {{/with}}

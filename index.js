@@ -149,7 +149,7 @@ app.get("/", function(req, res) {
     url: "",
     description:
       "Designer + developer + HCI student that loves crafting visual experiences and seeing them through to implementation.",
-    home: true
+    bg_black: true
   });
 });
 
@@ -157,10 +157,10 @@ app.get("/about", function(req, res) {
   res.render("about", {
     projects,
     title: "About | Emily Nguyen",
-    h1: "<span id='about-tagline'>Poor vision, good eye <wbr>for design</span>",
     url: "about",
     description:
-      "Designer + developer + HCI student that loves crafting visual experiences and seeing them through to implementation."
+      "Designer + developer + HCI student that loves crafting visual experiences and seeing them through to implementation.",
+    bg_black: true
   });
 });
 
@@ -178,7 +178,6 @@ app.get("/archive", function(req, res) {
   res.render("archive", {
     archive,
     title: "Archive | Emily Nguyen",
-    h1: "Archive",
     url: "archive",
     description: ""
   });
@@ -211,11 +210,10 @@ app.get("/:project", function(req, res) {
         projects,
         currProject,
         title: currProject.title + " | Emily Nguyen",
-        h1: currProject.title,
         url: currProject.url,
         description: currProject.description,
-        text: currProject.text,
-        bg: currProject.bg
+        col1: "desk--one-third",
+        col2: "desk--two-thirds"
       });
       return;
     }
@@ -224,7 +222,7 @@ app.get("/:project", function(req, res) {
   // Otherwise, show 404
   res.render("404", {
     title: "Page Not Found | Emily Nguyen",
-    h1: "404 — Page Not Found"
+    bg_black: true
   });
 });
 
@@ -249,11 +247,8 @@ app.get("/archive/:project", function(req, res) {
         projects,
         currProject,
         title: currProject.title + " | Emily Nguyen",
-        h1: currProject.title,
         url: currProject.url,
-        description: currProject.description,
-        text: currProject.text,
-        bg: currProject.bg
+        description: currProject.description
       });
       return;
     }
@@ -262,7 +257,7 @@ app.get("/archive/:project", function(req, res) {
   // Otherwise, show 404
   res.render("404", {
     title: "Page Not Found | Emily Nguyen",
-    h1: "404 — Page Not Found"
+    bg_black: true
   });
 });
 

@@ -74,7 +74,7 @@ $mobile-first: true !default;
 /**
  * Set the spacing between your grid items.
  */
-$gutter: 5rem !default;
+$gutter: 6rem !default;
 
 /**
  * Would you like Sass’ silent classes, or regular CSS classes?
@@ -107,11 +107,13 @@ $use-markup-fix: false !default;
  * that the breakpoint fires at.
  */
 $breakpoints: (
+  "" "(min-width: 0)",
   "palm" "(max-width: 480px)",
   "lap" "(min-width: 481px) and (max-width: 1023px)",
   "lap-up" "(min-width: 481px)",
   "portable" "(max-width: 1023px)",
-  "desk" "(min-width: 1024px)"
+  "desk" "(min-width: 1024px)",
+  "monitor" "(min-width: 1800px)"
 ) !default;
 
 /**
@@ -124,9 +126,30 @@ $breakpoints: (
  * Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
  * have been set to ‘true’.
  */
-$breakpoint-has-widths: ("palm", "lap", "lap-up", "portable", "desk") !default;
-$breakpoint-has-push: ("palm", "lap", "lap-up", "portable", "desk") !default;
-$breakpoint-has-pull: ("palm", "lap", "lap-up", "portable", "desk") !default;
+$breakpoint-has-widths: (
+  "palm",
+  "lap",
+  "lap-up",
+  "portable",
+  "desk",
+  "monitor"
+) !default;
+$breakpoint-has-push: (
+  "palm",
+  "lap",
+  "lap-up",
+  "portable",
+  "desk",
+  "monitor"
+) !default;
+$breakpoint-has-pull: (
+  "palm",
+  "lap",
+  "lap-up",
+  "portable",
+  "desk",
+  "monitor"
+) !default;
 
 /**
  * You do not need to edit anything from this line onward; csswizardry-grids is
@@ -190,6 +213,9 @@ $class-type: if($use-silent-classes, unquote("%"), unquote("."));
   @if not $use-markup-fix {
     letter-spacing: -0.31em;
   }
+  @include grid-media-query(portable) {
+    margin-left: -$gutter / 2;
+  }
 }
 
 @if not $use-markup-fix {
@@ -210,6 +236,9 @@ $class-type: if($use-silent-classes, unquote("%"), unquote("."));
 #{$class-type}grid__item {
   display: inline-block; /* [1] */
   padding-left: $gutter; /* [2] */
+  @include grid-media-query(portable) {
+    padding-left: $gutter / 2;
+  }
   vertical-align: top; /* [3] */
   @if $mobile-first {
     width: 100%; /* [4] */
