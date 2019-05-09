@@ -2,14 +2,14 @@
   "projects": [
     {
       "title": "Salesforce Internship",
-      "sub": "UX Research + Visual Design",
+      "sub": "UX Design",
       "url": "salesforce",
       "icon": "salesforce/icon.png",
-      "landing": "salesforce/logo.png",
+      "landing": "salesforce/landing.jpg",
       "bg": "#fcfdff",
       "text": "#212b3a",
       "description": "Supported an upcoming learning platform.",
-      "summary": "<p>This past summer, I completed my first internship! I had the pleasure of joining Salesforce’s Global Enablement — Tech Ops team as a Visual Experience Design Intern.</p><p>Tech Ops built internal technology that helped streamline workplace operations and was working on an online learning platform when I came on board. I supported this project by leading usability testing sessions and utilizing my insights to assist in a UI redesign. I also created brand collateral for this product and provided additional visual communication needs.</p>",
+      "overview": "<p>This past summer, I completed my first internship! I had the pleasure of joining Salesforce’s Global Enablement — Tech Ops team as a Visual Experience Design Intern.</p><p>Tech Ops built internal technology that helped streamline workplace operations and was working on an online learning platform when I came on board. I supported this project by leading usability testing sessions and utilizing my insights to assist in a UI redesign. I also created brand collateral for this product and provided additional visual communication needs.</p>",
       "details": [
         {
           "title": "Role",
@@ -30,23 +30,18 @@
       ],
       "blocks": [
         {
-          "title": "UX Research",
+          "title": "Problem",
           "text": true,
           "content": "<p>The online learning tool that my team was working on aimed to centralize learning at Salesforce, which involved understanding the needs of 2 users:</p><ul><li><span><i>Enabler</i> (Manager) — Creates and assigns learning. Needs to be able to manage their courses + assignments and view the progress of their employees.</span></li><li><span><i>Learner</i> (Employee) — Receives and completes learning. Needs to be able to track their progress, enroll in classes, and receive notifications.</span></li></ul><p>At the time that I had joined the project, the product was in its third release. The lead UX designer on my team had recently left the company, but had completed user testing for the Enabler point of view beforehand. My task was to continue where she had left off and conduct usability testing for the Learner.</p><p>I was currently the only designer on Tech Ops, making this an intimidating task. I quickly learned the importance of being a self-starter and reached out to designers from other teams for mentorship. Using their guidance and the recordings + notes that the previous designer had left for me, I created a user testing plan and contacted 6 new hires across various positions for interviews. Afterwards, I synthesized my insights and presented them to my team.</p>"
         },
         {
-          "title": "UI Redesign + Brand Collateral",
-          "text": true,
-          "content": "<p>In between my UX research tasks, I was fortunate enough to explore other areas of interest. A neighboring team of visual designers was working on a redesign of the same product, and I assisted by researching best UI practices and providing feedback.</p><p>My usability testing revealed many pain points in our assignment cards, so we were particularly focused on improving how we communicated assignment details, progress, due dates, and time left. I analyzed the card designs used by popular online learning platforms, such as Trailhead 🙊, Codecademy, and Treehouse, to discover the best way to organize and display information. As someone interested in both visual and UX, it was exciting to see how these fields intersect to create fluid digital experiences.</p>"
-        },
-        {
+          "title": "Redesign",
           "image": true,
+          "captionBefore": "<p>In between my UX research tasks, I was fortunate enough to explore other areas of interest. A neighboring team of visual designers was working on a redesign of the same product, and I assisted by researching best UI practices and providing feedback.</p><p>My usability testing revealed many pain points in our assignment cards, so we were particularly focused on improving how we communicated assignment details, progress, due dates, and time left. I analyzed the card designs used by popular online learning platforms, such as Trailhead 🙊, Codecademy, and Treehouse, to discover the best way to organize and display information. As someone interested in both visual and UX, it was exciting to see how these fields intersect to create fluid digital experiences.</p>",
           "content": "salesforce/cards.png",
-          "alt": "Card designs from Trailhead, Codecademy, and Treehouse"
-        },
-        {
-          "text": true,
-          "content": "<p>Additionally, I contributed to the product’s corporate slide deck by illustrating a few landscapes for custom slide templates. Being able to design under a well-established brand grew my appreciation for the planning and structure that successful brand implementation requires.</p>"
+          "border": true,
+          "alt": "Card designs from Trailhead, Codecademy, and Treehouse",
+          "captionAfter": "<p>Additionally, I contributed to the product’s corporate slide deck by illustrating a few landscapes for custom slide templates. Being able to design under a well-established brand grew my appreciation for the planning and structure that successful brand implementation requires.</p>"
         },
         {
           "title": "Visual Communication",
@@ -65,10 +60,11 @@
       "sub": "Front-End + Web Design",
       "url": "sgf",
       "icon": "sgf/icon.gif",
+      "landing": "sgf/landing.gif",
       "text": "#242424",
       "bg": "#f2f7f9",
       "description": "Website for the 37th annual Sun God Music Festival.",
-      "summary": "<p>Sun God Festival is a student-curated, daylong music and arts festival at UC San Diego. Named as one of Live Nation’s \"Top 5 College Concerts That Should Be Actual Festivals\", Sun God is the largest campus-wide event and brings in 20,000+ attendees each year. Sun God Festival 2019 will be headlined by Vince Staples; past acts include Drake, Kendrick Lamar, Jhené Aiko, Khalid, and My Chemical Romance.</p><p>This year, I was given the opportunity to build the website for the festival. I worked closely with the creative director to execute his vision and also designed several pages.</p>",
+      "overview": "<p>Sun God Festival is a student-curated, daylong music and arts festival at UC San Diego. Named as one of Live Nation’s \"Top 5 College Concerts That Should Be Actual Festivals\", Sun God is the largest campus-wide event and brings in 20,000+ attendees each year. Sun God Festival 2019 will be headlined by Vince Staples; past acts include Drake, Kendrick Lamar, Jhené Aiko, Khalid, and My Chemical Romance.</p><p>This year, I was given the opportunity to build the website for the festival. I worked closely with the creative director to execute his vision and also designed several pages.</p>",
       "button": {
         "title": "Visit Site",
         "link": "http://sgf.ucsd.edu"
@@ -109,11 +105,13 @@
         {
           "image": true,
           "content": "sgf/lineup-glitch.gif",
+          "border": true,
           "alt": "Lineup page drawers"
         },
         {
           "image": true,
           "content": "sgf/accordian.gif",
+          "border": true,
           "alt": "FAQ accordian"
         }
       ]
@@ -122,13 +120,13 @@
       "title": "ERGO",
       "sub": "Interaction Design + Web Dev",
       "url": "ergo",
-      "icon": "ergo/ergo.gif",
-      "landing": "ergo/isometric.png",
+      "icon": "ergo/icon.gif",
+      "landing": "ergo/landing.gif",
       "text": "#fff",
       "bg": "#5db7a8",
       "col": 2,
       "description": "An ergonomics app concept.",
-      "summary": "<p><i>Our work environments can work against us</i>. ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different spaces, ERGO is unique in that it introduces exercises that use the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.</p>",
+      "overview": "<p><i>Our work environments can work against us</i>. ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different spaces, ERGO is unique in that it introduces exercises that use the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.</p>",
       "button": {
         "title": "View Prototype",
         "link": "http://ergo-webapp.herokuapp.com/"
@@ -150,7 +148,7 @@
         },
         {
           "title": "Date",
-          "content": "Jan – Mar 2018 (10 weeks)"
+          "content": "Jan – Mar 2018"
         },
         {
           "title": "Resources",
@@ -163,27 +161,14 @@
           "text": true,
           "content": "<p>When the spaces we regularly navigate become a part of our routines, we fail to recognize how we interact with them. Our team's goal was to reassess the interactions between users and their environments to discover how these interactions could be used to fulfill unmet user needs. In particular, we were interested in human behavior within work settings and how the use of computers could contribute to successes and breakdowns.</p>"
         },
+
         {
-          "title": "Needfinding + Personas",
-          "text": true,
-          "content": "<p>We observed 3 participants in their respective work environments and discovered that wellness was a common concern between them. Using the data we collected, we constructed personas that encapsulated our target audience: people who regularly experience long periods of physical inactivity.</p>"
-        },
-        {
-          "personas": true,
-          "personaList": [
-            {
-              "icon": "images/ergo/personas/tony.svg",
-              "description": "<p>Tony is a college student who is studying all night for an exam he has the next day. He becomes immersed in his studies and doesn't realize when his posture worsens and his eyes begin to feel strained. Tony <i>needs a way to be reminded to take breaks and relieve physical stress.</i></p>"
-            },
-            {
-              "icon": "images/ergo/personas/steve.svg",
-              "description": "<p>Steve is currently studying for the MCAT using his test prep books. He is also a full-time lab technician, so he only has time to study at home before and after work. He is worried about the effects of a sedentary lifestyle, but the ergonomic tips he finds online cater to office workers who use computers. Steve <i>needs tips and exercises that are applicable to his environment.</i></p>"
-            },
-            {
-              "icon": "images/ergo/personas/wanda.svg",
-              "description": "<p>Wanda works in an office and experiences discomfort from sitting at her desk all day. She has tried a few ergonomics apps before but is sometimes too lazy to get up and perform stretches. Wanda <i>needs a tool that can successfully encourage her to be more active.</i></p>"
-            }
-          ]
+          "title": "Needfinding",
+          "image": true,
+          "border": true,
+          "content": "ergo/personas.png",
+          "alt": "Personas",
+          "captionBefore": "<p>We observed 3 participants in their respective work environments and discovered that wellness was a common concern between them. Using the data we collected, we constructed personas that encapsulated our target audience: people who regularly experience long periods of physical inactivity.</p>"
         },
         {
           "title": "Ideation",
@@ -198,15 +183,14 @@
         {
           "title": "Storyboarding",
           "image": true,
-          "content": "ergo/storyboard.jpeg",
-          "alt": "Storyboard: Natalie and Robb successfully use ERGO to reduce their respective pains",
-          "captionBefore": "<p>To explore the different scenarios in which our app could be used, my team then drew up storyboards.</p>",
-          "captionAfter": "<p><a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View all storyboards</a>.</p>"
+          "border": true,
+          "content": "ergo/storyboard.jpg",
+          "alt": "Storyboard: Natalie and Robb successfully use ERGO to reduce their respective pains"
         },
         {
           "title": "Rapid Prototyping",
           "image": true,
-          "content": "ergo/paper-prototypes.png",
+          "content": "ergo/paper-prototypes.jpg",
           "alt": "2 paper prototypes",
           "captionBefore": "<p>We then created two prototypes and had participants walk through several use cases on each one. Our first prototype (left) starts by asking users what device they're working on, while the second prototype (right) asks users where they are working.</p>",
           "captionAfter": "<p>An issue we discovered while testing was that a user's device does not tell us much about their environment (e.g. a laptop can be used anywhere). So, we decided to move forward with our second prototype. <a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View paper prototypes</a>.</p>"
@@ -219,10 +203,9 @@
         {
           "title": "Wireframing",
           "image": true,
-          "content": "ergo/wireframes.min.jpg",
+          "content": "ergo/wireframes.png",
           "alt": "App flow when logged in and logged out",
-          "captionBefore": "<p>Next, we created wireframes to visualize the flow of our app.</p>",
-          "captionAfter": "<p><a href=\"/images/ergo/wireframes.jpg\" target=\"_blank\">View full-sized wireframes</a>.</p>"
+          "captionBefore": "<p>Next, we created wireframes to visualize the flow of our app.</p>"
         },
         {
           "title": "Brand + Visual Design",
@@ -239,18 +222,13 @@
         {
           "title": "User Testing",
           "image": true,
-          "content": "ergo/home-changes.png",
-          "alt": "New home page with how to get started tips and environment descriptions",
+          "content": "ergo/usertesting1.png",
+          "alt": "Left: New home page with how to get started tips and environment descriptions; Right: New setup page with environment name in the title",
           "captionBefore": "<p>One of the biggest problems we discovered while user testing is that ERGO had poor visibility of system status. To resolve this issue, we made labels more informative and added more descriptions throughout our app.</p>"
         },
         {
           "image": true,
-          "content": "ergo/setup-changes.png",
-          "alt": "New setup page with environment name in the title"
-        },
-        {
-          "image": true,
-          "content": "ergo/icon-changes.svg",
+          "content": "ergo/usertesting2.png",
           "alt": "New person icon and bookmark icon",
           "captionBefore": "<p>Another problem we had was that users did not find our icons intuitive, namely our <i>Log In</i> and <i>Favorites</i> buttons. We replaced our <i>Log In</i> icon with the universal icon for <i>Profile</i>, a person, and decided to rename our <i>Favorites</i> page to <i>Bookmarks</i>. Stretch routines are saved using URL parameters, so we decided this new title would be more fitting.</p>",
           "captionAfter": "<p>After implementing these changes, we continued user testing and received positive feedback.</p>"
@@ -264,38 +242,31 @@
     },
     {
       "title": "Burow",
-      "sub": "Brand + Web Design",
+      "sub": "Brand Design",
       "url": "burow",
       "icon": "burow/icon.png",
+      "landing": "burow/scenery.gif",
       "text": "#edfcef",
       "bg": "#6CA18A",
       "description": "A cozy housing app concept.",
       "col": "2",
-      "summary": "<p>Burow is a desktop web app that helps users find the perfect new neighborhood to move to. By reversing the user flow of existing real estate apps and ditching the professional look, Burow provides a unique home hunting experience.</p><p>I worked in a team of 4 to bring to life a working demo of this concept.</p>",
+      "overview": "<p>Burow is a desktop web app that helps users find the perfect new neighborhood to move to. By reversing the user flow of existing real estate apps and ditching the professional look, Burow provides a unique home hunting experience.</p>",
       "details": [
         {
-          "title": "Key Roles",
+          "title": "Roles",
           "content": "Lead brand designer, web designer"
         },
         {
           "title": "Key Skills",
-          "content": "Brand design, web design, illustration, web development (React)"
-        },
-        {
-          "title": "Deliverables",
-          "content": "Branding guidelines, design + development of the landing page"
+          "content": "Brand design, web design, illustration"
         },
         {
           "title": "Teammates",
-          "content": "Aman Gupta, Joel Sequeira, Jared Suasin"
-        },
-        {
-          "title": "Resources",
-          "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github repo</a><br><a href='https://drive.google.com/file/d/1a0_elaRO7U0osApLxUgap3Kg3ghxkchM/view' target='_blank'>Demo video</a><br><a href=\"https://burow.xyz/\" target=\"_blank\">burow.xyz</a>"
+          "content": "Aman Gupta — developer<br>Joel Sequeira — developer<br> Jared Suasin — developer, web designer"
         },
         {
           "title": "Date",
-          "content": "Apr – June 2018 (10 weeks)"
+          "content": "Apr – June 2018"
         }
       ],
       "blocks": [
@@ -333,29 +304,22 @@
         {
           "title": "Competitive Analysis",
           "image": true,
-          "content": "burow/competitive-analysis.png",
+          "content": "burow/competitive-analysis.jpg",
           "alt": "Landing pages of Zillow, Trulia, and Redfin",
           "captionAfter": "<p>Zillow, Trulia, and Redfin all use real estate photos, generous negative space, and safe typefaces to create a clean, polished look. While a professional appearance increases credibility, it comes with the tradeoff of looking impersonal and detached.</p>"
         },
         {
           "title": "Brand Design",
-          "text": true,
-          "content": "<p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p>"
-        },
-
-        {
-          "title": " ",
           "image": true,
           "alt": "Mood board",
           "content": "burow/mood-board.png",
-          "captionBefore": "<h3>Mood Board</h3>"
+          "border": true,
+          "captionBefore": "<h1>\"Burow—Dig around and find the neighbourhood that fits your needs!\"</h1><p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p>"
         },
         {
-          "title": " ",
-          "blockquote": true,
-          "content": "Burow—Dig around and find the neighbourhood that fits your needs!",
-          "captionBefore": "<h3>Color + Typography</h3>",
-          "captionAfter": "<p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves.</p>"
+          "title": "",
+          "text": true,
+          "content": "<p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves.</p>"
         },
         {
           "palette": true,
@@ -365,40 +329,38 @@
         {
           "image": true,
           "alt": "Aqua Grotesque",
-          "content": "burow/aqua-grotesque.png"
+          "content": "burow/aqua.png"
         },
         {
           "image": true,
           "alt": "Karla",
+          "border": true,
           "content": "burow/karla.png"
         },
         {
-          "title": " ",
+          "title": "",
           "image": true,
-          "captionBefore": "<h3>Illustrations</h3><p>We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity.</p>",
+          "captionBefore": "<p>We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity. UI elements were also rounded to support the warm brand.</p>",
           "content": "burow/illustration.png"
         },
         {
-          "title": " ",
+          "title": "",
+          "hide": true,
           "image": true,
-          "captionBefore": "<h3>UI Elements</h3><p>UI elements were also rounded to support the warm brand.</p>",
           "content": "burow/ui.png"
         },
         {
-          "title": "Final Landing Page",
+          "title": "",
           "image": true,
-          "content": "burow/icon-browser.png"
-        },
-        {
-          "title": "Bonus Collateral",
-          "hide": true,
-          "text": true,
-          "content": ""
+          "border": true,
+          "alt": "Final home page",
+          "content": "burow/home.png"
         }
       ]
     },
     {
       "title": "Digitizing the Red Envelope Experience",
+      "archive": true,
       "sub": "Product Design",
       "url": "red-envelope",
       "icon": "red-envelope/icon.min.jpg",
@@ -406,7 +368,7 @@
       "bg": "#C9564F",
       "text": "#FFF0CD",
       "description": "A reimagination of the digital red envelope.",
-      "summary": "<p>This past Lunar New Year, <a href='https://radiichina.com/8-jaw-dropping-statistics-from-spring-festival-2019/' target='_blank'>over 800 million red envelopes</a> were sent and received digitally. While being able to exchange envelopes virtually is convenient, existing solutions are heavily gamified, detracting from the cultural focus that physical red envelope exchanges hold. I evaluated these solutions and surveyed Lunar New Year celebrants to discover how to translate the cultural aspects of the red envelope exchange into the user experience.</p><p>This project was inspired by my own experiences as a Vietnamese American. Chúc mừng năm mới! 🧧</p><p><b>Note: work in progress.</b></p>",
+      "overview": "<p>This past Lunar New Year, <a href='https://radiichina.com/8-jaw-dropping-statistics-from-spring-festival-2019/' target='_blank'>over 800 million red envelopes</a> were sent and received digitally. While being able to exchange envelopes virtually is convenient, existing solutions are heavily gamified, detracting from the cultural focus that physical red envelope exchanges hold. I evaluated these solutions and surveyed Lunar New Year celebrants to discover how to translate the cultural aspects of the red envelope exchange into the user experience.</p><p>This project was inspired by my own experiences as a Vietnamese American. Chúc mừng năm mới! 🧧</p><p><b>Note: work in progress.</b></p>",
       "details": [
         {
           "title": "Key Skills",
@@ -473,12 +435,12 @@
       "sub": "Front-End",
       "url": "stride",
       "icon": "stride/runner.gif",
-      "landing": "stride/stride.gif",
+      "landing": "stride/landing.gif",
       "bg": "#FCECB9",
       "text": "#222",
       "description": "Developed a website for a design-centric career fair hosted by Design at UCSD.",
       "col": "2",
-      "summary": "<p>As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.</p><p>In collaboration with one of our visual designers, I developed the event website. I also assisted our graphic studio in creating visual collateral.</p>",
+      "overview": "<p>As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.</p><p>In collaboration with our creative director, I developed the event website. I also assisted our graphic studio in creating visual collateral.</p>",
       "button": {
         "title": "Visit Site",
         "link": "https://stride.designatucsd.org/"
@@ -486,7 +448,7 @@
       "details": [
         {
           "title": "Key Role",
-          "content": "Lead developer"
+          "content": "Developer"
         },
         {
           "title": "Date",
@@ -506,10 +468,17 @@
           "content": "<a href=\"https://github.com/designatucsd/stride\" target=\"_blank\">Github repo</a>"
         }
       ],
-      "sections": []
+      "blocks": [
+        {
+          "image": true,
+          "content": "stride/brand-collateral.png",
+          "alt": "Stride poster and check-in signs"
+        }
+      ]
     },
     {
       "title": "A.S. Graphic Studio",
+      "hide": true,
       "url": "asgs",
       "sub": "Visual + Front-End",
       "icon": "asgs/icon.png",
@@ -517,7 +486,7 @@
       "bg": "#f7f7f7",
       "text": "#555",
       "description": "Redesigned and developed a new website for Associated Students Graphic Studio.",
-      "summary": "<p>In between my assigned projects as Associated Students Graphic Studio's new webmaster, I took the initiative to revamp their 9-year-old website. I gave the site a visual refresh that closer aligned with our fun brand and used modern web development practices to improve content management.</p>",
+      "overview": "<p>In between my assigned projects as Associated Students Graphic Studio's new webmaster, I took the initiative to revamp their 9-year-old website. I gave the site a visual refresh that closer aligned with our fun brand and used modern web development practices to improve content management.</p>",
       "button": {
         "title": "Visit Site",
         "link": "http://asgraphicstudio.ucsd.edu"
@@ -556,6 +525,7 @@
     },
     {
       "title": "Design at UCSD",
+      "hide": true,
       "sub": "Brand Design + Web Dev",
       "url": "designatucsd",
       "icon": "designatucsd/icon-isometric.png",
@@ -564,7 +534,7 @@
       "bg": "#fcfcfc",
       "col": "1",
       "description": "I am a student leader at the largest pre-professional design community on campus.",
-      "summary": "<p>Since November 2017, I’ve been a student leader at the undergraduate design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual and brand designer up until June 2018, where I designed marketing collateral, co-lead visual design workshops, and evolved brand identity. I now spearhead all our web development projects as our web developer.</p>",
+      "overview": "<p>Since November 2017, I’ve been a student leader at the undergraduate design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual and brand designer up until June 2018, where I designed marketing collateral, co-lead visual design workshops, and evolved brand identity. I now spearhead all our web development projects as our web developer.</p>",
       "details": [
         {
           "title": "Roles",
@@ -640,7 +610,7 @@
       "bg": "#e1f0f7",
       "text": "#055c84",
       "description": "Developed a website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
-      "summary": "<p>Design Frontiers is a series of design sprints hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that showcases the application of design thinking to fields beyond traditional design, such as <a href=\"https://medium.com/design-at-ucsd/students-explore-designing-for-education-at-inaugural-design-frontiers-b06f909553c7\" target=\"_blank\">education</a> and <a href=\"https://frontierssp18.designatucsd.org/\" target=\"_blank\">healthcare</a>. For our Fall 2018 event, we partnered with Intuit to allow students to tackle real product design challenges alongside leading designers in the financial software space.</p><p>As Design at UCSD's web developer, I collaborated with our visual designers to build the website and also facilitated the design sprint the day of.</p>",
+      "overview": "<p>Design Frontiers is a series of design sprints hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that showcases the application of design thinking to fields beyond traditional design, such as <a href=\"https://medium.com/design-at-ucsd/students-explore-designing-for-education-at-inaugural-design-frontiers-b06f909553c7\" target=\"_blank\">education</a> and <a href=\"https://frontierssp18.designatucsd.org/\" target=\"_blank\">healthcare</a>. For our Fall 2018 event, we partnered with Intuit to allow students to tackle real product design challenges alongside leading designers in the financial software space.</p><p>As Design at UCSD's web developer, I collaborated with our visual designers to build the website and also facilitated the design sprint the day of.</p>",
       "button": {
         "title": "Visit Site",
         "link": "https://frontiers.designatucsd.org/"
@@ -670,6 +640,7 @@
     },
     {
       "title": "Salesforce × TravelBoss",
+      "hide": true,
       "sub": "Brand Design",
       "url": "travelboss",
       "icon": "travelboss/icon-blue.png",
@@ -678,7 +649,7 @@
       "text": "#fff",
       "col": 1,
       "description": "A co-branding challenge that I'm proud of.",
-      "summary": "<p>The task at hand was to reimagine a slide deck to create a visually compelling presentation template for upcoming meetings between Salesforce and the fictitious company TravelBoss, whose brand is similar to Airbnb.</p><p><i>Note: This was completed as a timed challenge.</i></p>",
+      "overview": "<p>The task at hand was to reimagine a slide deck to create a visually compelling presentation template for upcoming meetings between Salesforce and the fictitious company TravelBoss, whose brand is similar to Airbnb.</p><p><i>Note: This was completed as a timed challenge.</i></p>",
       "details": [
         {
           "title": "Key Skills",
@@ -732,7 +703,7 @@
       "bg": "#fff6ea",
       "text": "#54514f",
       "description": "Shirt design for UCSD Kaibigang Pilipin@’s 27th annual high school conference.",
-      "summary": "<p>Themed after the animated Disney film <i>Moana</i>, UCSD Kaibigang Pilipin@'s 27th Annual High School Conference was held February 3rd, 2018. These high school conferences are coordinated in collaboration with the Student Promoted Access Center for Education and Service and aim to empower high school students to pursue higher education. This year, I was invited to create a shirt design for the event.</p>",
+      "overview": "<p>Themed after the animated Disney film <i>Moana</i>, UCSD Kaibigang Pilipin@'s 27th Annual High School Conference was held February 3rd, 2018. These high school conferences are coordinated in collaboration with the Student Promoted Access Center for Education and Service and aim to empower high school students to pursue higher education. This year, I was invited to create a shirt design for the event.</p>",
       "details": [
         {
           "title": "Role",
@@ -796,6 +767,7 @@
     },
     {
       "title": "Daily UI",
+      "hide": true,
       "sub": "UI Design",
       "url": "dailyui",
       "icon": "daily-ui/icon.jpg",
@@ -834,7 +806,7 @@
       "text": "#333150",
       "icon": "google/icon.png",
       "description": "Google Design Exercise 2019",
-      "summary": "<p><b>Option 2 — </b>Design an experience for students to discover orientation events and craft a visual system to accommodate different types of events: sports, music, visual arts, social groups, and volunteering events. Provide high-fidelity mocks for searching, browsing, and viewing the details for these different events.</p>",
+      "overview": "<p><b>Option 2 — </b>Design an experience for students to discover orientation events and craft a visual system to accommodate different types of events: sports, music, visual arts, social groups, and volunteering events. Provide high-fidelity mocks for searching, browsing, and viewing the details for these different events.</p>",
       "details": [
         {
           "title": "Tools",
@@ -886,7 +858,7 @@
       "bg": "#ffe4e2",
       "landing": "none",
       "description": "A collection of my personal work and illustrations.",
-      "summary": "<p>A collection of my personal work and illustrations. :~)</p>",
+      "overview": "<p>A collection of my personal work and illustrations. :~)</p>",
       "button": {
         "title": "View on Instagram",
         "link": "https://www.instagram.com/emilynguyen.co/"
@@ -895,50 +867,41 @@
         {
           "title": "Tools",
           "content": "Illustrator, Sketch"
-        },
-        {
-          "title": "Date",
-          "content": "2014 – Present"
         }
       ],
       "blocks": [
         {
-          "title": " ",
           "image": true,
           "alt": "Slide deck on moodboards",
           "content": "personal/moodboard-deck.png",
           "captionAfter": "<p>A <a href='https://docs.google.com/presentation/d/1hxCS80EelFBKxkcJHyHmXzt6Ca_OXCp8RQnv-I6MoH8/edit?usp=sharing' target='_blank'>slide deck about moodboards</a> that I created for a web design practicum I'm tutoring.</p>"
         },
         {
-          "title": " ",
           "image": true,
+          "border": true,
           "alt": "Interface for an event finder site",
           "content": "personal/event-finder.png",
           "captionAfter": "<p>Interface for an event finder site. 💃🏻</p>"
         },
         {
-          "title": " ",
           "image": true,
           "hide": true,
           "content": "personal/saturation.png",
           "alt": "Colorful abstract illustration"
         },
         {
-          "title": " ",
           "image": true,
           "content": "personal/nancy.png",
           "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
-          "captionAfter": "<p class=\"small-text\"><a href=\"https://www.instagram.com/nancy.bui\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
+          "captionAfter": "<p class=\"small-text\"><a href=\"https://www.instagram.com/daisocustomer/\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
         },
         {
-          "title": " ",
           "image": true,
           "content": "personal/sushi.png",
           "alt": "Sleeping hand roll",
           "captionAfter": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\" <span class=\"small-text\">(Nov 2018)</span></p>"
         },
         {
-          "title": " ",
           "image": true,
           "content": "personal/red.png",
           "alt": "Eyes",
@@ -946,28 +909,24 @@
           "captionAfter": "<p>RED — \"Associated with energy, war, danger, strength, power, determination as well as passion, desire, and love. Enhances human metabolism, increases respiration rate, and raises blood pressure. It attracts attention more than any other color, at times signifying danger.\" <span class=\"small-text\">(Sept 2018)</span></p>"
         },
         {
-          "title": " ",
           "image": true,
           "content": "personal/cersei.png",
           "alt": "Cersei from Game of Thrones",
           "captionAfter": "<p class=\"small-text\">Cersei from Game of Thrones. (Oct 2015)</p>"
         },
         {
-          "title": " ",
           "image": true,
           "content": "personal/moira.png",
           "alt": "Moira from American Horror Story: Murder House",
           "captionAfter": "<p class=\"small-text\">Moira from American Horror Story: Murder House. (Aug 2015)</p>"
         },
         {
-          "title": " ",
           "image": true,
           "content": "personal/lydia.png",
           "alt": "Lydia from Teen Wolf",
           "captionAfter": "<p class=\"small-text\">Lydia from Teen Wolf. (Nov 2014)</p>"
         },
         {
-          "title": " ",
           "image": true,
           "content": "personal/kaya.png",
           "alt": "Kaya Scodelario",
@@ -986,7 +945,7 @@
       "bg": "#141F25",
       "text": "#FFFDF4",
       "description": "Poster design for UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration.",
-      "summary": "<p>For <a href=\"https://www.facebook.com/events/159412424744568/\" target=\"_blank\">UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration (PCC)</a>, I served on the Official Cultural Cabinet as a graphic designer. PCC is one of the org's biggest events, and includes dancing, singing, and live theater. This year's production, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>, tackled themes of LGBTQ, mental health, and family. I created a poster and accompanying marketing collateral that helped draw in 400+ attendees.</p>",
+      "overview": "<p>For <a href=\"https://www.facebook.com/events/159412424744568/\" target=\"_blank\">UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration (PCC)</a>, I served on the Official Cultural Cabinet as a graphic designer. PCC is one of the org's biggest events, and includes dancing, singing, and live theater. This year's production, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>, tackled themes of LGBTQ, mental health, and family. I created a poster and accompanying marketing collateral that helped draw in 400+ attendees.</p>",
       "details": [
         {
           "title": "Role",

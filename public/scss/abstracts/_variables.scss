@@ -1,29 +1,19 @@
-$circular: "Circular", Helvetica, sans-serif;
-$freightBig: "Freight Big Pro", "Caslon", serif;
+$modern-era: "Modern Era", Avenir, Helvetica, sans-serif;
+$modern-era-mono: "Modern Era Mono", Menlo, monospace;
 
-$space-xs: 0.5rem;
-$space: 2rem;
-$space-md: 5rem;
-$space-lg: 12rem;
+$spacer-1: 1.5rem;
+$spacer-2: 3rem;
+$spacer-3: 6rem;
+$spacer-4: 12rem;
+
+$body-font-size: 1.4rem;
 
 $huge: 2400px;
 $big: 1800px;
 
-$yellow: #feff8c; // highlighter
-$yellow: #fff399;
+$black: #111;
 
-$black: #333;
-
-$blue: #405aee; //original
-$blue: #325aee;
-$blue: #3d64f0;
-
-$pink: #ffe2e2;
-//$dark-pink: darken($pink, 30%);
-//$dark-pink: #ff4870;
-
-$footer-height-palm: calc(7rem + 5vw); //Palm
-$footer-height-lap: calc(3rem + 5vw); // Lap
-$footer-height-desk: 8vw; // Desk
+$footer-height-palm: calc(#{$spacer-2 + $body-font-size});
+$footer-height: calc(#{$spacer-3 + $body-font-size});
 
 $top-bottom-space: 6vw;

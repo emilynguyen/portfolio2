@@ -1,76 +1,11 @@
-<header>
-  <div class="grid mb">
-    <div class=" grid__item palm--two-twelfths lap-up--two-eighths">
-      <h4 id="nav-name"><a href="/"><span class="portable-hide">Emily Nguyen</span><span style="user-select: none;">&nbsp;</span></a></h4>
-    </div>
-    <div class="grid__item palm--ten-twelfths lap-up--six-eighths">
-      <nav class="nav-horizontal">
-        <ul>
-          <li class="horizontal">
-            <h4><a href="/" {{#if_eq url ""}} class="active" {{/if_eq}}>Work</a></h4>
-          </li>
-          <li class="horizontal">
-            <h4><a href="/about" {{#if_eq url "about"}} class="active" {{/if_eq}}>About</a></h4>
-          </li>
-          <li class="horizontal line">
-            <div class="bar"></div>
-          </li>
-
-          <li class="vertical">
-            <h4><a href="/archive" {{#if_eq url "archive"}} class="active" {{/if_eq}}>Archive</a></h4>
-          </li>
-          <li class="vertical">
-            <h4><a href="https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view" target="_blank">Resume</a></h4>
-          </li>
-        </ul>
-      </nav>
-    </div>
+<header class="pt-3 palm--pt-2">
+  <div>
+    <a href="/" id="name">Emily Nguyen</a>
   </div>
-  {{#if_eq url "" }}
-
-  <div id="banner-palm" class="h1-container lap-up-hide">
-    <h1>Emily is a designer + developer.</h1>
+  <div>
+    <nav>
+      <a href="/" {{#if_eq url ""}} class="active" {{/if_eq}}>Work</a> — <a href="/about" {{#if_eq url "about"}} class="active"
+        {{/if_eq}}>About</a> — <a href="https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view" target="_blank">Resume</a>
+    </nav>
   </div>
-
-  <div class="home-header-container">
-    <div class="grid">
-      <div id="currently-previously" class="hide">
-        <div class="grid__item desk--one-half">
-          <h4>Currently</h4>
-          <p>Webmaster — <a href='http://asgraphicstudio.ucsd.edu' target='_blank'>A.S. Graphic Studio</a><br>Web
-            Developer
-            — <a href='http://designatucsd.org' target='_blank'>Design at UCSD</a></p>
-        </div>
-        <div class="grid__item desk--one-half">
-          <h4>Previously</h4>
-          <p>Visual Experience Design Intern — <a href='https://salesforce.com' target='_blank'>Salesforce</a><br>Visual
-            +
-            Brand Designer
-            — <a href='http://designatucsd.org' target='_blank'>Design at UCSD</a></p>
-        </div>
-        <div class="grid__item lap-up-hide">
-          <h4>View My Work ↓</h4>
-        </div>
-      </div>
-
-    </div>
-    <div class="grid mb-md palm-hide">
-      <div class="grid__item palm-hide">
-        <div id="banner-container">
-          <div id="banner">Emily is a designer + developer.</div>
-        </div>
-      </div>
-      <div class="grid__item lap-up-hide">
-        <div id="banner-container-palm">
-          <div id="banner-palm">Emily is a designer + developer.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {{/if_eq}}
-  {{#if h1}}
-  <div class="h1-container">
-    <h1>{{{ h1 }}}</h1>
-  </div>
-  {{/if}}
 </header>

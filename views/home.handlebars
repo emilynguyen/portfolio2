@@ -1,117 +1,59 @@
-<div id="home-page">
-
-  <div class="grid" id="work-block">
-    {{#each gallery}}
-    <div class="grid__item one-whole desk--one-third lap--one-half">
-      {{> card}}
-    </div>
-    {{/each}}
+<div class="grid mb-4 mt-4 portable--mb-3 portable--mt-3">
+  <div class="grid__item desk--three-quarters lap--four-fifths">
+    <h1>Emily is a designer + developer that loves crafting visual experiences and seeing them through to
+      implementation.
+      <!--This summer, she’ll be joining <a href="https://www.voxmedia.com/" target="_blank">Vox Media</a>.-->
+    </h1>
   </div>
-</div> <!-- /#home-page -->
-
-
-<script>
-  let waves = 6;
-
-  function docify(str) {
-    document.getElementsByClassName('banner').innerHTML = "";
-    for (let i = 0; i < str.length; i++) {
-      let el = document.createElement('div');
-      let c = str.charAt(i);
-      if (c === " ") {
-        el.appendChild(document.createTextNode('\u00A0'));
-      }
-      else {
-        el.appendChild(document.createTextNode(c));
-      }
-
-      el.setAttribute('data-phi', i * Math.PI / (10 - waves));
-      el.style.transform = "";
-      document.getElementById('banner').appendChild(el);
-    }
-    document.getElementById('banner').appendChild(document.createElement('br'));
-  }
-
-  let omeg = 0.6,
-    ampl = 5,
-    wrap = document.getElementById('banner'),
-    time = 0;
-
-  function anim() {
-
-    if (omeg * time > 2 * Math.PI) {
-      time = 0;
-    }
-    for (let k = 0; k < wrap.childNodes.length; k++) {
-      let elem = wrap.childNodes[k];
-      let phi = elem.getAttribute('data-phi');
-      elem.style.transform = 'translateY(' + ampl * Math.sin(omeg * time + phi / 2) + 'px)';
-    }
-    time += 6 / 100;
-    requestAnimationFrame(anim);
-  };
-
-  wrap.innerHTML = "";
-
-  var wavytext = 'Emily is a designer + developer.';
-
-  docify(wavytext);
-  anim();
-
-</script>
+</div>
 
 <!--
-<script src="/scripts/granim.min.js"></script>
-<script>
-  /*
-  var granimInstance = new Granim({
-    element: '#yellow',
-    direction: 'left-right',
-    isPausedWhenNotInView: true,
-    states: {
-      "default-state": {
-        gradients: [
-          ['#EF675E', '#EF675E'],
-          ['#5E94EF', '#5E94EF'],
-          ['#5EEFD2', '#5EEFD2'],
-          ['#5E65EF', '#5E65EF']
-        ]
-      }
-    }
-  });
-*/
+<div class="grid mb-4 portable--mb-3">
+  <div class="grid__item desk--one-quarter portable--one-half portable--mb-2">
+    <h2 style="white-space: nowrap;">Highlights <span class="portable--hide">→</span><span class="lap-up--hide">↘</span></h2>
+  </div>
+  <div class="grid__item desk--one-quarter portable--one-half portable--mb-2">
+    <h2 class="mb-2 portable--mb-1">Visual</h2>
+    <p><a href="/burow">Burow</a></p>
+    <p><a href="/personal">Personal Work</a></p>
+  </div>
+  <div class="grid__item desk--one-quarter portable--one-half portable--mb-2">
+    <h2 class="mb-2 portable--mb-1">Product</h2>
+    <p><a href="/salesforce">Salesforce Design Internship</a></p>
+    <p><a href="/ergo">ERGO</a></p>
+  </div>
+  <div class="grid__item desk--one-quarter portable--one-half portable--mb-2">
+    <h2 class="mb-2 portable--mb-1">Front-End</h2>
+    <p><a href="/sgf">Sun God Festival 2019</a></p>
+    <p><a href="/stride">Stride Career Fair</a></p>
+  </div>
+</div> -->
 
-  /*
-    var granimInstance = new Granim({
-      element: '#yellow',
-      direction: 'left-right',
-      isPausedWhenNotInView: true,
-      states: {
-        "default-state": {
-          gradients: [
-  
-            ['#F7DDDB', '#F7DDDB'],
-            ['#cfe3f1', '#cfe3f1'],
-            ['#cbc9e8', '#cbc9e8']
-          ]
-        }
-      }
-    }); */
-  var granimInstance = new Granim({
-    element: '#bg',
-    direction: 'left-right',
-    isPausedWhenNotInView: true,
-    states: {
-      "default-state": {
-        gradients: [
-          ['#fcd1d6', '#F7DDDB'],
-          ['#F7DDDB', '#cfe3f1'],
-          ['#cfe3f1', '#cbc9e8'],
-          ['#cbc9e8', '#fcd1d6']
-        ]
-      }
-    }
-  });
 
-</script>
--->
+<div id="my-work-block" class="grid mb-3">
+  <div class="grid__item ">
+    <h2 class="mb-3 portable--mb-2">My Work ↓</h2>
+  </div>
+
+  {{#each gallery}}
+  {{#unless hide}}
+  <div class="grid__item desk--one-third lap--one-half mb-3">
+    <div class="mb-1">
+      <a href="/{{url}}">
+        <img src="/images/{{icon}}" alt="{{title}}"></a>
+    </div>
+    <div class="title-container">
+      <h3><a href="/ergo">{{title}}</a></h3>
+    </div>
+    <div>
+      <p>{{sub}}</p>
+      <hr>
+      <p>{{description}}</p>
+      <!--<p>{{details.date}}</p>-->
+    </div>
+  </div>
+  {{/unless}}
+  {{/each}}
+
+
+</div>
