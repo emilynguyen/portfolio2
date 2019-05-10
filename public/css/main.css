@@ -1304,17 +1304,20 @@ footer a.active {
     opacity: 0.4; } }
 
 #name {
-  margin-left: 1.8rem;
+  margin-left: 1.62rem;
   position: relative; }
   #name:before {
     position: absolute;
-    left: -1.8rem;
+    left: -1.62rem;
     content: "";
-    top: 0;
-    width: 1rem;
-    height: 1rem;
-    border-radius: 1rem;
+    top: 0.1rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 0.9rem;
     border: 1px solid #111; }
+    @media only screen and (max-width: 480px) {
+      #name:before {
+        top: 0rem; } }
   @media (hover: hover) {
     #name:hover {
       opacity: 1; }
