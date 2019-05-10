@@ -1314,10 +1314,11 @@ footer a.active {
     width: 0.9rem;
     height: 0.9rem;
     border-radius: 0.9rem;
-    border: 1px solid #111; }
+    border: 0.1rem solid #111; }
     @media only screen and (max-width: 480px) {
       #name:before {
-        top: 0rem; } }
+        border-width: 1px;
+        top: 0.1rem; } }
   @media (hover: hover) {
     #name:hover {
       opacity: 1; }

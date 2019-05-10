@@ -35,9 +35,10 @@ $circle-diameter: 0.9rem;
     width: $circle-diameter;
     height: $circle-diameter;
     border-radius: $circle-diameter;
-    border: 1px solid $black;
+    border: 0.1rem solid $black;
     @include grid-media-query(palm) {
-      top: 0rem;
+      border-width: 1px;
+      top: 0.1rem;
     }
   }
   @include hover {
