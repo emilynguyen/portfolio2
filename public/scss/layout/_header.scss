@@ -22,7 +22,7 @@ footer {
   }
 }
 
-$circle-diameter: 1rem;
+$circle-diameter: 0.9rem;
 
 #name {
   margin-left: $circle-diameter * 1.8;
@@ -31,11 +31,14 @@ $circle-diameter: 1rem;
     position: absolute;
     left: -$circle-diameter * 1.8;
     content: "";
-    top: 0;
+    top: 0.1rem;
     width: $circle-diameter;
     height: $circle-diameter;
     border-radius: $circle-diameter;
     border: 1px solid $black;
+    @include grid-media-query(palm) {
+      top: 0rem;
+    }
   }
   @include hover {
     opacity: 1;
