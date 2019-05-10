@@ -4,7 +4,7 @@
       "title": "Salesforce Internship",
       "sub": "UX Design",
       "url": "salesforce",
-      "icon": "salesforce/icon.png",
+      "icon": "salesforce/icon.jpg",
       "landing": "salesforce/landing.jpg",
       "bg": "#fcfdff",
       "text": "#212b3a",
@@ -30,7 +30,7 @@
       ],
       "blocks": [
         {
-          "title": "Problem",
+          "title": "Research",
           "text": true,
           "content": "<p>The online learning tool that my team was working on aimed to centralize learning at Salesforce, which involved understanding the needs of 2 users:</p><ul><li><span><i>Enabler</i> (Manager) — Creates and assigns learning. Needs to be able to manage their courses + assignments and view the progress of their employees.</span></li><li><span><i>Learner</i> (Employee) — Receives and completes learning. Needs to be able to track their progress, enroll in classes, and receive notifications.</span></li></ul><p>At the time that I had joined the project, the product was in its third release. The lead UX designer on my team had recently left the company, but had completed user testing for the Enabler point of view beforehand. My task was to continue where she had left off and conduct usability testing for the Learner.</p><p>I was currently the only designer on Tech Ops, making this an intimidating task. I quickly learned the importance of being a self-starter and reached out to designers from other teams for mentorship. Using their guidance and the recordings + notes that the previous designer had left for me, I created a user testing plan and contacted 6 new hires across various positions for interviews. Afterwards, I synthesized my insights and presented them to my team.</p>"
         },
@@ -57,9 +57,9 @@
     },
     {
       "title": "Sun God Festival 2019",
-      "sub": "Front-End + Web Design",
+      "sub": "Web Dev + Web Design",
       "url": "sgf",
-      "icon": "sgf/icon.gif",
+      "icon": "sgf/icon-tall.gif",
       "landing": "sgf/landing.gif",
       "text": "#242424",
       "bg": "#f2f7f9",
@@ -120,7 +120,7 @@
       "title": "ERGO",
       "sub": "Interaction Design + Web Dev",
       "url": "ergo",
-      "icon": "ergo/icon.gif",
+      "icon": "ergo/icon-tall.gif",
       "landing": "ergo/landing.gif",
       "text": "#fff",
       "bg": "#5db7a8",
@@ -244,7 +244,7 @@
       "title": "Burow",
       "sub": "Brand Design",
       "url": "burow",
-      "icon": "burow/icon.png",
+      "icon": "burow/scenery-tall.gif",
       "landing": "burow/scenery.gif",
       "text": "#edfcef",
       "bg": "#6CA18A",
@@ -352,7 +352,6 @@
         {
           "title": "",
           "image": true,
-          "border": true,
           "alt": "Final home page",
           "content": "burow/home.png"
         }
@@ -432,13 +431,13 @@
     },
     {
       "title": "Stride Career Fair",
-      "sub": "Front-End",
+      "sub": "Web Dev",
       "url": "stride",
-      "icon": "stride/runner.gif",
-      "landing": "stride/landing.gif",
+      "icon": "stride/runner-tall.gif",
+      "landing": "stride/runner.gif",
       "bg": "#FCECB9",
       "text": "#222",
-      "description": "Developed a website for a design-centric career fair hosted by Design at UCSD.",
+      "description": "Website for a design-centric career fair hosted by Design at UCSD.",
       "col": "2",
       "overview": "<p>As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.</p><p>In collaboration with our creative director, I developed the event website. I also assisted our graphic studio in creating visual collateral.</p>",
       "button": {
@@ -469,6 +468,11 @@
         }
       ],
       "blocks": [
+        {
+          "image": true,
+          "content": "stride/website.gif",
+          "alt": "Website for Stride"
+        },
         {
           "image": true,
           "content": "stride/brand-collateral.png",
@@ -852,7 +856,7 @@
       "title": "Personal Work",
       "sub": "Illustration",
       "url": "personal",
-      "icon": "personal/sushi.gif",
+      "icon": "personal/sushi-tall.gif",
       "col": 2,
       "text": "#333",
       "bg": "#ffe4e2",

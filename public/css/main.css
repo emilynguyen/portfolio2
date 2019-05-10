@@ -1171,6 +1171,7 @@ body {
 
 #content-wrapper {
   max-width: 108rem;
+  max-width: 128rem;
   margin-right: auto;
   margin-left: auto;
   padding: 0 6%; }
@@ -1210,7 +1211,8 @@ html {
   font-size: 62.5%; }
   @media only screen and (max-width: 480px) {
     html {
-      font-size: 55%; } }
+      font-size: 55%;
+      font-size: 57%; } }
   @media only screen and (min-width: 1800px) {
     html {
       font-size: 0.42vw; } }
