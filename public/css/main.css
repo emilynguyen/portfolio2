@@ -1212,7 +1212,7 @@ html {
   @media only screen and (max-width: 480px) {
     html {
       font-size: 55%;
-      font-size: 57%; } }
+      font-size: 58%; } }
   @media only screen and (min-width: 1800px) {
     html {
       font-size: 0.42vw; } }
@@ -1318,7 +1318,7 @@ footer a.active {
     @media only screen and (max-width: 480px) {
       #name:before {
         border-width: 1px;
-        top: 0.1rem; } }
+        top: 1px; } }
   @media (hover: hover) {
     #name:hover {
       opacity: 1; }

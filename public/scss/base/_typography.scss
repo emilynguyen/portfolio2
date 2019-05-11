@@ -6,7 +6,7 @@ html {
   font-size: 62.5%;
   @include grid-media-query(palm) {
     font-size: 55%;
-    font-size: 57%;
+    font-size: 58%;
   }
   @include grid-media-query(monitor) {
     font-size: 0.42vw;
