@@ -38,7 +38,7 @@ $circle-diameter: 0.9rem;
     border: 0.1rem solid $black;
     @include grid-media-query(palm) {
       border-width: 1px;
-      top: 0.1rem;
+      top: 1px;
     }
   }
   @include hover {
