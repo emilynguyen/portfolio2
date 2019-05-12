@@ -14,10 +14,10 @@ header,
 footer {
   a {
     &.active {
-      opacity: 0.4;
+      opacity: 0.45;
     }
     @include hover {
-      opacity: 0.4;
+      opacity: 0.45;
     }
   }
 }

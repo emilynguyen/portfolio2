@@ -208,7 +208,7 @@
           "captionBefore": "<p>Next, we created wireframes to visualize the flow of our app.</p>"
         },
         {
-          "title": "Brand + Visual Design",
+          "title": "Brand + UI Design",
           "image": true,
           "content": "ergo/mockups.png",
           "alt": "High fidelity mockups",
@@ -250,7 +250,7 @@
       "bg": "#6CA18A",
       "description": "A cozy housing app concept.",
       "col": "2",
-      "overview": "<p>Burow is a desktop web app that helps users find the perfect new neighborhood to move to. By reversing the user flow of existing real estate apps and ditching the professional look, Burow provides a unique home hunting experience.</p>",
+      "overview": "<p>Burow is a desktop web app concept that helps users find the perfect new neighborhood to move to. By reversing the user flow of existing real estate apps and ditching the professional look, Burow provides a unique home hunting experience.</p>",
       "details": [
         {
           "title": "Roles",
@@ -312,35 +312,30 @@
           "title": "Brand Design",
           "image": true,
           "alt": "Mood board",
-          "content": "burow/mood-board.png",
+          "content": "burow/moodboard.jpg",
           "border": true,
-          "captionBefore": "<h1>\"Burow—Dig around and find the neighbourhood that fits your needs!\"</h1><p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p>"
-        },
-        {
-          "title": "",
-          "text": true,
-          "content": "<p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves.</p>"
-        },
-        {
-          "palette": true,
-          "color": "#555",
-          "content": ["#FFFAED", "#FEA765", "#8EB7A2"]
+          "captionBefore": "<h1>\"Burow—Dig around and find the neighbourhood that fits your needs!\"</h1><p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p><p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves. We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity. UI elements were also rounded to support the warm brand.</p>"
         },
         {
           "image": true,
-          "alt": "Aqua Grotesque",
+          "alt": "Color palette: #FFFAED, #FEA765, #8EB7A2",
+          "border": true,
+          "content": "burow/palette.png"
+        },
+        {
+          "image": true,
+          "alt": "Heading typeface: Aqua Grotesque",
           "content": "burow/aqua.png"
         },
         {
           "image": true,
-          "alt": "Karla",
+          "alt": "Body typeface: Karla",
           "border": true,
           "content": "burow/karla.png"
         },
         {
           "title": "",
           "image": true,
-          "captionBefore": "<p>We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity. UI elements were also rounded to support the warm brand.</p>",
           "content": "burow/illustration.png"
         },
         {

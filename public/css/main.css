@@ -1296,12 +1296,12 @@ nav {
 
 header a.active,
 footer a.active {
-  opacity: 0.4; }
+  opacity: 0.45; }
 
 @media (hover: hover) {
   header a:hover,
   footer a:hover {
-    opacity: 0.4; } }
+    opacity: 0.45; } }
 
 #name {
   margin-left: 1.62rem;
