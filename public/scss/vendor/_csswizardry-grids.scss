@@ -75,6 +75,7 @@ $mobile-first: true !default;
  * Set the spacing between your grid items.
  */
 $gutter: 6rem !default;
+$gutter-portable: 3rem !default;
 
 /**
  * Would you like Sass’ silent classes, or regular CSS classes?
@@ -214,7 +215,7 @@ $class-type: if($use-silent-classes, unquote("%"), unquote("."));
     letter-spacing: -0.31em;
   }
   @include grid-media-query(portable) {
-    margin-left: -$gutter / 2;
+    margin-left: -$gutter-portable;
   }
 }
 
@@ -237,7 +238,7 @@ $class-type: if($use-silent-classes, unquote("%"), unquote("."));
   display: inline-block; /* [1] */
   padding-left: $gutter; /* [2] */
   @include grid-media-query(portable) {
-    padding-left: $gutter / 2;
+    padding-left: $gutter-portable;
   }
   vertical-align: top; /* [3] */
   @if $mobile-first {
