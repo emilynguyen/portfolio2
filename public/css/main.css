@@ -1166,11 +1166,7 @@ table {
   .monitor--mb-4 {
     margin-bottom: 12rem !important; } }
 
-body {
-  background-color: #fefefe; }
-
 #content-wrapper {
-  max-width: 108rem;
   max-width: 128rem;
   margin-right: auto;
   margin-left: auto;
