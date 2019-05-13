@@ -425,6 +425,54 @@
       ]
     },
     {
+      "title": "Design at UCSD",
+      "sub": "Visual Design",
+      "url": "design-at-ucsd",
+      "icon": "design-at-ucsd/icon.png",
+      "landing": "none",
+      "description": "Marketing collateral for Design at UCSD.",
+      "overview": "<p>Marketing collateral for <a href='http://designatucsd.org' target='_blank'>Design at UCSD</a>, the largest pre-professional design community on campus. We aim to establish an open community of aspiring designers, to inspire creative confidence, and to ease students into industry.</p>",
+      "blocks": [
+        {
+          "gallery": true,
+          "content": [
+            {
+              "image": "design-at-ucsd/figma-invision-workshop.png",
+              "col1": true,
+              "alt": "Figma + InVision Workshop event banner"
+            },
+            {
+              "image": "design-at-ucsd/stride-event-sign.png",
+              "col2": true,
+              "alt": "Stride Career Fair event sign"
+            },
+            {
+              "image": "design-at-ucsd/stride-check-in.png",
+              "col1": true,
+              "alt": "Stride Career Fair check-in signs"
+            },
+            {
+              "image": "design-at-ucsd/robolink.png",
+              "col2": true,
+              "alt": "Robolink Talk event banner"
+            },
+            {
+              "image": "design-at-ucsd/frontiers-healthcare-poster.jpg",
+              "border": true,
+              "col1": true,
+              "alt": "Design Frontiers: Healthcare poster"
+            },
+            {
+              "image": "design-at-ucsd/krispy-kreme.png",
+              "border": true,
+              "col2": true,
+              "alt": "Krispy Kreme fundraiser poster"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Stride Career Fair",
       "sub": "Web Dev",
       "url": "stride",
@@ -596,44 +644,6 @@
           "content": "designatucsd/fb-before-after.png",
           "alt": "Side-by-side comparison of a Facebook event from Jan 2018 and the same event from Jan 2019, showing an increase in interest",
           "captionBefore": "<p>Our soft rebrand was received positively by our leadership board and Design at UCSD saw an increase in online member engagement.</p>"
-        }
-      ]
-    },
-    {
-      "title": "Design Frontiers: Intuit",
-      "sub": "Front-End",
-      "archive": true,
-      "url": "frontiers",
-      "icon": "designatucsd/frontiers-fa18.min.jpg",
-      "landing": "designatucsd/frontiers-fa18.jpg",
-      "bg": "#e1f0f7",
-      "text": "#055c84",
-      "description": "Developed a website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
-      "overview": "<p>Design Frontiers is a series of design sprints hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that showcases the application of design thinking to fields beyond traditional design, such as <a href=\"https://medium.com/design-at-ucsd/students-explore-designing-for-education-at-inaugural-design-frontiers-b06f909553c7\" target=\"_blank\">education</a> and <a href=\"https://frontierssp18.designatucsd.org/\" target=\"_blank\">healthcare</a>. For our Fall 2018 event, we partnered with Intuit to allow students to tackle real product design challenges alongside leading designers in the financial software space.</p><p>As Design at UCSD's web developer, I collaborated with our visual designers to build the website and also facilitated the design sprint the day of.</p>",
-      "button": {
-        "title": "Visit Site",
-        "link": "https://frontiers.designatucsd.org/"
-      },
-      "details": [
-        {
-          "title": "Role",
-          "content": "Lead developer"
-        },
-        {
-          "title": "Date",
-          "content": "Aug – Nov 2018"
-        },
-        {
-          "title": "Tools + Skills",
-          "content": "HTML, CSS, Sass, Gulp"
-        },
-        {
-          "title": "Teammates",
-          "content": "Nancy Bui, Lauren Choy, Lucy Xu"
-        },
-        {
-          "title": "Resources",
-          "content": "<a href=\"https://github.com/designatucsd/frontiersfa18\" target=\"_blank\">Github repo</a>"
         }
       ]
     },
@@ -871,6 +881,7 @@
       "blocks": [
         {
           "gallery": true,
+          "square": true,
           "content": [
             {
               "image": "personal/event-finder.jpg",

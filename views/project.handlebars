@@ -14,11 +14,11 @@
     <div class="grid__item {{@root.col2}}">
 
       <div class="grid">
-        <div class="grid__item mb-2">
+        <div class="grid__item">
           {{{overview}}}
         </div>
         {{#each details}}
-        <div class="grid__item one-half {{#if wide}}palm--one-whole{{/if}} mb-2">
+        <div class="grid__item mt-2 one-half {{#if wide}}palm--one-whole{{/if}} ">
           <h4>{{title}}</h4>
           <p>{{{content}}}</p>
         </div>
@@ -64,11 +64,43 @@
 
     <!-- GALLERY -->
     {{#if gallery}}
+    {{#if square}}
+
     {{#each content}}
-    <div class="grid__item lap-up--one-half mb-3 portable--mb-2">
-      <img src="/images/{{image}}" alt="{{alt}}" class="{{#if border}}border{{/if}}">
+    <div class="grid__item mb-1 lap--mb-2 desk--mb-3 lap-up--one-half ">
+      <img src="/images/{{image}}" alt="{{alt}}" {{#if border}} class="border" {{/if}}>
     </div>
     {{/each}}
+
+    {{else}}
+    <div class="grid__item one-half palm--hide">
+      {{#each content}}
+      {{#if col1}}
+      <img src="/images/{{image}}" alt="{{alt}}" class="lap--mb-2 desk--mb-3 {{#if border}}border{{/if}}">
+      {{/if}}
+      {{/each}}
+    </div>
+
+    <div class="grid__item one-half palm--hide">
+      {{#each content}}
+      {{#if col2}}
+      <img src="/images/{{image}}" alt="{{alt}}" class="lap--mb-2 desk--mb-3 {{#if border}}border{{/if}}">
+      {{/if}}
+      {{/each}}
+    </div>
+    <!-- palm -->
+    {{#each content}}
+    <div class="grid__item lap-up--hide">
+      <img src="/images/{{image}}" alt="{{alt}}" class="mb-1 {{#if border}}border{{/if}}">
+    </div>
+    {{/each}}
+
+
+    {{#each content}}
+
+    {{/each}}
+
+    {{/if}}
     {{/if}}
 
   </div>
