@@ -45,7 +45,6 @@
     <!-- IMAGE -->
 
     {{else if image}}
-
     {{#ifCond captionBefore "||" title}}
     <div class="grid__item {{@root.col1}}">
       {{#if title}}
@@ -61,10 +60,16 @@
     <div class="grid__item {{@root.col1}}"></div>
     <div class="grid__item {{@root.col2}}">{{{captionAfter}}}</div>
     {{/if}}
-
-
     {{/if}}
 
+    <!-- GALLERY -->
+    {{#if gallery}}
+    {{#each content}}
+    <div class="grid__item lap-up--one-half mb-3 portable--mb-2">
+      <img src="/images/{{image}}" alt="{{alt}}" class="{{#if border}}border{{/if}}">
+    </div>
+    {{/each}}
+    {{/if}}
 
   </div>
   {{/unless}}
