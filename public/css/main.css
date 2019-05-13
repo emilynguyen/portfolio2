@@ -1364,7 +1364,16 @@ footer {
       color: #fff; } }
 
 #my-work-block img {
-  width: 100%; }
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s; }
+
+@media (hover: hover) {
+  #my-work-block .img-link:hover img {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95); } }
 
 #my-work-block .title-container {
   min-height: 6rem; }

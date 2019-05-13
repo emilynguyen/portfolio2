@@ -1,6 +1,14 @@
 #my-work-block {
   img {
     width: 100%;
+    transition: transform 0.3s;
+  }
+  .img-link {
+    @include hover {
+      img {
+        transform: scale(0.95);
+      }
+    }
   }
   .title-container {
     min-height: $spacer-3;
