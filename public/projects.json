@@ -432,7 +432,7 @@
       "landing": "stride/runner.gif",
       "bg": "#FCECB9",
       "text": "#222",
-      "description": "Website for a design-centric career fair hosted by Design at UCSD.",
+      "description": "Website for UC San Diego's first design-centric career fair.",
       "col": "2",
       "overview": "<p>As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.</p><p>In collaboration with our creative director, I developed the event website. I also assisted our graphic studio in creating visual collateral.</p>",
       "button": {
@@ -870,66 +870,64 @@
       ],
       "blocks": [
         {
-          "image": true,
-          "alt": "Slide deck on moodboards",
-          "content": "personal/moodboard-deck.png",
-          "captionAfter": "<p>A <a href='https://docs.google.com/presentation/d/1hxCS80EelFBKxkcJHyHmXzt6Ca_OXCp8RQnv-I6MoH8/edit?usp=sharing' target='_blank'>slide deck about moodboards</a> that I created for a web design practicum I'm tutoring.</p>"
-        },
-        {
-          "image": true,
-          "border": true,
-          "alt": "Interface for an event finder site",
-          "content": "personal/event-finder.png",
-          "captionAfter": "<p>Interface for an event finder site. 💃🏻</p>"
-        },
-        {
-          "image": true,
-          "hide": true,
-          "content": "personal/saturation.png",
-          "alt": "Colorful abstract illustration"
-        },
-        {
-          "image": true,
-          "content": "personal/nancy.png",
-          "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
-          "captionAfter": "<p class=\"small-text\"><a href=\"https://www.instagram.com/daisocustomer/\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
-        },
-        {
-          "image": true,
-          "content": "personal/sushi.png",
-          "alt": "Sleeping hand roll",
-          "captionAfter": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\" <span class=\"small-text\">(Nov 2018)</span></p>"
-        },
-        {
-          "image": true,
-          "content": "personal/red.png",
-          "alt": "Eyes",
-          "noPaddingMd": true,
-          "captionAfter": "<p>RED — \"Associated with energy, war, danger, strength, power, determination as well as passion, desire, and love. Enhances human metabolism, increases respiration rate, and raises blood pressure. It attracts attention more than any other color, at times signifying danger.\" <span class=\"small-text\">(Sept 2018)</span></p>"
-        },
-        {
-          "image": true,
-          "content": "personal/cersei.png",
-          "alt": "Cersei from Game of Thrones",
-          "captionAfter": "<p class=\"small-text\">Cersei from Game of Thrones. (Oct 2015)</p>"
-        },
-        {
-          "image": true,
-          "content": "personal/moira.png",
-          "alt": "Moira from American Horror Story: Murder House",
-          "captionAfter": "<p class=\"small-text\">Moira from American Horror Story: Murder House. (Aug 2015)</p>"
-        },
-        {
-          "image": true,
-          "content": "personal/lydia.png",
-          "alt": "Lydia from Teen Wolf",
-          "captionAfter": "<p class=\"small-text\">Lydia from Teen Wolf. (Nov 2014)</p>"
-        },
-        {
-          "image": true,
-          "content": "personal/kaya.png",
-          "alt": "Kaya Scodelario",
-          "captionAfter": "<p class=\"small-text\">Kaya Scodelario in Wuthering Heights. (Oct 2014)</p>"
+          "gallery": true,
+          "content": [
+            {
+              "image": "personal/event-finder.jpg",
+              "alt": "Interface for an event finder site",
+              "caption": "<p>Interface for an event finder site. 💃🏻</p>"
+            },
+            {
+              "image": "personal/event-finder-details.jpg",
+              "alt": "Interface for an event finder site",
+              "caption": "<p>Interface for an event finder site. 💃🏻</p>"
+            },
+            {
+              "image": "daily-ui/daily-ui_1.jpg",
+              "alt": "Daily UI #001",
+              "caption": ""
+            },
+            {
+              "image": "daily-ui/daily-ui_2.jpg",
+              "alt": "Daily UI #002",
+              "caption": ""
+            },
+            {
+              "image": "personal/nancy.png",
+              "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
+              "caption": "<p><a href=\"https://www.instagram.com/daisocustomer/\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
+            },
+            {
+              "image": "personal/sushi.png",
+              "alt": "Sleeping salmon hand roll",
+              "caption": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\" <span class=\"small-text\">(Nov 2018)</span></p>"
+            },
+            {
+              "image": "personal/red.png",
+              "alt": "Eyes",
+              "caption": "<p>RED — \"Associated with energy, war, danger, strength, power, determination as well as passion, desire, and love. Enhances human metabolism, increases respiration rate, and raises blood pressure. It attracts attention more than any other color, at times signifying danger.\" <span class=\"small-text\">(Sept 2018)</span></p>"
+            },
+            {
+              "image": "personal/cersei.png",
+              "alt": "Cersei from Game of Thrones",
+              "caption": "<p>Cersei from Game of Thrones. (Oct 2015)</p>"
+            },
+            {
+              "image": "personal/moira.png",
+              "alt": "Moira from American Horror Story: Murder House",
+              "caption": "<p>Moira from American Horror Story: Murder House. (Aug 2015)</p>"
+            },
+            {
+              "image": "personal/lydia.png",
+              "alt": "Lydia from Teen Wolf",
+              "caption": "<p>Lydia from Teen Wolf. (Nov 2014)</p>"
+            },
+            {
+              "image": "personal/kaya.png",
+              "alt": "Kaya Scodelario",
+              "caption": "<p>Kaya Scodelario (Oct 2014)</p>"
+            }
+          ]
         }
       ]
     },
