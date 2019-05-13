@@ -296,12 +296,6 @@
           "captionAfter": "<p class=\"small-text\">Storyboards by Jared and Joel.</p>"
         },
         {
-          "title": "Prototyping",
-          "hide": true,
-          "text": true,
-          "content": "<p>Coming soon.</p>"
-        },
-        {
           "title": "Competitive Analysis",
           "image": true,
           "content": "burow/competitive-analysis.jpg",
@@ -310,11 +304,14 @@
         },
         {
           "title": "Brand Design",
+          "text": true,
+          "content": "<h1>\"Burow—Dig around and find the neighbourhood that fits your needs!\"</h1><p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p><p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves. We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity. UI elements were also rounded to support the warm brand.</p>"
+        },
+        {
           "image": true,
           "alt": "Mood board",
           "content": "burow/moodboard.jpg",
-          "border": true,
-          "captionBefore": "<h1>\"Burow—Dig around and find the neighbourhood that fits your needs!\"</h1><p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p><p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves. We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity. UI elements were also rounded to support the warm brand.</p>"
+          "border": true
         },
         {
           "image": true,
