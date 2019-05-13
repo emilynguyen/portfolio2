@@ -30,14 +30,14 @@
 
 <div id="my-work-block" class="grid mb-3">
   <div class="grid__item ">
-    <h2 class="mb-3 portable--mb-2">My Work ↓</h2>
+    <h2 class="mb-3 portable--mb-2">All Work ↓</h2>
   </div>
 
   {{#each gallery}}
   {{#unless hide}}
   <div class="grid__item desk--one-third lap--one-half mb-3">
     <div class="mb-1">
-      <a href="/{{url}}">
+      <a class="img-link" href="/{{url}}">
         <img src="/images/{{icon}}" alt="{{title}}"></a>
     </div>
     <div class="title-container">
