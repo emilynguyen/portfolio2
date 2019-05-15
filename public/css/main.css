@@ -1243,7 +1243,7 @@ h2 {
   font-size: 2.5rem;
   line-height: 120%; }
   h2.sub {
-    opacity: 0.15; }
+    opacity: 0.2; }
   @media only screen and (min-width: 1024px) {
     h2 {
       font-size: 2.8rem; } }
@@ -1376,11 +1376,20 @@ footer {
   #my-work-block .title-container a {
     text-decoration: none; }
 
-#project-page img {
+#project-page img,
+#project-page iframe {
   width: 100%;
   display: block; }
-  #project-page img.border {
+  #project-page img.border,
+  #project-page iframe.border {
     border: 1px solid rgba(0, 0, 0, 0.07); }
+
+#project-page iframe {
+  background-color: #f8f8f8;
+  height: 60vw;
+  max-height: 60rem;
+  -webkit-box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.1); }
 
 #project-page p:not(:last-child),
 #project-page ol:not(:last-child),

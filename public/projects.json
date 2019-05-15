@@ -810,7 +810,7 @@
       "url": "google",
       "bg": "#F9F9F9",
       "text": "#333150",
-      "icon": "google/icon.png",
+      "landing": "none",
       "description": "Google Design Exercise 2019",
       "overview": "<p><b>Option 2 — </b>Design an experience for students to discover orientation events and craft a visual system to accommodate different types of events: sports, music, visual arts, social groups, and volunteering events. Provide high-fidelity mocks for searching, browsing, and viewing the details for these different events.</p>",
       "details": [
@@ -830,8 +830,15 @@
       "blocks": [
         {
           "title": "Design Process",
+
           "pdf": true,
           "content": "https://drive.google.com/file/d/1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud/preview"
+        },
+        {
+          "title": "Design Process",
+          "hide": true,
+          "text": true,
+          "content": "<p><iframe src='https://drive.google.com/file/d/1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud/preview'></iframe></p>"
         },
         {
           "title": "Final Product",
