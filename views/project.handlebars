@@ -30,10 +30,7 @@
   {{#unless hide}}
   <div class="grid mt-3 portable--mt-3">
 
-
     <!-- TEXT -->
-
-
     {{#if text}}
     <div class="grid__item {{@root.col1}}">
       {{#if title}}<h2 class="sub portable--mb-2">{{title}}</h2>{{/if}}
@@ -41,10 +38,10 @@
     <div class="grid__item {{@root.col2}}">
       {{{content}}}
     </div>
+    {{/if}}
 
     <!-- IMAGE -->
-
-    {{else if image}}
+    {{#if image}}
     {{#ifCond captionBefore "||" title}}
     <div class="grid__item {{@root.col1}}">
       {{#if title}}
@@ -65,14 +62,16 @@
     <!-- GALLERY -->
     {{#if gallery}}
     {{#if square}}
-
+    <!-- square gallery -->
     {{#each content}}
     <div class="grid__item mb-1 lap--mb-2 desk--mb-3 lap-up--one-half ">
       <img src="/images/{{image}}" alt="{{alt}}" {{#if border}} class="border" {{/if}}>
     </div>
     {{/each}}
-
+    <!-- end square gallery -->
+    <!-- masonry gallery -->
     {{else}}
+    <!-- 2 cols -->
     <div class="grid__item one-half palm--hide">
       {{#each content}}
       {{#if col1}}
@@ -80,7 +79,6 @@
       {{/if}}
       {{/each}}
     </div>
-
     <div class="grid__item one-half palm--hide">
       {{#each content}}
       {{#if col2}}
@@ -88,20 +86,40 @@
       {{/if}}
       {{/each}}
     </div>
-    <!-- palm -->
+    <!-- 1 col (palm) -->
     {{#each content}}
     <div class="grid__item lap-up--hide">
       <img src="/images/{{image}}" alt="{{alt}}" class="mb-1 {{#if border}}border{{/if}}">
     </div>
     {{/each}}
+    {{/if}}
+    <!-- /#if square -->
+    {{/if}}
+    <!-- /#if gallery -->
+
+    {{#if pdf}}
+    {{#ifCond captionBefore "||" title}}
+    <div class="grid__item {{@root.col1}}">
+      {{#if title}}
+      <h2 class="sub mb-3 portable--mb-1 {{#if captionBefore}}portable--mb-2{{/if}}">{{title}}</h2>{{/if}}
+    </div>
+    <div class="grid__item {{@root.col2}}">{{{captionBefore}}}</div>
+    {{/ifCond}}
+    <div class="grid__item">
+
+      <iframe class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-3{{/if}}"
+        src="{{content}}"></iframe>
 
 
-    {{#each content}}
-
-    {{/each}}
-
+    </div>
+    {{#if captionAfter}}
+    <div class="grid__item {{@root.col1}}"></div>
+    <div class="grid__item {{@root.col2}}">{{{captionAfter}}}</div>
     {{/if}}
     {{/if}}
+    <!-- /#if pdf -->
+
+
 
   </div>
   {{/unless}}
