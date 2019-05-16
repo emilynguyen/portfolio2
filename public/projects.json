@@ -824,13 +824,12 @@
         },
         {
           "title": "Resources",
-          "content": "<a href=\"https://drive.google.com/open?id=1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud\" target=\"_blank\">Design Process (PDF)</a><br><a href=\"https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY\" target=\"_blank\">Final Mockups</a>"
+          "content": "<a href=\"https://drive.google.com/open?id=1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud\" target=\"_blank\">Design Process (PDF)</a>"
         }
       ],
       "blocks": [
         {
           "title": "Design Process",
-
           "pdf": true,
           "content": "https://drive.google.com/file/d/1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud/preview"
         },
@@ -844,20 +843,17 @@
           "title": "Final Product",
           "image": true,
           "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
-          "content": "google/mocks/home.png",
-          "captionBefore": "<b>Home / browse</b>"
+          "content": "google/home-min.jpg"
         },
         {
           "image": true,
           "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
-          "content": "google/mocks/home-filtered.png",
-          "captionBefore": "<p><b>Home / browse</b> — <i>Sports</i> and <i>Volunteering</i> events filtered out</p>"
+          "content": "google/home-filter-min.jpg"
         },
         {
           "image": true,
           "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
-          "content": "google/mocks/details.png",
-          "captionBefore": "<b>Event details</b>"
+          "content": "google/details-min.jpg"
         }
       ]
     },
