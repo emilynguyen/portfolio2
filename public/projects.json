@@ -449,21 +449,31 @@
               "alt": "Stride Career Fair check-in signs"
             },
             {
+              "image": "design-at-ucsd/ai-workshop.png",
+              "col1": true,
+              "alt": "Illustrator workshop banner"
+            },
+            {
               "image": "design-at-ucsd/robolink.png",
               "col2": true,
               "alt": "Robolink Talk event banner"
             },
             {
-              "image": "design-at-ucsd/frontiers-healthcare-poster.jpg",
+              "image": "design-at-ucsd/frontiers-education-poster.png",
               "border": true,
               "col1": true,
-              "alt": "Design Frontiers: Healthcare poster"
+              "alt": "Design Frontiers: Education poster"
             },
             {
               "image": "design-at-ucsd/krispy-kreme.png",
               "border": true,
               "col2": true,
               "alt": "Krispy Kreme fundraiser poster"
+            },
+            {
+              "image": "design-at-ucsd/intern-panel.png",
+              "col2": true,
+              "alt": "Intern panel event banner"
             }
           ]
         }
