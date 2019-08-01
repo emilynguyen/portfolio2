@@ -117,6 +117,115 @@
       ]
     },
     {
+      "title": "Burow",
+      "sub": "Brand Design",
+      "url": "burow",
+      "icon": "burow/scenery-tall.gif",
+      "landing": "burow/scenery.gif",
+      "text": "#edfcef",
+      "bg": "#6CA18A",
+      "description": "Brand identity for a cozy housing app concept.",
+      "col": "2",
+      "overview": "<p>Burow is a desktop web app concept that helps users find the perfect new neighborhood to move to. By reversing the user flow of existing real estate apps and ditching the professional look, Burow provides a unique home hunting experience.</p>",
+      "details": [
+        {
+          "title": "Roles",
+          "content": "Lead brand designer, web designer"
+        },
+        {
+          "title": "Key Skills",
+          "content": "Brand design, web design, illustration"
+        },
+        {
+          "title": "Teammates",
+          "content": "Aman Gupta — developer<br>Joel Sequeira — developer<br> Jared Suasin — developer, web designer"
+        },
+        {
+          "title": "Date",
+          "content": "Apr – June 2018"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Problem",
+          "text": true,
+          "content": "<p>Popular real estate apps, such as Zillow, Trulia, and Redfin, start by asking users for a location. Users then use metrics such as price and number of beds/baths to sort through the returned listings. Additional research could then be done to find walkability, safety scores, and more for an address. This user flow works great for those looking for homes in specific neighborhoods, but what if you wanted to choose a neighborhood based on a metric?</p>"
+        },
+        {
+          "title": "Solution",
+          "text": true,
+          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h4>Existing Solution</h4><p>Enter location → receive listings → use criteria to sort through listings</p><h4>Proposed Solution</h4><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
+        },
+        {
+          "title": "Storyboarding",
+          "hide": true,
+          "image": true,
+          "alt": "Mark and Sarah want to move their family from New York to California.",
+          "content": "burow/storyboard1.png",
+          "captionBefore": "<p>To better understand our target users, we started by drafting two storyboards.</p>"
+        },
+        {
+          "hide": true,
+          "image": true,
+          "alt": "Jim is a student looking for an apartment for his internship in the Bay Area this summer.",
+          "content": "burow/storyboard2.png",
+          "captionAfter": "<p class=\"small-text\">Storyboards by Jared and Joel.</p>"
+        },
+        {
+          "title": "Competitive Analysis",
+          "image": true,
+          "content": "burow/competitive-analysis.jpg",
+          "alt": "Landing pages of Zillow, Trulia, and Redfin",
+          "captionAfter": "<p>Zillow, Trulia, and Redfin all use real estate photos, generous negative space, and safe typefaces to create a clean, polished look. While a professional appearance increases credibility, it comes with the tradeoff of looking impersonal and detached.</p>"
+        },
+        {
+          "title": "Brand Design",
+          "text": true,
+          "content": "<h1>\"Burow—Dig around and find the neighbourhood that fits your needs!\"</h1><p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p><p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves. We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity. UI elements were also rounded to support the warm brand.</p>"
+        },
+        {
+          "image": true,
+          "alt": "Mood board",
+          "content": "burow/moodboard.jpg",
+          "border": true
+        },
+        {
+          "image": true,
+          "alt": "Color palette: #FFFAED, #FEA765, #8EB7A2",
+          "border": true,
+          "content": "burow/palette.png"
+        },
+        {
+          "image": true,
+          "alt": "Heading typeface: Aqua Grotesque",
+          "content": "burow/aqua.png"
+        },
+        {
+          "image": true,
+          "alt": "Body typeface: Karla",
+          "border": true,
+          "content": "burow/karla.png"
+        },
+        {
+          "title": "",
+          "image": true,
+          "content": "burow/illustration.png"
+        },
+        {
+          "title": "",
+          "hide": true,
+          "image": true,
+          "content": "burow/ui.png"
+        },
+        {
+          "title": "",
+          "image": true,
+          "alt": "Final home page",
+          "content": "burow/home.png"
+        }
+      ]
+    },
+    {
       "title": "ERGO",
       "sub": "Interaction Design + Web Dev",
       "url": "ergo",
@@ -241,115 +350,6 @@
       ]
     },
     {
-      "title": "Burow",
-      "sub": "Brand Design",
-      "url": "burow",
-      "icon": "burow/scenery-tall.gif",
-      "landing": "burow/scenery.gif",
-      "text": "#edfcef",
-      "bg": "#6CA18A",
-      "description": "A cozy housing app concept.",
-      "col": "2",
-      "overview": "<p>Burow is a desktop web app concept that helps users find the perfect new neighborhood to move to. By reversing the user flow of existing real estate apps and ditching the professional look, Burow provides a unique home hunting experience.</p>",
-      "details": [
-        {
-          "title": "Roles",
-          "content": "Lead brand designer, web designer"
-        },
-        {
-          "title": "Key Skills",
-          "content": "Brand design, web design, illustration"
-        },
-        {
-          "title": "Teammates",
-          "content": "Aman Gupta — developer<br>Joel Sequeira — developer<br> Jared Suasin — developer, web designer"
-        },
-        {
-          "title": "Date",
-          "content": "Apr – June 2018"
-        }
-      ],
-      "blocks": [
-        {
-          "title": "Problem",
-          "text": true,
-          "content": "<p>Popular real estate apps, such as Zillow, Trulia, and Redfin, start by asking users for a location. Users then use metrics such as price and number of beds/baths to sort through the returned listings. Additional research could then be done to find walkability, safety scores, and more for an address. This user flow works great for those looking for homes in specific neighborhoods, but what if you wanted to choose a neighborhood based on a metric?</p>"
-        },
-        {
-          "title": "Solution",
-          "text": true,
-          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h4>Existing Solution</h4><p>Enter location → receive listings → use criteria to sort through listings</p><h4>Proposed Solution</h4><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
-        },
-        {
-          "title": "Storyboarding",
-          "hide": true,
-          "image": true,
-          "alt": "Mark and Sarah want to move their family from New York to California.",
-          "content": "burow/storyboard1.png",
-          "captionBefore": "<p>To better understand our target users, we started by drafting two storyboards.</p>"
-        },
-        {
-          "hide": true,
-          "image": true,
-          "alt": "Jim is a student looking for an apartment for his internship in the Bay Area this summer.",
-          "content": "burow/storyboard2.png",
-          "captionAfter": "<p class=\"small-text\">Storyboards by Jared and Joel.</p>"
-        },
-        {
-          "title": "Competitive Analysis",
-          "image": true,
-          "content": "burow/competitive-analysis.jpg",
-          "alt": "Landing pages of Zillow, Trulia, and Redfin",
-          "captionAfter": "<p>Zillow, Trulia, and Redfin all use real estate photos, generous negative space, and safe typefaces to create a clean, polished look. While a professional appearance increases credibility, it comes with the tradeoff of looking impersonal and detached.</p>"
-        },
-        {
-          "title": "Brand Design",
-          "text": true,
-          "content": "<h1>\"Burow—Dig around and find the neighbourhood that fits your needs!\"</h1><p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p><p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves. We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity. UI elements were also rounded to support the warm brand.</p>"
-        },
-        {
-          "image": true,
-          "alt": "Mood board",
-          "content": "burow/moodboard.jpg",
-          "border": true
-        },
-        {
-          "image": true,
-          "alt": "Color palette: #FFFAED, #FEA765, #8EB7A2",
-          "border": true,
-          "content": "burow/palette.png"
-        },
-        {
-          "image": true,
-          "alt": "Heading typeface: Aqua Grotesque",
-          "content": "burow/aqua.png"
-        },
-        {
-          "image": true,
-          "alt": "Body typeface: Karla",
-          "border": true,
-          "content": "burow/karla.png"
-        },
-        {
-          "title": "",
-          "image": true,
-          "content": "burow/illustration.png"
-        },
-        {
-          "title": "",
-          "hide": true,
-          "image": true,
-          "content": "burow/ui.png"
-        },
-        {
-          "title": "",
-          "image": true,
-          "alt": "Final home page",
-          "content": "burow/home.png"
-        }
-      ]
-    },
-    {
       "title": "Digitizing the Red Envelope Experience",
       "archive": true,
       "sub": "Product Design",
@@ -423,9 +423,9 @@
     },
     {
       "title": "Design at UCSD",
-      "sub": "Visual Design",
+      "sub": "Brand Design",
       "url": "design-at-ucsd",
-      "icon": "design-at-ucsd/icon-blue.png",
+      "icon": "design-at-ucsd/icon.png",
       "landing": "none",
       "description": "Marketing collateral for Design at UCSD.",
       "overview": "<p>Marketing collateral for <a href='http://designatucsd.org' target='_blank'>Design at UCSD</a>, the largest pre-professional design community on campus. We aim to establish an open community of aspiring designers, to inspire creative confidence, and to ease students into industry.</p>",
@@ -868,16 +868,16 @@
       ]
     },
     {
-      "title": "Personal Work",
-      "sub": "Illustration",
-      "url": "personal",
-      "icon": "personal/sushi-tall.gif",
+      "title": "Miscellaneous",
+      "sub": ":~)",
+      "url": "misc",
+      "icon": "misc/sushi-tall.gif",
       "col": 2,
       "text": "#333",
       "bg": "#ffe4e2",
       "landing": "none",
-      "description": "A collection of my personal work and illustrations.",
-      "overview": "<p>A collection of my personal work and illustrations. :~)</p>",
+      "description": "A collection of personal work, illustrations, and explorations.",
+      "overview": "<p>A collection of personal work, illustrations, and explorations. :~)</p>",
       "button": {
         "title": "View on Instagram",
         "link": "https://www.instagram.com/emilynguyen.co/"
@@ -891,60 +891,92 @@
       "blocks": [
         {
           "gallery": true,
-          "square": true,
           "content": [
             {
-              "image": "personal/event-finder.jpg",
-              "alt": "Interface for an event finder site",
-              "caption": "<p>Interface for an event finder site. 💃🏻</p>"
+              "image": "misc/me_green.png",
+              "col1": true,
+              "alt": "Self-portrait"
             },
             {
-              "image": "personal/event-finder-details.jpg",
-              "alt": "Interface for an event finder site",
-              "caption": "<p>Interface for an event finder site. 💃🏻</p>"
+              "image": "misc/me_pink.png",
+              "col2": true,
+              "alt": "Self-portrait"
             },
             {
-              "image": "daily-ui/daily-ui_1.jpg",
-              "alt": "Daily UI #001",
-              "caption": ""
+              "image": "misc/url.png",
+              "col1": true,
+              "alt": "url"
             },
             {
-              "image": "daily-ui/daily-ui_2.jpg",
-              "alt": "Daily UI #002",
-              "caption": ""
+              "image": "misc/ty.png",
+              "col2": true,
+              "alt": "THANKYOU"
             },
             {
-              "image": "personal/nancy.png",
-              "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
-              "caption": "<p><a href=\"https://www.instagram.com/daisocustomer/\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
+              "image": "misc/dailyui_1.jpg",
+              "col2": true,
+              "alt": "Daily UI #001: red envelope login"
             },
             {
-              "image": "personal/sushi.png",
+              "image": "misc/dailyui_2.png",
+              "col2": true,
+              "alt": "Daily UI #002: concert tickets payment"
+            },
+            {
+              "image": "misc/sushi.gif",
+              "col1": true,
               "alt": "Sleeping salmon hand roll",
               "caption": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\" <span class=\"small-text\">(Nov 2018)</span></p>"
             },
             {
-              "image": "personal/red.png",
+              "image": "misc/event-finder.jpg",
+              "col1": true,
+              "alt": "Interface for an event finder site",
+              "caption": "<p>Interface for an event finder site. 💃🏻</p>"
+            },
+            {
+              "image": "misc/nancy.png",
+              "col1": true,
+              "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
+              "caption": "<p><a href=\"https://www.instagram.com/daisocustomer/\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
+            },
+
+            {
+              "image": "misc/red.png",
+              "col1": true,
               "alt": "Eyes",
               "caption": "<p>RED — \"Associated with energy, war, danger, strength, power, determination as well as passion, desire, and love. Enhances human metabolism, increases respiration rate, and raises blood pressure. It attracts attention more than any other color, at times signifying danger.\" <span class=\"small-text\">(Sept 2018)</span></p>"
             },
             {
-              "image": "personal/cersei.png",
+              "image": "misc/how_far_ill_go.png",
+              "col2": true,
+              "alt": "How Far I'll Go"
+            },
+            {
+              "image": "misc/cersei.png",
+              "col2": true,
               "alt": "Cersei from Game of Thrones",
               "caption": "<p>Cersei from Game of Thrones. (Oct 2015)</p>"
             },
             {
-              "image": "personal/moira.png",
+              "image": "misc/moira.png",
+              "col1": true,
               "alt": "Moira from American Horror Story: Murder House",
               "caption": "<p>Moira from American Horror Story: Murder House. (Aug 2015)</p>"
             },
             {
-              "image": "personal/lydia.png",
+              "image": "misc/lydia.png",
               "alt": "Lydia from Teen Wolf",
               "caption": "<p>Lydia from Teen Wolf. (Nov 2014)</p>"
             },
             {
-              "image": "personal/kaya.png",
+              "image": "misc/remember_that_i_love_you.png",
+              "col2": true,
+              "alt": "KP HSC 2018 poster"
+            },
+            {
+              "image": "misc/kaya.png",
+              "col2": true,
               "alt": "Kaya Scodelario",
               "caption": "<p>Kaya Scodelario (Oct 2014)</p>"
             }
