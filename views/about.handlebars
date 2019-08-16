@@ -1,6 +1,6 @@
 <div class="grid mt-4 mb-4 portable--mt-3 portable--mb-3">
   <div class="grid__item">
-    <h3 class="mb-3 portable--mb-2">Visual — Product — Front-End</h3>
+    <h3 class="mb-3 portable--mb-2 blotter">Visual — Product — Front-End</h3>
     <h1 class="mb-3 portable--mb-2">Hello, my name is Emily! I’m a fourth year student at UC San Diego, finishing up a
       degree in Human-Computer Interaction and a minor in Computer Science.</h1>
     <h1 class="mb-3 portable--mb-2">
@@ -13,3 +13,77 @@
       support House Stark and pineapple on pizza.</h1>
   </div>
 </div>
+
+
+
+
+
+<!--
+<script src="/scripts/blotter.min.js"></script>
+<script src="/scripts/materials/liquidDistortMaterial.js"></script>
+-->
+
+<!--
+<script>
+
+  const MathUtils = {
+    // Equation of a line.
+    lineEq: (y2, y1, x2, x1, currentVal) => {
+      var m = (y2 - y1) / (x2 - x1), b = y1 - m * x1;
+      return m * currentVal + b;
+    },
+    // Linear Interpolation function.
+    lerp: (a, b, n) => (1 - n) * a + n * b
+  };
+
+  // Create the blotter material. 
+  const material = new Blotter.LiquidDistortMaterial();
+  // Set the default material uniform values.
+  material.uniforms.uSpeed.value = .5;
+  material.uniforms.uVolatility.value = 0;
+  material.uniforms.uSeed.value = 0.4;
+  // Create the Blotter instance.
+  const blotter = new Blotter(material);
+  // Initialize the Blotter Text on all HTML elements with data-blotter.
+  const blotterElems = [...document.getElementsByClassName('blotter')];
+  blotterElems.forEach((el) => {
+    const text = new Blotter.Text(el.innerHTML, {
+      family: "'Modern Era', sans serif",
+      size: 21,
+      fill: "#fff"
+    });
+    blotter.addText(text);
+    // Now delete the html content.
+    el.innerHTML = '';
+    // The created canvas.
+    const scope = blotter.forText(text);
+    // Append it to the main element.
+    scope.appendTo(el);
+  });
+
+  // Now, change one (or more) uniform value as we scroll. 
+  // The faster the scrolling the more the value changes.
+  let currentScroll = window.pageYOffset;
+  // The volatility is the uniform that will change.  
+  let volatility = 0;
+  // It will go from 0 (not scrolling) to 0.9 (scrolling at a speed of maxscroll).
+  const maxscroll = 10;
+  const uniformValuesRange = [0, 0.9];
+  // Using requestAnimationFrame + linear interpolation for the effect.
+  const render = () => {
+    // Current scroll position
+    const newScroll = window.pageYOffset;
+    // How much was scrolled from the last repaint.
+    const scrolled = Math.abs(newScroll - currentScroll);
+    // Get the new value of volatility.
+    volatility = MathUtils.lerp(volatility, Math.min(MathUtils.lineEq(uniformValuesRange[1], uniformValuesRange[0], maxscroll, 0, scrolled), 0.9), 0.05);
+    // Set the volatility.
+    material.uniforms.uVolatility.value = volatility;
+    // Update the current scroll.
+    currentScroll = newScroll;
+    // Repeat.
+    requestAnimationFrame(render);
+  }
+  requestAnimationFrame(render);
+</script>
+-->
