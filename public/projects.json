@@ -1,6 +1,30 @@
 {
   "projects": [
     {
+      "title": "Podcast Art Design System",
+      "sub": "Brand Design",
+      "url": "vox",
+      "icon": "vox/icon.gif",
+      "landing": "vox/landing.jpg",
+      "description": "Built a design system for <a href='https://podcasts.voxmedia.com/' target='_blank'>Vox Media Podcast Network</a>.",
+      "overview": "<p>Built a design system for <a href='https://podcasts.voxmedia.com/' target='_blank'>Vox Media Podcast Network</a>. Coming soon!</p>",
+      "details": [
+        {
+          "title": "Role",
+          "content": "Brand Design Intern"
+        },
+        {
+          "title": "Location",
+          "content": "New York, NY"
+        },
+        {
+          "title": "Date",
+          "content": "Summer 2019"
+        }
+      ],
+      "blocks": []
+    },
+    {
       "title": "Salesforce Internship",
       "sub": "UX Design",
       "url": "salesforce",
