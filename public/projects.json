@@ -6,8 +6,8 @@
       "url": "vox",
       "icon": "vox/icon.gif",
       "landing": "vox/landing.jpg",
-      "description": "Built a design system for <a href='https://podcasts.voxmedia.com/' target='_blank'>Vox Media Podcast Network</a>.",
-      "overview": "<p>Built a design system for <a href='https://podcasts.voxmedia.com/' target='_blank'>Vox Media Podcast Network</a>. Coming soon!</p>",
+      "description": "Built a design system for <a href='https://podcasts.voxmedia.com/' target='_blank'>Vox Media Podcast Network</a>'s artwork.",
+      "overview": "<p><a href='https://voxmedia.com/' target='_blank'>Vox Media</a> is a modern media company home to 7 unique editorial networks: Vox, The Verge, SB Nation, Polygon, Eater, Recode, and Curbed. With an audience of 750 million, Vox Media is committed to getting the future of media right through their innovative and diverse content.</p><p>This includes <a href='https://podcasts.voxmedia.com/' target='_blank'>Vox Media Podcast Network</a>, a fast-growing collection of 150+ shows spanning business, technology, news, sports, and dining. Each of these podcasts boast custom art, crafted thoughtfully by in-house designers. As the network grew, so did the need for a strong design system to consolidate all of this artwork. I joined Vox Media’s Brand Design team as their Brand Design Intern this summer, and was given the opportunity to tackle this challenge.</p><p>I first conducted a competitive analysis of our competitors’ design systems to identify how different guidelines influence or align with different elements of podcast art. I then audited our own artwork to pinpoint areas that could benefit from structured guidelines. After several rounds of explorations and meetings with stakeholders, I finalized a style guide and template system that established consistency across our assets and strengthened the brand recognition of Vox Media Podcast Network.</p><p>More on my process coming soon; stay tuned!</p>",
       "details": [
         {
           "title": "Role",
@@ -33,7 +33,7 @@
       "bg": "#fcfdff",
       "text": "#212b3a",
       "description": "Supported an upcoming learning platform.",
-      "overview": "<p>This past summer, I completed my first internship! I had the pleasure of joining Salesforce’s Global Enablement — Tech Ops team as a UX Design Intern.</p><p>Tech Ops built internal technology that helped streamline workplace operations and was working on an online learning platform when I came on board. I supported this project by leading usability testing sessions and utilizing my insights to assist in a UI redesign. I also created brand collateral for this product and provided additional visual communication needs.</p>",
+      "overview": "<p>Summer of 2018, I completed my first internship! I had the pleasure of joining Salesforce’s Global Enablement — Tech Ops team as a UX Design Intern.</p><p>Tech Ops built internal technology that helped streamline workplace operations and was working on an online learning platform when I came on board. I supported this project by leading usability testing sessions and utilizing my insights to assist in a UI redesign. I also created brand collateral for this product and provided additional visual communication needs.</p>",
       "details": [
         {
           "title": "Role",
@@ -897,11 +897,9 @@
       "url": "misc",
       "icon": "misc/sushi-tall.gif",
       "col": 2,
-      "text": "#333",
-      "bg": "#ffe4e2",
       "landing": "none",
-      "description": "A collection of personal work, illustrations, and explorations.",
-      "overview": "<p>A collection of personal work, illustrations, and explorations. :~)</p>",
+      "description": "A collection of personal work, illustrations, explorations, and other.",
+      "overview": "<p>A collection of personal work, illustrations, explorations, and other. :~)</p>",
       "button": {
         "title": "View on Instagram",
         "link": "https://www.instagram.com/emilynguyen.co/"
@@ -916,6 +914,11 @@
         {
           "gallery": true,
           "content": [
+            {
+              "image": "misc/week_of_wellness.png",
+              "col1": true,
+              "alt": "Vox Media Week of Wellness"
+            },
             {
               "image": "misc/me_green.png",
               "col1": true,
