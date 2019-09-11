@@ -915,8 +915,13 @@
           "gallery": true,
           "content": [
             {
-              "image": "misc/week_of_wellness.png",
+              "image": "misc/dco_teaser.gif",
               "col1": true,
+              "alt": "Design at UCSD teaser site"
+            },
+            {
+              "image": "misc/week_of_wellness.png",
+              "col2": true,
               "alt": "Vox Media Week of Wellness"
             },
             {
@@ -935,7 +940,7 @@
               "alt": "url"
             },
             {
-              "image": "misc/ty.png",
+              "image": "misc/ty_serif.png",
               "col2": true,
               "alt": "THANKYOU"
             },
