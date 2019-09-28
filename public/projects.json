@@ -907,7 +907,7 @@
       "details": [
         {
           "title": "Tools",
-          "content": "Illustrator, Sketch"
+          "content": "Illustrator, Sketch, Figma"
         }
       ],
       "blocks": [
@@ -915,25 +915,34 @@
           "gallery": true,
           "content": [
             {
+              "image": "misc/dco_posters.png",
+              "col1": true,
+              "alt": "Design at UCSD -> Design Co"
+            },
+            {
+              "image": "misc/dau_to_dco.gif",
+              "col2": true,
+              "alt": "Design at UCSD -> Design Co"
+            },
+            {
               "image": "misc/dco_teaser.gif",
               "col1": true,
               "alt": "Design at UCSD teaser site"
             },
+
             {
-              "image": "misc/week_of_wellness.png",
-              "col2": true,
-              "alt": "Vox Media Week of Wellness"
+              "image": "misc/sushi.gif",
+              "col1": true,
+              "alt": "Sleeping salmon hand roll",
+              "caption": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\" <span class=\"small-text\">(Nov 2018)</span></p>"
             },
+
             {
               "image": "misc/me_green.png",
-              "col1": true,
-              "alt": "Self-portrait"
-            },
-            {
-              "image": "misc/me_pink.png",
               "col2": true,
               "alt": "Self-portrait"
             },
+
             {
               "image": "misc/url.png",
               "col1": true,
@@ -954,12 +963,13 @@
               "col2": true,
               "alt": "Daily UI #002: concert tickets payment"
             },
+
             {
-              "image": "misc/sushi.gif",
+              "image": "misc/wellness.png",
               "col1": true,
-              "alt": "Sleeping salmon hand roll",
-              "caption": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\" <span class=\"small-text\">(Nov 2018)</span></p>"
+              "alt": "Vox Media Week of Wellness"
             },
+
             {
               "image": "misc/event-finder.jpg",
               "col1": true,
@@ -968,9 +978,15 @@
             },
             {
               "image": "misc/nancy.png",
-              "col1": true,
+              "col2": true,
               "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
               "caption": "<p><a href=\"https://www.instagram.com/daisocustomer/\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
+            },
+            {
+              "image": "misc/cersei.png",
+              "col1": true,
+              "alt": "Cersei from Game of Thrones",
+              "caption": "<p>Cersei from Game of Thrones. (Oct 2015)</p>"
             },
 
             {
@@ -980,15 +996,15 @@
               "caption": "<p>RED — \"Associated with energy, war, danger, strength, power, determination as well as passion, desire, and love. Enhances human metabolism, increases respiration rate, and raises blood pressure. It attracts attention more than any other color, at times signifying danger.\" <span class=\"small-text\">(Sept 2018)</span></p>"
             },
             {
+              "image": "misc/old_portfolio.png",
+              "col2": true,
+              "alt": "Old portfolio"
+            },
+
+            {
               "image": "misc/how_far_ill_go.png",
               "col2": true,
               "alt": "How Far I'll Go"
-            },
-            {
-              "image": "misc/cersei.png",
-              "col2": true,
-              "alt": "Cersei from Game of Thrones",
-              "caption": "<p>Cersei from Game of Thrones. (Oct 2015)</p>"
             },
             {
               "image": "misc/moira.png",
