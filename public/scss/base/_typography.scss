@@ -9,7 +9,7 @@ html {
     font-size: 58%;
   }
   @include grid-media-query(monitor) {
-    font-size: 0.42vw;
+    font-size: 0.55vw;
   }
 }
 
@@ -40,8 +40,8 @@ h1 {
   font-size: 2.8rem;
   line-height: 140%;
   @include grid-media-query(desk) {
-    font-size: 3.6rem;
     font-size: 4rem;
+    font-size: 4.5rem;
   }
 }
 
