@@ -22,7 +22,7 @@ body {
   color: $black;
   &.bg-black {
     color: #fff;
-    background-color: #000;
+    background-color: $black;
     a {
       color: #fff;
     }
@@ -39,9 +39,11 @@ h1 {
   font-family: $modern-era-mono;
   font-size: 2.8rem;
   line-height: 140%;
+
   @include grid-media-query(desk) {
-    font-size: 4rem;
-    font-size: 4.5rem;
+    // font-size: 4rem;
+    //font-size: 4.5rem;
+    font-size: 3.2rem;
   }
 }
 

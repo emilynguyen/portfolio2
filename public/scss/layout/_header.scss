@@ -10,20 +10,28 @@ nav {
   white-space: nowrap;
 }
 
-header,
-footer {
+nav {
   a {
+    &::before {
+      content: "/";
+      opacity: 0;
+    }
     &.active {
-      opacity: 0.45;
+      &::before {
+        opacity: 1;
+      }
     }
     @include hover {
-      opacity: 0.45;
+      &::before {
+        opacity: 1;
+      }
     }
   }
 }
 
 $circle-diameter: 0.9rem;
 
+/*
 #name {
   margin-left: $circle-diameter * 1.8;
   position: relative;
@@ -47,7 +55,7 @@ $circle-diameter: 0.9rem;
       background-color: $black;
     }
   }
-}
+} */
 
 .bg-black {
   #name {

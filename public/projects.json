@@ -2,6 +2,7 @@
   "projects": [
     {
       "title": "Podcast Art Design System",
+      "display": "Podcast_Art_Design_System.txt",
       "sub": "Brand Design",
       "url": "vox",
       "icon": "vox/icon.gif",
@@ -26,6 +27,7 @@
     },
     {
       "title": "Salesforce Internship",
+      "display": "Salesforce_Internship.txt",
       "sub": "UX Design",
       "url": "salesforce",
       "icon": "salesforce/icon.jpg",
@@ -80,8 +82,176 @@
       ]
     },
     {
+      "title": "Design Co",
+      "display": "Design_Co.ai",
+      "sub": "Brand Design, Web Development",
+      "url": "design-co",
+      "icon": "design-co/icon.png",
+      "landing": "none",
+      "description": "Rebrand + marketing collateral for the largest student design org on campus.",
+      "overview": "<p>Design at UCSD is now Design Co! We’ve changed our name, brand, visual identity, and have updated our mission statement and values. <a href='https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9' target='_blank'>Read more about our process</a> and visit our new site at <a href='http://ucsddesign.co' target='_blank'>ucsddesign.co</a>.</p><p>As one of Design Co's creative directors, I worked closely alongside <a href='https://nancybui.co/' target='_blank'>Nancy</a> and <a href='http://lucylouxu.com' target='_blank'>Lucy</a> to craft a new visual identity that better captured the scrappy designers that make up this student org. </p>",
+      "button": {
+        "title": "Visit Site",
+        "link": "http://ucsddesign.co"
+      },
+      "details": [
+        {
+          "title": "Deliverables",
+          "content": "Website (design + development), branding guidelines, posters, stickers"
+        },
+        {
+          "title": "Skills",
+          "content": "Brand design, motion design, web development (React.js)"
+        },
+        {
+          "title": "Date",
+          "content": "2019"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/ucsddesignco/designco\" target=\"_blank\">Github repo</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "gallery": true,
+          "content": [
+            {
+              "image": "design-co/poster_pink_indigo.png",
+              "col1": true,
+              "alt": "Design Co pink + indigo poster"
+            },
+            {
+              "image": "design-co/poster_yellow_gray.png",
+              "col2": true,
+              "alt": "Design Co yellow + gray poster"
+            },
+            {
+              "image": "design-co/poster_indigo_cyan.png",
+              "col1": true,
+              "alt": "Design Co indigo + cyan poster"
+            },
+            {
+              "image": "design-co/poster_green_pink.png",
+              "col2": true,
+              "alt": "Design Co green + pink poster"
+            },
+            {
+              "image": "design-co/website_pink.png",
+              "col1": true,
+              "alt": "Design Co website landing (pink)"
+            },
+            {
+              "image": "design-co/website_blue.png",
+              "col2": true,
+              "alt": "Design Co website landing (blue)"
+            },
+            {
+              "image": "design-co/website_purple.png",
+              "col1": true,
+              "alt": "Design Co website landing (purple)"
+            },
+            {
+              "image": "design-co/website_green.png",
+              "col2": true,
+              "alt": "Design Co website landing (green)"
+            },
+            {
+              "image": "design-co/profile.png",
+              "col1": true,
+              "alt": "Design Co profile images"
+            },
+            {
+              "image": "design-co/intern_overlay.png",
+              "col2": true,
+              "alt": "Intern Panel overlay"
+            },
+            {
+              "image": "design-co/website_about.jpg",
+              "col1": true,
+              "alt": "Design Co website about page"
+            },
+            {
+              "image": "design-co/dau_to_dco.gif",
+              "col2": true,
+              "alt": "Design at UCSD -> Design Co"
+            },
+            {
+              "image": "design-co/color_combos.png",
+              "col1": true,
+              "alt": "Design Co color combo examples"
+            },
+
+            {
+              "image": "design-co/dco_yearly_recap.jpg",
+              "col1": true,
+              "alt": "Design Co 2018–2019 recap"
+            },
+            {
+              "image": "design-co/dco_teaser.gif",
+              "col2": true,
+              "alt": "Design at UCSD teaser site"
+            }
+          ]
+        },
+        {
+          "title": "Design at UCSD",
+          "text": true,
+          "content": "<p>A collection of graphics I created prior to our rebrand (2017–2019).</p>"
+        },
+        {
+          "gallery": true,
+          "content": [
+            {
+              "image": "design-at-ucsd/figma-invision-workshop.png",
+              "col1": true,
+              "alt": "Figma + InVision Workshop event banner"
+            },
+            {
+              "image": "design-at-ucsd/stride-event-sign.png",
+              "col2": true,
+              "alt": "Stride Career Fair event sign"
+            },
+            {
+              "image": "design-at-ucsd/stride-check-in.png",
+              "col1": true,
+              "alt": "Stride Career Fair check-in signs"
+            },
+            {
+              "image": "design-at-ucsd/ai-workshop.png",
+              "col1": true,
+              "alt": "Illustrator workshop banner"
+            },
+            {
+              "image": "design-at-ucsd/robolink.png",
+              "col2": true,
+              "alt": "Robolink Talk event banner"
+            },
+            {
+              "image": "design-at-ucsd/frontiers-education-poster.png",
+              "border": true,
+              "col1": true,
+              "alt": "Design Frontiers: Education poster"
+            },
+            {
+              "image": "design-at-ucsd/krispy-kreme.png",
+              "border": true,
+              "col2": true,
+              "alt": "Krispy Kreme fundraiser poster"
+            },
+            {
+              "image": "design-at-ucsd/intern-panel.png",
+              "col2": true,
+              "alt": "Intern panel event banner"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Sun God Festival 2019",
-      "sub": "Web Dev + Web Design",
+      "display": "Sun_God_Festival_2019.html",
+      "sub": "Web Development",
       "url": "sgf",
       "icon": "sgf/icon-tall.gif",
       "landing": "sgf/landing.gif",
@@ -140,8 +310,10 @@
         }
       ]
     },
+
     {
       "title": "Burow",
+      "display": "Burow.ai",
       "sub": "Brand Design",
       "url": "burow",
       "icon": "burow/scenery-tall.gif",
@@ -251,7 +423,8 @@
     },
     {
       "title": "ERGO",
-      "sub": "Interaction and Visual Design + Web Dev",
+      "display": "ERGO.sketch",
+      "sub": "Interaction and Visual Design + Web Development",
       "url": "ergo",
       "icon": "ergo/icon-tall.gif",
       "landing": "ergo/landing.gif",
@@ -445,67 +618,11 @@
         }
       ]
     },
-    {
-      "title": "Design at UCSD",
-      "sub": "Brand Design",
-      "url": "design-at-ucsd",
-      "icon": "design-at-ucsd/icon.png",
-      "landing": "none",
-      "description": "Marketing collateral for Design at UCSD.",
-      "overview": "<p>Marketing collateral for <a href='http://designatucsd.org' target='_blank'>Design at UCSD</a>, the largest pre-professional design community on campus. We aim to establish an open community of aspiring designers, to inspire creative confidence, and to ease students into industry.</p>",
-      "blocks": [
-        {
-          "gallery": true,
-          "content": [
-            {
-              "image": "design-at-ucsd/figma-invision-workshop.png",
-              "col1": true,
-              "alt": "Figma + InVision Workshop event banner"
-            },
-            {
-              "image": "design-at-ucsd/stride-event-sign.png",
-              "col2": true,
-              "alt": "Stride Career Fair event sign"
-            },
-            {
-              "image": "design-at-ucsd/stride-check-in.png",
-              "col1": true,
-              "alt": "Stride Career Fair check-in signs"
-            },
-            {
-              "image": "design-at-ucsd/ai-workshop.png",
-              "col1": true,
-              "alt": "Illustrator workshop banner"
-            },
-            {
-              "image": "design-at-ucsd/robolink.png",
-              "col2": true,
-              "alt": "Robolink Talk event banner"
-            },
-            {
-              "image": "design-at-ucsd/frontiers-education-poster.png",
-              "border": true,
-              "col1": true,
-              "alt": "Design Frontiers: Education poster"
-            },
-            {
-              "image": "design-at-ucsd/krispy-kreme.png",
-              "border": true,
-              "col2": true,
-              "alt": "Krispy Kreme fundraiser poster"
-            },
-            {
-              "image": "design-at-ucsd/intern-panel.png",
-              "col2": true,
-              "alt": "Intern panel event banner"
-            }
-          ]
-        }
-      ]
-    },
+
     {
       "title": "Stride Career Fair",
-      "sub": "Web Dev",
+      "display": "Stride_Career_Fair.html",
+      "sub": "Web Development",
       "url": "stride",
       "icon": "stride/runner-tall.gif",
       "landing": "stride/runner.gif",
@@ -556,6 +673,7 @@
     },
     {
       "title": "A.S. Graphic Studio",
+      "display": "AS_Graphic_Studio.html",
       "hide": true,
       "url": "asgs",
       "sub": "Visual + Front-End",
@@ -816,6 +934,7 @@
     },
     {
       "title": "Miscellaneous",
+      "display": "Miscellaneous.zip",
       "sub": ":~)",
       "url": "misc",
       "icon": "misc/sushi-tall.gif",
@@ -837,27 +956,6 @@
         {
           "gallery": true,
           "content": [
-            {
-              "image": "misc/dco_posters.png",
-              "col1": true,
-              "alt": "Design at UCSD -> Design Co"
-            },
-            {
-              "image": "misc/dco_yearly_recap.jpg",
-              "col2": true,
-              "alt": "Design Co 2018–2019 recap"
-            },
-            {
-              "image": "misc/dau_to_dco.gif",
-              "col2": true,
-              "alt": "Design at UCSD -> Design Co"
-            },
-            {
-              "image": "misc/dco_teaser.gif",
-              "col1": true,
-              "alt": "Design at UCSD teaser site"
-            },
-
             {
               "image": "misc/sushi.gif",
               "col1": true,
@@ -947,7 +1045,7 @@
             },
             {
               "image": "misc/kaya.png",
-              "col2": true,
+              "col1": true,
               "alt": "Kaya Scodelario",
               "caption": "<p>Kaya Scodelario (Oct 2014)</p>"
             }

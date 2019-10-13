@@ -1,0 +1,59 @@
+<div class="grid mb-4 mt-4 portable--mb-3 portable--mt-3">
+  <div class="grid__item desk--five-sixths lap--four-fifths">
+    <h1>Emily is a designer + developer that loves crafting visual experiences and seeing them through to
+      implementation. Previously at <a style="white-space: nowrap" href="https://www.voxmedia.com/" target="_blank">Vox
+        Media</a> and <a href="https://salesforce.com" target="_blank">Salesforce</a>.
+    </h1>
+  </div>
+</div>
+
+
+<div class="grid mb-4 portable--mb-3">
+  <div class="grid__item desk--one-quarter portable--one-half portable--mb-2">
+    <h2 style="white-space: nowrap;">Highlights <span class="portable--hide">→</span><span class="desk--hide">↘</span>
+    </h2>
+  </div>
+  <div class="grid__item desk--one-quarter portable--one-half portable--mb-2">
+    <h2 class="mb-2 portable--mb-1">Visual</h2>
+    <p><a href="/burow">Burow</a></p>
+    <p><a href="/misc">Miscellaneous</a></p>
+  </div>
+  <div class="grid__item desk--one-quarter portable--one-half portable--mb-2">
+    <h2 class="mb-2 portable--mb-1">Product</h2>
+    <p><a href="/ergo">ERGO</a></p>
+  </div>
+  <div class="grid__item desk--one-quarter portable--one-half portable--mb-2">
+    <h2 class="mb-2 portable--mb-1">Front-End</h2>
+    <p><a href="/stride">Stride Career Fair</a></p>
+    <p><a href="/sgf">Sun God Festival 2019</a></p>
+  </div>
+</div>
+
+
+<div id="my-work-block" class="grid mb-3">
+  <div class="grid__item ">
+    <h2 class="mb-3 portable--mb-2">All Work ↓</h2>
+  </div>
+
+  {{#each gallery}}
+  {{#unless hide}}
+  <div class="grid__item desk--one-third lap--one-half mb-3">
+    <div class="mb-1">
+      <a class="img-link" href="/{{url}}">
+        <img src="/images/{{icon}}" alt="{{title}}"></a>
+    </div>
+    <div class="title-container">
+      <h3><a href="/ergo">{{title}}</a></h3>
+    </div>
+    <div>
+      <p>{{sub}}</p>
+      <hr>
+      <p>{{{description}}}</p>
+      <!--<p>{{details.date}}</p>-->
+    </div>
+  </div>
+  {{/unless}}
+  {{/each}}
+
+
+</div>

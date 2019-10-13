@@ -1,7 +1,15 @@
-@font-face {
+/* @font-face {
   font-family: "Modern Era Mono";
   src: url("../fonts/ModernEraMono-Bold.woff2") format("woff2"),
     url("../fonts/ModernEraMono-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+*/
+@font-face {
+  font-family: "Modern Era Mono";
+  src: url("../fonts/ModernEraMono-Medium.woff2") format("woff2"),
+    url("../fonts/ModernEraMono-Medium.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }

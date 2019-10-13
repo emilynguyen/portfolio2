@@ -1,19 +1,43 @@
-#my-work-block {
-  img {
+/*
+  bod {
+    position: relative;
     width: 100%;
-    transition: transform 0.3s;
-  }
-  .img-link {
-    @include hover {
-      img {
-        transform: scale(0.95);
-      }
-    }
-  }
-  .title-container {
-    min-height: $spacer-3;
-    a {
-      text-decoration: none;
-    }
-  }
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  } */
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -999;
+}
+
+.plane-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+  in-height: 70rem;
+}
+
+.plane {
+  width: 47vw;
+  height: 25vw;
+  width: 53.1vw;
+  height: 21.3vw;
+  position: relative;
+  margin: 0 auto;
+}
+
+.plane img {
+  display: none;
 }
