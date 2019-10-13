@@ -1,0 +1,11 @@
+#contact {
+  h1 {
+    font-size: 4.5vw;
+    //margin-bottom: $spacer-1;
+    @include hover {
+      a {
+        //width: 100%;
+      }
+    }
+  }
+}

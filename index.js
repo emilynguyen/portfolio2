@@ -29,6 +29,10 @@ hbs.registerHelper("ifCond", function(v1, operator, v2, options) {
   }
 });
 
+hbs.registerHelper("inc", function(value, options) {
+  return parseInt(value) + 1;
+});
+
 hbs.registerHelper("if_eq", function(a, b, opts) {
   if (a == b) return opts.fn(this);
   else return opts.inverse(this);
@@ -153,11 +157,63 @@ app.get("/", function(req, res) {
   });
 });
 
+app.get("/test", function(req, res) {
+  // Filter out private and archived projects
+  var gallery = [];
+  var projectArray = projects.projects;
+  var i;
+  for (i = 0; i < projectArray.length; i++) {
+    if (!projectArray[i].archive && !projectArray[i].private) {
+      gallery.push(projectArray[i]);
+    }
+  }
+
+  res.render("test", {
+    gallery,
+    title: "Emily Nguyen",
+    url: "test",
+    description:
+      "Designer + developer that loves crafting visual experiences and seeing them through to implementation.",
+    bg_black: false
+  });
+});
+
+app.get("/work", function(req, res) {
+  // Filter out private and archived projects
+  var gallery = [];
+  var projectArray = projects.projects;
+  var i;
+  for (i = 0; i < projectArray.length; i++) {
+    if (!projectArray[i].archive && !projectArray[i].private) {
+      gallery.push(projectArray[i]);
+    }
+  }
+  res.render("work", {
+    gallery,
+    title: "Work | Emily Nguyen",
+    url: "work",
+    description:
+      "Designer + developer that loves crafting visual experiences and seeing them through to implementation.",
+    bg_black: true
+  });
+});
+
 app.get("/about", function(req, res) {
   res.render("about", {
     projects,
     title: "About | Emily Nguyen",
     url: "about",
+    description:
+      "Designer + developer that loves crafting visual experiences and seeing them through to implementation.",
+    bg_black: true
+  });
+});
+
+app.get("/contact", function(req, res) {
+  res.render("contact", {
+    projects,
+    title: "Contact | Emily Nguyen",
+    url: "contact",
     description:
       "Designer + developer that loves crafting visual experiences and seeing them through to implementation.",
     bg_black: true

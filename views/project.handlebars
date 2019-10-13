@@ -9,7 +9,8 @@
     </div>
     <div class="grid__item {{@root.col1}}">
       <h2 class="portable--mb-2">{{title}}</h2>
-      {{#if button}}<div class="mt-2 portable--mb-2"><a class="btn" href="{{button.link}}" target="_blank">{{button.title}}</a></div>{{/if}}
+      {{#if button}}<div class="mt-2 portable--mb-2"><a class="btn" href="{{button.link}}"
+          target="_blank">{{button.title}}</a></div>{{/if}}
     </div>
     <div class="grid__item {{@root.col2}}">
 
@@ -50,7 +51,8 @@
     <div class="grid__item {{@root.col2}}">{{{captionBefore}}}</div>
     {{/ifCond}}
     <div class="grid__item">
-      <img class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-3{{/if}}"
+      <img
+        class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-3{{/if}}"
         src="/images/{{content}}" alt="{{alt}}">
     </div>
     {{#if captionAfter}}
@@ -107,7 +109,8 @@
     {{/ifCond}}
     <div class="grid__item">
 
-      <iframe class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-3{{/if}}"
+      <iframe
+        class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-3{{/if}}"
         src="{{content}}"></iframe>
 
 
@@ -125,9 +128,13 @@
   {{/unless}}
   {{/each}}
 
+
+
 </div>
 
-
+<div class="mb-4">
+  <h2><a href="/work" style="text-decoration: none">← Back</a></h2>
+</div>
 
 
 

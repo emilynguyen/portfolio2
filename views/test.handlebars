@@ -1,0 +1,54 @@
+{{#each gallery}}
+{{#unless hide}}
+
+<div class="content__section">
+  <div class="grid mt-4">
+    <div class="grid__item one-tenth">
+      <div class="num-container">
+        <h3 class="num mt-2">{{inc @index}}/{{../gallery.length}}</h3>
+      </div>
+    </div>
+    <div class="grid__item five-tenths">
+      <img class="content__img test-img" src="/images/{{icon}}" alt="{{title}}">
+
+    </div>
+    <div class="grid__item four-tenths">
+    </div>
+  </div>
+
+
+  <!-- -->
+  <div id="overlay" style="bckground-color: blue; opacity: 1; position: fixed;  top: 0; left: 0;">
+    <div class="grid">
+      <div class="grid__item one-tenth">
+
+      </div>
+      <div class="grid__item five-tenths">
+        <img style="opacity: 0" class="test-img" src="/images/vox/icon.gif" alt="">
+      </div>
+      <div class="grid__item four-tenths">
+        <div style="display: flex; align-items: center; height: 100vh;">
+          <div>
+            <h1 class="mb-2 test-header content__text">{{title}}</h1>
+            <div class="grid">
+              <div class="grid__item one-third">
+              </div>
+              <div class="grid__item one-third">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+{{/unless}}
+{{/each}}
+
+
+
+<script src="/scripts/imagesloaded.pkgd.min.js"></script>
+<script src="/scripts/charming.min.js"></script>
+<script src="/scripts/demo2.js"></script>

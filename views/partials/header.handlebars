@@ -1,11 +1,16 @@
 <header class="pt-3 palm--pt-2">
   <div>
-    <a href="/" id="name">Emily<span class="palm--hide"> Nguyen</span></a>
+    <p class="mb-1">
+      <a href="/" id="name">Emily<span class="palm--hide"> Nguyen</span></a>
+      <span class="portable--hide" style="margin-left: 5rem;">Visual —
+        Product — Front-End</span></p>
+
   </div>
   <div>
     <nav>
-      <a href="/" {{#if_eq url ""}} class="active" {{/if_eq}}>Work</a> — <a href="/about" {{#if_eq url "about"}} class="active"
-        {{/if_eq}}>About</a> — <a href="https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view" target="_blank">Resume</a>
+      <a href="/work" {{#if_eq url "work"}} class="active" {{/if_eq}}>Work</a> &nbsp;&nbsp;&nbsp; <a href="/about"
+        {{#if_eq url "about"}} class="active" {{/if_eq}}>About</a> &nbsp;&nbsp;&nbsp; <a href="/contact"
+        {{#if_eq url "contact"}} class="active" {{/if_eq}}>Contact</a>
     </nav>
   </div>
 </header>
