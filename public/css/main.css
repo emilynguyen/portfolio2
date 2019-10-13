@@ -1513,11 +1513,6 @@ footer {
 #project-page ul:not(:last-child) {
   margin-bottom: 1.5rem; }
 
-.back-arrow {
-  animation: bounce 1s infinite alternate;
-  -webkit-animation: bounce 1s infinite alternate;
-  display: inline-block; }
-
 @-webkit-keyframes bounce {
   from {
     -webkit-transform: translateX(0);
@@ -1534,5 +1529,14 @@ footer {
     -webkit-transform: translateX(-10px);
             transform: translateX(-10px); } }
 
-#contact-page h1 {
+#contact-page .hover h1 {
   font-size: 4.5vw; }
+
+#contact-page .nohover h1 {
+  margin-bottom: 1.5rem; }
+
+@media (hover: hover) {
+  #contact-page .hover {
+    display: block !important; }
+  #contact-page .nohover {
+    display: none; } }
