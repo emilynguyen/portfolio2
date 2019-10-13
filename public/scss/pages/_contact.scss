@@ -1,11 +1,20 @@
 #contact-page {
-  h1 {
-    font-size: 4.5vw;
-    //margin-bottom: $spacer-1;
-    @include hover {
-      a {
-        //width: 100%;
-      }
+  .hover {
+    h1 {
+      font-size: 4.5vw;
+    }
+  }
+  .nohover {
+    h1 {
+      margin-bottom: $spacer-1;
+    }
+  }
+  @media (hover: hover) {
+    .hover {
+      display: block !important;
+    }
+    .nohover {
+      display: none;
     }
   }
 }
