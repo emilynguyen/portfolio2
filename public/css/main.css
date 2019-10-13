@@ -1523,16 +1523,16 @@ footer {
     -webkit-transform: translateX(0);
             transform: translateX(0); }
   to {
-    -webkit-transform: translateX(-1rem);
-            transform: translateX(-1rem); } }
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px); } }
 
 @keyframes bounce {
   from {
     -webkit-transform: translateX(0);
             transform: translateX(0); }
   to {
-    -webkit-transform: translateX(-1rem);
-            transform: translateX(-1rem); } }
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px); } }
 
 #contact-page h1 {
   font-size: 4.5vw; }
