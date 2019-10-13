@@ -26,3 +26,19 @@
     }
   }
 }
+
+.back-arrow {
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+  display: inline-block;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-1rem);
+  }
+}

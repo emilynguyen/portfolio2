@@ -10,13 +10,27 @@ nav {
   white-space: nowrap;
 }
 
+header,
+footer {
+  a {
+    font-family: $modern-era-mono;
+    transition: opacity 0.3s;
+    @include hover {
+      opacity: 0.5;
+    }
+  }
+}
+
 nav {
   a {
+    transition: opacity 0.3s;
     &::before {
+      transition: opacity 0.3s;
       content: "/";
       opacity: 0;
     }
     &.active {
+      opacity: 0.5;
       &::before {
         opacity: 1;
       }

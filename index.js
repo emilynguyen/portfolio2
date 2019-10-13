@@ -269,7 +269,8 @@ app.get("/:project", function(req, res) {
         url: currProject.url,
         description: currProject.description,
         col1: "desk--one-third",
-        col2: "desk--two-thirds"
+        col2: "desk--two-thirds",
+        bg_black: false
       });
       return;
     }
