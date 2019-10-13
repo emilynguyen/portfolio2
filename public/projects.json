@@ -89,7 +89,7 @@
       "icon": "design-co/icon.png",
       "landing": "none",
       "description": "Rebrand + marketing collateral for the largest student design org on campus.",
-      "overview": "<p>Design at UCSD is now Design Co! We’ve changed our name, brand, visual identity, and have updated our mission statement and values. <a href='https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9' target='_blank'>Read more about our process</a> and visit our new site at <a href='http://ucsddesign.co' target='_blank'>ucsddesign.co</a>.</p><p>As one of Design Co's creative directors, I worked closely alongside <a href='https://nancybui.co/' target='_blank'>Nancy</a> and <a href='http://lucylouxu.com' target='_blank'>Lucy</a> to craft a new visual identity that better captured the scrappy designers that make up this student org. </p>",
+      "overview": "<p>Design at UCSD, the largest pre-professional design community on campus, is now Design Co! We’ve changed our name, brand, visual identity, and have updated our mission statement and values. <a href='https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9' target='_blank'>Read more about our process</a> and visit our new site at <a href='http://ucsddesign.co' target='_blank'>ucsddesign.co</a>.</p><p>As one of Design Co's creative directors, I worked closely alongside <a href='https://nancybui.co/' target='_blank'>Nancy</a> and <a href='http://lucylouxu.com' target='_blank'>Lucy</a> to craft a new visual identity that better captured the scrappy designers that make up this student org. </p>",
       "button": {
         "title": "Visit Site",
         "link": "http://ucsddesign.co"
@@ -97,11 +97,11 @@
       "details": [
         {
           "title": "Deliverables",
-          "content": "Website (design + development), branding guidelines, posters, stickers"
+          "content": "Website (design + development), branding guidelines, posters, stickers, social media graphics"
         },
         {
           "title": "Skills",
-          "content": "Brand design, motion design, web development (React.js)"
+          "content": "Brand design, motion design, web development (HTML, CSS, Sass, React)"
         },
         {
           "title": "Date",
@@ -197,7 +197,7 @@
         {
           "title": "Design at UCSD",
           "text": true,
-          "content": "<p>A collection of graphics I created prior to our rebrand (2017–2019).</p>"
+          "content": "<p>A collection of graphics I created prior to the rebrand (2017–2019).</p>"
         },
         {
           "gallery": true,
@@ -424,7 +424,7 @@
     {
       "title": "ERGO",
       "display": "ERGO.sketch",
-      "sub": "Interaction and Visual Design + Web Development",
+      "sub": "Interaction and Visual Design, Web Development",
       "url": "ergo",
       "icon": "ergo/icon-tall.gif",
       "landing": "ergo/landing.gif",
