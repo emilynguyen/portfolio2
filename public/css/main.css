@@ -1342,16 +1342,31 @@ header {
 nav {
   white-space: nowrap; }
 
-nav a::before {
-  content: "/";
-  opacity: 0; }
+header a,
+footer a {
+  font-family: "Modern Era Mono", Menlo, monospace;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s; }
+  @media (hover: hover) {
+    header a:hover,
+    footer a:hover {
+      opacity: 0.5; } }
 
-nav a.active::before {
-  opacity: 1; }
-
-@media (hover: hover) {
-  nav a:hover::before {
-    opacity: 1; } }
+nav a {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s; }
+  nav a::before {
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    content: "/";
+    opacity: 0; }
+  nav a.active {
+    opacity: 0.5; }
+    nav a.active::before {
+      opacity: 1; }
+  @media (hover: hover) {
+    nav a:hover::before {
+      opacity: 1; } }
 
 /*
 #name {
@@ -1498,5 +1513,26 @@ footer {
 #project-page ul:not(:last-child) {
   margin-bottom: 1.5rem; }
 
-#contact h1 {
+.back-arrow {
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+  display: inline-block; }
+
+@-webkit-keyframes bounce {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
+  to {
+    -webkit-transform: translateX(-1rem);
+            transform: translateX(-1rem); } }
+
+@keyframes bounce {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
+  to {
+    -webkit-transform: translateX(-1rem);
+            transform: translateX(-1rem); } }
+
+#contact-page h1 {
   font-size: 4.5vw; }
