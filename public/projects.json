@@ -87,17 +87,18 @@
       "sub": "Brand Design, Web Development",
       "url": "design-co",
       "icon": "design-co/icon.png",
-      "landing": "none",
+      "landing": "design-co/dau_to_dco.gif",
+      "border": true,
       "description": "Rebrand + marketing collateral for the largest student design org on campus.",
       "overview": "<p>Design at UCSD, the largest pre-professional design community on campus, is now Design Co! We’ve changed our name, brand, visual identity, and have updated our mission statement and values. <a href='https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9' target='_blank'>Read more about our process</a> and visit our new site at <a href='http://ucsddesign.co' target='_blank'>ucsddesign.co</a>.</p><p>As one of Design Co's creative directors, I worked closely alongside <a href='https://nancybui.co/' target='_blank'>Nancy</a> and <a href='http://lucylouxu.com' target='_blank'>Lucy</a> to craft a new visual identity that better captured the scrappy designers that make up this student org. </p>",
       "button": {
-        "title": "Visit Site",
-        "link": "http://ucsddesign.co"
+        "title": "Read More",
+        "link": "https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9"
       },
       "details": [
         {
           "title": "Deliverables",
-          "content": "Website (design + development), branding guidelines, posters, stickers, social media graphics"
+          "content": "<a href='http://ucsddesign.co' target='_blank'>Website</a> (design + development), branding guidelines, posters, stickers, social media graphics"
         },
         {
           "title": "Skills",
@@ -115,82 +116,57 @@
       "blocks": [
         {
           "gallery": true,
+          "block": true,
           "content": [
             {
+              "image": "design-co/color_combos.png",
+              "full": true,
+              "alt": "Design Co color combo examples"
+            },
+            {
               "image": "design-co/poster_pink_indigo.jpg",
-              "col1": true,
+              "half": true,
               "alt": "Design Co pink + indigo poster"
             },
             {
               "image": "design-co/poster_yellow_gray.jpg",
-              "col2": true,
+              "half": true,
               "alt": "Design Co yellow + gray poster"
             },
             {
               "image": "design-co/poster_indigo_cyan.jpg",
-              "col1": true,
+              "half": true,
               "alt": "Design Co indigo + cyan poster"
             },
             {
               "image": "design-co/poster_green_pink.jpg",
-              "col2": true,
+              "half": true,
               "alt": "Design Co green + pink poster"
             },
             {
-              "image": "design-co/website_pink.png",
-              "col1": true,
-              "alt": "Design Co website landing (pink)"
-            },
-            {
-              "image": "design-co/website_blue.png",
-              "col2": true,
-              "alt": "Design Co website landing (blue)"
-            },
-            {
-              "image": "design-co/website_purple.png",
-              "col1": true,
-              "alt": "Design Co website landing (purple)"
-            },
-            {
-              "image": "design-co/website_green.png",
-              "col2": true,
-              "alt": "Design Co website landing (green)"
-            },
-            {
-              "image": "design-co/profile.png",
-              "col1": true,
-              "alt": "Design Co profile images"
-            },
-            {
-              "image": "design-co/intern_overlay.png",
-              "col2": true,
-              "alt": "Intern Panel overlay"
+              "image": "design-co/website_home.gif",
+              "link": "http://ucsddesign.co",
+              "full": true
             },
             {
               "image": "design-co/website_about.jpg",
-              "col1": true,
-              "alt": "Design Co website about page"
+              "link": "http://ucsddesign.co",
+              "full": true
             },
             {
-              "image": "design-co/dau_to_dco.gif",
-              "col2": true,
-              "alt": "Design at UCSD -> Design Co"
-            },
-            {
-              "image": "design-co/color_combos.png",
-              "col1": true,
-              "alt": "Design Co color combo examples"
-            },
-
-            {
-              "image": "design-co/dco_yearly_recap.jpg",
-              "col1": true,
-              "alt": "Design Co 2018–2019 recap"
+              "image": "design-co/website_contact.jpg",
+              "link": "http://ucsddesign.co",
+              "full": true
             },
             {
               "image": "design-co/dco_teaser.gif",
-              "col2": true,
+              "half": true,
               "alt": "Design at UCSD teaser site"
+            },
+            {
+              "image": "design-co/profile.png",
+              "half": true,
+              "alt": "Design Co profile images"
             }
           ]
         },

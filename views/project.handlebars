@@ -4,7 +4,7 @@
   <div class="grid">
     <div class="grid__item mb-3 portable--mb-2">
       {{#ifCond landing "!=" "none"}}
-      <img src="/images/{{landing}}" alt="{{title}}">
+      <img class="{{#if border}}border{{/if}}" src="/images/{{landing}}" alt="{{title}}">
       {{/ifCond}}
     </div>
     <div class="grid__item {{@root.col1}}">
@@ -51,9 +51,10 @@
     <div class="grid__item {{@root.col2}}">{{{captionBefore}}}</div>
     {{/ifCond}}
     <div class="grid__item">
-      <img
-        class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-3{{/if}}"
-        src="/images/{{content}}" alt="{{alt}}">
+      {{#if link}}<a href="{{link}}" target="_blank">{{/if}}
+        <img
+          class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-3{{/if}}"
+          src="/images/{{content}}" alt="{{alt}}">{{#if link}}</a>{{/if}}
     </div>
     {{#if captionAfter}}
     <div class="grid__item {{@root.col1}}"></div>
@@ -71,6 +72,24 @@
     </div>
     {{/each}}
     <!-- end square gallery -->
+    <!-- block gallery -->
+    {{else if block}}
+    {{#each content}}
+    {{#if full}}
+    <div class="grid__item mb-1 lap--mb-2 desk--mb-3">
+      {{#if link}}<a href="{{link}}" target="_blank">{{/if}}
+        <img src="/images/{{image}}" alt="{{alt}}" {{#if border}} class="border" {{/if}}>{{#if link}}</a>{{/if}}
+    </div>
+    {{/if}}
+    {{#if half}}
+    <div class="grid__item mb-1 lap--mb-2 desk--mb-3 lap-up--one-half ">
+      <img src="/images/{{image}}" alt="{{alt}}" {{#if border}} class="border" {{/if}}>
+    </div>
+    {{/if}}
+
+    {{/each}}
+
+    <!-- end block gallery -->
     <!-- masonry gallery -->
     {{else}}
     <!-- 2 cols -->
