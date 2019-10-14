@@ -9,7 +9,7 @@
     </div>
     <div class="grid__item {{@root.col1}}">
       <h2 class="portable--mb-2">{{title}}</h2>
-      {{#if button}}<div class="mt-2 portable--mb-2"><a class="btn" href="{{button.link}}"
+      {{#if button}}<div class="mt-2 portable--mb-2 portable--hide"><a class="btn" href="{{button.link}}"
           target="_blank">{{button.title}}</a></div>{{/if}}
     </div>
     <div class="grid__item {{@root.col2}}">
@@ -24,6 +24,11 @@
           <p>{{{content}}}</p>
         </div>
         {{/each}}
+        <div class="grid__item">
+          {{#if button}}<div class="mt-2 desk--hide"><a class="btn" href="{{button.link}}"
+              target="_blank">{{button.title}}</a>
+          </div>{{/if}}
+        </div>
       </div>
     </div>
   </div>
