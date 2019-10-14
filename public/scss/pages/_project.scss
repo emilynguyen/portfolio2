@@ -1,4 +1,10 @@
 #project-page {
+  a > img {
+    transition: transform 0.3s;
+    @include hover {
+      transform: scale(0.98);
+    }
+  }
   img,
   iframe {
     width: 100%;

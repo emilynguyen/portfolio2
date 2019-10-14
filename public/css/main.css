@@ -1493,6 +1493,16 @@ footer {
   #my-work-block .title-container a {
     text-decoration: none; }
 
+#project-page a > img {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s; }
+  @media (hover: hover) {
+    #project-page a > img:hover {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98); } }
+
 #project-page img,
 #project-page iframe {
   width: 100%;
