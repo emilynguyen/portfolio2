@@ -117,22 +117,22 @@
           "gallery": true,
           "content": [
             {
-              "image": "design-co/poster_pink_indigo.png",
+              "image": "design-co/poster_pink_indigo.jpg",
               "col1": true,
               "alt": "Design Co pink + indigo poster"
             },
             {
-              "image": "design-co/poster_yellow_gray.png",
+              "image": "design-co/poster_yellow_gray.jpg",
               "col2": true,
               "alt": "Design Co yellow + gray poster"
             },
             {
-              "image": "design-co/poster_indigo_cyan.png",
+              "image": "design-co/poster_indigo_cyan.jpg",
               "col1": true,
               "alt": "Design Co indigo + cyan poster"
             },
             {
-              "image": "design-co/poster_green_pink.png",
+              "image": "design-co/poster_green_pink.jpg",
               "col2": true,
               "alt": "Design Co green + pink poster"
             },
