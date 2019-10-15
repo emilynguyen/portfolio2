@@ -1,6 +1,6 @@
 {{#with currProject}}
 
-<div id="project-page" class="mt-2 mb-4 portable--mb-3">
+<div id="project-page" class="mt-2 mb-3">
   <div class="grid">
     <div class="grid__item mb-3">
       {{#ifCond landing "!=" "none"}}
@@ -69,6 +69,13 @@
 
     <!-- GALLERY -->
     {{#if gallery}}
+    {{#ifCond captionBefore "||" title}}
+    <div class="grid__item {{@root.col1}}">
+      {{#if title}}
+      <h2 class="sub mb-3 portable--mb-1 {{#if captionBefore}}portable--mb-2{{/if}}">{{title}}</h2>{{/if}}
+    </div>
+    <div class="grid__item {{@root.col2}}">{{{captionBefore}}}</div>
+    {{/ifCond}}
     {{#if square}}
     <!-- square gallery -->
     {{#each content}}
