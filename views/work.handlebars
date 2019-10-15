@@ -5,7 +5,7 @@
   </div> -->
   {{#each gallery}}
   {{#unless hide}}
-  <div class="grid__item desk--one-third lap--one-half monitor--one-quarter mb-4">
+  <div class="grid__item desk--{{size}} lap--one-half mb-4">
     <div class="mb-2">
       <a class="img-link" href="/{{url}}">
         <img src="/images/{{icon}}" alt="{{title}}"></a>
@@ -13,11 +13,12 @@
     <div class="title-container">
       <h1 class="filename mb-2"><a href="/ergo">{{display}}</a></h1>
     </div>
-    <div class="grid--narrow">
-      <div class="grid__item two-fifths">
+    <div class="grid">
+      <div class="grid__item one-half lap--one-whole">
         <p>{{{description}}}</p>
       </div>
-      <div class="grid__item two-fifths">
+      <div class="grid__item one-half lap--one-whole">
+        <p class="palm--hide desk--hide">—</p>
         <p>{{sub}}</p>
       </div>
       <!--<p>{{details.date}}</p>-->
