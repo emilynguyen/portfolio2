@@ -161,7 +161,7 @@
             {
               "image": "design-co/dco_teaser.gif",
               "half": true,
-              "alt": "Design at UCSD teaser site"
+              "alt": "Teaser site"
             },
             {
               "image": "design-co/profile.png",
@@ -173,7 +173,7 @@
         {
           "title": "Design at UCSD",
           "text": true,
-          "content": "<p>A collection of graphics I created prior to the rebrand (2017–2019).</p>"
+          "content": "<p>A collection of graphics I created for the org prior to the rebrand (2017–2019).</p>"
         },
         {
           "gallery": true,
@@ -263,26 +263,31 @@
       ],
       "blocks": [
         {
-          "image": true,
-          "content": "sgf/lineup.gif",
-          "alt": "Lineup hover"
-        },
-        {
-          "image": true,
-          "content": "sgf/stretch.gif",
-          "alt": "Leaf stretching with scroll"
-        },
-        {
-          "image": true,
-          "content": "sgf/lineup-glitch.gif",
-          "border": true,
-          "alt": "Lineup page drawers"
-        },
-        {
-          "image": true,
-          "content": "sgf/accordian.gif",
-          "border": true,
-          "alt": "FAQ accordian"
+          "gallery": true,
+          "content": [
+            {
+              "image": "sgf/lineup.gif",
+              "alt": "Lineup reveal",
+              "col1": true
+            },
+            {
+              "image": "sgf/stretch.gif",
+              "alt": "Leaf stretch",
+              "col2": true
+            },
+            {
+              "image": "sgf/accordian.gif",
+              "alt": "Accordian animation",
+              "border": true,
+              "col1": true
+            },
+            {
+              "image": "sgf/lineup-glitch.gif",
+              "alt": "Lineup page glitch animation",
+              "border": true,
+              "col2": true
+            }
+          ]
         }
       ]
     },
@@ -606,7 +611,7 @@
       "text": "#222",
       "description": "Website for UC San Diego's first design-centric career fair.",
       "col": "2",
-      "overview": "<p>As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.</p><p>In collaboration with our creative director, I developed the event website. I also assisted our graphic studio in creating visual collateral.</p>",
+      "overview": "<p>As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design Co</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.</p><p>In collaboration with our creative director, I developed the event website. I also assisted our graphic studio in creating visual collateral.</p>",
       "button": {
         "title": "Visit Site",
         "link": "https://stride.designatucsd.org/2019"
