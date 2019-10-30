@@ -20,6 +20,7 @@
     "gulp-cli": "^1.2.2",
     "gulp-nodemon": "^2.4.2",
     "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
   }
 }
