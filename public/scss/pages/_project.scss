@@ -33,6 +33,18 @@
   }
 }
 
+.arrows {
+  text-align: center;
+  @include grid-media-query(desk) {
+    .grid__item:nth-child(1) {
+      text-align: left;
+    }
+    .grid__item:nth-child(2) {
+      text-align: right;
+    }
+  }
+}
+
 .back-arrow {
   // animation: bounce 1s infinite alternate;
   //-webkit-animation: bounce 1s infinite alternate;

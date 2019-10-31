@@ -1486,10 +1486,8 @@ footer {
     -webkit-transform: scale(0.93);
             transform: scale(0.93); } }
 
-#my-work-block .title-container {
-  min-height: 6rem; }
-  #my-work-block .title-container a {
-    text-decoration: none; }
+#my-work-block .title-container a {
+  text-decoration: none; }
 
 #project-page a > img {
   -webkit-transition: -webkit-transform 0.3s;
@@ -1520,6 +1518,14 @@ footer {
 #project-page ol:not(:last-child),
 #project-page ul:not(:last-child) {
   margin-bottom: 1.5rem; }
+
+.arrows {
+  text-align: center; }
+  @media only screen and (min-width: 1024px) {
+    .arrows .grid__item:nth-child(1) {
+      text-align: left; }
+    .arrows .grid__item:nth-child(2) {
+      text-align: right; } }
 
 @-webkit-keyframes bounce {
   from {

@@ -253,6 +253,9 @@ app.get("/:project", function(req, res) {
 
   for (var i = 0; i < projectArray.length; i++) {
     var currProject = projectArray[i];
+    var prevProject =
+      projectArray[(i + projectArray.length - 1) % projectArray.length];
+    var nextProject = projectArray[(i + 1) % projectArray.length];
 
     // Render project page if input title matches a project
     if (inputTitle == currProject.url) {
@@ -265,6 +268,8 @@ app.get("/:project", function(req, res) {
       res.render("project", {
         projects,
         currProject,
+        prevProject,
+        nextProject,
         title: currProject.title + " | Emily Nguyen",
         url: currProject.url,
         description: currProject.description,
@@ -291,6 +296,8 @@ app.get("/archive/:project", function(req, res) {
 
   for (var i = 0; i < projectArray.length; i++) {
     var currProject = projectArray[i];
+    var prevProject = projectArray[(i - 1) % projectArray.length];
+    var nextProject = projectArray[(i + 1) % projectArray.length];
 
     // Render project page if input title matches a project
     if (inputTitle == currProject.url) {
@@ -303,6 +310,8 @@ app.get("/archive/:project", function(req, res) {
       res.render("project", {
         projects,
         currProject,
+        prevProject,
+        nextProject,
         title: currProject.title + " | Emily Nguyen",
         url: currProject.url,
         description: currProject.description
