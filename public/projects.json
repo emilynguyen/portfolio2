@@ -18,7 +18,7 @@
       "details": [
         {
           "title": "Deliverables",
-          "content": "<a href='http://ucsddesign.co' target='_blank'>Website</a> (design + development), branding guidelines, posters, stickers, social media graphics"
+          "content": "<a href='http://ucsddesign.co' target='_blank'>Website</a> (design + development), branding guidelines, posters, slide deck template, stickers, social media graphics"
         },
         {
           "title": "Skills",
@@ -93,6 +93,31 @@
               "image": "design-co/profile.png",
               "half": true,
               "alt": "Design Co profile images"
+            },
+            {
+              "image": "design-co/intern_overlay.jpg",
+              "full": true,
+              "alt": "Speaker overlays"
+            },
+            {
+              "image": "design-co/slide_1.png",
+              "half": true,
+              "alt": "Slide deck (pink + indigo)"
+            },
+            {
+              "image": "design-co/slide_2.png",
+              "half": true,
+              "alt": "Slide deck (yellow + gray)"
+            },
+            {
+              "image": "design-co/slide_3.png",
+              "half": true,
+              "alt": "Slide deck (indigo + cyan)"
+            },
+            {
+              "image": "design-co/slide_4.png",
+              "half": true,
+              "alt": "Slide deck (green + pink)"
             }
           ]
         }
@@ -275,7 +300,7 @@
         },
         {
           "title": "Partner",
-          "content": "<a href='https://eunsoolee.co/' target='_blank'>Tim Lee</a> — creative director, lead web designer"
+          "content": "<a href='https://eunsoolee.co/' target='_blank'>Eunsoo Lee</a> — creative director, lead web designer"
         },
         {
           "title": "Date",
@@ -560,7 +585,7 @@
       "title": "Stride Career Fair",
       "display": "Stride_Career_Fair.html",
       "size": "one-third",
-      "sub": "Web Development",
+      "sub": "Web Development, Brand Design",
       "url": "stride",
       "icon": "stride/landing.gif",
       "icon_square": "stride/website_square.gif",
@@ -648,11 +673,21 @@
               "col2": true,
               "alt": "Self-portrait"
             },
-
             {
-              "image": "misc/url.png",
+              "image": "misc/nancy.png",
               "col1": true,
-              "alt": "url"
+              "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
+              "caption": "<p><a href=\"https://www.instagram.com/daisocustomer/\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
+            },
+            {
+              "image": "misc/dailyui_2.png",
+              "col1": true,
+              "alt": "Daily UI #002: concert tickets payment"
+            },
+            {
+              "image": "misc/old_portfolio.png",
+              "col1": true,
+              "alt": "Old portfolio"
             },
             {
               "image": "misc/ty_serif.png",
@@ -660,34 +695,23 @@
               "alt": "THANKYOU"
             },
             {
-              "image": "misc/dailyui_1.jpg",
-              "col2": true,
-              "alt": "Daily UI #001: red envelope login"
-            },
-            {
-              "image": "misc/dailyui_2.png",
-              "col2": true,
-              "alt": "Daily UI #002: concert tickets payment"
-            },
-
-            {
-              "image": "misc/wellness.png",
-              "col1": true,
-              "alt": "Vox Media Week of Wellness"
-            },
-
-            {
               "image": "misc/event-finder.jpg",
-              "col1": true,
+              "col2": true,
               "alt": "Interface for an event finder site",
               "caption": "<p>Interface for an event finder site. 💃🏻</p>"
             },
             {
-              "image": "misc/nancy.png",
+              "image": "misc/url.png",
               "col2": true,
-              "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
-              "caption": "<p><a href=\"https://www.instagram.com/daisocustomer/\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
+              "alt": "url"
             },
+
+            {
+              "image": "misc/dailyui_1.jpg",
+              "col2": true,
+              "alt": "Daily UI #001: red envelope login"
+            },
+
             {
               "image": "misc/cersei.png",
               "col1": true,
@@ -702,32 +726,27 @@
               "caption": "<p>RED — \"Associated with energy, war, danger, strength, power, determination as well as passion, desire, and love. Enhances human metabolism, increases respiration rate, and raises blood pressure. It attracts attention more than any other color, at times signifying danger.\" <span class=\"small-text\">(Sept 2018)</span></p>"
             },
             {
-              "image": "misc/old_portfolio.png",
-              "col2": true,
-              "alt": "Old portfolio"
-            },
-
-            {
-              "image": "misc/how_far_ill_go.png",
-              "col2": true,
-              "alt": "How Far I'll Go"
-            },
-            {
               "image": "misc/moira.png",
-              "col1": true,
+              "col2": true,
               "alt": "Moira from American Horror Story: Murder House",
               "caption": "<p>Moira from American Horror Story: Murder House. (Aug 2015)</p>"
-            },
-            {
-              "image": "misc/remember_that_i_love_you.png",
-              "col2": true,
-              "alt": "KP HSC 2018 poster"
             },
             {
               "image": "misc/kaya.png",
               "col1": true,
               "alt": "Kaya Scodelario",
               "caption": "<p>Kaya Scodelario (Oct 2014)</p>"
+            },
+            {
+              "image": "misc/how_far_ill_go.png",
+              "col1": true,
+              "alt": "How Far I'll Go"
+            },
+
+            {
+              "image": "misc/remember_that_i_love_you.png",
+              "col2": true,
+              "alt": "KP HSC 2018 poster"
             }
           ]
         }
