@@ -641,13 +641,13 @@
       "size": "one-third",
       "sub": ":~)",
       "url": "misc",
-      "icon": "misc/sushi.gif",
-      "icon_square": "misc/sushi.gif",
+      "icon": "misc/black_heart_bg.gif",
+      "icon_square": "misc/black_heart_bg.gif",
       "col": 2,
       "landing": "none",
       "description": "A collection of personal work, illustrations, explorations, and other.",
       "overview": "<p>A collection of personal work, illustrations, explorations, and other. :~)</p>",
-      "button": {
+      "butto": {
         "title": "View on Instagram",
         "link": "https://www.instagram.com/emilynguyen.co/"
       },
@@ -690,6 +690,11 @@
               "alt": "Old portfolio"
             },
             {
+              "image": "misc/black_heart_bg.gif",
+              "col2": true,
+              "alt": "Black heart"
+            },
+            {
               "image": "misc/ty_serif.png",
               "col2": true,
               "alt": "THANKYOU"
@@ -705,20 +710,23 @@
               "col2": true,
               "alt": "url"
             },
-
             {
               "image": "misc/dailyui_1.jpg",
               "col2": true,
               "alt": "Daily UI #001: red envelope login"
             },
-
+            {
+              "image": "asgs/icon.png",
+              "col1": true,
+              "alt": "Cersei from Game of Thrones",
+              "caption": "<p>Cersei from Game of Thrones. (Oct 2015)</p>"
+            },
             {
               "image": "misc/cersei.png",
               "col1": true,
               "alt": "Cersei from Game of Thrones",
               "caption": "<p>Cersei from Game of Thrones. (Oct 2015)</p>"
             },
-
             {
               "image": "misc/red.png",
               "col1": true,
