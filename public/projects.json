@@ -646,38 +646,31 @@
       "col": 2,
       "landing": "none",
       "description": "A collection of personal work, illustrations, explorations, and other.",
-      "overview": "<p>A collection of personal work, illustrations, explorations, and other. :~)</p>",
+      "overview": "",
       "butto": {
         "title": "View on Instagram",
         "link": "https://www.instagram.com/emilynguyen.co/"
       },
-      "details": [
-        {
-          "title": "Tools",
-          "content": "Illustrator, Sketch, Figma"
-        }
-      ],
+      "details": [],
       "blocks": [
         {
           "gallery": true,
           "content": [
+            {
+              "image": "misc/portfolio_day.jpg",
+              "col1": true,
+              "alt": "Design Co Portfolio Day poster"
+            },
             {
               "image": "misc/sushi.gif",
               "col1": true,
               "alt": "Sleeping salmon hand roll",
               "caption": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\" <span class=\"small-text\">(Nov 2018)</span></p>"
             },
-
             {
               "image": "misc/me_pink.png",
               "col2": true,
               "alt": "Self-portrait"
-            },
-            {
-              "image": "misc/nancy.png",
-              "col1": true,
-              "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
-              "caption": "<p><a href=\"https://www.instagram.com/daisocustomer/\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
             },
             {
               "image": "misc/dailyui_2.png",
@@ -693,6 +686,12 @@
               "image": "misc/black_heart_bg.gif",
               "col2": true,
               "alt": "Black heart"
+            },
+            {
+              "image": "misc/nancy.png",
+              "col2": true,
+              "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
+              "caption": "<p><a href=\"https://www.instagram.com/daisocustomer/\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
             },
             {
               "image": "misc/ty_serif.png",
