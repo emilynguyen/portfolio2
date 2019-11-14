@@ -67,9 +67,6 @@ $window-border: 0.3rem solid #fff;
     @include grid-media-query(desk) {
       height: 35vw;
     }
-    @include grid-media-query(huge) {
-      height: 60rem;
-    }
   }
   .project-description {
     width: 100%;
@@ -84,5 +81,11 @@ $window-border: 0.3rem solid #fff;
     left: 0;
     height: 100%;
     width: 100%;
+  }
+
+  mark {
+    color: $black;
+    background-color: $gray;
+    padding: 0.1rem;
   }
 }

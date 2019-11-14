@@ -1547,7 +1547,7 @@ footer {
   display: inline-block;
   padding: 1.9rem 1.9rem 1.9rem;
   font-family: "Modern Era Mono", Menlo, monospace;
-  border: 0.3rem solid #141414; }
+  border: 0.2rem solid #141414; }
   @media (hover: hover) {
     .btn:hover {
       background-color: #141414;
@@ -1590,6 +1590,8 @@ footer {
 .plane {
   width: 53.2vw;
   height: 21.4vw;
+  width: 60vw;
+  height: 30vw;
   position: relative;
   margin: 0 auto; }
 
@@ -1689,6 +1691,10 @@ footer {
     left: 0;
     height: 100%;
     width: 100%; }
+  #my-work-block mark {
+    color: #141414;
+    background-color: #f8f8f8;
+    padding: 0.1rem; }
 
 #project-page a > img {
   -webkit-transition: -webkit-transform 0.3s;
@@ -1746,9 +1752,6 @@ footer {
 
 #contact-page .hover h1 {
   font-size: 4.5vw; }
-
-#contact-page .nohover h1 {
-  margin-bottom: 1.5rem; }
 
 @media (hover: hover) {
   #contact-page .hover {
