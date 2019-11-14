@@ -1,8 +1,12 @@
+$bar-height: 4rem;
+$window-border: 0.3rem solid #fff;
+
 #my-work-block {
   img {
     width: 100%;
     transition: transform 0.3s;
   }
+  /*
   .img-link {
     @include hover {
       img {
@@ -10,10 +14,75 @@
       }
     }
   }
+  */
   .title-container {
     //min-height: $spacer-3;
     a {
       text-decoration: none;
     }
+  }
+  .project-link {
+    text-decoration: none;
+    @include hover {
+      transform: scale(0.93);
+      .project {
+        opacity: 0;
+      }
+    }
+  }
+  .project-container {
+    border: $window-border;
+    position: relative;
+  }
+  .bar {
+    height: $bar-height;
+    border-bottom: $window-border;
+    display: flex;
+    justify-content: space-between; //align-items: center;
+    .title {
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+    }
+    .expand {
+      width: $bar-height;
+      border-left: $window-border;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .project {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: #fff;
+    transition: opacity 0.15s;
+    line-height: 0;
+
+    @include grid-media-query(portable) {
+      background-image: none !important;
+      position: relative;
+    }
+    @include grid-media-query(desk) {
+      height: 35vw;
+    }
+    @include grid-media-query(huge) {
+      height: 60rem;
+    }
+  }
+  .project-description {
+    width: 100%;
+    padding: $bar-height $spacer-3 0 $spacer-3;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
   }
 }

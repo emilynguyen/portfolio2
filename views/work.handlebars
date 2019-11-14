@@ -3,6 +3,43 @@
   <div class=" grid__item ">
     <h2 class=" mb-3 portable--mb-2">Work </h2>
   </div> -->
+
+
+  {{#each gallery}}
+  {{#unless hide}}
+  <div class="grid__item desk--{{size}} lap--one-half mb-3">
+    <a class="project-link" href="/{{url}}">
+      <div class="project-container">
+        <div class="bar">
+          <div class="title pl-1">
+            <h3>{{display}}</h3>
+          </div>
+          <div class="expand">
+            <h2>↗</h2>
+          </div>
+        </div>
+        <div class="project-description portable--hide">
+          <div>
+            <h1 class="mb-1">{{title}}</h1>
+            <p class="mb-1">{{{description}}}</p>
+            <p style="opacity: .4;">{{sub}}</p>
+          </div>
+        </div>
+        <div class="project"
+          style="background-image: url('/images/{{icon}}'); {{#if bg-position}}background-position: {{bg-position}};{{/if}}">
+          <img class="desk--hide" src="/images/{{icon_square}}" alt="{{title}}"></div>
+      </div>
+    </a>
+    <div class="desk--hide mt-2">
+      <h3 class="mb-1">{{title}}</h3>
+      <p class="mb-1">{{{description}}}</p>
+      <p style="opacity: .4;">{{sub}}</p>
+    </div>
+  </div>
+  {{/unless}}
+  {{/each}}
+
+  <!--
   {{#each gallery}}
   {{#unless hide}}
   <div class="grid__item desk--{{size}} lap--one-half mb-4">
@@ -26,11 +63,12 @@
         <p class="palm--hide desk--hide">—</p>
         <p>{{sub}}</p>
       </div>
-      <!--<p>{{details.date}}</p>-->
     </div>
   </div>
   {{/unless}}
-  {{/each}}
+  {{/each}} -->
+
+
 </div>
 
 <div class="mb-4">
