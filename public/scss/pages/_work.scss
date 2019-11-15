@@ -43,6 +43,7 @@ $window-border: 0.3rem solid #fff;
       display: flex;
       align-items: center;
       overflow: hidden;
+      text-transform: lowercase;
     }
     .expand {
       width: $bar-height;
@@ -57,7 +58,7 @@ $window-border: 0.3rem solid #fff;
     background-size: cover;
     background-position: center center;
     background-color: #fff;
-    transition: opacity 0.15s;
+    transition: opacity 0.3s;
     line-height: 0;
 
     @include grid-media-query(portable) {

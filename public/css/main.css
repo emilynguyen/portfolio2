@@ -1643,7 +1643,8 @@ footer {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      overflow: hidden; }
+      overflow: hidden;
+      text-transform: lowercase; }
     #my-work-block .bar .expand {
       width: 4rem;
       border-left: 0.3rem solid #fff;
@@ -1661,8 +1662,8 @@ footer {
     background-size: cover;
     background-position: center center;
     background-color: #fff;
-    -webkit-transition: opacity 0.15s;
-    transition: opacity 0.15s;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
     line-height: 0; }
     @media only screen and (max-width: 1023px) {
       #my-work-block .project {

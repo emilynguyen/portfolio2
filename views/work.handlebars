@@ -1,4 +1,4 @@
-<div id="my-work-block" class="grid mb-2 mt-4 portable--mt-3">
+<div id="my-work-block" class="grid grid--wide mb-2 mt-4 portable--mt-3">
   <!--
   <div class=" grid__item ">
     <h2 class=" mb-3 portable--mb-2">Work </h2>
@@ -7,7 +7,7 @@
 
   {{#each gallery}}
   {{#unless hide}}
-  <div class="grid__item desk--{{size}} lap--one-half mb-3">
+  <div class="grid__item desk--{{size}} lap--one-half mb-4">
     <a class="project-link" href="/{{url}}">
       <div class="project-container">
         <div class="bar">
@@ -22,7 +22,9 @@
           <div>
             <h1 class="mb-1">{{title}}</h1>
             <p class="mb-1">{{{description}}}</p>
+            {{#if sub}}
             <p><mark>{{sub}}</mark></p>
+            {{/if}}
           </div>
         </div>
         <div class="project"

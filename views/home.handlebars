@@ -153,7 +153,7 @@
         mouseStrength: { // the strength of the effect (we will attenuate it if the mouse stops moving)
           name: "uMouseStrength", // uniform name that will be passed to our shaders
           type: "1f", // this means our uniform is a float
-          value: .2,
+          value: .1,
         },
       }
     }
@@ -207,7 +207,7 @@
       plane.uniforms.mousePosition.value = [mouseCoords.x, mouseCoords.y];
 
       // reassign mouse strength
-      plane.uniforms.mouseStrength.value = .5;
+      plane.uniforms.mouseStrength.value = .1;
     }
 
   }
