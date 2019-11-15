@@ -338,6 +338,13 @@ $class-type: if($use-silent-classes, unquote("%"), unquote("."));
   > #{$class-type}grid__item {
     padding-left: $gutter * 2;
   }
+
+  @include grid-media-query(portable) {
+    margin-left: -$gutter-portable;
+    > #{$class-type}grid__item {
+      padding-left: $gutter-portable;
+    }
+  }
 }
 
 /*------------------------------------*\

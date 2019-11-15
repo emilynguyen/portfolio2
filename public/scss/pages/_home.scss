@@ -26,18 +26,39 @@
   top: 0;
   left: 0;
   z-index: -9999;
-  in-height: 70rem;
 }
 
 .plane {
-  width: 53.2vw;
-  height: 21.4vw;
-  //width: 47.2vw;
-  //height: 25.5vw;
   width: 60vw;
   height: 30vw;
-  position: relative;
+  position: absolute;
   margin: 0 auto;
+  z-index: 1;
+}
+
+.animation-link {
+  display: block;
+  width: 60vw;
+  height: 30vw;
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.animation-safety {
+  width: 60vw;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  h1 {
+    font-size: 3vw;
+    padding: 5vw;
+  }
+  display: none;
 }
 
 .plane img {

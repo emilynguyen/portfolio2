@@ -363,6 +363,11 @@ table {
   margin-left: -12rem; }
   .grid--wide > .grid__item {
     padding-left: 12rem; }
+  @media only screen and (max-width: 1023px) {
+    .grid--wide {
+      margin-left: -3rem; }
+      .grid--wide > .grid__item {
+        padding-left: 3rem; } }
 
 /*------------------------------------*\
     $WIDTHS
@@ -1584,16 +1589,43 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -9999;
-  in-height: 70rem; }
+  z-index: -9999; }
 
 .plane {
-  width: 53.2vw;
-  height: 21.4vw;
   width: 60vw;
   height: 30vw;
-  position: relative;
-  margin: 0 auto; }
+  position: absolute;
+  margin: 0 auto;
+  z-index: 1; }
+
+.animation-link {
+  display: block;
+  width: 60vw;
+  height: 30vw;
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.animation-safety {
+  width: 60vw;
+  height: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: none; }
+  .animation-safety h1 {
+    font-size: 3vw;
+    padding: 5vw; }
 
 .plane img {
   display: none; }

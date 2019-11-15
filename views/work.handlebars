@@ -7,7 +7,7 @@
 
   {{#each gallery}}
   {{#unless hide}}
-  <div class="grid__item desk--{{size}} lap--one-half mb-4">
+  <div class="grid__item desk--{{size}} lap--one-half mb-4 portable--mb-3">
     <a class="project-link" href="/{{url}}">
       <div class="project-container">
         <div class="bar">
@@ -35,7 +35,9 @@
     <div class="desk--hide mt-2">
       <h3 class="mb-1">{{title}}</h3>
       <p class="mb-1">{{{description}}}</p>
+      {{#if sub}}
       <p><mark>{{sub}}</mark></p>
+      {{/if}}
     </div>
   </div>
   {{/unless}}
