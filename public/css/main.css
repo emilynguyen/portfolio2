@@ -1411,7 +1411,9 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   font-weight: bold; }
 
 h1 {
@@ -1439,7 +1441,8 @@ h3 {
       font-size: 2.1rem; } }
 
 h4 {
-  font-weight: bold; }
+  font-size: 1.6rem;
+  line-height: 130%; }
 
 a {
   color: initial; }
@@ -1657,11 +1660,11 @@ footer {
         #my-work-block .project-link:hover .project {
           opacity: 0; } }
   #my-work-block .project-container {
-    border: 0.3rem solid #fff;
+    border: 0.2rem solid #fff;
     position: relative; }
   #my-work-block .bar {
-    height: 4rem;
-    border-bottom: 0.3rem solid #fff;
+    height: 3.5rem;
+    border-bottom: 0.2rem solid #fff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1678,8 +1681,8 @@ footer {
       overflow: hidden;
       text-transform: lowercase; }
     #my-work-block .bar .expand {
-      width: 4rem;
-      border-left: 0.3rem solid #fff;
+      width: 3.5rem;
+      border-left: 0.2rem solid #fff;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -1694,8 +1697,8 @@ footer {
     background-size: cover;
     background-position: center center;
     background-color: #fff;
-    -webkit-transition: opacity 0.3s;
-    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.4s;
+    transition: opacity 0.4s;
     line-height: 0; }
     @media only screen and (max-width: 1023px) {
       #my-work-block .project {
@@ -1706,7 +1709,7 @@ footer {
         height: 35vw; } }
   #my-work-block .project-description {
     width: 100%;
-    padding: 4rem 6rem 0 6rem;
+    padding: 3.5rem 6rem 0 6rem;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     display: -webkit-box;

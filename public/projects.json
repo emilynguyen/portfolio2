@@ -383,7 +383,7 @@
         {
           "title": "Solution",
           "text": true,
-          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h4>Existing Solution</h4><p>Enter location → receive listings → use criteria to sort through listings</p><h4>Proposed Solution</h4><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
+          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h5>Existing Solution</h5><p>Enter location → receive listings → use criteria to sort through listings</p><h5>Proposed Solution</h5><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
         },
         {
           "title": "Storyboarding",

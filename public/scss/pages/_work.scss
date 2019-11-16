@@ -1,5 +1,5 @@
-$bar-height: 4rem;
-$window-border: 0.3rem solid #fff;
+$bar-height: 3.5rem;
+$window-border: 0.2rem solid #fff;
 
 #my-work-block {
   img {
@@ -58,7 +58,7 @@ $window-border: 0.3rem solid #fff;
     background-size: cover;
     background-position: center center;
     background-color: #fff;
-    transition: opacity 0.3s;
+    transition: opacity 0.4s;
     line-height: 0;
 
     @include grid-media-query(portable) {
