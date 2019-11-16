@@ -19,6 +19,9 @@ body {
   font-weight: normal;
   font-size: $body-font-size;
   line-height: 2.2rem;
+  line-height: 160%;
+  line-height: 170%;
+
   color: $black;
   &.bg-black {
     color: #fff;
@@ -32,8 +35,7 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
   font-weight: bold;
 }
 
@@ -62,14 +64,6 @@ h3 {
   line-height: 130%;
   @include grid-media-query(desk) {
     font-size: 2.1rem;
-  }
-}
-
-h4 {
-  font-size: 1.6rem;
-  line-height: 130%;
-  @include grid-media-query(desk) {
-    // font-size: 2.1rem;
   }
 }
 
