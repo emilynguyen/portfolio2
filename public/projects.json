@@ -319,26 +319,40 @@
         },
         {
           "title": "Explorations",
-          "image": true,
+          "gallery": true,
+          "block": true,
           "captionBefore": "<p>In my initial explorations, I took inspiration from the Pantone colors that lined the interior of our office. I played around by expanding our color palette and using grid imagery that extended our logomark, but ultimately decided that a cleaner look would be timeless and would lend more emphasis to our work.</p>",
-          "content": "asgs/office.jpg",
-          "alt": "Photo of office"
-        },
-        {
-          "image": true,
-          "content": "asgs/explorations.png"
+          "content": [
+            {
+              "image": "asgs/office.jpg",
+              "alt": "Photo of office",
+              "full": true
+            },
+            {
+              "image": "asgs/explorations.png",
+              "alt": "Initial explorations",
+              "full": true
+            }
+          ]
         },
         {
           "title": "Color + Typography",
-          "image": true,
-          "content": "asgs/color.png",
+          "gallery": true,
+          "block": true,
           "alt": "Color palette: green + gray",
-          "captionBefore": "<p>To maintain our existing brand identity, I carried over our playful green and our typeface, Century Gothic. Century Gothic’s spacious curves did an excellent job of conveying our approachability and youth, so I decided to play up the classic typeface by employing large, bold headers. The current body font, a harsh black Helvetica, was also replaced by Century Gothic and made soft gray to align with our logo and appear friendlier. To further support this, I additionally chose to style headers using all lowercase instead of uppercase.</p>"
-        },
-        {
-          "image": true,
-          "content": "asgs/type.png",
-          "alt": "Typography"
+          "captionBefore": "<p>To maintain our existing brand identity, I carried over our playful green and our typeface, Century Gothic. Century Gothic’s spacious curves did an excellent job of conveying our approachability and youth, so I decided to play up the classic typeface by employing large, bold headers. The current body font, a harsh black Helvetica, was also replaced by Century Gothic and made soft gray to align with our logo and appear friendlier. To further support this, I additionally chose to style headers using all lowercase instead of uppercase.</p>",
+          "content": [
+            {
+              "image": "asgs/color.png",
+              "alt": "Color palette",
+              "full": true
+            },
+            {
+              "image": "asgs/type.png",
+              "alt": "Typography",
+              "full": true
+            }
+          ]
         },
         {
           "title": "Information Architecture",
@@ -729,12 +743,11 @@
       "col": 2,
       "landing": "none",
       "description": "A collection of personal work, illustrations, explorations, and other.",
-      "overview": "",
+
       "butto": {
         "title": "View on Instagram",
         "link": "https://www.instagram.com/emilynguyen.co/"
       },
-      "details": [],
       "blocks": [
         {
           "gallery": true,
