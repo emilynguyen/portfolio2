@@ -271,7 +271,92 @@
         }
       ]
     },
-
+    {
+      "title": "A.S. Graphic Studio Redesign",
+      "display": "as_graphic_studio_redesign.sketch",
+      "sub": "UX Design, Web Design, Web Development",
+      "size": "three-fifths",
+      "url": "asgs",
+      "icon": "asgs/icon.png",
+      "icon_square": "asgs/icon_square.png",
+      "landing": "asgs/icon.png",
+      "description": "Redesigned + rebuilt the website for Associated Students Graphic Studio.",
+      "overview": "<p>One of my first projects as Associated Students Graphic Studio’s new web designer + developer was to redesign and rebuild our 9-year-old website. While maintaining our established brand, I gave the site a visual refresh that improved usability and information architecture, reflected modern design trends, and better showcased our small studio’s spunky personality.</p>",
+      "button": {
+        "title": "Visit Site",
+        "link": "http://asgraphicstudio.ucsd.edu/"
+      },
+      "details": [
+        {
+          "title": "Skills",
+          "content": "UX design, web design, web development"
+        },
+        {
+          "title": "Tools",
+          "content": "Sketch, HTML, CSS, Sass, Jekyll"
+        },
+        {
+          "title": "Date",
+          "content": "Fall 2018"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href='https://github.com/emilynguyen/asgs' target='_blank'>Github repo</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Goals",
+          "text": true,
+          "content": "<p>A.S. Graphic Studio is a tight-knit collective of designers and developers who work with UC San Diego students, staff, and faculty to bring their design needs to life. While new designers bring fresh and unique perspectives to the team each year, our website hadn’t been touched in almost a decade. As the face of our studio on the web and our main source of traffic, it was crucial that our site reliably showcased our work, captured our identity, and served as an efficient information and contact portal. Because the site also needed a code refactoring, this was the perfect opportunity to rebuild it from the ground up.</p>"
+        },
+        {
+          "title": "Website Audit",
+          "image": true,
+          "content": "asgs/old.jpg",
+          "alt": "Old landing page",
+          "captionBefore": "<p>I began by taking a look at our current site and taking note of areas where the visual design or user experience could be improved. Design opportunities I identified included:</p><ul><li>Poor visibility of system status: navigation menu did not communicate the current location and pages did not include headers</li><li>Navigation menu could also be quicker and more intuitive. Submenus did not seem to be necessary and increased the interaction cost</li><li>Many different arbitrary text sizes and styles used. Missed opportunity to use text styles to signify function (e.g. discoverability of links)</li><li>The site was not responsive!</li></ul><p>Overall, the website would benefit significantly from a design + grid system that consolidated typography, drove consistency across page layouts, and supported responsive functionality.</p>"
+        },
+        {
+          "title": "Explorations",
+          "image": true,
+          "captionBefore": "<p>In my initial explorations, I took inspiration from the Pantone colors that lined the interior of our office. I played around by expanding our color palette and using grid imagery that extended our logomark, but ultimately decided that a cleaner look would be timeless and would lend more emphasis to our work.</p>",
+          "content": "asgs/office.jpg",
+          "alt": "Photo of office"
+        },
+        {
+          "image": true,
+          "content": "asgs/explorations.png"
+        },
+        {
+          "title": "Color + Typography",
+          "image": true,
+          "content": "asgs/color.png",
+          "alt": "Color palette: green + gray",
+          "captionBefore": "<p>To maintain our existing brand identity, I carried over our playful green and our typeface, Century Gothic. Century Gothic’s spacious curves did an excellent job of conveying our approachability and youth, so I decided to play up the classic typeface by employing large, bold headers. The current body font, a harsh black Helvetica, was also replaced by Century Gothic and made soft gray to align with our logo and appear friendlier. To further support this, I additionally chose to style headers using all lowercase instead of uppercase.</p>"
+        },
+        {
+          "image": true,
+          "content": "asgs/type.png",
+          "alt": "Typography"
+        },
+        {
+          "title": "Information Architecture",
+          "image": true,
+          "content": "asgs/ia.png",
+          "alt": "Old and new navigation menus",
+          "captionBefore": "<p>The primary business goal of this website was to attract more clients, but the existing navigation structure did not support this well. Potential clients need to be able to:</p><ul><li>View our work</li><li>Learn about us</li><li>Contact us</li></ul><p>While it appeared that all these actions were accessible from the menu, the Work and About items included submenus that further organized content. Most of these pages, such as the Mission page, contained very little content and could easily be integrated into other pages. To minimize the interaction cost of accessing this information, I decided to combine smaller pages, place more items on the navigation bar, and dissolve the subnavigation. Reducing the amount of clicks it took to reach our content encouraged users to find out more about who we are, our mission, and what separates us from our competitors. I also created a unique state for the active menu item so that users would always be informed of their current location.</p>"
+        },
+        {
+          "title": "Final Design",
+          "image": true,
+          "link": "http://asgraphicstudio.ucsd.edu/",
+          "captionBefore": "<p>The finishing touch to my final design was a large hero image on the landing page. A signature characteristic of our studio was our floor-to-ceiling glass doors, which were always covered by a seasonal illustration. As our door illustrations rotated, so would the hero image on our landing page. This added more personality to our site and allowed us to showcase the growth of our talented designers. <a href='http://asgraphicstudio.ucsd.edu/' target='_blank'>Visit A.S. Graphic Studio</a>!</p>",
+          "content": "asgs/final.png",
+          "alt": "Final mock ups"
+        }
+      ]
+    },
     {
       "title": "Sun God Festival 2019",
       "display": "Sun_God_Festival_2019.html",
@@ -341,124 +426,11 @@
         }
       ]
     },
-
-    {
-      "title": "Burow",
-      "display": "Burow.ai",
-      "size": "two-thirds",
-      "sub": "Brand Design",
-      "url": "burow",
-      "icon": "burow/burow.gif",
-      "icon_square": "burow/burow_square.gif",
-      "landing": "burow/scenery_full.gif",
-      "text": "#edfcef",
-      "bg": "#6CA18A",
-      "description": "Brand identity for a cozy housing app concept.",
-      "col": "2",
-      "overview": "<p>Burow is a desktop web app concept that helps users find the perfect new neighborhood to move to. By reversing the user flow of existing real estate apps and ditching the professional look, Burow provides a unique home hunting experience.</p>",
-      "details": [
-        {
-          "title": "Roles",
-          "content": "Lead brand designer, web designer"
-        },
-        {
-          "title": "Key Skills",
-          "content": "Brand design, web design, illustration"
-        },
-        {
-          "title": "Teammates",
-          "content": "Aman Gupta — developer<br>Joel Sequeira — developer<br> Jared Suasin — developer, web designer"
-        },
-        {
-          "title": "Date",
-          "content": "Apr – June 2018"
-        }
-      ],
-      "blocks": [
-        {
-          "title": "Problem",
-          "text": true,
-          "content": "<p>Popular real estate apps, such as Zillow, Trulia, and Redfin, start by asking users for a location. Users then use metrics such as price and number of beds/baths to sort through the returned listings. Additional research could then be done to find walkability, safety scores, and more for an address. This user flow works great for those looking for homes in specific neighborhoods, but what if you wanted to choose a neighborhood based on a metric?</p>"
-        },
-        {
-          "title": "Solution",
-          "text": true,
-          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h4>Existing Solution</h4><p>Enter location → receive listings → use criteria to sort through listings</p><h4>Proposed Solution</h4><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
-        },
-        {
-          "title": "Storyboarding",
-          "hide": true,
-          "image": true,
-          "alt": "Mark and Sarah want to move their family from New York to California.",
-          "content": "burow/storyboard1.png",
-          "captionBefore": "<p>To better understand our target users, we started by drafting two storyboards.</p>"
-        },
-        {
-          "hide": true,
-          "image": true,
-          "alt": "Jim is a student looking for an apartment for his internship in the Bay Area this summer.",
-          "content": "burow/storyboard2.png",
-          "captionAfter": "<p class=\"small-text\">Storyboards by Jared and Joel.</p>"
-        },
-        {
-          "title": "Competitive Analysis",
-          "image": true,
-          "content": "burow/competitive-analysis.jpg",
-          "alt": "Landing pages of Zillow, Trulia, and Redfin",
-          "captionAfter": "<p>Zillow, Trulia, and Redfin all use real estate photos, generous negative space, and safe typefaces to create a clean, polished look. While a professional appearance increases credibility, it comes with the tradeoff of looking impersonal and detached.</p>"
-        },
-        {
-          "title": "Brand Design",
-          "text": true,
-          "content": "<h1>\"Burow—Dig around and find the neighbourhood that fits your needs!\"</h1><p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p><p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves. We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity. UI elements were also rounded to support the warm brand.</p>"
-        },
-        {
-          "image": true,
-          "alt": "Mood board",
-          "content": "burow/moodboard.jpg",
-          "border": true
-        },
-        {
-          "image": true,
-          "alt": "Color palette: #FFFAED, #FEA765, #8EB7A2",
-          "border": true,
-          "content": "burow/palette.png"
-        },
-        {
-          "image": true,
-          "alt": "Heading typeface: Aqua Grotesque",
-          "content": "burow/aqua.png"
-        },
-        {
-          "image": true,
-          "alt": "Body typeface: Karla",
-          "border": true,
-          "content": "burow/karla.png"
-        },
-        {
-          "title": "",
-          "image": true,
-          "content": "burow/illustration.png"
-        },
-        {
-          "title": "",
-          "hide": true,
-          "image": true,
-          "content": "burow/ui.png"
-        },
-        {
-          "title": "",
-          "image": true,
-          "alt": "Final home page",
-          "content": "burow/home.png"
-        }
-      ]
-    },
     {
       "title": "ERGO",
       "display": "ERGO.sketch",
-      "size": "one-third",
-      "sub": "Interaction and Visual Design, Web Development",
+      "size": "two-fifths",
+      "sub": "Interaction Design, Visual Design, Web Development",
       "url": "ergo",
       "icon": "ergo/icon-tall.gif",
       "icon_square": "ergo/icon_square.gif",
@@ -582,6 +554,118 @@
       ]
     },
     {
+      "title": "Burow",
+      "display": "Burow.ai",
+      "size": "one-half",
+      "sub": "Brand Design",
+      "url": "burow",
+      "icon": "burow/burow.gif",
+      "icon_square": "burow/burow_square.gif",
+      "landing": "burow/scenery_full.gif",
+      "text": "#edfcef",
+      "bg": "#6CA18A",
+      "description": "Brand identity for a cozy housing app concept.",
+      "col": "2",
+      "overview": "<p>Burow is a desktop web app concept that helps users find the perfect new neighborhood to move to. By reversing the user flow of existing real estate apps and ditching the professional look, Burow provides a unique home hunting experience.</p>",
+      "details": [
+        {
+          "title": "Roles",
+          "content": "Lead brand designer, web designer"
+        },
+        {
+          "title": "Key Skills",
+          "content": "Brand design, web design, illustration"
+        },
+        {
+          "title": "Teammates",
+          "content": "Aman Gupta — developer<br>Joel Sequeira — developer<br> Jared Suasin — developer, web designer"
+        },
+        {
+          "title": "Date",
+          "content": "Apr – June 2018"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Problem",
+          "text": true,
+          "content": "<p>Popular real estate apps, such as Zillow, Trulia, and Redfin, start by asking users for a location. Users then use metrics such as price and number of beds/baths to sort through the returned listings. Additional research could then be done to find walkability, safety scores, and more for an address. This user flow works great for those looking for homes in specific neighborhoods, but what if you wanted to choose a neighborhood based on a metric?</p>"
+        },
+        {
+          "title": "Solution",
+          "text": true,
+          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h4>Existing Solution</h4><p>Enter location → receive listings → use criteria to sort through listings</p><h4>Proposed Solution</h4><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
+        },
+        {
+          "title": "Storyboarding",
+          "hide": true,
+          "image": true,
+          "alt": "Mark and Sarah want to move their family from New York to California.",
+          "content": "burow/storyboard1.png",
+          "captionBefore": "<p>To better understand our target users, we started by drafting two storyboards.</p>"
+        },
+        {
+          "hide": true,
+          "image": true,
+          "alt": "Jim is a student looking for an apartment for his internship in the Bay Area this summer.",
+          "content": "burow/storyboard2.png",
+          "captionAfter": "<p class=\"small-text\">Storyboards by Jared and Joel.</p>"
+        },
+        {
+          "title": "Competitive Analysis",
+          "image": true,
+          "content": "burow/competitive-analysis.jpg",
+          "alt": "Landing pages of Zillow, Trulia, and Redfin",
+          "captionAfter": "<p>Zillow, Trulia, and Redfin all use real estate photos, generous negative space, and safe typefaces to create a clean, polished look. While a professional appearance increases credibility, it comes with the tradeoff of looking impersonal and detached.</p>"
+        },
+        {
+          "title": "Brand Design",
+          "text": true,
+          "content": "<h1>\"Burow—Dig around and find the neighbourhood that fits your needs!\"</h1><p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p><p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves. We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity. UI elements were also rounded to support the warm brand.</p>"
+        },
+        {
+          "image": true,
+          "alt": "Mood board",
+          "content": "burow/moodboard.jpg",
+          "border": true
+        },
+        {
+          "image": true,
+          "alt": "Color palette: #FFFAED, #FEA765, #8EB7A2",
+          "border": true,
+          "content": "burow/palette.png"
+        },
+        {
+          "image": true,
+          "alt": "Heading typeface: Aqua Grotesque",
+          "content": "burow/aqua.png"
+        },
+        {
+          "image": true,
+          "alt": "Body typeface: Karla",
+          "border": true,
+          "content": "burow/karla.png"
+        },
+        {
+          "title": "",
+          "image": true,
+          "content": "burow/illustration.png"
+        },
+        {
+          "title": "",
+          "hide": true,
+          "image": true,
+          "content": "burow/ui.png"
+        },
+        {
+          "title": "",
+          "image": true,
+          "alt": "Final home page",
+          "content": "burow/home.png"
+        }
+      ]
+    },
+    {
       "title": "Stride Career Fair",
       "display": "Stride_Career_Fair.html",
       "size": "one-half",
@@ -638,7 +722,7 @@
     {
       "title": "Miscellaneous",
       "display": "Miscellaneous.zip",
-      "size": "one-half",
+      "size": "two-thirds",
       "url": "misc",
       "icon": "misc/desktop.png",
       "icon_square": "misc/desktop.png",
@@ -712,12 +796,6 @@
               "image": "misc/dailyui_1.jpg",
               "col2": true,
               "alt": "Daily UI #001: red envelope login"
-            },
-            {
-              "image": "asgs/icon.png",
-              "col1": true,
-              "alt": "Cersei from Game of Thrones",
-              "caption": "<p>Cersei from Game of Thrones. (Oct 2015)</p>"
             },
             {
               "image": "misc/cersei.png",
