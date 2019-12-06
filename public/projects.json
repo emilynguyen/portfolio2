@@ -764,6 +764,11 @@
               "caption": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\" <span class=\"small-text\">(Nov 2018)</span></p>"
             },
             {
+              "image": "misc/asgs_winter.jpg",
+              "col2": true,
+              "alt": "AS Graphic Studio winter"
+            },
+            {
               "image": "misc/me_pink.png",
               "col2": true,
               "alt": "Self-portrait"
@@ -799,11 +804,6 @@
               "col2": true,
               "alt": "Interface for an event finder site",
               "caption": "<p>Interface for an event finder site. 💃🏻</p>"
-            },
-            {
-              "image": "misc/url.png",
-              "col2": true,
-              "alt": "url"
             },
             {
               "image": "misc/dailyui_1.jpg",
