@@ -6,7 +6,9 @@
   margin-left: auto;
   padding: 0 $side-margin;
 }
-
+html {
+  height: 100%;
+}
 /*
 #plane-footer {
   width: calc(100% - 12%);
@@ -20,10 +22,29 @@
   }
 } */
 
+body{
+
+ height: 100%;
+}
+
+#content-wrapper {
+ height: 100%;
+}
+
 #body-wrapper {
-  min-height: calc(100vh - #{$footer-height});
+  min-height: calc(100% - #{$footer-height});
   @include grid-media-query(palm) {
-    min-height: calc(100vh - #{$footer-height-palm});
+    min-height: calc(100% - #{$footer-height-palm});
+  }
+}
+
+.home {
+  #content-wrapper {
+    //height: 100vh; 
+  }
+  #body-wrapper {
+ //  min-height: auto;
+  // height: 100%;
   }
 }
 

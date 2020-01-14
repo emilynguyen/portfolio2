@@ -1,6 +1,7 @@
 var express = require("express");
 var exphbs = require("express-handlebars");
 var hbs = require("handlebars");
+var description = "Designer + developer that loves crafting visual experiences and seeing them through to implementation.";
 
 hbs.registerHelper("ifCond", function(v1, operator, v2, options) {
   switch (operator) {
@@ -137,26 +138,16 @@ app.use(express.static(__dirname + "/public"));
 var projects = require("./public/projects.json");
 
 app.get("/", function(req, res) {
-  // Filter out private and archived projects
-  var gallery = [];
-  var projectArray = projects.projects;
-  var i;
-  for (i = 0; i < projectArray.length; i++) {
-    if (!projectArray[i].archive && !projectArray[i].private) {
-      gallery.push(projectArray[i]);
-    }
-  }
-
   res.render("home", {
-    gallery,
     title: "Emily Nguyen",
     url: "",
     description:
-      "Designer + developer that loves crafting visual experiences and seeing them through to implementation.",
-    bg_black: true
+      description,
+    bg_black: true,
+    home: true
   });
 });
-
+/*
 app.get("/test", function(req, res) {
   // Filter out private and archived projects
   var gallery = [];
@@ -173,11 +164,11 @@ app.get("/test", function(req, res) {
     title: "Emily Nguyen",
     url: "test",
     description:
-      "Designer + developer that loves crafting visual experiences and seeing them through to implementation.",
+    description,
     bg_black: false
   });
 });
-
+*/
 app.get("/work", function(req, res) {
   // Filter out private and archived projects
   var gallery = [];
@@ -193,7 +184,7 @@ app.get("/work", function(req, res) {
     title: "Work | Emily Nguyen",
     url: "work",
     description:
-      "Designer + developer that loves crafting visual experiences and seeing them through to implementation.",
+    description,
     bg_black: true
   });
 });
@@ -204,7 +195,7 @@ app.get("/about", function(req, res) {
     title: "About | Emily Nguyen",
     url: "about",
     description:
-      "Designer + developer that loves crafting visual experiences and seeing them through to implementation.",
+    description,
     bg_black: true
   });
 });
@@ -215,11 +206,12 @@ app.get("/contact", function(req, res) {
     title: "Contact | Emily Nguyen",
     url: "contact",
     description:
-      "Designer + developer that loves crafting visual experiences and seeing them through to implementation.",
+    description,
     bg_black: true
   });
 });
 
+/*
 app.get("/archive", function(req, res) {
   // Filter out private and unarchived projects
   var archive = [];
@@ -238,7 +230,7 @@ app.get("/archive", function(req, res) {
     description: ""
   });
 });
-
+*/
 app.get("/resume", function(req, res) {
   res.redirect(
     "https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view"

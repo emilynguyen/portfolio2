@@ -23,7 +23,7 @@
 <a class="animation-link palm--hide" href="/work"></a>
 
 <script>
-  /*
+  
   var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
   if (iOS) {
@@ -31,7 +31,22 @@
     document.getElementById("content-wrapper").style.height =
       visibleHeight + "px";
   }
-  */
+
+  window.onscroll = function() {
+    if (iOS) {
+    var visibleHeight = window.innerHeight;
+    document.getElementById("content-wrapper").style.height =
+      visibleHeight + "px";
+  }
+
+  window.onresize = function() {
+    if (iOS) {
+    var visibleHeight = window.innerHeight;
+    document.getElementById("content-wrapper").style.height =
+      visibleHeight + "px";
+  }
+};
+  
 </script>
 
 <script src="https://www.curtainsjs.com/build/curtains.min.js" type="text/javascript"></script>

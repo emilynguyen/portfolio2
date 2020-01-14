@@ -1304,6 +1304,9 @@ table {
   margin-left: auto;
   padding: 0 6%; }
 
+html {
+  height: 100%; }
+
 /*
 #plane-footer {
   width: calc(100% - 12%);
@@ -1316,11 +1319,17 @@ table {
     bottom: $footer-height-palm;
   }
 } */
+body {
+  height: 100%; }
+
+#content-wrapper {
+  height: 100%; }
+
 #body-wrapper {
-  min-height: calc(100vh - calc(7.5rem)); }
+  min-height: calc(100% - calc(7.5rem)); }
   @media only screen and (max-width: 480px) {
     #body-wrapper {
-      min-height: calc(100vh - calc(4.5rem)); } }
+      min-height: calc(100% - calc(4.5rem)); } }
 
 hr {
   margin: 1rem 0;
