@@ -753,15 +753,14 @@
           "gallery": true,
           "content": [
             {
+              "image": "misc/fruit.jpg",
+              "col1": true,
+              "alt": "Animal Crossing Fruit Guide"
+            },
+            {
               "image": "misc/portfolio_day.jpg",
               "col1": true,
               "alt": "Design Co Portfolio Day poster"
-            },
-            {
-              "image": "misc/sushi.gif",
-              "col1": true,
-              "alt": "Sleeping salmon hand roll",
-              "caption": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\" <span class=\"small-text\">(Nov 2018)</span></p>"
             },
             {
               "image": "misc/asgs_winter.jpg",
@@ -769,10 +768,22 @@
               "alt": "AS Graphic Studio winter"
             },
             {
+              "image": "misc/black_heart_bg.gif",
+              "col1": true,
+              "alt": "Black heart"
+            },
+            {
               "image": "misc/me_pink.png",
               "col2": true,
               "alt": "Self-portrait"
             },
+            {
+              "image": "misc/sushi.gif",
+              "col2": true,
+              "alt": "Sleeping salmon hand roll",
+              "caption": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\" <span class=\"small-text\">(Nov 2018)</span></p>"
+            },
+
             {
               "image": "misc/dailyui_2.png",
               "col1": true,
@@ -783,11 +794,7 @@
               "col1": true,
               "alt": "Old portfolio"
             },
-            {
-              "image": "misc/black_heart_bg.gif",
-              "col2": true,
-              "alt": "Black heart"
-            },
+
             {
               "image": "misc/nancy.png",
               "col2": true,
