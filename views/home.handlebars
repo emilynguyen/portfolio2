@@ -1,12 +1,8 @@
-<div>
-  <h1 class="mt-3 mb-3 lap-up--hide">Emily is a designer + developer that loves crafting visual experiences and seeing
-    them
-    through to
-    implementation.
-    Previously at <a style="white-space: nowrap" href="https://www.voxmedia.com/" target="_blank">Vox Media</a> and <a
-      href="https://salesforce.com" target="_blank">Salesforce</a>.
-  </h1>
-  <span>&nbsp;</span>
+<div class="welcome-mobile-container">
+  <a href="/work">
+  
+  <img class="lap-up--hide welcome-mobile" src="/images/site/welcome-mobile.png" alt="My name is Emily and I'm a visual + product designer and developer."></a>
+
 </div>
 
 <div id="canvas" class="palm--hide"></div>
@@ -25,7 +21,18 @@
 
 <a class="animation-link palm--hide" href="/work"></a>
 
+<script>
+  var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
+
+  if (iOS) {
+    var visibleHeight = window.innerHeight;
+    document.getElementById("content-wrapper").style.height =
+      visibleHeight + "px";
+  }
+
+
+</script>
 
 <script src="https://www.curtainsjs.com/build/curtains.min.js" type="text/javascript"></script>
 

@@ -6,7 +6,22 @@
     margin: 0;
     overflow: hidden;
   } */
-
+.welcome-mobile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -9999;
+  padding: 0 $side-margin;
+}
+.welcome-mobile {
+  width: 100%;
+  //margin-top: 30vh;
+  //transform: translateY(-50%);
+}
 #canvas {
   position: absolute;
   top: 0;
