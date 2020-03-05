@@ -1,0 +1,124 @@
+$pop-up-border: 3px solid $white;
+
+.popup {
+  position: fixed;
+  // border-radius: 0.2rem;
+  background-color: $black;
+  border: $pop-up-border;
+  z-index: 100;
+  transition: transform 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0rem 2rem 2rem;
+  &:afte {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: $white;
+    position: absolute;
+    right: -0.5rem;
+    bottom: -0.5rem;
+    z-index: -9999;
+  }
+  .bar {
+    background-color: $black;
+    border-bottom: $pop-up-border;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+  }
+  .close {
+    border-left: $pop-up-border;
+    height: 100%;
+    width: 2em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: $pointer;
+  }
+  img {
+    width: 20rem;
+    max-width: 70vw;
+  }
+  &:not(.bio) {
+    line-height: 0;
+    transform: scale(1);
+    &.closed {
+      transform: scale(0);
+    }
+  }
+  &.bio {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 40rem;
+    max-width: calc(100vw - #{$side-margin * 2});
+    z-index: 101;
+    .text {
+      background-color: $white;
+      color: $black;
+      width: 100%;
+      height: 100%;
+      padding: $spacer-2;
+      box-sizing: border-box;
+      p:not(:last-of-type) {
+        margin-bottom: $spacer-1;
+      }
+      p:last-of-type {
+        &:after {
+          content: "|";
+          // height: 1em;
+          // width: 0.2em;
+          // background-color: $black;
+          display: inline-block;
+          margin-left: -0.5em;
+          animation: 1s blink step-end infinite;
+        }
+      }
+    }
+    &.closed {
+      transform: translate(-50%, -50%) scale(0);
+    }
+  }
+}
+
+.bg-white {
+  .popup {
+    color: $white;
+
+    // border-color: $black;
+    .bar {
+      background-color: $white;
+      // border-color: $black;
+      color: $black;
+    }
+    .text,
+    a {
+      color: $white;
+    }
+    .close {
+      cursor: $pointer-white;
+    }
+    .text {
+      background-color: $black;
+    }
+  }
+  .popup,
+  .bar,
+  .close {
+    border-color: $black;
+  }
+}
+
+@keyframes "blink" {
+  from,
+  to {
+    // color: transparent;
+    opacity: 0;
+  }
+  50% {
+    // color: black;
+    opacity: 1;
+  }
+}

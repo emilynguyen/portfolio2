@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "title": "Sun God Festival 2019",
+      "url": "/sgf",
+      "img": "sgf/preview.gif"
+    },
+    {
+      "title": "Stride Career Fair",
+      "url": "/stride",
+      "img": "stride/preview.gif"
+    },
+    {
+      "title": "A.S. Graphic Studio",
+      "url": "/asgs",
+      "img": "asgs/preview.png"
+    },
+    {
+      "title": "Horizon",
+      "url": "http://beyondthehorizon.ucsd.edu/",
+      "newWindow": true,
+      "img": "horizon/preview.jpg"
+    },
+    {
+      "title": "Design Co",
+      "url": "/design-co",
+      "img": "design-co/preview.gif"
+    },
+    {
+      "title": "Design Frontiers",
+      "url": "http://frontiers.ucsddesign.co/sp19",
+      "newWindow": true,
+      "img": "frontiers/preview.jpg"
+    }
+  ]
+}

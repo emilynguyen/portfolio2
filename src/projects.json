@@ -1,0 +1,893 @@
+{
+  "projects": [
+    {
+      "title": "Design Co",
+      "display": "Design_Co.ai",
+      "sub": "Brand Design, Web Design, Web Development",
+      "size": "three-fifths",
+      "url": "design-co",
+      "icon": "design-co/posters.gif",
+      "icon_square": "design-co/posters_square.gif",
+      "landing": "design-co/collage.gif",
+      "description": "Rebrand + marketing collateral for the largest student design org at UC San Diego.",
+      "overview": "<p>Design at UCSD, the largest pre-professional design community on campus, is now Design Co! We’ve changed our name, brand, visual identity, and have updated our mission statement and values. <a href='https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9' target='_blank'>Read more about our process</a> and visit our new site at <a href='http://ucsddesign.co' target='_blank'>ucsddesign.co</a>.</p><p>As one of Design Co's creative directors, I worked closely alongside <a href='https://nancybui.co/' target='_blank'>Nancy</a> and <a href='http://lucylouxu.com' target='_blank'>Lucy</a> to craft a new visual identity that better captured the scrappy designers that make up this student org. </p>",
+      "button": {
+        "title": "Read More",
+        "link": "https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9"
+      },
+      "details": [
+        {
+          "title": "Deliverables",
+          "content": "<a href='http://ucsddesign.co' target='_blank'>Website</a> (design + development), branding guidelines, posters, slide deck template, stickers, social media graphics"
+        },
+        {
+          "title": "Skills",
+          "content": "Brand design, motion design, web development (HTML, CSS, Sass, React)"
+        },
+        {
+          "title": "Date",
+          "content": "Summer 2019"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/ucsddesignco/designco\" target=\"_blank\">Github repo</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "gallery": true,
+          "block": true,
+          "content": [
+            {
+              "image": "design-co/dau_to_dco.gif",
+              "border": true,
+              "full": true,
+              "alt": "Design Co color combo examples"
+            },
+            {
+              "image": "design-co/color_combos.png",
+              "full": true,
+              "alt": "Design Co color combo examples"
+            },
+            {
+              "image": "design-co/poster_pink_indigo.jpg",
+              "full": true,
+              "alt": "Design Co pink + indigo poster"
+            },
+            {
+              "image": "design-co/poster_yellow_gray.jpg",
+              "full": true,
+              "alt": "Design Co yellow + gray poster"
+            },
+            {
+              "image": "design-co/poster_indigo_cyan.jpg",
+              "full": true,
+              "alt": "Design Co indigo + cyan poster"
+            },
+            {
+              "image": "design-co/poster_green_pink.jpg",
+              "full": true,
+              "alt": "Design Co green + pink poster"
+            },
+            {
+              "image": "design-co/website_home.gif",
+              "link": "http://ucsddesign.co",
+              "full": true
+            },
+            {
+              "image": "design-co/website_about.jpg",
+              "link": "http://ucsddesign.co",
+              "full": true
+            },
+            {
+              "image": "design-co/website_contact.jpg",
+              "link": "http://ucsddesign.co",
+              "full": true
+            },
+            {
+              "image": "design-co/dco_teaser.gif",
+              "half": true,
+              "alt": "Teaser site"
+            },
+            {
+              "image": "design-co/profile.png",
+              "half": true,
+              "alt": "Design Co profile images"
+            },
+            {
+              "image": "design-co/slide_1.png",
+              "half": true,
+              "alt": "Slide deck (pink + indigo)"
+            },
+            {
+              "image": "design-co/slide_2.png",
+              "half": true,
+              "alt": "Slide deck (yellow + gray)"
+            },
+            {
+              "image": "design-co/slide_3.png",
+              "half": true,
+              "alt": "Slide deck (indigo + cyan)"
+            },
+            {
+              "image": "design-co/slide_4.png",
+              "half": true,
+              "alt": "Slide deck (green + pink)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vox Media — Podcast Art Design System",
+      "display": "Podcast_Art_Design_System.txt",
+      "sub": "Brand Design",
+      "size": "two-fifths",
+      "url": "vox",
+      "icon": "vox/logos2.gif",
+      "icon_square": "vox/logos3.gif",
+      "landing": "none",
+      "description": "Built a design system for Vox Media Podcast Network's artwork.",
+      "overview": "<p><a href='https://podcasts.voxmedia.com/' target='_blank'>Vox Media Podcast Network</a> is a fast-growing collection of 150+ shows spanning business, technology, news, sports, and dining. Each of these podcasts have custom art, crafted thoughtfully by in-house designers. As the network grew, so did the need for a strong design system to consolidate all of this artwork. I joined Vox Media’s Brand Design team as their Brand Design Intern this summer, and was given the opportunity to tackle this challenge.</p><p>After several weeks of extensive research, including a competitive analysis and an audit, I finalized a style guide and template system that strengthened brand recognition, established artwork consistency across 8 unique brands, and streamlined the process of producing podcast assets.</p>",
+      "details": [
+        {
+          "title": "Role",
+          "content": "Brand Design Intern"
+        },
+        {
+          "title": "Location",
+          "content": "New York, NY"
+        },
+        {
+          "title": "Team",
+          "content": "Project managers — Laylah Donnell, Krystal Stevens<br>Mentor – Courtney Leonard 🤘🏻"
+        },
+        {
+          "title": "Stakeholders",
+          "content": "Vox Media Podcast Network"
+        },
+        {
+          "title": "Date",
+          "content": "Summer 2019"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Before",
+          "image": true,
+          "content": "vox/before.jpg",
+          "alt": "Before the design system"
+        },
+        {
+          "title": "After",
+          "gallery": true,
+          "square": true,
+          "content": [
+            {
+              "image": "vox/tiles/todayexplained.png",
+              "alt": "Today Explained"
+            },
+            {
+              "image": "vox/tiles/switched.png",
+              "alt": "Switched On Pop",
+              "border": true
+            },
+            {
+              "image": "vox/tiles/futureperfect.jpg",
+              "alt": "Future Perfect"
+            },
+            {
+              "image": "vox/tiles/primetime.jpg",
+              "alt": "Primetime"
+            },
+            {
+              "image": "vox/tiles/theweeds.jpg",
+              "alt": "The Weeds"
+            },
+            {
+              "image": "vox/tiles/eatersdigest.png",
+              "alt": "Eater's Digest"
+            },
+            {
+              "image": "vox/tiles/pivot.jpg",
+              "alt": "Pivot"
+            },
+            {
+              "image": "vox/tiles/recodedecode.png",
+              "alt": "Recode Decode"
+            },
+            {
+              "image": "vox/tiles/lotg.png",
+              "alt": "Land of the Giants"
+            },
+            {
+              "image": "vox/tiles/nicetry.png",
+              "alt": "Nice Try!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Salesforce Design Internship",
+      "display": "Salesforce_Design_Internship.txt",
+      "size": "two-fifths",
+      "sub": "UX Design",
+      "url": "salesforce",
+      "icon": "salesforce/salesforce-square.png",
+      "icon_square": "salesforce/salesforce-square.png",
+      "landing": "none",
+      "bg": "#fcfdff",
+      "text": "#212b3a",
+      "description": "Supported an upcoming learning platform.",
+      "overview": "<p>Summer of 2018, I completed my first internship! I had the pleasure of joining Salesforce’s Global Enablement — Tech Ops team as a UX Design Intern.</p><p>Tech Ops built internal technology that helped streamline workplace operations and was working on an online learning platform when I came on board. I supported this project by leading usability testing sessions and utilizing my insights to assist in a UI redesign. I also created brand collateral for this product and provided additional visual communication needs.</p>",
+      "details": [
+        {
+          "title": "Role",
+          "content": "UX Design Intern"
+        },
+        {
+          "title": "Key Skills",
+          "content": "UX research, visual design, illustration"
+        },
+        {
+          "title": "Location",
+          "content": "San Francisco, CA"
+        },
+        {
+          "title": "Date",
+          "content": "Summer 2018"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Research",
+          "text": true,
+          "content": "<p>The online learning tool that my team was working on aimed to centralize learning at Salesforce, which involved understanding the needs of 2 users:</p><ul><li><span><i>Enabler</i> (Manager) — Creates and assigns learning. Needs to be able to manage their courses + assignments and view the progress of their employees.</span></li><li><span><i>Learner</i> (Employee) — Receives and completes learning. Needs to be able to track their progress, enroll in classes, and receive notifications.</span></li></ul><p>At the time that I had joined the project, the product was in its third release. The lead UX designer on my team had recently left the company, but had completed user testing for the Enabler point of view beforehand. My task was to continue where she had left off and conduct usability testing for the Learner.</p><p>I was currently the only designer on Tech Ops, making this an intimidating task. I quickly learned the importance of being a self-starter and reached out to designers from other teams for mentorship. Using their guidance and the recordings + notes that the previous designer had left for me, I created a user testing plan and contacted 6 new hires across various positions for interviews. Afterwards, I synthesized my insights and presented them to my team.</p>"
+        },
+        {
+          "title": "Redesign",
+          "image": true,
+          "captionBefore": "<p>In between my UX research tasks, I was fortunate enough to explore other areas of interest. A neighboring team of visual designers was working on a redesign of the same product, and I assisted by researching best UI practices and providing feedback.</p><p>My usability testing revealed many pain points in our assignment cards, so we were particularly focused on improving how we communicated assignment details, progress, due dates, and time left. I analyzed the card designs used by popular online learning platforms, such as Trailhead, Codecademy, and Treehouse, to discover the best way to organize and display information. As someone interested in both visual and UX, it was exciting to see how these fields intersect to create fluid digital experiences.</p>",
+          "content": "salesforce/cards.png",
+          "border": true,
+          "alt": "Card designs from Trailhead, Codecademy, and Treehouse",
+          "captionAfter": "<p>Additionally, I contributed to the product’s corporate slide deck by illustrating a few landscapes for custom slide templates. Being able to design under a well-established brand grew my appreciation for the planning and structure that successful brand implementation requires.</p>"
+        },
+        {
+          "title": "Visual Communication",
+          "text": true,
+          "content": "<p>In addition to supporting the upcoming learning tool, I also strengthened my team’s visual communication by redesigning and building presentation materials. Visual design is often overlooked as a powerful organization tool, especially in business and engineering-oriented settings. By mindfully using design elements to apply visual hierarchy to ordinary or disorganized content, I was able to help my team better communicate their ideas.</p>"
+        },
+        {
+          "title": "Takeaways",
+          "text": true,
+          "content": "<ul><li><span>Actively seek out opportunities and make the most of your internship. My main task was to conduct usability testing, but through coffee chats I connected with designers outside of my team that invited me to do additional work. Because of this, I was able to make deeper contributions, meet more mentors, and explore interests outside of what I was hired for.</span></li><li><span>Continue to grow outside of work. Being from Southern California, San Francisco was a refreshing shift in perspective that helped me understand the world just a little bit better.</span></li></ul><p>Thank you to Gyo, Megan, Matt, and the lovely interns I met along the way.</p>"
+        }
+      ]
+    },
+    {
+      "title": "A.S. Graphic Studio Redesign",
+      "display": "as_graphic_studio_redesign.sketch",
+      "sub": "UX Design, Web Design, Web Development",
+      "size": "three-fifths",
+      "url": "asgs",
+      "icon": "asgs/icon.png",
+      "icon_square": "asgs/icon_square.png",
+      "landing": "asgs/icon.png",
+      "description": "Redesigned + rebuilt the website for Associated Students Graphic Studio.",
+      "overview": "<p>One of my first projects as Associated Students Graphic Studio’s new web designer + developer was to redesign and rebuild our 9-year-old website. While maintaining our established brand, I gave the site a visual refresh that improved usability and information architecture, reflected modern design trends, and better showcased our small studio’s spunky personality.</p>",
+      "button": {
+        "title": "Visit Site",
+        "link": "http://asgraphicstudio.ucsd.edu/"
+      },
+      "details": [
+        {
+          "title": "Skills",
+          "content": "UX design, web design, web development"
+        },
+        {
+          "title": "Tools",
+          "content": "Sketch, HTML, CSS, Sass, Jekyll"
+        },
+        {
+          "title": "Date",
+          "content": "Fall 2018"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href='https://github.com/emilynguyen/asgs' target='_blank'>Github repo</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Goals",
+          "text": true,
+          "content": "<p>A.S. Graphic Studio is a tight-knit collective of designers and developers who work with UC San Diego students, staff, and faculty to bring their design needs to life. While new designers bring fresh and unique perspectives to the team each year, our website hadn’t been touched in almost a decade. As the face of our studio on the web and our main source of traffic, it was crucial that our site reliably showcased our work, captured our identity, and served as an efficient information and contact portal. Because the site also needed a code refactoring, this was the perfect opportunity to rebuild it from the ground up.</p>"
+        },
+        {
+          "title": "Website Audit",
+          "image": true,
+          "content": "asgs/old.jpg",
+          "alt": "Old landing page",
+          "captionBefore": "<p>I began by taking a look at our current site and taking note of areas where the visual design or user experience could be improved. Design opportunities I identified included:</p><ul><li>Poor visibility of system status: navigation menu did not communicate the current location and pages did not include headers</li><li>Navigation menu could also be quicker and more intuitive. Submenus did not seem to be necessary and increased the interaction cost</li><li>Many different arbitrary text sizes and styles used. Missed opportunity to use text styles to signify function (e.g. discoverability of links)</li><li>The site was not responsive!</li></ul><p>Overall, the website would benefit significantly from a design + grid system that consolidated typography, drove consistency across page layouts, and supported responsive functionality.</p>"
+        },
+        {
+          "title": "Explorations",
+          "gallery": true,
+          "block": true,
+          "captionBefore": "<p>In my initial explorations, I took inspiration from the Pantone colors that lined the interior of our office. I played around by expanding our color palette and using grid imagery that extended our logomark, but ultimately decided that a cleaner look would be timeless and would lend more emphasis to our work.</p>",
+          "content": [
+            {
+              "image": "asgs/office.jpg",
+              "alt": "Photo of office",
+              "full": true
+            },
+            {
+              "image": "asgs/explorations.png",
+              "alt": "Initial explorations",
+              "full": true
+            }
+          ]
+        },
+        {
+          "title": "Color + Typography",
+          "gallery": true,
+          "block": true,
+          "alt": "Color palette: green + gray",
+          "captionBefore": "<p>To maintain our existing brand identity, I carried over our playful green and our typeface, Century Gothic. Century Gothic’s spacious curves did an excellent job of conveying our approachability and youth, so I decided to play up the classic typeface by employing large, bold headers. The current body font, a harsh black Helvetica, was also replaced by Century Gothic and made soft gray to align with our logo and appear friendlier. To further support this, I additionally chose to style headers using all lowercase instead of uppercase.</p>",
+          "content": [
+            {
+              "image": "asgs/color.png",
+              "alt": "Color palette",
+              "full": true
+            },
+            {
+              "image": "asgs/type.png",
+              "alt": "Typography",
+              "full": true
+            }
+          ]
+        },
+        {
+          "title": "Information Architecture",
+          "image": true,
+          "content": "asgs/ia.png",
+          "alt": "Old and new navigation menus",
+          "captionBefore": "<p>The primary business goal of this website was to attract more clients, but the existing navigation structure did not support this well. Potential clients need to be able to:</p><ul><li>View our work</li><li>Learn about us</li><li>Contact us</li></ul><p>While it appeared that all these actions were accessible from the menu, the Work and About items included submenus that further organized content. Most of these pages, such as the Mission page, contained very little content and could easily be integrated into other pages. To minimize the interaction cost of accessing this information, I decided to combine smaller pages, place more items on the navigation bar, and dissolve the subnavigation. Reducing the amount of clicks it took to reach our content encouraged users to find out more about who we are, our mission, and what separates us from our competitors. I also created a unique state for the active menu item so that users would always be informed of their current location.</p>"
+        },
+        {
+          "title": "Final Design",
+          "image": true,
+          "link": "http://asgraphicstudio.ucsd.edu/",
+          "captionBefore": "<p>The finishing touch to my final design was a large hero image on the landing page. A signature characteristic of our studio was our floor-to-ceiling glass doors, which were always covered by a seasonal illustration. As our door illustrations rotated, so would the hero image on our landing page. This added more personality to our site and allowed us to showcase the growth of our talented designers. <a href='http://asgraphicstudio.ucsd.edu/' target='_blank'>Visit A.S. Graphic Studio</a>!</p>",
+          "content": "asgs/final.png",
+          "alt": "Final mock ups"
+        }
+      ]
+    },
+    {
+      "title": "Sun God Festival 2019",
+      "dev": true,
+      "display": "Sun_God_Festival_2019.html",
+      "size": "three-fifths",
+      "sub": "Web Development",
+      "url": "sgf",
+      "icon": "sgf/lineup.gif",
+      "icon_square": "sgf/lineup_square.gif",
+      "landing": "sgf/landing.gif",
+      "text": "#242424",
+      "bg": "#f2f7f9",
+      "description": "Website for the 37th annual Sun God Music Festival.",
+      "overview": "<p>Sun God Festival is a student-curated, daylong music and arts festival at UC San Diego. Named as one of Live Nation’s \"Top 5 College Concerts That Should Be Actual Festivals\", Sun God is the largest campus-wide event and brings in 20,000+ attendees each year. Sun God Festival 2019 will be headlined by Vince Staples; past acts include Drake, Kendrick Lamar, Jhené Aiko, Khalid, and My Chemical Romance.</p><p>This year, I was given the opportunity to build the website for the festival. I worked closely with the creative director to execute his vision and also designed several pages.</p>",
+      "button": {
+        "title": "Visit Site",
+        "link": "http://sgf.ucsd.edu/2019"
+      },
+      "details": [
+        {
+          "title": "Roles",
+          "content": "Developer, web designer"
+        },
+        {
+          "title": "Tools",
+          "content": "HTML, CSS, Sass, Jekyll, Javascript (jQuery)"
+        },
+        {
+          "title": "Partner",
+          "content": "<a href='https://eunsoolee.co/' target='_blank'>Eunsoo Lee</a> — creative director, lead web designer"
+        },
+        {
+          "title": "Date",
+          "content": "Feb – Apr 2019"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/emilynguyen/sgf19\" target=\"_blank\">Github repo</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "gallery": true,
+          "content": [
+            {
+              "image": "sgf/lineup.gif",
+              "alt": "Lineup reveal",
+              "col1": true
+            },
+            {
+              "image": "sgf/stretch.gif",
+              "alt": "Leaf stretch",
+              "col2": true
+            },
+            {
+              "image": "sgf/accordian.gif",
+              "alt": "Accordian animation",
+              "border": true,
+              "col1": true
+            },
+            {
+              "image": "sgf/lineup-glitch.gif",
+              "alt": "Lineup page glitch animation",
+              "border": true,
+              "col2": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ERGO",
+      "archive": true,
+      "display": "ERGO.sketch",
+      "size": "two-fifths",
+      "sub": "Interaction Design, Visual Design, Web Development",
+      "url": "ergo",
+      "icon": "ergo/icon-tall.gif",
+      "icon_square": "ergo/icon_square.gif",
+      "landing": "ergo/landing.gif",
+      "text": "#fff",
+      "bg": "#5db7a8",
+      "col": 2,
+      "description": "An ergonomics app concept.",
+      "overview": "<p><i>Our work environments can work against us</i>. ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different spaces, ERGO is unique in that it introduces exercises that use the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.</p>",
+      "button": {
+        "title": "View Prototype",
+        "link": "http://ergo-webapp.herokuapp.com/"
+      },
+      "details": [
+        {
+          "title": "Roles",
+          "wide": true,
+          "content": "Led the brand + UI design and development of the HTML prototype. Interaction design was done as a team."
+        },
+        {
+          "title": "Key Skills",
+          "wide": true,
+          "content": "Needfinding, storyboarding, wireframing, rapid prototyping, visual design, web development"
+        },
+        {
+          "title": "Teammates",
+          "content": "Lauren Choy, Lindy Hernandez"
+        },
+        {
+          "title": "Date",
+          "content": "Jan – Mar 2018"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/emilynguyen/ergo\" target=\"_blank\">Github repo</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Design Brief",
+          "text": true,
+          "content": "<p>When the spaces we regularly navigate become a part of our routines, we fail to recognize how we interact with them. Our team's goal was to reassess the interactions between users and their environments to discover how these interactions could be used to fulfill unmet user needs. In particular, we were interested in human behavior within work settings and how the use of computers could contribute to successes and breakdowns.</p>"
+        },
+
+        {
+          "title": "Needfinding",
+          "image": true,
+          "border": true,
+          "content": "ergo/personas.png",
+          "alt": "Personas",
+          "captionBefore": "<p>We observed 3 participants in their respective work environments and discovered that wellness was a common concern between them. Using the data we collected, we constructed personas that encapsulated our target audience: people who regularly experience long periods of physical inactivity.</p>"
+        },
+        {
+          "title": "Ideation",
+          "text": true,
+          "content": "<p>To guide us towards a solution, we reframed the insights and pain points above into opportunities:</p><ul><li><span>How might we remind users to take breaks and stretch after long intervals of inactivity?</span></li><li><span>How might we accommodate users in different spaces or users with different tools at their disposal?</span></li><li><span>How might we make being active enticing to users?</span></li><li><span>Additionally, how might we accommodate users with disabilities or injuries?</span></li></ul>"
+        },
+        {
+          "title": "Solution",
+          "text": true,
+          "content": "<p>Our solution was an ergonomics app that periodically notifies users to perform a stretch or exercise. It would be unique in that it takes into account the user's setting and suggests stretches that are applicable to the devices they're using. These suggestions could then be customized for accessibility and further flexibility. This approach sets the app apart from its competitors by providing users a more fun, personalized stretching experience.</p><p>To encourage users to actually perform the stretches provided by the app, we decided to include a social feature. Once a user is done setting up a routine, they could share their settings with their friends or coworkers so that they all receive the same notifications. By turning stretching into a group activity, the app takes advantage of the power of social influence to get users to be more active.</p>"
+        },
+        {
+          "title": "Storyboarding",
+          "image": true,
+          "border": true,
+          "content": "ergo/storyboard.jpg",
+          "alt": "Storyboard: Natalie and Robb successfully use ERGO to reduce their respective pains"
+        },
+        {
+          "title": "Rapid Prototyping",
+          "image": true,
+          "content": "ergo/paper-prototypes.jpg",
+          "alt": "2 paper prototypes",
+          "captionBefore": "<p>We then created two prototypes and had participants walk through several use cases on each one. Our first prototype (left) starts by asking users what device they're working on, while the second prototype (right) asks users where they are working.</p>",
+          "captionAfter": "<p>An issue we discovered while testing was that a user's device does not tell us much about their environment (e.g. a laptop can be used anywhere). So, we decided to move forward with our second prototype. <a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View paper prototypes</a>.</p>"
+        },
+        {
+          "title": "Revisiting the Brief + Redesign",
+          "text": true,
+          "content": "<p>Upon revisiting the design brief, we realized we had strayed. While our solution provided users with exercises that were relevant for their location and setup, this was not an environmental interaction in itself. So, <i>how might various work spaces be used to help their respective occupants reach their end goals?</i></p><p>Our revised solution was to have our application suggest stretches that use surrounding objects. Environments would be grouped with other environments based on the objects that are common to them. We redefined our categories as follows:</p><ol type=\"1\"><li><span><i>Office</i> — possibly a cubicle or small space; stretches can utilize desks and chairs</span></li><li><span><i>Home</i> — wide array of furniture at user's disposal, disruptive exercises are not a concern</span></li><li><span><i>Indoor</i> (public) — libraries, coffee shops; stretches are seated and more discreet</span></li><li><span><i>Outdoor</i> — open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</span></li></ol>"
+        },
+        {
+          "title": "Wireframing",
+          "image": true,
+          "content": "ergo/wireframes.png",
+          "alt": "App flow when logged in and logged out",
+          "captionBefore": "<p>Next, we created wireframes to visualize the flow of our app.</p>"
+        },
+        {
+          "title": "Brand + UI Design",
+          "image": true,
+          "content": "ergo/mockups.png",
+          "alt": "High fidelity mockups",
+          "captionBefore": "<p>Our decision to go with a light UI was made carefully after considering that working and studying often take place during the day and in well-lit spaces. We incorporated pops of a vibrant blue-green gradient to set an energizing and refreshing mood that reflects ERGO's main goal: to encourage wellness.</p>"
+        },
+        {
+          "title": "HTML Prototype",
+          "text": true,
+          "content": "<p>With our app flow and branding established, we were able to start developing our live prototype. With the help of tools such as</p><ul><li><span>Node.js (Express + Handlebars)</span></li><li><span>Sass</span></li></ul><p>we built a responsive HTML prototype. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  Check out our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emilynguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
+        },
+        {
+          "title": "User Testing",
+          "image": true,
+          "content": "ergo/usertesting1.png",
+          "alt": "Left: New home page with how to get started tips and environment descriptions; Right: New setup page with environment name in the title",
+          "captionBefore": "<p>One of the biggest problems we discovered while user testing is that ERGO had poor visibility of system status. To resolve this issue, we made labels more informative and added more descriptions throughout our app.</p>"
+        },
+        {
+          "image": true,
+          "content": "ergo/usertesting2.png",
+          "alt": "New person icon and bookmark icon",
+          "captionBefore": "<p>Another problem we had was that users did not find our icons intuitive, namely our <i>Log In</i> and <i>Favorites</i> buttons. We replaced our <i>Log In</i> icon with the universal icon for <i>Profile</i>, a person, and decided to rename our <i>Favorites</i> page to <i>Bookmarks</i>. Stretch routines are saved using URL parameters, so we decided this new title would be more fitting.</p>",
+          "captionAfter": "<p>After implementing these changes, we continued user testing and received positive feedback.</p>"
+        },
+        {
+          "title": "Final Design",
+          "text": true,
+          "content": "<p>View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> to check out our final design!</p>"
+        }
+      ]
+    },
+    {
+      "title": "Burow",
+      "archive": true,
+      "display": "Burow.ai",
+      "size": "one-half",
+      "sub": "Brand Design",
+      "url": "burow",
+      "icon": "burow/burow.gif",
+      "icon_square": "burow/burow_square.gif",
+      "landing": "burow/scenery_full.gif",
+      "text": "#edfcef",
+      "bg": "#6CA18A",
+      "description": "Brand identity for a cozy housing app concept.",
+      "col": "2",
+      "overview": "<p>Burow is a desktop web app concept that helps users find the perfect new neighborhood to move to. By reversing the user flow of existing real estate apps and ditching the professional look, Burow provides a unique home hunting experience.</p>",
+      "details": [
+        {
+          "title": "Roles",
+          "content": "Lead brand designer, web designer"
+        },
+        {
+          "title": "Key Skills",
+          "content": "Brand design, web design, illustration"
+        },
+        {
+          "title": "Teammates",
+          "content": "Aman Gupta — developer<br>Joel Sequeira — developer<br> Jared Suasin — developer, web designer"
+        },
+        {
+          "title": "Date",
+          "content": "Apr – June 2018"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Problem",
+          "text": true,
+          "content": "<p>Popular real estate apps, such as Zillow, Trulia, and Redfin, start by asking users for a location. Users then use metrics such as price and number of beds/baths to sort through the returned listings. Additional research could then be done to find walkability, safety scores, and more for an address. This user flow works great for those looking for homes in specific neighborhoods, but what if you wanted to choose a neighborhood based on a metric?</p>"
+        },
+        {
+          "title": "Solution",
+          "text": true,
+          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h3 class='mb-1'>Existing Solution</h3><p>Enter location → receive listings → use criteria to sort through listings</p><h3 class='mb-1'>Proposed Solution</h3><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
+        },
+        {
+          "title": "Storyboarding",
+          "hide": true,
+          "image": true,
+          "alt": "Mark and Sarah want to move their family from New York to California.",
+          "content": "burow/storyboard1.png",
+          "captionBefore": "<p>To better understand our target users, we started by drafting two storyboards.</p>"
+        },
+        {
+          "hide": true,
+          "image": true,
+          "alt": "Jim is a student looking for an apartment for his internship in the Bay Area this summer.",
+          "content": "burow/storyboard2.png",
+          "captionAfter": "<p class=\"small-text\">Storyboards by Jared and Joel.</p>"
+        },
+        {
+          "title": "Competitive Analysis",
+          "image": true,
+          "content": "burow/competitive-analysis.jpg",
+          "alt": "Landing pages of Zillow, Trulia, and Redfin",
+          "captionAfter": "<p>Zillow, Trulia, and Redfin all use real estate photos, generous negative space, and safe typefaces to create a clean, polished look. While a professional appearance increases credibility, it comes with the tradeoff of looking impersonal and detached.</p>"
+        },
+        {
+          "title": "Brand Design",
+          "text": true,
+          "content": "<h3 class='mb-1'>\"Burow—Dig around and find the neighbourhood that fits your needs!\"</h3><p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p><p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves. We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity. UI elements were also rounded to support the warm brand.</p>"
+        },
+        {
+          "image": true,
+          "alt": "Mood board",
+          "content": "burow/moodboard.jpg",
+          "border": true
+        },
+        {
+          "image": true,
+          "alt": "Color palette: #FFFAED, #FEA765, #8EB7A2",
+          "border": true,
+          "content": "burow/palette.png"
+        },
+        {
+          "image": true,
+          "alt": "Heading typeface: Aqua Grotesque",
+          "content": "burow/aqua.png"
+        },
+        {
+          "image": true,
+          "alt": "Body typeface: Karla",
+          "border": true,
+          "content": "burow/karla.png"
+        },
+        {
+          "title": "",
+          "image": true,
+          "content": "burow/illustration.png"
+        },
+        {
+          "title": "",
+          "hide": true,
+          "image": true,
+          "content": "burow/ui.png"
+        },
+        {
+          "title": "",
+          "image": true,
+          "alt": "Final home page",
+          "content": "burow/home.png"
+        }
+      ]
+    },
+    {
+      "title": "Stride Career Fair",
+      "dev": true,
+      "display": "Stride_Career_Fair.html",
+      "size": "one-half",
+      "sub": "Web Development, Brand Design",
+      "url": "stride",
+      "icon": "stride/runner.gif",
+      "icon_square": "stride/runner_square.gif",
+      "landing": "stride/runner.gif",
+      "bg": "#FCECB9",
+      "text": "#222",
+      "description": "Website for UC San Diego's first design career fair.",
+      "col": "2",
+      "overview": "<p>As part of <a href=\"http://ucsddesign.co\" target=\"_blank\">Design Co</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.</p><p>In collaboration with our creative director, I developed the event website. I also assisted our graphic studio in creating visual collateral.</p>",
+      "button": {
+        "title": "Visit Site",
+        "link": "https://stride.ucsddesign.co/2019"
+      },
+      "details": [
+        {
+          "title": "Key Role",
+          "content": "Developer"
+        },
+        {
+          "title": "Date",
+          "content": "Aug – Nov 2018"
+        },
+        {
+          "title": "Partner",
+          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> ♥&#xFE0E; — creative director, illustrator, animator"
+        },
+        {
+          "title": "Tools + Skills",
+          "content": "HTML, CSS, Sass, Jekyll"
+        },
+
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/ucsddesignco/stride\" target=\"_blank\">Github repo</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "image": true,
+          "content": "stride/website.gif",
+          "alt": "Website for Stride"
+        },
+        {
+          "image": true,
+          "content": "stride/brand-collateral.png",
+          "alt": "Stride poster and check-in signs"
+        }
+      ]
+    },
+    {
+      "title": "Miscellaneous",
+      "display": "Miscellaneous.zip",
+      "size": "two-thirds",
+      "url": "misc",
+      "icon": "misc/desktop.png",
+      "icon_square": "misc/desktop-blue2.png",
+      "col": 2,
+      "landing": "none",
+      "description": "A collection of personal work, illustrations, explorations, and other.",
+
+      "butto": {
+        "title": "View on Instagram",
+        "link": "https://www.instagram.com/emilynguyen.co/"
+      },
+      "blocks": [
+        {
+          "gallery": true,
+          "block": true,
+          "content": [
+            {
+              "image": "misc/leaf-sphere.jpg",
+              "col1": true,
+              "half": true,
+              "alt": "Leaf sphere"
+            },
+            {
+              "image": "misc/fruit.jpg",
+              "col2": true,
+              "half": true,
+              "alt": "Animal Crossing Fruit Guide"
+            },
+
+            {
+              "image": "misc/ty_serif.png",
+              "col2": true,
+              "half": true,
+              "alt": "THANKYOU"
+            },
+            {
+              "image": "misc/nancy.png",
+              "col2": true,
+              "half": true,
+              "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
+              "caption": "<p><a href=\"https://www.instagram.com/daisocustomer/\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
+            },
+            {
+              "image": "misc/sushi.gif",
+              "col2": true,
+              "half": true,
+              "alt": "Sleeping salmon hand roll",
+              "caption": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\" <span class=\"small-text\">(Nov 2018)</span></p>"
+            },
+            {
+              "image": "misc/me_pink.png",
+              "col2": true,
+              "half": true,
+              "alt": "Self-portrait"
+            },
+            {
+              "image": "to/shop-by-collection.jpg",
+              "col2": true,
+              "full": true,
+              "alt": "Triton Outfitters"
+            },
+            {
+              "image": "ergo/icon-square.gif",
+              "col2": true,
+              "half": true,
+              "alt": "ERGO"
+            },
+            {
+              "image": "misc/red.png",
+              "col1": true,
+              "half": true,
+              "alt": "Eyes",
+              "caption": "<p>RED — \"Associated with energy, war, danger, strength, power, determination as well as passion, desire, and love. Enhances human metabolism, increases respiration rate, and raises blood pressure. It attracts attention more than any other color, at times signifying danger.\" <span class=\"small-text\">(Sept 2018)</span></p>"
+            },
+            {
+              "image": "misc/asgs_winter.jpg",
+              "col2": true,
+              "full": true,
+              "alt": "AS Graphic Studio winter"
+            },
+            {
+              "image": "misc/dailyui_2.png",
+              "col1": true,
+              "full": true,
+              "alt": "Daily UI #002: concert tickets payment"
+            },
+            {
+              "image": "burow/burow.gif",
+              "col2": true,
+              "full": true,
+              "alt": "Burow landing page"
+            },
+            {
+              "image": "misc/cersei.png",
+              "col1": true,
+              "half": true,
+              "alt": "Cersei from Game of Thrones",
+              "caption": "<p>Cersei from Game of Thrones. (Oct 2015)</p>"
+            },
+            {
+              "image": "misc/moira.png",
+              "col2": true,
+              "half": true,
+              "alt": "Moira from American Horror Story: Murder House",
+              "caption": "<p>Moira from American Horror Story: Murder House. (Aug 2015)</p>"
+            },
+            {
+              "image": "misc/kaya.png",
+              "col1": true,
+              "full": true,
+              "alt": "Kaya Scodelario",
+              "caption": "<p>Kaya Scodelario (Oct 2014)</p>"
+            },
+            {
+              "image": "misc/portfolio_day.jpg",
+              "col1": true,
+              "half": true,
+              "alt": "Design Co Portfolio Day poster"
+            },
+            {
+              "image": "misc/pcc.png",
+              "col2": true,
+              "half": true,
+              "alt": "KP HSC 2018 poster"
+            },
+            {
+              "image": "google/home-min.jpg",
+              "col1": true,
+              "full": true,
+              "alt": "Google design exercise"
+            },
+            {
+              "image": "misc/black_heart_bg.gif",
+              "col1": true,
+              "half": true,
+              "alt": "Black heart"
+            },
+            {
+              "image": "misc/how_far_ill_go.png",
+              "col1": true,
+              "half": true,
+              "alt": "How Far I'll Go"
+            },
+            {
+              "image": "misc/old_portfolio.png",
+              "col1": true,
+              "full": true,
+              "alt": "Old portfolio"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

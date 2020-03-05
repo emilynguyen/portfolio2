@@ -1,15 +1,19 @@
 {{#with currProject}}
 
-<div id="project-page" class="mt-2 mb-4">
+<main id="project-page" class="link-underline">
   <div class="grid">
-    <div class="grid__item mb-3">
+    <div class="grid__item mb-2">
+
       {{#ifCond landing "!=" "none"}}
       <img class="{{#if border}}border{{/if}}" src="/images/{{landing}}" alt="{{title}}">
       {{/ifCond}}
     </div>
     <div class="grid__item {{@root.col1}}">
-      <h2 class="portable--mb-2">{{title}}</h2>
-      {{#if button}}<div class="mt-2 portable--mb-2 portable--hide"><a class="btn" href="{{button.link}}"
+      <h1>{{title}}</h1>
+      {{#if sub}}
+      <p class="mb-2 translucen">{{sub}}</p>
+      {{/if}}
+      {{#if button}}<div class="portable--mb-2 portable--hide"><a class="btn" href="{{button.link}}"
           target="_blank">{{button.title}}</a></div>{{/if}}
     </div>
     <div class="grid__item {{@root.col2}}">
@@ -21,7 +25,7 @@
         </div>
         {{#each details}}
         <div class="grid__item mt-2 one-half {{#if wide}}palm--one-whole{{/if}} ">
-          <h4>{{title}}</h4>
+          <h3 class="mb-1">{{title}}</h3>
           <p>{{{content}}}</p>
         </div>
         {{/each}}
@@ -60,7 +64,7 @@
     <div class="grid__item">
       {{#if link}}<a href="{{link}}" target="_blank">{{/if}}
         <img
-          class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-3{{/if}}"
+          class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-2{{/if}}"
           src="/images/{{content}}" alt="{{alt}}">{{#if link}}</a>{{/if}}
     </div>
     {{#if captionAfter}}
@@ -81,7 +85,7 @@
     {{#if square}}
     <!-- square gallery -->
     {{#each content}}
-    <div class="grid__item mb-1 lap--mb-2 desk--mb-3 lap-up--one-half ">
+    <div class="grid__item mb-1 lap--mb-2 desk--mb-2 lap-up--one-half ">
       <img src="/images/{{image}}" alt="{{alt}}" {{#if border}} class="border" {{/if}}>
     </div>
     {{/each}}
@@ -90,13 +94,13 @@
     {{else if block}}
     {{#each content}}
     {{#if full}}
-    <div class="grid__item {{#unless @last}}mb-1 lap--mb-2 desk--mb-3{{/unless}}">
+    <div class="grid__item {{#unless @last}}mb-1 lap--mb-2 desk--mb-2{{/unless}}">
       {{#if link}}<a href="{{link}}" target="_blank">{{/if}}
         <img src="/images/{{image}}" alt="{{alt}}" {{#if border}} class="border" {{/if}}>{{#if link}}</a>{{/if}}
     </div>
     {{/if}}
     {{#if half}}
-    <div class="grid__item mb-1 lap--mb-2 desk--mb-3 lap-up--one-half ">
+    <div class="grid__item mb-1 lap--mb-2 desk--mb-2 lap-up--one-half ">
       <img src="/images/{{image}}" alt="{{alt}}" {{#if border}} class="border" {{/if}}>
     </div>
     {{/if}}
@@ -110,14 +114,14 @@
     <div class="grid__item one-half palm--hide">
       {{#each content}}
       {{#if col1}}
-      <img src="/images/{{image}}" alt="{{alt}}" class="lap--mb-2 desk--mb-3 {{#if border}}border{{/if}}">
+      <img src="/images/{{image}}" alt="{{alt}}" class="lap--mb-2 desk--mb-2 {{#if border}}border{{/if}}">
       {{/if}}
       {{/each}}
     </div>
     <div class="grid__item one-half palm--hide">
       {{#each content}}
       {{#if col2}}
-      <img src="/images/{{image}}" alt="{{alt}}" class="lap--mb-2 desk--mb-3 {{#if border}}border{{/if}}">
+      <img src="/images/{{image}}" alt="{{alt}}" class="lap--mb-2 desk--mb-2 {{#if border}}border{{/if}}">
       {{/if}}
       {{/each}}
     </div>
@@ -143,7 +147,7 @@
     <div class="grid__item">
 
       <iframe
-        class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-3{{/if}}"
+        class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-2{{/if}}"
         src="{{content}}"></iframe>
 
 
@@ -157,23 +161,32 @@
   </div>
   {{/unless}}
   {{/each}}
-</div>
+</main>
 {{/with}}
 
+<!--
 <div class="grid mb-4 arrows portable--hide">
   <div class="grid__item desk--one-half portable--mb-1">
-    <h2><a href="/{{./prevProject.url}}" style="text-decoration: none">← {{./prevProject.title}}</a></h2>
+    <h2><a href="/{{./prevProject.url}}" style="text-decoration: none">
+        < {{./prevProject.title}}</a>
+    </h2>
   </div>
   <div class="next-project grid__item lap-up--one-half">
-    <h2><a href="/{{./nextProject.url}}" style="text-decoration: none"> {{./nextProject.title}} →</a></h2>
+    <h2><a href="/{{./nextProject.url}}" style="text-decoration: none"> {{./nextProject.title}} ></a></h2>
   </div>
 </div>
 
 <div class="grid mb-4 arrows desk--hide">
   <div class="grid__item desk--one-half portable--mb-1">
-    <h3><a href="/{{./prevProject.url}}" style="text-decoration: none">← {{./prevProject.title}}</a></h3>
+    <h3><a href="/{{./prevProject.url}}" style="text-decoration: none">
+        < {{./prevProject.title}}</a>
+    </h3>
   </div>
   <div class="next-project grid__item lap-up--one-half">
-    <h3><a href="/{{./nextProject.url}}" style="text-decoration: none"> {{./nextProject.title}} →</a></h3>
+    <h3><a href="/{{./nextProject.url}}" style="text-decoration: none"> {{./nextProject.title}} ></a></h3>
   </div>
 </div>
+-->
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

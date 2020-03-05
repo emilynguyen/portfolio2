@@ -26,7 +26,7 @@ gulp.task(
   gulp.parallel("nodemon", function() {
     browserSync.init(null, {
       proxy: "http://localhost:3000",
-      files: ["public/**/*.*"],
+      files: ["src/**/*.*"],
       browser: "google chrome",
       port: 5000
     });
@@ -35,10 +35,10 @@ gulp.task(
 
 gulp.task("sass", function() {
   return gulp
-    .src("public/scss/main.scss")
+    .src("src/scss/main.scss")
     .pipe(sass())
     .pipe(postcss([autoprefixer({ browsers: ["last 2 version"] })]))
-    .pipe(gulp.dest("public/css"))
+    .pipe(gulp.dest("src/css"))
     .pipe(
       browserSync.reload({
         stream: true
@@ -47,7 +47,7 @@ gulp.task("sass", function() {
 });
 
 gulp.task("watch", function() {
-  gulp.watch("public/scss/**/*.scss", gulp.series("sass"));
+  gulp.watch("src/scss/**/*.scss", gulp.series("sass"));
   gulp.watch("views/**/*.*").on("change", browserSync.reload);
   gulp.watch("routes/*.*").on("change", browserSync.reload);
   gulp.watch("./data.json").on("change", browserSync.reload);

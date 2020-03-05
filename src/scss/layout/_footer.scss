@@ -1,0 +1,35 @@
+footer {
+  @include grid-media-query(portable) {
+    margin-bottom: $side-margin;
+  }
+  li {
+    margin-left: 0;
+    list-style: none;
+    a {
+      padding: 0.15em 0;
+      &:before {
+        content: "\00a0";
+      }
+      @include hover {
+        &:before {
+          content: ">";
+        }
+      }
+      &.active {
+        &:before {
+          content: ">";
+        }
+      }
+    }
+  }
+}
+
+.back-btn {
+  cursor: $pointer;
+}
+
+.no-footer {
+  footer {
+    display: none;
+  }
+}

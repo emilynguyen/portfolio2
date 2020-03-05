@@ -1,7 +1,8 @@
 var express = require("express");
 var exphbs = require("express-handlebars");
 var hbs = require("handlebars");
-var description = "Designer + developer that loves crafting visual experiences and seeing them through to implementation.";
+var description =
+  "Emily is multidisciplinary designer and developer based in San Francisco. She is currently at MongoDB.";
 
 hbs.registerHelper("ifCond", function(v1, operator, v2, options) {
   switch (operator) {
@@ -133,43 +134,25 @@ var app = express();
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/src"));
 
-var projects = require("./public/projects.json");
+var projects = require("./src/projects.json");
+var dev = require("./src/data/dev.json");
+var memes = require("./src/data/memes.json");
 
 app.get("/", function(req, res) {
   res.render("home", {
     title: "Emily Nguyen",
     url: "",
-    description:
-      description,
-    bg_black: true,
-    home: true
+    path: "",
+    description: description,
+    noHeader: true,
+    noFooter: true,
+    memes
   });
 });
-/*
-app.get("/test", function(req, res) {
-  // Filter out private and archived projects
-  var gallery = [];
-  var projectArray = projects.projects;
-  var i;
-  for (i = 0; i < projectArray.length; i++) {
-    if (!projectArray[i].archive && !projectArray[i].private) {
-      gallery.push(projectArray[i]);
-    }
-  }
 
-  res.render("test", {
-    gallery,
-    title: "Emily Nguyen",
-    url: "test",
-    description:
-    description,
-    bg_black: false
-  });
-});
-*/
-app.get("/work", function(req, res) {
+app.get("/design", function(req, res) {
   // Filter out private and archived projects
   var gallery = [];
   var projectArray = projects.projects;
@@ -179,24 +162,34 @@ app.get("/work", function(req, res) {
       gallery.push(projectArray[i]);
     }
   }
-  res.render("work", {
+  res.render("design", {
     gallery,
-    title: "Work | Emily Nguyen",
-    url: "work",
-    description:
-    description,
-    bg_black: true
+    title: "Design | Emily Nguyen",
+    url: "design",
+    path: "design",
+    description: description,
+    memes
+  });
+});
+
+app.get("/dev", function(req, res) {
+  res.render("dev", {
+    dev,
+    title: "Dev | Emily Nguyen",
+    url: "dev",
+    path: "dev",
+    description: description,
+    memes
   });
 });
 
 app.get("/about", function(req, res) {
   res.render("about", {
-    projects,
     title: "About | Emily Nguyen",
     url: "about",
-    description:
-    description,
-    bg_black: true
+    path: "about",
+    description: description,
+    memes
   });
 });
 
@@ -205,9 +198,9 @@ app.get("/contact", function(req, res) {
     projects,
     title: "Contact | Emily Nguyen",
     url: "contact",
-    description:
-    description,
-    bg_black: true
+    path: "contact",
+    description: description,
+    memes
   });
 });
 
@@ -251,12 +244,7 @@ app.get("/:project", function(req, res) {
 
     // Render project page if input title matches a project
     if (inputTitle == currProject.url) {
-      // Redirect to archive if necessary
-      if (currProject.archive) {
-        res.redirect("/archive/" + currProject.url);
-        return;
-      }
-
+      var path = currProject.dev ? "dev" : "design";
       res.render("project", {
         projects,
         currProject,
@@ -264,10 +252,12 @@ app.get("/:project", function(req, res) {
         nextProject,
         title: currProject.title + " | Emily Nguyen",
         url: currProject.url,
+        path: path,
         description: currProject.description,
-        col1: "desk--one-third",
-        col2: "desk--two-thirds",
-        bg_black: false
+        col1: "desk--one-half",
+        col2: "desk--one-half",
+        bg_white: true,
+        memes
       });
       return;
     }
@@ -275,47 +265,17 @@ app.get("/:project", function(req, res) {
 
   // Otherwise, show 404
   res.render("404", {
-    title: "Page Not Found | Emily Nguyen",
-    bg_black: true
+    title: "404 | Emily Nguyen",
+    noHeader: true,
+    noFooter: true
   });
 });
 
-app.get("/archive/:project", function(req, res) {
-  var inputTitle = req.params.project;
-
-  // Check if valid project url
-  var projectArray = projects.projects;
-
-  for (var i = 0; i < projectArray.length; i++) {
-    var currProject = projectArray[i];
-    var prevProject = projectArray[(i - 1) % projectArray.length];
-    var nextProject = projectArray[(i + 1) % projectArray.length];
-
-    // Render project page if input title matches a project
-    if (inputTitle == currProject.url) {
-      // Redirect to index if necessary
-      if (!currProject.archive) {
-        res.redirect("/" + currProject.url);
-        return;
-      }
-
-      res.render("project", {
-        projects,
-        currProject,
-        prevProject,
-        nextProject,
-        title: currProject.title + " | Emily Nguyen",
-        url: currProject.url,
-        description: currProject.description
-      });
-      return;
-    }
-  }
-
-  // Otherwise, show 404
+app.get("/*", function(req, res) {
   res.render("404", {
-    title: "Page Not Found | Emily Nguyen",
-    bg_black: true
+    title: "404 | Emily Nguyen",
+    noHeader: true,
+    noFooter: true
   });
 });
 

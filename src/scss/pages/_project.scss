@@ -1,0 +1,63 @@
+#project-page {
+  a > img {
+    // transition: transform 0.3s;
+    @include hover {
+      animation: glitchBlock 1s linear infinite;
+    }
+  }
+  img,
+  iframe {
+    width: 100%;
+    display: block;
+    &.border {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  }
+  iframe {
+    background-color: $gray;
+    height: 60vw;
+    max-height: 60rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.1);
+  }
+  p,
+  ol,
+  ul {
+    &:not(:last-child) {
+      margin-bottom: $spacer-1;
+    }
+  }
+  h1 {
+    // prevent mb when no overview
+    &:not(:last-child) {
+      @extend .mb-2;
+    }
+  }
+}
+
+.arrows {
+  text-align: center;
+  @include grid-media-query(desk) {
+    .grid__item:nth-child(1) {
+      text-align: left;
+    }
+    .grid__item:nth-child(2) {
+      text-align: right;
+    }
+  }
+}
+
+.back-arrow {
+  // animation: bounce 1s infinite alternate;
+  //-webkit-animation: bounce 1s infinite alternate;
+  //display: inline-block;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-10px);
+  }
+}

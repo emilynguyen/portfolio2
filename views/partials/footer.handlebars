@@ -1,15 +1,40 @@
-<footer>
-  <div>
-    Made with ♥&#xFE0E; by Emily</span>
-  </div>
-  <div>
-    <!--
-    <a href="mailto:emilymylinh@gmail.com" title="emilymylinh@gmail.com">Email</a> &nbsp;&nbsp;&nbsp; <a
-      href="https://linkedin.com/in/emilymnguyen/" target="_blank" title="emilymnguyen">LinkedIn</a>
-    &nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/emilynguyen" target="_blank" title="emilynguyen">Github</a> -->
-    <span>
-      <a href="https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view" target="_blank" title="Resume">Resume
-      </a> &#8599;</span>
-  </div>
+<footer class="desk--mb-4">
+  <h5 class="hide back-btn opacity-hover" onclick="window.history.back()" style="display: inline-block">
+    < back </h5>
+      <br><br>
+      <ul>
+
+        <li>
+          <h5>
+            <a href="/design" title="" {{#if_eq path "design"}} class="active" {{/if_eq}}>
+              Design
+            </a>
+          </h5>
+        </li>
+        <li>
+          <h5>
+            <a href="/dev" title="" {{#if_eq path "dev"}} class="active" {{/if_eq}}>
+              Dev
+            </a>
+          </h5>
+        </li>
+        <li>
+          <h5>
+            <a href="" title="" class="meme-btn{{#if_eq path 'about'}}active{{/if_eq}}">
+              <span class="meme-btn-text">About</span>
+            </a>
+          </h5>
+        </li>
+        <li>
+          <h5>
+            <a href="/contact" title="" {{#if_eq path "contact"}} class="active" {{/if_eq}}>
+              Contact
+            </a>
+          </h5>
+        </li>
+      </ul>
+      <br><br>
+      <h5>Made with &#x2665; by Emily</h5>
+      <h5 class="hide">Made with ♡ by Emily</h5>
+      </div>
 </footer>

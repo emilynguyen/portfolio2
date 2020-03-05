@@ -1,0 +1,157 @@
+html {
+  cursor: $default;
+  overflow-x: hidden;
+}
+
+.bg-white {
+  cursor: $default-white;
+  body {
+    color: $black;
+    background-color: $white;
+  }
+  a {
+    color: $black;
+    cursor: $pointer-white;
+  }
+}
+
+a {
+  cursor: $pointer;
+}
+
+body {
+  background-color: $black;
+}
+
+#content {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 $side-margin;
+  max-width: $content-width;
+}
+
+main {
+  margin-bottom: $spacer-3;
+  @include grid-media-query(desk) {
+    margin-bottom: $spacer-4;
+  }
+  h1 {
+    &:first-of-type {
+      // @include removeTop($ogg-header-line-height);
+    }
+    &:last-of-type {
+      @include removeBottom($ogg-header-line-height);
+    }
+  }
+}
+
+.opacity-hover {
+  transition: opacity 0.3s;
+  @include hover {
+    opacity: $translucent;
+  }
+}
+
+.glitch-block {
+  animation: glitchBlock 1s linear infinite;
+}
+
+/* NOTE: add class left or right and title attr */
+.glitch {
+  animation: glitch 1s linear infinite;
+  // animation: glitch 10s linear infinite;
+
+  position: relative;
+  &:before,
+  &:after {
+    content: attr(glitch);
+    position: absolute;
+    // left: 0;
+    top: 0;
+  }
+  &.left {
+    &:before,
+    &:after {
+      left: 0;
+    }
+  }
+  &.right {
+    &:before,
+    &:after {
+      right: 0;
+    }
+  }
+  &:before {
+    animation: glitchTop 1s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  }
+  &:after {
+    animation: glitchBotom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  }
+}
+
+$distance: 0.02em;
+@keyframes glitch {
+  2%,
+  64% {
+    transform: translate(2px, 0) skew(0deg);
+    text-shadow: $distance 0 0 $magenta, -$distance 0 0 $green;
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0) skew(0deg);
+  }
+  62% {
+    transform: translate(0, 0) skew(5deg);
+    text-shadow: $distance 0.5px 1px $magenta, -$distance -0.5px 2px $green;
+  }
+}
+
+@keyframes glitchTop {
+  2%,
+  64% {
+    transform: translate(2px, -2px);
+    text-shadow: $distance 0 0 $magenta, -$distance 0 0 $green;
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 2px);
+  }
+  62% {
+    transform: translate(13px, -1px) skew(-13deg);
+    text-shadow: $distance 0.5px 1px $magenta, -$distance -0.5px 2px $green;
+  }
+}
+
+@keyframes glitchBotom {
+  2%,
+  64% {
+    transform: translate(-2px, 0);
+    text-shadow: $distance 0 0 $magenta, -$distance 0 0 #75fa69;
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0);
+  }
+  62% {
+    transform: translate(-13px, 5px) skew(21deg);
+    text-shadow: $distance 0.5px 1px $magenta, -$distance -0.5px 2px #75fa69;
+  }
+}
+
+@keyframes glitchBlock {
+  2%,
+  64% {
+    transform: translate(2px, 0) skew(0deg);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0) skew(0deg);
+  }
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}

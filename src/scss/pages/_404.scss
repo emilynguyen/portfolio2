@@ -1,0 +1,65 @@
+$error-speed: 3s;
+
+#error-page {
+  .scroll-container {
+    cursor: $pointer;
+    height: 50px;
+    height: 100vh;
+    top: 0;
+    overflow: hidden;
+    position: absolute;
+
+    width: 100vw;
+    left: 0;
+    display: flex;
+    align-items: center;
+  }
+  h4 {
+    user-select: none;
+    font-size: 100vh;
+    font-size: 57vw;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    line-height: 1;
+    // text-align: center;
+    /* Starting position */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    /* Apply animation to this element */
+    -moz-animation: example1 $error-speed linear infinite;
+    -webkit-animation: example1 $error-speed linear infinite;
+    animation: example1 $error-speed linear infinite;
+  }
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+  0% {
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes example1 {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+@keyframes example1 {
+  0% {
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%);
+  }
+}

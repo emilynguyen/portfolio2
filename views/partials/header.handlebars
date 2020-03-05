@@ -1,16 +1,8 @@
-<header class="pt-3 palm--pt-2">
-  <div>
-    <p>
-      <a href="/" id="name">Emily<span class="palm--hide"> Nguyen</span></a><br>
-      <span class="portable--hide hide" style="margin-lef: 6rem;">Visual —
-        Product — Front-End</span></p>
+<header class="pb-3 desk--pb-4 desk--mt-4">
+    <h5>
+        <a href="/">Home</a> > <a href="/{{path}}">{{path}}</a>{{#if currProject}} > <a
+            href="/{{url}}">{{currProject.title}}</a>{{/if}}
+    </h5>
 
-  </div>
-  <div>
-    <nav>
-      <a href="/work" {{#if_eq url "work"}} class="active" {{/if_eq}}>Work</a> &nbsp;&nbsp;&nbsp; <a href="/about"
-        {{#if_eq url "about"}} class="active" {{/if_eq}}>About</a> &nbsp;&nbsp;&nbsp; <a href="/contact"
-        {{#if_eq url "contact"}} class="active" {{/if_eq}}>Contact</a>
-    </nav>
-  </div>
+
 </header>

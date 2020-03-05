@@ -1,0 +1,179 @@
+/*
+ * Typography
+ */
+
+html {
+  font-size: $body-font-size;
+  @include grid-media-query(portable) {
+    font-size: 14px;
+  }
+  @include grid-media-query(monitor) {
+    font-size: 0.9vw;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: $apercu-mono;
+  font-weight: normal;
+  line-height: $body-line-height;
+  //letter-spacing: -0.03em;
+
+  color: $white;
+}
+
+.bg-white {
+  body {
+    color: $black;
+    a {
+      color: $black;
+    }
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-family: $ogg;
+}
+
+h1,
+h2 {
+  line-height: $ogg-header-line-height;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: 4.2rem;
+  @include grid-media-query(portable) {
+    font-size: 2.8rem;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+  @include grid-media-query(portable) {
+    font-size: 2.2rem;
+  }
+}
+
+h3 {
+  font-size: 1.1em;
+  letter-spacing: 0.02em;
+}
+
+h4,
+h5 {
+  line-height: $apercu-header-line-height;
+  text-transform: lowercase;
+  // text-transform: uppercase;
+  //  letter-spacing: 0.04em;
+
+  //  line-height: 1;
+  //font-weight: 500;
+  // @extend .flicker;
+}
+
+h4 {
+  font-size: 3.75rem;
+  //font-size: 5rem;
+  font-size: 2.5rem;
+  @include grid-media-query(portable) {
+    font-size: 2.5rem;
+  }
+}
+
+h5 {
+  font-size: 1rem;
+  //font-size: 1.5rem;
+  @include grid-media-query(portable) {
+    font-size: 1rem;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link-underline {
+  a:not(.btn) {
+    transition: text-decoration 0.3s;
+    text-decoration: underline;
+
+    @include hover {
+      text-decoration: none;
+    }
+  }
+}
+
+ul,
+ol {
+  li {
+    margin-left: $spacer-2;
+  }
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+}
+
+::selection {
+  background: $blue; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: $blue; /* Gecko Browsers */
+}
+
+.bg-white {
+  ::selection {
+    color: $white; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    color: $white; /* Gecko Browsers */
+  }
+}
+
+.flicker {
+  animation-duration: 0.01s;
+  animation-name: textflicker;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+//$distance: 0.01em;
+$distance: 1px;
+
+@keyframes textflicker {
+  from {
+    text-shadow: $distance 0 0 $magenta, -$distance 0 0 $green;
+  }
+  to {
+    text-shadow: $distance 0.5px 1px $magenta, -$distance -0.5px 2px $green;
+  }
+}
+
+.flicker-block {
+  animation-duration: 0.01s;
+  animation-name: blockflicker;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+$distance-block: 2px;
+@keyframes blockflicker {
+  from {
+    text-shadow: $distance 0 0 $magenta, -$distance 0 0 $green;
+    box-shadow: $distance-block 0 0 $magenta, -$distance-block 0 0 $green;
+  }
+  to {
+    text-shadow: $distance 0.5px 1px $magenta, -$distance -0.5px 2px $green;
+
+    box-shadow: $distance-block 0.5px 1px $magenta,
+      -$distance-block -0.5px 2px $green;
+  }
+}

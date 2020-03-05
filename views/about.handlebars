@@ -1,142 +1,16 @@
-<div class="grid mt-4 mb-4 portable--mt-3">
-  <div class="grid__item desk--one-half">
-    <img class="portable--mb-3" src="/images/site/me.jpg" style="width: 100%;" alt="Me on a boat">
+<main id="about-page" class="link-underline">
+  <h1>
 
-  </div>
-  <div class="grid__item desk--one-half">
-    <h1 class="mb-2">Hello, I'm Emily!</h1>
-    <h3 class="mb-2"><span class="palm--hide">I'm a designer + developer that
-        loves crafting visual
-        experiences and seeing them through to
-        implementation. </span><span class="lap-up--hide">I'm a designer + developer and </span>I'll be graduating this
-      winter from UC San Diego with a
-      degree in Human-Computer Interaction and a minor in Computer Science.</h3>
 
-    <h3 class="mb-2">
-      Currently, I am Co-Creative Director of <a href="http://ucsddesign.co" target="_blank">UCSD Design Co</a> and
-      the Web Designer + Developer at <a href="http://asgraphicstudio.ucsd.edu" target="_blank">A.S. Graphic Studio</a>.
-      Previously, I
-      was a Brand Design Intern at <a href="/vox">Vox Media</a> and a UX Design Intern at <a
-        href="/salesforce">Salesforce</a>.
-    </h3>
-    <h3>
-      Other things I do include playing Stardew Valley and Animal Crossing. I'm also very passionate about Tony Stark,
-      2000s pop punk, Brooklyn Nine-Nine, true crime podcasts, and raw fish.
-    </h3>
-  </div>
+    I’m a visual + product designer and front-end developer based in San Francisco. I love crafting visual experiences
+    and seeing them through to implementation. <br><br>
 
-  <div class="grid__item hide">
-    <img class="mb-4 portable--mb-3" src="/images/site/me.png" style="width: 100%;" alt="Self-portrait">
-    <h1 class="mb-3 portable--mb-2">Hello, my name is Emily! <span class="palm--hide">I'm a designer + developer that
-        loves crafting visual
-        experiences and seeing them through to
-        implementation. </span>I'll be graduating this winter from UC San Diego with a
-      degree in Human-Computer Interaction and a minor in Computer Science.</h1>
+    Currently, I’m a visual designer at <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>. Previously, I’ve
+    been at <a href="https://www.voxmedia.com/" target="_blank">Vox Media</a> and <a href="https://salesforce.com"
+      target="_blank">Salesforce</a>.<br><br>
 
-    <h1 class="mb-3 portable--mb-2">
-      Currently, I am Co-Creative Director of <a href="http://ucsddesign.co" target="_blank">UCSD Design Co</a> and
-      the Web Designer + Developer at <a href="http://asgraphicstudio.ucsd.edu" target="_blank">A.S. Graphic Studio</a>.
-      Previously, I
-      was a Brand Design Intern at <a href="/vox">Vox Media</a> and a UX Design Intern at <a
-        href="/salesforce">Salesforce</a>.
-    </h1>
-    <h1>
-      Other things I do include playing Stardew Valley and Animal Crossing. I'm also very passionate about Tony Stark,
-      Sansa Stark, 2000s pop punk, and pineapple on pizza.
-    </h1>
-  </div>
-  <!--
-  <div class="grid__item mb-3 portable--mb-2">
-    <h3 class="mb-1">Currently</h3>
-    <h1><a href="http://ucsddesign.co" target="_blank">Design Co</a> — Co-Creative Director</h1>
-    <h1><a href="http://asgraphicstudio.ucsd.edu" target="_blank">Associated Students Graphic Studio</a> — Web Designer
-      + Developer
-    </h1>
-  </div>
-  <div class="grid__item mb-3 portable--mb-2">
-    <h3 class="mb-1">Previously</h3>
-    <h1><a href="/vox">Vox Media</a> — Brand Design Intern</h1>
-    <h1><a href="/salesforce">Salesforce</a> — Visual Experience Design Intern</h1>
-    <h1><a href="https://blink.ucsd.edu/sponsor/ITS/index.html" target="_blank">UCSD Information Technology Services</a>
-      —
-      Web Developer</h1>
-    <h1><a href="https://www.alumni.ucsd.edu/" target="_blank">UC San Diego Alumni</a> — Web Design + Digital Marketing
-      Assistant</h1>
-  </div> 
-  <div class="grid__item">
-    <h1>
-      Other things I do include playing Stardew Valley and Animal Crossing. I'm also very passionate about Tony Stark,
-      Sansa Stark, 2000s pop punk, and pineapple on pizza.
-    </h1>
-  </div> -->
-</div>
+    I enjoy BROCKHAMPTON, 2000s pop punk, Animal Crossing, Brooklyn Nine-Nine, and memes.
+  </h1>
 
-<!--
-<script src="/scripts/blotter.min.js"></script>
-<script src="/scripts/materials/liquidDistortMaterial.js"></script>
--->
 
-<!--
-<script>
-
-  const MathUtils = {
-    // Equation of a line.
-    lineEq: (y2, y1, x2, x1, currentVal) => {
-      var m = (y2 - y1) / (x2 - x1), b = y1 - m * x1;
-      return m * currentVal + b;
-    },
-    // Linear Interpolation function.
-    lerp: (a, b, n) => (1 - n) * a + n * b
-  };
-
-  // Create the blotter material. 
-  const material = new Blotter.LiquidDistortMaterial();
-  // Set the default material uniform values.
-  material.uniforms.uSpeed.value = .5;
-  material.uniforms.uVolatility.value = 0;
-  material.uniforms.uSeed.value = 0.4;
-  // Create the Blotter instance.
-  const blotter = new Blotter(material);
-  // Initialize the Blotter Text on all HTML elements with data-blotter.
-  const blotterElems = [...document.getElementsByClassName('blotter')];
-  blotterElems.forEach((el) => {
-    const text = new Blotter.Text(el.innerHTML, {
-      family: "'Modern Era', sans serif",
-      size: 21,
-      fill: "#fff"
-    });
-    blotter.addText(text);
-    // Now delete the html content.
-    el.innerHTML = '';
-    // The created canvas.
-    const scope = blotter.forText(text);
-    // Append it to the main element.
-    scope.appendTo(el);
-  });
-
-  // Now, change one (or more) uniform value as we scroll. 
-  // The faster the scrolling the more the value changes.
-  let currentScroll = window.pageYOffset;
-  // The volatility is the uniform that will change.  
-  let volatility = 0;
-  // It will go from 0 (not scrolling) to 0.9 (scrolling at a speed of maxscroll).
-  const maxscroll = 10;
-  const uniformValuesRange = [0, 0.9];
-  // Using requestAnimationFrame + linear interpolation for the effect.
-  const render = () => {
-    // Current scroll position
-    const newScroll = window.pageYOffset;
-    // How much was scrolled from the last repaint.
-    const scrolled = Math.abs(newScroll - currentScroll);
-    // Get the new value of volatility.
-    volatility = MathUtils.lerp(volatility, Math.min(MathUtils.lineEq(uniformValuesRange[1], uniformValuesRange[0], maxscroll, 0, scrolled), 0.9), 0.05);
-    // Set the volatility.
-    material.uniforms.uVolatility.value = volatility;
-    // Update the current scroll.
-    currentScroll = newScroll;
-    // Repeat.
-    requestAnimationFrame(render);
-  }
-  requestAnimationFrame(render);
-</script>
--->
+</main>

@@ -1,0 +1,38 @@
+@mixin hover {
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}
+
+@mixin shrink-on-hover {
+  transition: transform 0.3s;
+  @include hover {
+    transform: scale(0.95);
+  }
+}
+
+@mixin huge {
+  @media (min-width: $huge) {
+    @content;
+  }
+}
+
+@mixin lhCrop($line-height) {
+  &::before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    margin-top: calc((1 - #{$line-height}) * 0.5em);
+  }
+}
+
+@mixin removeTop($line-height) {
+  margin-top: calc((1 - #{$line-height}) * 1.1em);
+}
+
+@mixin removeBottom($line-height) {
+  margin-bottom: calc((1 - #{$line-height}) * 1.5em);
+}

@@ -1,0 +1,31 @@
+{{#with dev}}
+
+<main id="dev-page">
+    {{#each projects}}
+
+    <h1 class="">
+        <a {{#if url}}href="{{url}}" {{else}}class="cursor-default " {{/if}} {{#if newWindow}}target="_blank"
+            {{/if}}>{{title}}</a>
+        {{#if img}}<img src="/images/{{img}}" alt="">{{/if}}
+    </h1>
+    {{/each}}
+</main>
+
+{{/with}}
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script>
+    var offset = 80;
+    $('#dev-page h1 a').hover(function () {
+        var $img = $(this).closest('h1').find('img');
+        $img.show();
+        $(document).mousemove(function (e) {
+            $img.css({ left: e.pageX + offset, top: e.pageY + offset });
+        });
+    }, function () {
+        var $img = $(this).closest('h1').find('img');
+        $img.hide();
+    });
+</script>

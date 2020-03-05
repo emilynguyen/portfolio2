@@ -1,0 +1,51 @@
+$modern-era: "Modern Era", Avenir, Helvetica, sans-serif;
+$modern-era-mono: "Modern Era Mono", Menlo, monospace;
+$modern-era-mono: "Modern Era Mono", Menlo, monospace;
+
+$ogg: "Ogg", Baskerville, serif;
+$apercu-mono: "Apercu Mono", monospace;
+
+$body-font-size: 16px;
+//$body-font-size: 18px;
+
+$body-line-height: 1.5;
+$ogg-header-line-height: 1.24;
+$apercu-header-line-height: 1.4;
+
+$spacer-1: 1.5rem;
+$spacer-2: 3rem;
+$spacer-3: 6rem;
+$spacer-4: 9rem;
+
+$huge: 2400px;
+$big: 1800px;
+
+//$black: #111;
+$black: #141414;
+$black: #161616;
+
+$gray: #f8f8f8;
+$white: #fff;
+
+$blue: #0000ff;
+$green: #00ff00;
+$green: rgba(0, 255, 0, 0.5);
+$magenta: rgba(255, 0, 255, 0.5);
+
+$footer-height-palm: 0;
+$footer-height: 0;
+
+$top-bottom-space: 6vw;
+
+$side-margin: 6%;
+
+$content-width: 1000px;
+$content-width: 62rem;
+
+$translucent: 0.4;
+
+// Cursors
+$default: url("../images/_cursors/default.png"), default;
+$default-white: url("../images/_cursors/default-white.png"), default;
+$pointer: url("../images/_cursors/pointer.png"), pointer;
+$pointer-white: url("../images/_cursors/pointer-white.png"), pointer;

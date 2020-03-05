@@ -1,0 +1,33 @@
+{
+  "memes": [
+    {
+      "title": "me.jpg",
+      "src": "me.jpg"
+    },
+    {
+      "title": "askldf.jpg",
+      "src": "disco.jpg"
+    },
+    {
+      "title": "mdjfkgha.jpg",
+      "src": "brain-cells.jpg"
+    },
+    {
+      "title": "actually-me.jpg",
+      "src": "cat.jpg",
+      "hide": true
+    },
+    {
+      "title": "fkjlsdjs.jpg",
+      "src": "iron-man.jpg"
+    },
+    {
+      "title": "kdfjklafd.jpg",
+      "src": "hehe.jpg"
+    },
+    {
+      "title": "asjkldfj.jpg",
+      "src": "reality.jpg"
+    }
+  ]
+}

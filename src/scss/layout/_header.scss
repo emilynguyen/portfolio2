@@ -1,0 +1,14 @@
+header {
+  a {
+    @extend .opacity-hover;
+  }
+  @include grid-media-query(portable) {
+    margin-top: $side-margin;
+  }
+}
+
+.no-header {
+  header {
+    display: none;
+  }
+}
