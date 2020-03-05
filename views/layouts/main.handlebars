@@ -117,6 +117,11 @@
 
 
 <script>
+  var TOUCH = false;
+  window.addEventListener('touchstart', function () {
+    // the user touched the screen!
+    TOUCH = true;
+  });
 
   /*
     var i;
@@ -191,6 +196,9 @@
 
   // open popup window
   $('.meme-btn').click(function (e) {
+    // return if touch device
+    if (TOUCH) return;
+
     var $btnText = $(this).find('.meme-btn-text');
     e.preventDefault;
 
@@ -230,22 +238,7 @@
     return false;
   });
 
-  /*
-    function meme() {
-      var popups = document.getElementsByClassName('popup');
-  
-  
-      (function myLoop(i) {
-        setTimeout(function () {
-          dragElement(popups[i]);
-          $(popups[i]).toggleClass("closed");
-  
-          if (--i >= 0) myLoop(i);      //  decrement i and call myLoop again if i > 0
-        }, 50)
-      })(popups.length - 1);
-  
-      return false;
-    } */
+
 
   // close popup window
   $('.popup .close').mousedown(function () {
