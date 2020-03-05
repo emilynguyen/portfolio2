@@ -1893,7 +1893,7 @@ nav {
 .popup {
   position: fixed;
   background-color: #161616;
-  border: 3px solid #fff;
+  border: 0.2rem solid #fff;
   z-index: 100;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
@@ -1912,7 +1912,7 @@ nav {
     z-index: -9999; }
   .popup .bar {
     background-color: #161616;
-    border-bottom: 3px solid #fff;
+    border-bottom: 0.2rem solid #fff;
     height: 2em;
     text-align: center;
     line-height: 2em;
@@ -1920,7 +1920,7 @@ nav {
     overflow: hidden;
     position: relative; }
   .popup .close {
-    border-left: 3px solid #fff;
+    border-left: 0.2rem solid #fff;
     height: 100%;
     width: 2em;
     position: absolute;
