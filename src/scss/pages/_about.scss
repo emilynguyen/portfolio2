@@ -1,6 +1,23 @@
 //$pop-up-border: 3px solid $white;
 $pop-up-border: 0.2rem solid $white;
 
+#close-all-btn {
+  position: fixed;
+  top: $side-margin;
+  right: $side-margin;
+  cursor: $pointer;
+  z-index: 99999;
+  display: none;
+  text-shadow: 0 0 4rem $black;
+}
+
+.bg-white {
+  #close-all-btn {
+    color: $black;
+    text-shadow: 0 0 4rem $white;
+  }
+}
+
 .popup {
   position: fixed;
   // border-radius: 0.2rem;

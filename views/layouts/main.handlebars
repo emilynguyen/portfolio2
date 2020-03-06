@@ -74,11 +74,14 @@
     {{> footer}}
   </div>
 
-  <div class="link-underline popup closed bio flicker">
+  <div id="close-all-btn" onclick="closeMemes()">
+    <h4>Close All ✕</h4>
+  </div>
+  <div class="link-underline popup closed bio">
     <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
     <div class="bar">me.txt<div class="close">✕</div>
     </div>
-    <div class="text ">
+    <div class="text">
       <p>Hello! 👋</p>
       <p>
         I’m a visual + product designer and front-end developer based in San Francisco. I love crafting visual
@@ -98,7 +101,7 @@
   {{#with memes}}
   {{#each memes}}
   {{#unless hide}}
-  <div class="popup closed flicker">
+  <div class="popup closed">
     <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
     <div class="bar">{{title}}<div class="close">✕</div>
     </div>
@@ -117,24 +120,20 @@
 
 
 <script>
+  // GLOBAL VARS
+  var POPUPS = document.getElementsByClassName('popup');
+  var TOPINDEX = 100; // track zindex of top element
   var TOUCH = false;
   window.addEventListener('touchstart', function () {
     // the user touched the screen!
     TOUCH = true;
   });
 
-  /*
-    var i;
-    var popups = document.getElementsByClassName('popup');
-    for (i = 0; i < popups.length; i++) {
-      dragElement(popups[i]);
-    } */
-
-
-  // track zindex of top element
-  var topIndex = 100;
-
-  // Make the DIV element draggable:
+  /* name: dragElement
+   * description: makes popup windows draggable
+   * parameters: elmnt - element to be made draggable
+   * return: n/a
+   */
   function dragElement(elmnt) {
     // randomize responsive start position within window unless bio
     if (!$(elmnt).hasClass('bio')) {
@@ -161,7 +160,7 @@
       e = e || window.event;
       e.preventDefault();
       // move to front
-      elmnt.style.zIndex = topIndex += 1;
+      elmnt.style.zIndex = TOPINDEX += 1;
 
       // get the mouse cursor position at startup:
       pos3 = e.clientX;
@@ -192,70 +191,84 @@
     }
   }
 
-  var popups = document.getElementsByClassName('popup');
+  /* name: openMemes
+   * description: opens all meme popups
+   * parameters: n/a
+   * return: n/a
+   */
+  function openMemes() {
+    $('#close-all-btn').fadeIn("fast");
+    (function myLoop(i) {
+      setTimeout(function () {
+        var $popup = $(POPUPS[i]);
+
+        // OPEN
+        $popup.removeClass("closed");
+        dragElement($popup[0]);
+
+        if (--i >= 0) myLoop(i);      //  decrement i and call myLoop again if i > 0
+      }, 50)
+    })(POPUPS.length - 1);
+  }
+
+  /* name: closeMemes
+   * description: closes all meme popups and resets their z-indices
+   * parameters: n/a
+   * return: n/a
+   */
+  function closeMemes() {
+    $('#close-all-btn').fadeOut("fast");
+    (function myLoop(i) {
+      setTimeout(function () {
+        var $popup = $(POPUPS[i]);
+
+        // CLOSE
+        $popup.addClass("closed");
+        // reset z-index to 100
+        $popup.css("z-index", '100');
+        // if bio, reset index to 101
+        if ($popup.hasClass('bio')) {
+          $popup.css("z-index", '101');
+        }
+
+        if (--i >= 0) myLoop(i);      //  decrement i and call myLoop again if i > 0
+      }, 50)
+    })(POPUPS.length - 1);
+  }
+
+  /* name: allMemesClosed
+   * description: returns true if all memes are closed
+   * parameters: n/a
+   * return: boolean
+   */
+  function allMemesClosed() {
+    return document.getElementsByClassName('closed').length == POPUPS.length;
+  }
+
+  /************** LISTENERS ***************/
 
   // open popup window
   $('.meme-btn').click(function (e) {
     // return if touch device
     if (TOUCH) return;
 
-    var $btnText = $(this).find('.meme-btn-text');
     e.preventDefault;
 
-    // track if we are to open memes or not
-    var toOpen = false;
-    // if all memes are closed -> open. otherwise, close all memes
-    if (document.getElementsByClassName('closed').length == popups.length) {
-      toOpen = true;
+    if (allMemesClosed()) {
+      openMemes();
+    } else {
+      closeMemes();
     }
-
-    (function myLoop(i) {
-      setTimeout(function () {
-        var $popup = $(popups[i]);
-        // OPEN
-        if (toOpen) {
-          setMemeBtnText("Close Windows");
-          $popup.removeClass("closed");
-          dragElement($popup[0]);
-
-        }
-        // CLOSE
-        else {
-          setMemeBtnText("About");
-          $popup.addClass("closed");
-          // reset z-index to 100
-          $popup.css("z-index", '100');
-          // if bio, reset index to 101
-          if ($popup.hasClass('bio')) {
-            $popup.css("z-index", '101');
-          }
-        }
-
-        if (--i >= 0) myLoop(i);      //  decrement i and call myLoop again if i > 0
-      }, 50)
-    })(popups.length - 1);
 
     return false;
   });
 
-
-
   // close popup window
   $('.popup .close').mousedown(function () {
     $(this).closest('.popup').addClass("closed");
-    // if all memes are closed -> change btn text back to "About"
-    if (document.getElementsByClassName('closed').length == popups.length) {
-      setMemeBtnText("About");
+    // if all memes are closed -> hide close all btn
+    if (allMemesClosed()) {
+      $('#close-all-btn').hide();
     }
   });
-
-  function setMemeBtnText(str) {
-    var $text = $('.meme-btn-text');
-    $text.text(str);
-    var $glitch = $('.meme-btn').find('.glitch');
-    if ($glitch.length) {
-      $glitch.attr('glitch', str)
-    }
-  }
-
 </script>

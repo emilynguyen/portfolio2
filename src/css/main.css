@@ -1890,6 +1890,19 @@ nav {
     -webkit-transform: translateX(-10px);
             transform: translateX(-10px); } }
 
+#close-all-btn {
+  position: fixed;
+  top: 6%;
+  right: 6%;
+  cursor: url("../images/_cursors/pointer.png"), pointer;
+  z-index: 99999;
+  display: none;
+  text-shadow: 0 0 4rem #161616; }
+
+.bg-white #close-all-btn {
+  color: #161616;
+  text-shadow: 0 0 4rem #fff; }
+
 .popup {
   position: fixed;
   background-color: #161616;
