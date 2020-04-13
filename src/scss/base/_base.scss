@@ -56,9 +56,46 @@ main {
   animation: glitchBlock 1s linear infinite;
 }
 
-/* NOTE: add class left or right and title attr */
+// copy of .glitch
+@mixin glitch {
+  animation: glitch 0.7s linear infinite;
+  // animation: glitch 10s linear infinite;
+
+  position: relative;
+  &:before,
+  &:after {
+    content: attr(glitch);
+    position: absolute;
+    // left: 0;
+    top: 0;
+  }
+  &.left {
+    &:before,
+    &:after {
+      left: 0;
+    }
+  }
+  &.right {
+    &:before,
+    &:after {
+      right: 0;
+    }
+  }
+  &:before {
+    animation: glitchTop 1s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  }
+  &:after {
+    animation: glitchBotom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  }
+}
+
+/* NOTE: add class left or right and glitch attr */
 .glitch {
-  animation: glitch 1s linear infinite;
+  animation: glitch 0.7s linear infinite;
   // animation: glitch 10s linear infinite;
 
   position: relative;
@@ -94,15 +131,19 @@ main {
 }
 
 $distance: 0.02em;
+//$distance-translate: 2px;
+$distance-translate: 0.16em;
+$distance-translate-tb: 0.02em;
+
 @keyframes glitch {
   2%,
   64% {
-    transform: translate(2px, 0) skew(0deg);
+    transform: translate($distance-translate, 0) skew(0deg);
     text-shadow: $distance 0 0 $magenta, -$distance 0 0 $green;
   }
   4%,
   60% {
-    transform: translate(-2px, 0) skew(0deg);
+    transform: translate(-$distance-translate, 0) skew(0deg);
   }
   62% {
     transform: translate(0, 0) skew(5deg);
@@ -113,12 +154,12 @@ $distance: 0.02em;
 @keyframes glitchTop {
   2%,
   64% {
-    transform: translate(2px, -2px);
+    transform: translate($distance-translate-tb, -$distance-translate-tb);
     text-shadow: $distance 0 0 $magenta, -$distance 0 0 $green;
   }
   4%,
   60% {
-    transform: translate(-2px, 2px);
+    transform: translate(-$distance-translate-tb, $distance-translate-tb);
   }
   62% {
     transform: translate(13px, -1px) skew(-13deg);
@@ -129,27 +170,27 @@ $distance: 0.02em;
 @keyframes glitchBotom {
   2%,
   64% {
-    transform: translate(-2px, 0);
-    text-shadow: $distance 0 0 $magenta, -$distance 0 0 #75fa69;
+    transform: translate(-$distance-translate-tb, 0);
+    text-shadow: $distance 0 0 $magenta, -$distance 0 0 $green;
   }
   4%,
   60% {
-    transform: translate(-2px, 0);
+    transform: translate(-$distance-translate-tb, 0);
   }
   62% {
     transform: translate(-13px, 5px) skew(21deg);
-    text-shadow: $distance 0.5px 1px $magenta, -$distance -0.5px 2px #75fa69;
+    text-shadow: $distance 0.5px 1px $magenta, -$distance -0.5px 2px $green;
   }
 }
 
 @keyframes glitchBlock {
   2%,
   64% {
-    transform: translate(2px, 0) skew(0deg);
+    transform: translate($distance-translate, 0) skew(0deg);
   }
   4%,
   60% {
-    transform: translate(-2px, 0) skew(0deg);
+    transform: translate(-$distance-translate, 0) skew(0deg);
   }
   62% {
     transform: translate(0, 0) skew(5deg);

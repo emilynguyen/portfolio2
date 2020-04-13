@@ -39,26 +39,26 @@
 nav {
   width: 100%;
   text-align: right;
+
   ul {
     list-style: none;
   }
   li {
     margin-left: 0;
-    h4 {
-      @extend .glitch;
+    .nav-item {
+      // optically equal line-height on nav list
+      padding: $nav-item-padding 0;
+      text-transform: lowercase;
       @extend .right;
     }
     &.active {
-      h4 {
-        //position: relative;
-        span {
-          // position: relative;
-          &:before {
-            content: ">";
-            position: absolute;
-            left: 0;
-          }
-        }
+      .nav-item {
+        @extend .glitch;
+      }
+      span:not(.meme-btn-text):before {
+        content: ">";
+        position: absolute;
+        left: 0;
       }
     }
   }

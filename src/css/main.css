@@ -1402,25 +1402,25 @@ main {
   -webkit-animation: glitchBlock 1s linear infinite;
           animation: glitchBlock 1s linear infinite; }
 
-/* NOTE: add class left or right and title attr */
-.glitch, nav li h4 {
-  -webkit-animation: glitch 1s linear infinite;
-          animation: glitch 1s linear infinite;
+/* NOTE: add class left or right and glitch attr */
+.glitch, nav li.active .nav-item {
+  -webkit-animation: glitch 0.7s linear infinite;
+          animation: glitch 0.7s linear infinite;
   position: relative; }
-  .glitch:before, nav li h4:before, .glitch:after, nav li h4:after {
+  .glitch:before, nav li.active .nav-item:before, .glitch:after, nav li.active .nav-item:after {
     content: attr(glitch);
     position: absolute;
     top: 0; }
-  .glitch.left:before, nav li h4.left:before, .glitch.left:after, nav li h4.left:after {
+  .glitch.left:before, footer li a .glitch.nav-item:before, footer nav li.active a .nav-item:before, nav footer li.active a .nav-item:before, nav li.active .left.nav-item:before, .glitch.left:after, footer li a .glitch.nav-item:after, footer nav li.active a .nav-item:after, nav footer li.active a .nav-item:after, nav li.active .left.nav-item:after {
     left: 0; }
-  .glitch.right:before, nav li h4:before, .glitch.right:after, nav li h4:after {
+  .glitch.right:before, nav li .glitch.nav-item:before, nav li.active .nav-item:before, .glitch.right:after, nav li .glitch.nav-item:after, nav li.active .nav-item:after {
     right: 0; }
-  .glitch:before, nav li h4:before {
+  .glitch:before, nav li.active .nav-item:before {
     -webkit-animation: glitchTop 1s linear infinite;
             animation: glitchTop 1s linear infinite;
     clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%); }
-  .glitch:after, nav li h4:after {
+  .glitch:after, nav li.active .nav-item:after {
     -webkit-animation: glitchBotom 1.5s linear infinite;
             animation: glitchBotom 1.5s linear infinite;
     clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
@@ -1429,102 +1429,102 @@ main {
 @-webkit-keyframes glitch {
   2%,
   64% {
-    -webkit-transform: translate(2px, 0) skew(0deg);
-            transform: translate(2px, 0) skew(0deg);
-    text-shadow: 0.02em 0 0 rgba(255, 0, 255, 0.5), -0.02em 0 0 rgba(0, 255, 0, 0.5); }
+    -webkit-transform: translate(0.16em, 0) skew(0deg);
+            transform: translate(0.16em, 0) skew(0deg);
+    text-shadow: 0.02em 0 0 rgba(255, 0, 255, 0), -0.02em 0 0 rgba(0, 255, 0, 0); }
   4%,
   60% {
-    -webkit-transform: translate(-2px, 0) skew(0deg);
-            transform: translate(-2px, 0) skew(0deg); }
+    -webkit-transform: translate(-0.16em, 0) skew(0deg);
+            transform: translate(-0.16em, 0) skew(0deg); }
   62% {
     -webkit-transform: translate(0, 0) skew(5deg);
             transform: translate(0, 0) skew(5deg);
-    text-shadow: 0.02em 0.5px 1px rgba(255, 0, 255, 0.5), -0.02em -0.5px 2px rgba(0, 255, 0, 0.5); } }
+    text-shadow: 0.02em 0.5px 1px rgba(255, 0, 255, 0), -0.02em -0.5px 2px rgba(0, 255, 0, 0); } }
 
 @keyframes glitch {
   2%,
   64% {
-    -webkit-transform: translate(2px, 0) skew(0deg);
-            transform: translate(2px, 0) skew(0deg);
-    text-shadow: 0.02em 0 0 rgba(255, 0, 255, 0.5), -0.02em 0 0 rgba(0, 255, 0, 0.5); }
+    -webkit-transform: translate(0.16em, 0) skew(0deg);
+            transform: translate(0.16em, 0) skew(0deg);
+    text-shadow: 0.02em 0 0 rgba(255, 0, 255, 0), -0.02em 0 0 rgba(0, 255, 0, 0); }
   4%,
   60% {
-    -webkit-transform: translate(-2px, 0) skew(0deg);
-            transform: translate(-2px, 0) skew(0deg); }
+    -webkit-transform: translate(-0.16em, 0) skew(0deg);
+            transform: translate(-0.16em, 0) skew(0deg); }
   62% {
     -webkit-transform: translate(0, 0) skew(5deg);
             transform: translate(0, 0) skew(5deg);
-    text-shadow: 0.02em 0.5px 1px rgba(255, 0, 255, 0.5), -0.02em -0.5px 2px rgba(0, 255, 0, 0.5); } }
+    text-shadow: 0.02em 0.5px 1px rgba(255, 0, 255, 0), -0.02em -0.5px 2px rgba(0, 255, 0, 0); } }
 
 @-webkit-keyframes glitchTop {
   2%,
   64% {
-    -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
-    text-shadow: 0.02em 0 0 rgba(255, 0, 255, 0.5), -0.02em 0 0 rgba(0, 255, 0, 0.5); }
+    -webkit-transform: translate(0.02em, -0.02em);
+            transform: translate(0.02em, -0.02em);
+    text-shadow: 0.02em 0 0 rgba(255, 0, 255, 0), -0.02em 0 0 rgba(0, 255, 0, 0); }
   4%,
   60% {
-    -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px); }
+    -webkit-transform: translate(-0.02em, 0.02em);
+            transform: translate(-0.02em, 0.02em); }
   62% {
     -webkit-transform: translate(13px, -1px) skew(-13deg);
             transform: translate(13px, -1px) skew(-13deg);
-    text-shadow: 0.02em 0.5px 1px rgba(255, 0, 255, 0.5), -0.02em -0.5px 2px rgba(0, 255, 0, 0.5); } }
+    text-shadow: 0.02em 0.5px 1px rgba(255, 0, 255, 0), -0.02em -0.5px 2px rgba(0, 255, 0, 0); } }
 
 @keyframes glitchTop {
   2%,
   64% {
-    -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
-    text-shadow: 0.02em 0 0 rgba(255, 0, 255, 0.5), -0.02em 0 0 rgba(0, 255, 0, 0.5); }
+    -webkit-transform: translate(0.02em, -0.02em);
+            transform: translate(0.02em, -0.02em);
+    text-shadow: 0.02em 0 0 rgba(255, 0, 255, 0), -0.02em 0 0 rgba(0, 255, 0, 0); }
   4%,
   60% {
-    -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px); }
+    -webkit-transform: translate(-0.02em, 0.02em);
+            transform: translate(-0.02em, 0.02em); }
   62% {
     -webkit-transform: translate(13px, -1px) skew(-13deg);
             transform: translate(13px, -1px) skew(-13deg);
-    text-shadow: 0.02em 0.5px 1px rgba(255, 0, 255, 0.5), -0.02em -0.5px 2px rgba(0, 255, 0, 0.5); } }
+    text-shadow: 0.02em 0.5px 1px rgba(255, 0, 255, 0), -0.02em -0.5px 2px rgba(0, 255, 0, 0); } }
 
 @-webkit-keyframes glitchBotom {
   2%,
   64% {
-    -webkit-transform: translate(-2px, 0);
-            transform: translate(-2px, 0);
-    text-shadow: 0.02em 0 0 rgba(255, 0, 255, 0.5), -0.02em 0 0 #75fa69; }
+    -webkit-transform: translate(-0.02em, 0);
+            transform: translate(-0.02em, 0);
+    text-shadow: 0.02em 0 0 rgba(255, 0, 255, 0), -0.02em 0 0 rgba(0, 255, 0, 0); }
   4%,
   60% {
-    -webkit-transform: translate(-2px, 0);
-            transform: translate(-2px, 0); }
+    -webkit-transform: translate(-0.02em, 0);
+            transform: translate(-0.02em, 0); }
   62% {
     -webkit-transform: translate(-13px, 5px) skew(21deg);
             transform: translate(-13px, 5px) skew(21deg);
-    text-shadow: 0.02em 0.5px 1px rgba(255, 0, 255, 0.5), -0.02em -0.5px 2px #75fa69; } }
+    text-shadow: 0.02em 0.5px 1px rgba(255, 0, 255, 0), -0.02em -0.5px 2px rgba(0, 255, 0, 0); } }
 
 @keyframes glitchBotom {
   2%,
   64% {
-    -webkit-transform: translate(-2px, 0);
-            transform: translate(-2px, 0);
-    text-shadow: 0.02em 0 0 rgba(255, 0, 255, 0.5), -0.02em 0 0 #75fa69; }
+    -webkit-transform: translate(-0.02em, 0);
+            transform: translate(-0.02em, 0);
+    text-shadow: 0.02em 0 0 rgba(255, 0, 255, 0), -0.02em 0 0 rgba(0, 255, 0, 0); }
   4%,
   60% {
-    -webkit-transform: translate(-2px, 0);
-            transform: translate(-2px, 0); }
+    -webkit-transform: translate(-0.02em, 0);
+            transform: translate(-0.02em, 0); }
   62% {
     -webkit-transform: translate(-13px, 5px) skew(21deg);
             transform: translate(-13px, 5px) skew(21deg);
-    text-shadow: 0.02em 0.5px 1px rgba(255, 0, 255, 0.5), -0.02em -0.5px 2px #75fa69; } }
+    text-shadow: 0.02em 0.5px 1px rgba(255, 0, 255, 0), -0.02em -0.5px 2px rgba(0, 255, 0, 0); } }
 
 @-webkit-keyframes glitchBlock {
   2%,
   64% {
-    -webkit-transform: translate(2px, 0) skew(0deg);
-            transform: translate(2px, 0) skew(0deg); }
+    -webkit-transform: translate(0.16em, 0) skew(0deg);
+            transform: translate(0.16em, 0) skew(0deg); }
   4%,
   60% {
-    -webkit-transform: translate(-2px, 0) skew(0deg);
-            transform: translate(-2px, 0) skew(0deg); }
+    -webkit-transform: translate(-0.16em, 0) skew(0deg);
+            transform: translate(-0.16em, 0) skew(0deg); }
   62% {
     -webkit-transform: translate(0, 0) skew(5deg);
             transform: translate(0, 0) skew(5deg); } }
@@ -1532,12 +1532,12 @@ main {
 @keyframes glitchBlock {
   2%,
   64% {
-    -webkit-transform: translate(2px, 0) skew(0deg);
-            transform: translate(2px, 0) skew(0deg); }
+    -webkit-transform: translate(0.16em, 0) skew(0deg);
+            transform: translate(0.16em, 0) skew(0deg); }
   4%,
   60% {
-    -webkit-transform: translate(-2px, 0) skew(0deg);
-            transform: translate(-2px, 0) skew(0deg); }
+    -webkit-transform: translate(-0.16em, 0) skew(0deg);
+            transform: translate(-0.16em, 0) skew(0deg); }
   62% {
     -webkit-transform: translate(0, 0) skew(5deg);
             transform: translate(0, 0) skew(5deg); } }
@@ -1608,25 +1608,15 @@ h3 {
 h4,
 h5,
 .btn {
-  line-height: 1.4;
   text-transform: lowercase; }
 
 h4 {
   font-size: 3.75rem;
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  line-height: 1.4; }
   @media only screen and (max-width: 1023px) {
     h4 {
       font-size: 2.5rem; } }
-
-
-h5,
-.btn {
-  font-size: 1rem; }
-  @media only screen and (max-width: 1023px) {
-    
-    h5,
-    .btn {
-      font-size: 1rem; } }
 
 a {
   color: inherit;
@@ -1676,15 +1666,15 @@ ol {
 
 @-webkit-keyframes textflicker {
   from {
-    text-shadow: 1px 0 0 rgba(255, 0, 255, 0.5), -1px 0 0 rgba(0, 255, 0, 0.5); }
+    text-shadow: 1px 0 0 rgba(255, 0, 255, 0), -1px 0 0 rgba(0, 255, 0, 0); }
   to {
-    text-shadow: 1px 0.5px 1px rgba(255, 0, 255, 0.5), -1px -0.5px 2px rgba(0, 255, 0, 0.5); } }
+    text-shadow: 1px 0.5px 1px rgba(255, 0, 255, 0), -1px -0.5px 2px rgba(0, 255, 0, 0); } }
 
 @keyframes textflicker {
   from {
-    text-shadow: 1px 0 0 rgba(255, 0, 255, 0.5), -1px 0 0 rgba(0, 255, 0, 0.5); }
+    text-shadow: 1px 0 0 rgba(255, 0, 255, 0), -1px 0 0 rgba(0, 255, 0, 0); }
   to {
-    text-shadow: 1px 0.5px 1px rgba(255, 0, 255, 0.5), -1px -0.5px 2px rgba(0, 255, 0, 0.5); } }
+    text-shadow: 1px 0.5px 1px rgba(255, 0, 255, 0), -1px -0.5px 2px rgba(0, 255, 0, 0); } }
 
 .flicker-block {
   -webkit-animation-duration: 0.01s;
@@ -1698,23 +1688,23 @@ ol {
 
 @-webkit-keyframes blockflicker {
   from {
-    text-shadow: 1px 0 0 rgba(255, 0, 255, 0.5), -1px 0 0 rgba(0, 255, 0, 0.5);
-    -webkit-box-shadow: 2px 0 0 rgba(255, 0, 255, 0.5), -2px 0 0 rgba(0, 255, 0, 0.5);
-            box-shadow: 2px 0 0 rgba(255, 0, 255, 0.5), -2px 0 0 rgba(0, 255, 0, 0.5); }
+    text-shadow: 1px 0 0 rgba(255, 0, 255, 0), -1px 0 0 rgba(0, 255, 0, 0);
+    -webkit-box-shadow: 2px 0 0 rgba(255, 0, 255, 0), -2px 0 0 rgba(0, 255, 0, 0);
+            box-shadow: 2px 0 0 rgba(255, 0, 255, 0), -2px 0 0 rgba(0, 255, 0, 0); }
   to {
-    text-shadow: 1px 0.5px 1px rgba(255, 0, 255, 0.5), -1px -0.5px 2px rgba(0, 255, 0, 0.5);
-    -webkit-box-shadow: 2px 0.5px 1px rgba(255, 0, 255, 0.5), -2px -0.5px 2px rgba(0, 255, 0, 0.5);
-            box-shadow: 2px 0.5px 1px rgba(255, 0, 255, 0.5), -2px -0.5px 2px rgba(0, 255, 0, 0.5); } }
+    text-shadow: 1px 0.5px 1px rgba(255, 0, 255, 0), -1px -0.5px 2px rgba(0, 255, 0, 0);
+    -webkit-box-shadow: 2px 0.5px 1px rgba(255, 0, 255, 0), -2px -0.5px 2px rgba(0, 255, 0, 0);
+            box-shadow: 2px 0.5px 1px rgba(255, 0, 255, 0), -2px -0.5px 2px rgba(0, 255, 0, 0); } }
 
 @keyframes blockflicker {
   from {
-    text-shadow: 1px 0 0 rgba(255, 0, 255, 0.5), -1px 0 0 rgba(0, 255, 0, 0.5);
-    -webkit-box-shadow: 2px 0 0 rgba(255, 0, 255, 0.5), -2px 0 0 rgba(0, 255, 0, 0.5);
-            box-shadow: 2px 0 0 rgba(255, 0, 255, 0.5), -2px 0 0 rgba(0, 255, 0, 0.5); }
+    text-shadow: 1px 0 0 rgba(255, 0, 255, 0), -1px 0 0 rgba(0, 255, 0, 0);
+    -webkit-box-shadow: 2px 0 0 rgba(255, 0, 255, 0), -2px 0 0 rgba(0, 255, 0, 0);
+            box-shadow: 2px 0 0 rgba(255, 0, 255, 0), -2px 0 0 rgba(0, 255, 0, 0); }
   to {
-    text-shadow: 1px 0.5px 1px rgba(255, 0, 255, 0.5), -1px -0.5px 2px rgba(0, 255, 0, 0.5);
-    -webkit-box-shadow: 2px 0.5px 1px rgba(255, 0, 255, 0.5), -2px -0.5px 2px rgba(0, 255, 0, 0.5);
-            box-shadow: 2px 0.5px 1px rgba(255, 0, 255, 0.5), -2px -0.5px 2px rgba(0, 255, 0, 0.5); } }
+    text-shadow: 1px 0.5px 1px rgba(255, 0, 255, 0), -1px -0.5px 2px rgba(0, 255, 0, 0);
+    -webkit-box-shadow: 2px 0.5px 1px rgba(255, 0, 255, 0), -2px -0.5px 2px rgba(0, 255, 0, 0);
+            box-shadow: 2px 0.5px 1px rgba(255, 0, 255, 0), -2px -0.5px 2px rgba(0, 255, 0, 0); } }
 
 @media only screen and (max-width: 1023px) {
   header {
@@ -1731,13 +1721,60 @@ footer li {
   margin-left: 0;
   list-style: none; }
   footer li a {
-    padding: 0.15em 0; }
-    footer li a:before {
+    display: inline-block;
+    padding: 0.04em 0; }
+    footer li a span:not(.meme-btn-text):before {
       content: "\00a0"; }
+    footer li a .nav-item {
+      display: inline-block; }
     @media (hover: hover) {
-      footer li a:hover:before {
+      footer li a:hover .nav-item {
+        -webkit-animation: glitch 0.7s linear infinite;
+                animation: glitch 0.7s linear infinite;
+        position: relative; }
+        footer li a:hover .nav-item:before, footer li a:hover .nav-item:after {
+          content: attr(glitch);
+          position: absolute;
+          top: 0; }
+        footer li a:hover .nav-item.left:before, footer li a:hover .nav-item:before, footer li a:hover .nav-item.left:after, footer li a:hover .nav-item:after {
+          left: 0; }
+        footer li a:hover .nav-item.right:before, footer nav li a:hover .nav-item:before, nav footer li a:hover .nav-item:before, footer li a:hover .nav-item.right:after, footer nav li a:hover .nav-item:after, nav footer li a:hover .nav-item:after {
+          right: 0; }
+        footer li a:hover .nav-item:before {
+          -webkit-animation: glitchTop 1s linear infinite;
+                  animation: glitchTop 1s linear infinite;
+          clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+          -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%); }
+        footer li a:hover .nav-item:after {
+          -webkit-animation: glitchBotom 1.5s linear infinite;
+                  animation: glitchBotom 1.5s linear infinite;
+          clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+          -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%); }
+      footer li a:hover span:not(.meme-btn-text):before {
         content: ">"; } }
-    footer li a.active:before {
+    footer li a.active .nav-item {
+      -webkit-animation: glitch 0.7s linear infinite;
+              animation: glitch 0.7s linear infinite;
+      position: relative; }
+      footer li a.active .nav-item:before, footer li a.active .nav-item:after {
+        content: attr(glitch);
+        position: absolute;
+        top: 0; }
+      footer li a.active .nav-item.left:before, footer li a.active .nav-item:before, footer li a.active .nav-item.left:after, footer li a.active .nav-item:after {
+        left: 0; }
+      footer li a.active .nav-item.right:before, footer nav li a.active .nav-item:before, nav footer li a.active .nav-item:before, footer li a.active .nav-item.right:after, footer nav li a.active .nav-item:after, nav footer li a.active .nav-item:after {
+        right: 0; }
+      footer li a.active .nav-item:before {
+        -webkit-animation: glitchTop 1s linear infinite;
+                animation: glitchTop 1s linear infinite;
+        clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%); }
+      footer li a.active .nav-item:after {
+        -webkit-animation: glitchBotom 1.5s linear infinite;
+                animation: glitchBotom 1.5s linear infinite;
+        clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+        -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%); }
+    footer li a.active span:not(.meme-btn-text):before {
       content: ">"; }
 
 .back-btn {
@@ -1813,7 +1850,10 @@ nav {
     list-style: none; }
   nav li {
     margin-left: 0; }
-    nav li.active h4 span:before {
+    nav li .nav-item {
+      padding: 0.04em 0;
+      text-transform: lowercase; }
+    nav li.active span:not(.meme-btn-text):before {
       content: ">";
       position: absolute;
       left: 0; }

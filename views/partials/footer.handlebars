@@ -5,32 +5,37 @@
       <ul>
 
         <li>
-          <h5>
-            <a href="/design" title="" {{#if_eq path "design"}} class="active" {{/if_eq}}>
+
+          <a href="/design" {{#if_eq path "design"}} class="active" {{/if_eq}}>
+            <span></span>
+            <h5 glitch="Design" class="nav-item">
               Design
-            </a>
-          </h5>
+            </h5>
+          </a>
+
         </li>
         <li>
-          <h5>
-            <a href="/dev" title="" {{#if_eq path "dev"}} class="active" {{/if_eq}}>
-              Dev
-            </a>
-          </h5>
+
+          <a href="/dev" {{#if_eq path "dev"}} class="active" {{/if_eq}}><span></span>
+            <h5 glitch="Dev" class="nav-item">Dev</h5>
+          </a>
+
         </li>
         <li>
-          <h5>
-            <a href="/about" title="" class="meme-btn {{#if_eq path "about"}}active{{/if_eq}}">
-              <span class="meme-btn-text">About</span>
-            </a>
-          </h5>
+
+          <a href="/about" class="meme-btn {{#if_eq path "about"}}active{{/if_eq}}"><span></span>
+            <span class="meme-btn-text">
+              <h5 glitch="About" class="nav-item">About</h5>
+            </span>
+          </a>
+
         </li>
         <li>
-          <h5>
-            <a href="/contact" title="" {{#if_eq path "contact"}} class="active" {{/if_eq}}>
-              Contact
-            </a>
-          </h5>
+
+          <a href="/contact" {{#if_eq path "contact"}} class="active" {{/if_eq}}><span></span>
+            <h5 glitch="Contact" class="nav-item">Contact</h5>
+          </a>
+
         </li>
       </ul>
       <br><br>

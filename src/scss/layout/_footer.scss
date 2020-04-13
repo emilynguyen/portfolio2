@@ -6,17 +6,29 @@ footer {
     margin-left: 0;
     list-style: none;
     a {
-      padding: 0.15em 0;
-      &:before {
+      display: inline-block;
+      // optically equal line-height on nav list
+      padding: $nav-item-padding 0;
+      span:not(.meme-btn-text):before {
         content: "\00a0";
       }
+      .nav-item {
+        display: inline-block;
+        @extend .left;
+      }
       @include hover {
-        &:before {
+        .nav-item {
+          @include glitch;
+        }
+        span:not(.meme-btn-text):before {
           content: ">";
         }
       }
       &.active {
-        &:before {
+        .nav-item {
+          @include glitch;
+        }
+        span:not(.meme-btn-text):before {
           content: ">";
         }
       }

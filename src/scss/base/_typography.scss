@@ -63,31 +63,21 @@ h3 {
 
 h4,
 h5 {
-  line-height: $apercu-header-line-height;
   text-transform: lowercase;
-  // text-transform: uppercase;
-  //  letter-spacing: 0.04em;
-
-  //  line-height: 1;
-  //font-weight: 500;
-  // @extend .flicker;
 }
 
 h4 {
   font-size: 3.75rem;
-  //font-size: 5rem;
   font-size: 2.5rem;
+  line-height: $apercu-header-line-height;
   @include grid-media-query(portable) {
     font-size: 2.5rem;
   }
 }
 
 h5 {
-  font-size: 1rem;
-  //font-size: 1.5rem;
-  @include grid-media-query(portable) {
-    font-size: 1rem;
-  }
+  // font-size: 1rem;
+  // line-height: $body-line-height;
 }
 
 a {

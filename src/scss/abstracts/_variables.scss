@@ -31,6 +31,11 @@ $blue: #0000ff;
 $green: #00ff00;
 $green: rgba(0, 255, 0, 0.5);
 $magenta: rgba(255, 0, 255, 0.5);
+$green: rgba(0, 255, 0, 0);
+$magenta: rgba(255, 0, 255, 0);
+
+//$green: aqua;
+//$magenta: magenta;
 
 $footer-height-palm: 0;
 $footer-height: 0;
@@ -43,6 +48,8 @@ $content-width: 1000px;
 $content-width: 62rem;
 
 $translucent: 0.4;
+
+$nav-item-padding: 0.04em;
 
 // Cursors
 $default: url("../images/_cursors/default.png"), default;
