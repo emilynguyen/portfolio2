@@ -7,9 +7,9 @@
   margin: 0 !important;
 
   @include grid-media-query(palm) {
-    height: auto;
-    display: block;
-    padding-top: $spacer-1;
+    // height: auto;
+    // display: block;
+    //padding-top: $spacer-1;
   }
 }
 
