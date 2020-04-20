@@ -2,9 +2,9 @@ var express = require("express");
 var exphbs = require("express-handlebars");
 var hbs = require("handlebars");
 var description =
-  "Emily is multidisciplinary designer and developer based in San Francisco. She is currently at MongoDB.";
+  "Emily is a multidisciplinary designer and developer based in San Francisco. She is currently at MongoDB.";
 
-hbs.registerHelper("ifCond", function(v1, operator, v2, options) {
+hbs.registerHelper("ifCond", function (v1, operator, v2, options) {
   switch (operator) {
     case "==":
       return v1 == v2 ? options.fn(this) : options.inverse(this);
@@ -31,26 +31,26 @@ hbs.registerHelper("ifCond", function(v1, operator, v2, options) {
   }
 });
 
-hbs.registerHelper("inc", function(value, options) {
+hbs.registerHelper("inc", function (value, options) {
   return parseInt(value) + 1;
 });
 
-hbs.registerHelper("if_eq", function(a, b, opts) {
+hbs.registerHelper("if_eq", function (a, b, opts) {
   if (a == b) return opts.fn(this);
   else return opts.inverse(this);
 });
-hbs.registerHelper("if_not_eq", function(a, b, opts) {
+hbs.registerHelper("if_not_eq", function (a, b, opts) {
   if (a != b) return opts.fn(this);
   else return opts.inverse(this);
 });
-hbs.registerHelper("if_mod", function(a, b, opts) {
+hbs.registerHelper("if_mod", function (a, b, opts) {
   var index = opts.data.index;
 
   if (index % a === b) return opts.fn(this);
   else return opts.inverse(this);
 });
 
-hbs.registerHelper("get_darker", function(a, b, opts) {
+hbs.registerHelper("get_darker", function (a, b, opts) {
   var color1 = a;
   var color2 = b;
 
@@ -106,7 +106,7 @@ hbs.registerHelper("get_darker", function(a, b, opts) {
   return getLightness(color1) < getLightness(color2) ? color1 : color2;
 });
 
-hbs.registerHelper("lower_opacity", function(a, opts) {
+hbs.registerHelper("lower_opacity", function (a, opts) {
   var color = a;
 
   function getRGBA(hex) {
@@ -140,7 +140,7 @@ var projects = require("./src/projects.json");
 var dev = require("./src/data/dev.json");
 var memes = require("./src/data/memes.json");
 
-app.get("/", function(req, res) {
+app.get("/", function (req, res) {
   res.render("home", {
     title: "Emily Nguyen",
     url: "",
@@ -148,11 +148,11 @@ app.get("/", function(req, res) {
     description: description,
     noHeader: true,
     noFooter: true,
-    memes
+    memes,
   });
 });
 
-app.get("/design", function(req, res) {
+app.get("/design", function (req, res) {
   // Filter out private and archived projects
   var gallery = [];
   var projectArray = projects.projects;
@@ -168,39 +168,39 @@ app.get("/design", function(req, res) {
     url: "design",
     path: "design",
     description: description,
-    memes
+    memes,
   });
 });
 
-app.get("/dev", function(req, res) {
+app.get("/dev", function (req, res) {
   res.render("dev", {
     dev,
     title: "Dev | Emily Nguyen",
     url: "dev",
     path: "dev",
     description: description,
-    memes
+    memes,
   });
 });
 
-app.get("/about", function(req, res) {
+app.get("/about", function (req, res) {
   res.render("about", {
     title: "About | Emily Nguyen",
     url: "about",
     path: "about",
     description: description,
-    memes
+    memes,
   });
 });
 
-app.get("/contact", function(req, res) {
+app.get("/contact", function (req, res) {
   res.render("contact", {
     projects,
     title: "Contact | Emily Nguyen",
     url: "contact",
     path: "contact",
     description: description,
-    memes
+    memes,
   });
 });
 
@@ -224,13 +224,13 @@ app.get("/archive", function(req, res) {
   });
 });
 */
-app.get("/resume", function(req, res) {
+app.get("/resume", function (req, res) {
   res.redirect(
     "https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view"
   );
 });
 
-app.get("/:project", function(req, res) {
+app.get("/:project", function (req, res) {
   var inputTitle = req.params.project;
 
   // Check if valid project url
@@ -257,7 +257,7 @@ app.get("/:project", function(req, res) {
         col1: "desk--one-half",
         col2: "desk--one-half",
         bg_white: true,
-        memes
+        memes,
       });
       return;
     }
@@ -267,15 +267,15 @@ app.get("/:project", function(req, res) {
   res.render("404", {
     title: "404 | Emily Nguyen",
     noHeader: true,
-    noFooter: true
+    noFooter: true,
   });
 });
 
-app.get("/*", function(req, res) {
+app.get("/*", function (req, res) {
   res.render("404", {
     title: "404 | Emily Nguyen",
     noHeader: true,
-    noFooter: true
+    noFooter: true,
   });
 });
 
