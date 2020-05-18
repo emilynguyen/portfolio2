@@ -1,10 +1,4 @@
 #project-page {
-  a > img {
-    // transition: transform 0.3s;
-    @include hover {
-      animation: glitchBlock 1s linear infinite;
-    }
-  }
   img,
   iframe {
     width: 100%;
@@ -19,21 +13,40 @@
     max-height: 60rem;
     box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.1);
   }
+
   p,
   ol,
   ul {
     &:not(:last-child) {
       margin-bottom: $spacer-1;
+      // margin-bottom: 2em;
+      // @include removeTop(1em);
     }
   }
-  h1 {
-    // prevent mb when no overview
-    &:not(:last-child) {
-      @extend .mb-2;
+  .block {
+    h3 {
+      @extend .asterisks;
+      &.title {
+        @extend .parentheses;
+      }
+    }
+  }
+  .details {
+    .grid__item:not(:last-child) {
+      @extend .mb-1;
     }
   }
 }
 
+.next-project-link {
+  @include hover {
+    h3 {
+      //  display: inline-block;
+      @include parentheses;
+    }
+  }
+}
+/*
 .arrows {
   text-align: center;
   @include grid-media-query(desk) {
@@ -61,3 +74,4 @@
     transform: translateX(-10px);
   }
 }
+*/

@@ -1,244 +1,29 @@
-<main id="contact-page" class="">
-  <div class="nohover">
-    <h1><a href="mailto:emilymylinh@gmail.com">Email</a><span>&nbsp;</span>
-    </h1>
-    <h1><a href="https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view"
-        target="_blank">Resume</a><span>&nbsp;</span></h1>
-    <h1><a href="https://linkedin.com/in/emilymnguyen/" target="_blank">LinkedIn</a><span>&nbsp;</span></h1>
-    <h1>
-      <a href="https://github.com/emilynguyen" target="_blank">Github</a><span>&nbsp;</span>
-    </h1>
-    <h1>
-      <a href="https://dribbble.com/emilynguyen" target="_blank">Dribbble</a><span>&nbsp;</span>
-    </h1>
-  </div>
-  <div class="hover" style="display: none">
-    <h1><a class="contact_email" href="mailto:emilymylinh@gmail.com">Email</a><span>&nbsp;</span>
-    </h1>
-    <h1><a class="contact_resume" href="https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view"
-        target="_blank">Resume</a><span>&nbsp;</span></h1>
-    <h1><a class="contact_linkedin" href="https://linkedin.com/in/emilymnguyen/"
-        target="_blank">LinkedIn</a><span>&nbsp;</span></h1>
-    <h1>
-      <a class="contact_github" href="https://github.com/emilynguyen" target="_blank">Github</a><span>&nbsp;</span>
-    </h1>
-    <h1>
-      <a class="contact_dribbble" href="https://dribbble.com/emilynguyen"
-        target="_blank">Dribbble</a><span>&nbsp;</span>
-    </h1>
+<main id="contact-page" class="mt-2 mb-2">
+  <div class="grid">
+    <div class="grid__item desk--one-half mb-2">
+      <h3 class="asterisks">Email</h3>
+      <h4>
+        <p><a href="mailto:emilymylinh@gmail.com">emilymylinh@gmail.com</a></p>
+      </h4>
+    </div>
+    <div class="grid__item desk--one-half mb-2">
+      <h3 class="asterisks">Resume</h3>
+      <h4>
+        <p><a href="https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view"
+            target="_blank">EmilyNguyen_resume.pdf</a></p>
+      </h4>
+    </div>
+    <div class="grid__item desk--one-half mb-2">
+      <h3 class="asterisks">LinkedIn</h3>
+      <h4>
+        <p><a href="https://linkedin.com/in/emilymnguyen/" target="_blank">/emilymnguyen</a></p>
+      </h4>
+    </div>
+    <div class="grid__item desk--one-half mb-2">
+      <h3 class="asterisks">Github</h3>
+      <h4>
+        <p><a href="https://github.com/emilynguyen" target="_blank">/emilynguyen</a></p>
+      </h4>
+    </div>
   </div>
 </main>
-
-
-
-<!--
-<script>
-  const chars = ["$", "%", "#", "@", "&", "(", ")", "=", "*", "/"];
-  const charsTotal = chars.length;
-  const getRandomInt = (min, max) =>
-    Math.floor(Math.random() * (max - min + 1)) + min;
-
-  var links = document.getElementById('contact').getElementsByTagName('a');
-
-
-
-
-  for (var i = 0; i < links.length; i++) {
-    links[i].addEventListener('mouseover', function (event) {
-      var el = event.srcElement;
-      var text = {
-        original: el.innerHTML,
-        hover: el.title,
-        letters: el.innerHTML.split('')
-      };
-
-      var spans = "";
-      for (var i = 0; i < text.letters.length; i++) {
-        spans += '<span>' + text.letters[i] + '</span>';
-      }
-
-      el.innerHTML = spans;
-
-
-
-      console.log(spans);
-
-
-
-    });
-  }
-
-
-</script> -->
-
-<script>
-  (function ($) {
-
-    $.fn.shuffleLetters = function (prop) {
-
-      // Handling default arguments
-      var options = $.extend({
-        // Default arguments
-      }, prop)
-
-      return this.each(function () {
-        // The main plugin code goes here
-      });
-    };
-
-    // A helper function
-
-    function randomChar(type) {
-      // Generate and return a random character
-    }
-
-  })(jQuery);
-
-
-  function randomChar(type) {
-    pool = ",.?/\\(^)![]{}*&^%$#'\"";
-    /*
-        if (type == "lowerLetter") {
-          pool = "abcdefghijklmnopqrstuvwxyz0123456789";
-        }
-        else if (type == "upperLetter") {
-          pool = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        }
-        else if (type == "symbol") {
-          pool = ",.?/\\(^)![]{}*&^%$#'\"";
-        }*/
-
-    var arr = pool.split('');
-    return arr[Math.floor(Math.random() * arr.length)];
-  }
-
-  $.fn.shuffleLetters = function (prop) {
-
-    var options = $.extend({
-      "step": 3,    // How many times should the letters be changed
-      "fps": 20,   // Frames Per Second
-      "text": ""    // Use this text instead of the contents
-    }, prop)
-
-    return this.each(function () {
-
-      var el = $(this),
-        str = "";
-
-      if (options.text) {
-        str = options.text.split('');
-      }
-      else {
-        str = el.text().split('');
-      }
-
-      // The types array holds the type for each character;
-      // Letters holds the positions of non-space characters;
-
-      var types = [],
-        letters = [];
-
-      // Looping through all the chars of the string
-
-      for (var i = 0; i < str.length; i++) {
-
-        var ch = str[i];
-
-        if (ch == " ") {
-          types[i] = "space";
-          continue;
-        }
-        else if (/[a-z]/.test(ch)) {
-          types[i] = "lowerLetter";
-        }
-        else if (/[A-Z]/.test(ch)) {
-          types[i] = "upperLetter";
-        }
-        else {
-          types[i] = "symbol";
-        }
-
-        letters.push(i);
-      }
-
-      el.html("");
-
-      // Self executing named function expression:
-
-      (function shuffle(start) {
-
-        // This code is run options.fps times per second
-        // and updates the contents of the page element
-
-        var i,
-          len = letters.length,
-          strCopy = str.slice(0); // Fresh copy of the string
-
-        if (start > len) {
-          return;
-        }
-
-        // All the work gets done here
-        for (i = Math.max(start, 0); i < len; i++) {
-
-          // The start argument and options.step limit
-          // the characters we will be working on at once
-
-          if (i < start + options.step) {
-            // Generate a random character at this position
-            strCopy[letters[i]] = randomChar(types[letters[i]]);
-
-          }
-          else {
-            strCopy[letters[i]] = "";
-          }
-        }
-
-        el.text(strCopy.join(""));
-
-        setTimeout(function () {
-
-          shuffle(start + 1);
-
-        }, 1000 / options.fps);
-
-      })(-options.step);
-
-    });
-  };
-
-  /*
-    $('#contact a').mouseover(function () {
-      $(this).shuffleLetters({
-        "text": "hello"
-      });
-    }); */
-
-  $('.contact_email').one('mouseover', function () {
-    $(this).shuffleLetters({
-      "text": "emilymylinh@gmail.com"
-    });
-  });
-  $('.contact_resume').one('mouseover', function () {
-    $(this).shuffleLetters({
-      "text": "resume.pdf"
-    });
-  });
-
-  $('.contact_linkedin').one('mouseover', function () {
-    $(this).shuffleLetters({
-      "text": "linkedin.com/in/emilymnguyen"
-    });
-  });
-  $('.contact_github').one('mouseover', function () {
-    $(this).shuffleLetters({
-      "text": "github.com/emilynguyen"
-    });
-  });
-  $('.contact_dribbble').one('mouseover', function () {
-    $(this).shuffleLetters({
-      "text": "dribbble.com/emilynguyen"
-    });
-  });
-
-</script>

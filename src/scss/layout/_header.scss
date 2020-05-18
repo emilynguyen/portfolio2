@@ -1,14 +1,125 @@
 header {
-  a {
-    @extend .opacity-hover;
-  }
-  @include grid-media-query(portable) {
-    margin-top: $side-margin;
-  }
-}
+  ul {
+    //nav
+    list-style: none;
+    h3 {
+      display: inline-block;
+    }
+    li {
+      margin-left: 0;
 
-.no-header {
-  header {
+      a {
+        @include hover {
+          h3 {
+            @include parentheses;
+          }
+        }
+      }
+    }
+  }
+  .project-page-hero {
+    width: 100%;
+  }
+  $cube-size: 100px;
+  .cube-wrapper {
+    width: $cube-size;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-top: $spacer-1;
+    height: $cube-size;
+    //background-color: blue;
     display: none;
+    .cube-container {
+      $perspective: $cube-size * 2;
+      $cube-perspective: $cube-size / 2;
+      //$cube-perspective: $cube-size * 2;
+
+      width: $cube-size;
+      height: $cube-size;
+      perspective: $perspective;
+      @mixin transform-face(
+        $orientation,
+        $deg,
+        $perspective: $cube-perspective
+      ) {
+        transform: rotate#{$orientation}unquote("(#{$deg})")
+          translateZ($perspective);
+      }
+      .cube {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform-style: preserve-3d;
+        transform: translateZ(-$cube-perspective) rotateX(45deg) rotateY(45deg);
+        @keyframes rotateCube {
+          0% {
+            transform: translateZ(-$cube-perspective) rotateX(-45deg)
+              rotateY(45deg);
+          }
+          100% {
+            transform: translateZ(-$cube-perspective) rotateX(135deg)
+              rotateY(-135deg);
+          }
+        }
+        // animation: rotateCube 5s linear 0s infinite alternate;
+
+        .face {
+          border: 2px solid black;
+          position: absolute;
+          height: $cube-size;
+          width: $cube-size;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          &.front {
+            @include transform-face(Y, 0deg);
+            background-color: black;
+          }
+          &.back {
+            @include transform-face(Y, 180deg);
+            background-color: black;
+          }
+          &.top {
+            @include transform-face(X, 90deg);
+            background-color: white;
+          }
+          &.bottom {
+            @include transform-face(X, -90deg);
+            background-color: white;
+          }
+          &.left {
+            @include transform-face(Y, 90deg);
+            background-image: url("https://www.dlf.pt/png/big/11/111704_dotted-texture-png.png");
+            background-color: white;
+            background-size: cover;
+          }
+          &.right {
+            @include transform-face(Y, -90deg);
+            background-image: url("https://www.dlf.pt/png/big/11/111704_dotted-texture-png.png");
+            background-size: cover;
+            background-color: white;
+          }
+
+          // For styling the cube only
+          .outer-layer {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            //background-color: blue;
+          }
+        }
+      }
+    }
+  }
+
+  body,
+  html {
+    margin: 0;
   }
 }

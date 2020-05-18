@@ -36,3 +36,21 @@
 @mixin removeBottom($line-height) {
   margin-bottom: calc((1 - #{$line-height}) * 1.5em);
 }
+
+@mixin parentheses {
+  &:before {
+    content: "(";
+  }
+  &:after {
+    content: ")";
+  }
+}
+
+@mixin asterisks {
+  &:before {
+    content: "*";
+  }
+  &:after {
+    content: "*";
+  }
+}

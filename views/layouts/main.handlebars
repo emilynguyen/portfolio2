@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="{{#if bg_white}}bg-white{{/if}}">
+<html lang="en" class="{{#if darkMode}}dark-mode{{/if}}">
 
 <head>
   <!-- Meta tags -->
@@ -11,7 +11,7 @@
   <meta property="og:title" content="{{title}}">
   <meta name="author" content="Emily Nguyen">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="http://emilynguyen.co/images/_site/preview.png">
+  <meta property="og:image" content="http://emilynguyen.co/images/_site/og.png">
   <meta property="og:url" content="http://emilynguyen.co/{{url}}">
   <meta property="og:description" content="{{description}}">
 
@@ -71,18 +71,20 @@
   <div id="content">
     {{> header}}
     {{{body}}}
-    {{> footer}}
+
   </div>
+  {{> footer}}
 
   <div id="close-all-btn" onclick="closeMemes()">
-    <h4>Close All ✕</h4>
+    <!--<h4 >Close All ✕</h4>-->
+    <div class="btn">Close All ✕</div>
   </div>
-  <div class="link-underline popup closed bio">
+  <div class="styled-links popup closed bio">
     <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-    <div class="bar">me.txt<div class="close">✕</div>
+    <div class="bar">README.md<div class="close">✕</div>
     </div>
     <div class="text">
-      <p>Hello! 👋</p>
+      <p>👋🏻👋🏻👋🏻</p>
       <p>
         I’m a visual + product designer and front-end developer based in San Francisco. I love crafting visual
         experiences
@@ -94,7 +96,7 @@
         been at <a href="https://www.voxmedia.com/" target="_blank">Vox Media</a> and <a href="https://salesforce.com"
           target="_blank">Salesforce</a>.</p>
       <p>
-        I enjoy BROCKHAMPTON, 2000s pop punk, Animal Crossing, Brooklyn Nine-Nine, and memes.
+        I enjoy BROCKHAMPTON, Game of Thrones, RPGs, and the color black.
       </p>
     </div>
   </div>

@@ -1,36 +1,178 @@
 {
   "projects": [
     {
-      "title": "Design Co",
-      "display": "Design_Co.ai",
+      "title": "New Website for Triton Outfitters",
+      "hide": true,
+      "year": 20,
+      "sub": "Web Design, Web Development",
+      "url": "to",
+      "description": "Designed and developed a custom Shopify theme for the clothing brand <a href='https://www.facebook.com/tritonoutfitters' target='_blank'>Triton Outfitters</a>.",
+      "details": [
+        {
+          "title": "Resources",
+          "content": "<a href='https://github.com/emilynguyen/to' target='_blank'>Github repo</a>"
+        }
+      ],
+      "button": {
+        "title": "Visit Site",
+        "link": "https://to.ucsd.edu"
+      },
+      "blocks": [
+        {
+          "gallery": true,
+          "block": true,
+          "content": [
+            {
+              "image": "to/landing.jpg",
+              "full": true,
+              "alt": "Landing"
+            },
+            {
+              "image": "to/shop-by-collection.jpg",
+              "full": true,
+              "alt": "Shop By Collection"
+            },
+            {
+              "image": "to/collection.jpg",
+              "full": true,
+              "alt": "Collection"
+            },
+            {
+              "image": "to/product.jpg",
+              "full": true,
+              "alt": "Product"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vox Media—Podcast Art Design System",
+      "year": 19,
+      "display": "Podcast_Art_Design_System.txt",
+      "sub": "Brand Design",
+      "size": "two-fifths",
+      "url": "vox",
+      "icon": "vox/iso.png",
+      "iso": {
+        "iso1": {
+          "end": 2,
+          "start": 0
+        },
+        "iso2": {
+          "end": 0,
+          "start": 0
+        },
+        "iso3": {
+          "end": -2,
+          "start": -1
+        }
+      },
+      "landing": "none",
+      "description": "Built a design system for Vox Media Podcast Network's artwork.",
+      "details": [
+        {
+          "title": "Role",
+          "content": "Brand Design Intern"
+        },
+        {
+          "title": "Team",
+          "content": "Project managers — Laylah Donnell, Krystal Stevens<br>Mentor – Courtney Leonard"
+        },
+        {
+          "title": "Stakeholders",
+          "content": "Vox Media Podcast Network (Zach Kahn, Marika Ball-Damberg)"
+        }
+      ],
+      "blocks": [
+        {
+          "title": "Overview",
+          "text": true,
+          "content": "<p><a href='https://podcasts.voxmedia.com/' target='_blank'>Vox Media Podcast Network</a> is a fast-growing collection of 200+ shows spanning business, technology, news, sports, and dining. Each of these podcasts have custom art crafted by in-house designers. As the network grew, so did the need for a strong design system to consolidate all of this artwork. I joined Vox Media’s Brand Design team as their Brand Design Intern this summer and was given the opportunity to tackle this challenge.</p><p>After several weeks of extensive research, including a competitive analysis and an audit, I finalized a style guide and template system that strengthened brand recognition, established artwork consistency across 8 unique brands, and streamlined the process of producing podcast assets.</p>",
+          "alt": "Before the design system"
+        },
+        {
+          "title": "Competitive Analysis",
+          "captionBefore": "Assessed our competitors’ design systems to identify how different placement guidelines influenced or aligned with different elements of podcast art.",
+          "alt": "Grid systems of podcast art from Audioboom, Earwolf, Gimlet, NPR, The New York Times, PodcastOne, Slate, TED, WNYC Studios, and Wondery",
+          "gallery": true,
+          "block": true,
+          "content": [
+            {
+              "image": "vox/ca-collage.png",
+              "alt": "Podcast art from Audioboom, Earwolf, Gimlet, NPR, The New York Times, PodcastOne, Slate, TED, WNYC Studios, and Wondery",
+              "full": true
+            },
+            {
+              "image": "vox/ca.png",
+              "alt": "Grid systems of podcast art from Audioboom, Earwolf, Gimlet, NPR, The New York Times, PodcastOne, Slate, TED, WNYC Studios, and Wondery",
+              "full": true
+            }
+          ]
+        },
+        {
+          "title": "Audit",
+          "captionBefore": "Assessed our own podcast art to pinpoint areas that could benefit from structured guidelines.",
+          "gallery": true,
+          "block": true,
+          "content": [
+            {
+              "image": "vox/audit-collage.png",
+              "alt": "Podcast art from Vox Media",
+              "full": true
+            },
+            {
+              "image": "vox/audit.png",
+              "alt": "Grid systems of podcast art from Vox Media",
+              "full": true
+            }
+          ]
+        },
+        {
+          "title": "Insights",
+          "text": true,
+          "content": "<p>Some of the design systems we explored were flexible (e.g. Earwolf) while others were strict (e.g. NPR, The New York Times), each with their own strengths and weaknesses. While flexible systems are easier to implement and accommodate a wider range of artwork compositions, strict systems offer stronger consistency and brand recognition.</p>"
+        },
+        {
+          "title": "Solution",
+          "captionBefore": "<p>After several rounds of exploration in both of these directions, we decided firm guidelines surrounding the placement and sizing of logos on tile art would drive consistency across Vox Media Podcast Network as a whole, while looser guidelines for ads and social assets would support each network's unique branding and illustration style.</p>",
+          "image": true,
+          "content": "vox/before-after.gif"
+        }
+      ]
+    },
+    {
+      "title": "Design Co—Growing a Design Community at UCSD",
+      "year": "17–19",
       "sub": "Brand Design, Web Design, Web Development",
-      "size": "three-fifths",
       "url": "design-co",
-      "icon": "design-co/posters.gif",
-      "icon_square": "design-co/posters_square.gif",
-      "landing": "design-co/collage.gif",
-      "description": "Rebrand + marketing collateral for the largest student design org at UC San Diego.",
-      "overview": "<p>Design at UCSD, the largest pre-professional design community on campus, is now Design Co! We’ve changed our name, brand, visual identity, and have updated our mission statement and values. <a href='https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9' target='_blank'>Read more about our process</a> and visit our new site at <a href='http://ucsddesign.co' target='_blank'>ucsddesign.co</a>.</p><p>As one of Design Co's creative directors, I worked closely alongside <a href='https://nancybui.co/' target='_blank'>Nancy</a> and <a href='http://lucylouxu.com' target='_blank'>Lucy</a> to craft a new visual identity that better captured the scrappy designers that make up this student org. </p>",
+      "iso": {
+        "iso1": {
+          "end": 2,
+          "start": 0
+        },
+        "iso2": {
+          "end": 0,
+          "start": 0
+        },
+        "iso3": {
+          "end": -2,
+          "start": -1
+        }
+      },
+      "description": "<p>From November '17 to December '19 I helped lead <a href='http://www.ucsddesign.co/' target='_blank'>Design Co</a>, the largest pre-professional design community at UC San Diego. This involved leading skill workshops, planning events, and more to help bridge the gap between student designers and industry.</p><p>We've recently launched a complete rebrand, where I worked closely alongside <a href='https://nancybui.co/' target='_blank'>Nancy</a> and <a href='http://lucylouxu.com' target='_blank'>Lucy</a> to craft a new visual identity for the organization.</p><p>Thank you to the lovely <a href='http://www.ucsddesign.co/about' target='_blank'>Design Co leadership team</a> for everything that they do. ♥</p>",
       "button": {
         "title": "Read More",
         "link": "https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9"
       },
       "details": [
         {
-          "title": "Deliverables",
-          "content": "<a href='http://ucsddesign.co' target='_blank'>Website</a> (design + development), branding guidelines, posters, slide deck template, stickers, social media graphics"
+          "title": "Roles",
+          "content": "Co-Creative Director (May – Dec '19)<br>Web Developer (June '18 – May '19)<br>Brand + Visual Designer (Nov '17 – June '18)"
         },
         {
           "title": "Skills",
           "content": "Brand design, motion design, web development (HTML, CSS, Sass, React)"
-        },
-        {
-          "title": "Date",
-          "content": "Summer 2019"
-        },
-        {
-          "title": "Resources",
-          "content": "<a href=\"https://github.com/ucsddesignco/designco\" target=\"_blank\">Github repo</a>"
         }
       ],
       "blocks": [
@@ -51,22 +193,22 @@
             },
             {
               "image": "design-co/poster_pink_indigo.jpg",
-              "full": true,
+              "half": true,
               "alt": "Design Co pink + indigo poster"
             },
             {
               "image": "design-co/poster_yellow_gray.jpg",
-              "full": true,
+              "half": true,
               "alt": "Design Co yellow + gray poster"
             },
             {
               "image": "design-co/poster_indigo_cyan.jpg",
-              "full": true,
+              "half": true,
               "alt": "Design Co indigo + cyan poster"
             },
             {
               "image": "design-co/poster_green_pink.jpg",
-              "full": true,
+              "half": true,
               "alt": "Design Co green + pink poster"
             },
             {
@@ -118,98 +260,10 @@
         }
       ]
     },
-    {
-      "title": "Vox Media — Podcast Art Design System",
-      "display": "Podcast_Art_Design_System.txt",
-      "sub": "Brand Design",
-      "size": "two-fifths",
-      "url": "vox",
-      "icon": "vox/logos2.gif",
-      "icon_square": "vox/logos3.gif",
-      "landing": "none",
-      "description": "Built a design system for Vox Media Podcast Network's artwork.",
-      "overview": "<p><a href='https://podcasts.voxmedia.com/' target='_blank'>Vox Media Podcast Network</a> is a fast-growing collection of 150+ shows spanning business, technology, news, sports, and dining. Each of these podcasts have custom art, crafted thoughtfully by in-house designers. As the network grew, so did the need for a strong design system to consolidate all of this artwork. I joined Vox Media’s Brand Design team as their Brand Design Intern this summer, and was given the opportunity to tackle this challenge.</p><p>After several weeks of extensive research, including a competitive analysis and an audit, I finalized a style guide and template system that strengthened brand recognition, established artwork consistency across 8 unique brands, and streamlined the process of producing podcast assets.</p>",
-      "details": [
-        {
-          "title": "Role",
-          "content": "Brand Design Intern"
-        },
-        {
-          "title": "Location",
-          "content": "New York, NY"
-        },
-        {
-          "title": "Team",
-          "content": "Project managers — Laylah Donnell, Krystal Stevens<br>Mentor – Courtney Leonard 🤘🏻"
-        },
-        {
-          "title": "Stakeholders",
-          "content": "Vox Media Podcast Network"
-        },
-        {
-          "title": "Date",
-          "content": "Summer 2019"
-        }
-      ],
-      "blocks": [
-        {
-          "title": "Before",
-          "image": true,
-          "content": "vox/before.jpg",
-          "alt": "Before the design system"
-        },
-        {
-          "title": "After",
-          "gallery": true,
-          "square": true,
-          "content": [
-            {
-              "image": "vox/tiles/todayexplained.png",
-              "alt": "Today Explained"
-            },
-            {
-              "image": "vox/tiles/switched.png",
-              "alt": "Switched On Pop",
-              "border": true
-            },
-            {
-              "image": "vox/tiles/futureperfect.jpg",
-              "alt": "Future Perfect"
-            },
-            {
-              "image": "vox/tiles/primetime.jpg",
-              "alt": "Primetime"
-            },
-            {
-              "image": "vox/tiles/theweeds.jpg",
-              "alt": "The Weeds"
-            },
-            {
-              "image": "vox/tiles/eatersdigest.png",
-              "alt": "Eater's Digest"
-            },
-            {
-              "image": "vox/tiles/pivot.jpg",
-              "alt": "Pivot"
-            },
-            {
-              "image": "vox/tiles/recodedecode.png",
-              "alt": "Recode Decode"
-            },
-            {
-              "image": "vox/tiles/lotg.png",
-              "alt": "Land of the Giants"
-            },
-            {
-              "image": "vox/tiles/nicetry.png",
-              "alt": "Nice Try!"
-            }
-          ]
-        }
-      ]
-    },
+
     {
       "title": "Salesforce Design Internship",
+      "hide": true,
       "display": "Salesforce_Design_Internship.txt",
       "size": "two-fifths",
       "sub": "UX Design",
@@ -268,6 +322,8 @@
     },
     {
       "title": "A.S. Graphic Studio Redesign",
+      "year": "18",
+      "hide": true,
       "display": "as_graphic_studio_redesign.sketch",
       "sub": "UX Design, Web Design, Web Development",
       "size": "three-fifths",
@@ -289,10 +345,6 @@
         {
           "title": "Tools",
           "content": "Sketch, HTML, CSS, Sass, Jekyll"
-        },
-        {
-          "title": "Date",
-          "content": "Fall 2018"
         },
         {
           "title": "Resources",
@@ -368,18 +420,18 @@
     },
     {
       "title": "Sun God Festival 2019",
-      "dev": true,
+      "year": 19,
+      "hide": true,
       "display": "Sun_God_Festival_2019.html",
       "size": "three-fifths",
       "sub": "Web Development",
       "url": "sgf",
       "icon": "sgf/lineup.gif",
       "icon_square": "sgf/lineup_square.gif",
-      "landing": "sgf/landing.gif",
+      "landing": "none",
       "text": "#242424",
       "bg": "#f2f7f9",
       "description": "Website for the 37th annual Sun God Music Festival.",
-      "overview": "<p>Sun God Festival is a student-curated, daylong music and arts festival at UC San Diego. Named as one of Live Nation’s \"Top 5 College Concerts That Should Be Actual Festivals\", Sun God is the largest campus-wide event and brings in 20,000+ attendees each year. Sun God Festival 2019 will be headlined by Vince Staples; past acts include Drake, Kendrick Lamar, Jhené Aiko, Khalid, and My Chemical Romance.</p><p>This year, I was given the opportunity to build the website for the festival. I worked closely with the creative director to execute his vision and also designed several pages.</p>",
       "button": {
         "title": "Visit Site",
         "link": "http://sgf.ucsd.edu/2019"
@@ -397,16 +449,18 @@
           "title": "Partner",
           "content": "<a href='https://eunsoolee.co/' target='_blank'>Eunsoo Lee</a> — creative director, lead web designer"
         },
-        {
-          "title": "Date",
-          "content": "Feb – Apr 2019"
-        },
+
         {
           "title": "Resources",
           "content": "<a href=\"https://github.com/emilynguyen/sgf19\" target=\"_blank\">Github repo</a>"
         }
       ],
       "blocks": [
+        {
+          "text": true,
+          "title": "Overview",
+          "content": "<p>Sun God Festival is a student-curated, daylong music and arts festival at UC San Diego. Named as one of Live Nation’s \"Top 5 College Concerts That Should Be Actual Festivals\", Sun God is the largest campus-wide event and brings in 20,000+ attendees each year. Sun God Festival 2019 will be headlined by Vince Staples; past acts include Drake, Kendrick Lamar, Jhené Aiko, Khalid, and My Chemical Romance.</p><p>This year, I was given the opportunity to build the website for the festival. I worked closely with the creative director to execute his vision and also designed several pages.</p>"
+        },
         {
           "gallery": true,
           "content": [
@@ -438,7 +492,7 @@
     },
     {
       "title": "ERGO",
-      "archive": true,
+      "hide": true,
       "display": "ERGO.sketch",
       "size": "two-fifths",
       "sub": "Interaction Design, Visual Design, Web Development",
@@ -497,7 +551,7 @@
         {
           "title": "Ideation",
           "text": true,
-          "content": "<p>To guide us towards a solution, we reframed the insights and pain points above into opportunities:</p><ul><li><span>How might we remind users to take breaks and stretch after long intervals of inactivity?</span></li><li><span>How might we accommodate users in different spaces or users with different tools at their disposal?</span></li><li><span>How might we make being active enticing to users?</span></li><li><span>Additionally, how might we accommodate users with disabilities or injuries?</span></li></ul>"
+          "content": "<p>To guide us towards a solution, we reframed the insights and pain points above into opportunities:</p><p><ul><li><span>How might we remind users to take breaks and stretch after long intervals of inactivity?</span></li><li><span>How might we accommodate users in different spaces or users with different tools at their disposal?</span></li><li><span>How might we make being active enticing to users?</span></li><li><span>Additionally, how might we accommodate users with disabilities or injuries?</span></li></ul></p>"
         },
         {
           "title": "Solution",
@@ -566,7 +620,7 @@
     },
     {
       "title": "Burow",
-      "archive": true,
+      "hide": true,
       "display": "Burow.ai",
       "size": "one-half",
       "sub": "Brand Design",
@@ -606,7 +660,7 @@
         {
           "title": "Solution",
           "text": true,
-          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h3 class='mb-1'>Existing Solution</h3><p>Enter location → receive listings → use criteria to sort through listings</p><h3 class='mb-1'>Proposed Solution</h3><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
+          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by focusing on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. Because these scores can vary dramatically between neighborhoods,  this approach benefits users who know little about their new city.</p><h3 class='mb-1 asterisks'>Existing Solution</h3><p>Enter location → receive listings → use criteria to sort through listings</p><h3 class='mb-1 asterisks'>Proposed Solution</h3><p>Enter city → choose criteria → receive sorted neighborhoods</p>"
         },
         {
           "title": "Storyboarding",
@@ -633,7 +687,7 @@
         {
           "title": "Brand Design",
           "text": true,
-          "content": "<h3 class='mb-1'>\"Burow—Dig around and find the neighbourhood that fits your needs!\"</h3><p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p><p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves. We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity. UI elements were also rounded to support the warm brand.</p>"
+          "content": "<h4 class='mb-1'>\"Burow—Dig around and find the neighbourhood that fits your needs!\"</h4><p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and used the theme of cute, burrowing animals to establish a cozy and welcoming atmosphere. Because Burow’s search functionality centers around neighborhoods instead of individual homes, the animals also serve to reflect community.</p><p>To produce a homey feel, we gravitated towards warm earth tones and typefaces with gentle curves. We kept our illustrations soft as well and made heavy use of geometric shapes to instill a sense of familiarity. UI elements were also rounded to support the warm brand.</p>"
         },
         {
           "image": true,
@@ -679,7 +733,7 @@
     },
     {
       "title": "Stride Career Fair",
-      "dev": true,
+      "hide": true,
       "display": "Stride_Career_Fair.html",
       "size": "one-half",
       "sub": "Web Development, Brand Design",
@@ -733,12 +787,27 @@
       ]
     },
     {
-      "title": "Miscellaneous",
+      "title": "Misc. Work",
+      "year": "—",
+      "sub": "????",
       "display": "Miscellaneous.zip",
       "size": "two-thirds",
       "url": "misc",
-      "icon": "misc/desktop.png",
-      "icon_square": "misc/desktop-yellow.png",
+      "icon": "misc/iso.png",
+      "iso": {
+        "iso1": {
+          "start": 0,
+          "end": 2
+        },
+        "iso2": {
+          "start": 0,
+          "end": 0
+        },
+        "iso3": {
+          "start": -1,
+          "end": -1
+        }
+      },
       "col": 2,
       "landing": "none",
       "description": "A collection of personal work, illustrations, explorations, and other.",
@@ -792,12 +861,6 @@
               "alt": "Self-portrait"
             },
             {
-              "image": "to/shop-by-collection.jpg",
-              "col2": true,
-              "full": true,
-              "alt": "Triton Outfitters"
-            },
-            {
               "image": "ergo/icon-square.gif",
               "col2": true,
               "half": true,
@@ -815,12 +878,6 @@
               "col2": true,
               "full": true,
               "alt": "AS Graphic Studio winter"
-            },
-            {
-              "image": "misc/dailyui_2.png",
-              "col1": true,
-              "full": true,
-              "alt": "Daily UI #002: concert tickets payment"
             },
             {
               "image": "burow/burow.gif",
@@ -866,18 +923,6 @@
               "col1": true,
               "full": true,
               "alt": "Google design exercise"
-            },
-            {
-              "image": "misc/black_heart_bg.gif",
-              "col1": true,
-              "half": true,
-              "alt": "Black heart"
-            },
-            {
-              "image": "misc/how_far_ill_go.png",
-              "col1": true,
-              "half": true,
-              "alt": "How Far I'll Go"
             },
             {
               "image": "misc/old_portfolio.png",

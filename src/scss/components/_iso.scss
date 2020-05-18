@@ -1,0 +1,125 @@
+header {
+  .iso-container {
+    // width: 100%;
+
+    //  padding-bottom: 100%;
+    width: 50%;
+    padding-bottom: 50%;
+    width: 33%;
+    padding-bottom: 33%;
+  }
+}
+#work-page {
+  .iso-container {
+    // - half of spacer-1 + .5rem bc of h5
+    // margin-top: calc(#{-$spacer-1} / 2 - 0.5rem);
+    margin-left: auto;
+    //  width: 300px;
+    //  height: 300px;
+    width: 12rem;
+    height: 12rem;
+    @include grid-media-query(portable) {
+      width: 6rem;
+      height: 6rem;
+    }
+    @include grid-media-query(palm) {
+      margin-left: 0;
+    }
+  }
+}
+
+$distance1: 33%;
+$distance2: 66%;
+
+$distance1: 10%;
+$distance2: 20%;
+
+.project-container,
+.iso-container {
+  @include hover {
+    .end {
+      &0 {
+        transform: translateY(0);
+      }
+      &1 {
+        transform: translateY(-$spacer-1);
+      }
+      &2 {
+        transform: translateY(-$spacer-2);
+      }
+      &-1 {
+        transform: translateY($spacer-1);
+      }
+      &-2 {
+        transform: translateY($spacer-2);
+      }
+      // khkjhkj
+      &1 {
+        transform: translateY(-$distance1);
+      }
+      &2 {
+        transform: translateY(-$distance2);
+      }
+      &-1 {
+        transform: translateY($distance1);
+      }
+      &-2 {
+        transform: translateY($distance2);
+      }
+    }
+  }
+}
+
+.iso-container {
+  position: relative;
+  user-select: none;
+  .iso1 {
+    z-index: 3;
+  }
+  .iso2 {
+    z-index: 2;
+  }
+  .iso3 {
+    z-index: 1;
+  }
+  .iso1,
+  .iso2,
+  .iso3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+  }
+  .start {
+    &0 {
+      transform: translateY(0);
+    }
+    &1 {
+      transform: translateY(-$spacer-1);
+    }
+    &2 {
+      transform: translateY(-$spacer-2);
+    }
+    &-1 {
+      transform: translateY($spacer-1);
+    }
+    &-2 {
+      transform: translateY($spacer-2);
+    }
+    // khkjhkj
+    &1 {
+      transform: translateY(-$distance1);
+    }
+    &2 {
+      transform: translateY(-$distance2);
+    }
+    &-1 {
+      transform: translateY($distance1);
+    }
+    &-2 {
+      transform: translateY($distance2);
+    }
+  }
+}

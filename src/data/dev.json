@@ -2,24 +2,27 @@
   "projects": [
     {
       "title": "Sun God Festival 2019",
-      "url": "/sgf",
+      "url": "http://sgf.ucsd.edu/2019/",
+      "newWindow": true,
       "img": "sgf/preview.gif"
     },
     {
       "title": "Stride Career Fair",
-      "url": "/stride",
+      "url": "http://stride.ucsddesign.co/2019",
+      "newWindow": true,
       "img": "stride/preview.gif"
     },
     {
-      "title": "A.S. Graphic Studio",
-      "url": "/asgs",
-      "img": "asgs/preview.png"
+      "title": "Triton Outfitters",
+      "url": "https://to.ucsd.edu",
+      "newWindow": true,
+      "img": "to/shop-by-collection.jpg"
     },
     {
-      "title": "Horizon",
-      "url": "http://beyondthehorizon.ucsd.edu/",
+      "title": "A.S. Graphic Studio",
+      "url": "http://asgraphicstudio.ucsd.edu/",
       "newWindow": true,
-      "img": "horizon/preview.jpg"
+      "img": "asgs/preview.png"
     },
     {
       "title": "Design Co",
@@ -31,6 +34,12 @@
       "url": "http://frontiers.ucsddesign.co/sp19",
       "newWindow": true,
       "img": "frontiers/preview.jpg"
+    },
+    {
+      "title": "Horizon",
+      "url": "http://beyondthehorizon.ucsd.edu/",
+      "newWindow": true,
+      "img": "horizon/preview.jpg"
     }
   ]
 }

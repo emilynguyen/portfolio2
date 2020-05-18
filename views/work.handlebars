@@ -1,0 +1,56 @@
+<main id="work-page" class="mt-2">
+  {{#each gallery}}
+  {{#unless hide}}
+  {{#unless dev}}
+  <hr>
+  <a href="/{{url}}" class="project-container portable--pb-1 desk--pb-2">
+    <h5 class="mb-1">{{sub}}</h5>
+    <div class="grid">
+      <div class="grid__item lap--two-thirds desk--one-half">
+        <h1>{{title}}</h1>
+        <h2 class="text-right">/{{year}}</h2>
+      </div>
+      <div class="grid__item lap--one-third desk--one-half text-right">
+        {{> iso project=this}}
+      </div>
+
+    </div>
+  </a>
+  {{/unless}}
+  {{/unless}}
+  {{/each}}
+  <hr>
+  {{#with dev}}
+  <h3 class="asterisks mt-2">Dev Work</h3>
+  <div class="grid mb-3">
+    {{#each projects}}
+    <div class="grid__item desk--one-third">
+      <h4 class="styled-links dev-link"><a href="{{url}}" {{#if newWindow}}target="_blank"
+          {{/if}}>{{title}}</a>{{#if img}}<img src="/images/{{img}}" alt="">{{/if}}</h4>
+    </div>
+    {{/each}}
+  </div>
+  <!--
+  <h4 class="styled-links">
+    {{#each projects}}
+    <a href="{{url}}" {{#if newWindow}}target="_blank" {{/if}}>{{title}}</a>{{#if @last}}{{else}},&nbsp;{{/if}}{{/each}}
+  </h4> -->
+  {{/with}}
+</main>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script>
+  //  var offset = 80;
+  $('.dev-link a').hover(function () {
+    var $img = $(this).closest('.dev-link').find('img');
+    $img.show();
+    $(document).mousemove(function (e) {
+      $img.css({ left: e.pageX, top: e.pageY });
+    });
+  }, function () {
+    var $img = $(this).closest('.dev-link').find('img');
+    $img.hide();
+  });
+</script>

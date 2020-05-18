@@ -1,21 +1,17 @@
-$modern-era: "Modern Era", Avenir, Helvetica, sans-serif;
-$modern-era-mono: "Modern Era Mono", Menlo, monospace;
-$modern-era-mono: "Modern Era Mono", Menlo, monospace;
+//$opposit: "Opposit", "Helvetica", "Arial", sans-serif;
+$continua: "Continua", "Helvetica", "Arial", sans-serif;
 
-$ogg: "Ogg", Baskerville, serif;
-$apercu-mono: "Apercu Mono", monospace;
+$mabry: "Mabry Pro", "Helvetica", "Arial", sans-serif;
 
-$body-font-size: 16px;
+//$body-font-size: 16px;
 //$body-font-size: 18px;
 
-$body-line-height: 1.5;
-$ogg-header-line-height: 1.24;
-$apercu-header-line-height: 1.4;
+$body-line-height: 1.2;
 
 $spacer-1: 1.5rem;
-$spacer-2: 3rem;
-$spacer-3: 6rem;
-$spacer-4: 9rem;
+$spacer-2: $spacer-1 * 2;
+$spacer-3: $spacer-2 * 2;
+$spacer-4: $spacer-3 * 2;
 
 $huge: 2400px;
 $big: 1800px;
@@ -23,36 +19,57 @@ $big: 1800px;
 //$black: #111;
 $black: #141414;
 $black: #161616;
-
 $gray: #f8f8f8;
 $white: #fff;
+$beige: #f6f5f1;
+
+$light: #fff;
+
+$dark: #000;
+//$dark: #111;
+$light: #fcfaf7;
+$light: #fff;
+
+$magenta: rgba(0, 0, 0, 0.2);
+$green: rgba(0, 0, 0, 0.2);
 
 $blue: #0000ff;
-$green: #00ff00;
-$green: rgba(0, 255, 0, 0.5);
-$magenta: rgba(255, 0, 255, 0.5);
-$green: rgba(0, 255, 0, 0);
-$magenta: rgba(255, 0, 255, 0);
 
-//$green: aqua;
-//$magenta: magenta;
+$border: 2px solid $dark;
+$border-light: 2px solid $light;
+
+/*
+$box-shadow: $dark 0.4rem 0.4rem 0rem;
+$box-shadow-light: $light 0.4rem 0.4rem 0rem;
+*/
+$box-shadow: $dark 0.3rem 0.3rem 0rem;
+$box-shadow-light: $light 0.3rem 0.3rem 0rem;
 
 $footer-height-palm: 0;
 $footer-height: 0;
 
 $top-bottom-space: 6vw;
 
-$side-margin: 6%;
+$side-margin: 6vw;
 
-$content-width: 1000px;
 $content-width: 62rem;
+$content-width: 1400px;
 
 $translucent: 0.4;
 
 $nav-item-padding: 0.04em;
 
+$arrow: "→";
+
 // Cursors
 $default: url("../images/_cursors/default.png"), default;
-$default-white: url("../images/_cursors/default-white.png"), default;
+$default-dark: url("../images/_cursors/default-dark.png"), default;
 $pointer: url("../images/_cursors/pointer.png"), pointer;
-$pointer-white: url("../images/_cursors/pointer-white.png"), pointer;
+$pointer-dark: url("../images/_cursors/pointer-dark.png"), pointer;
+
+/*
+$default: default;
+$default-white: default;
+$pointer: pointer;
+$pointer-white: pointer;
+*/

@@ -1,18 +1,43 @@
 {{#with currProject}}
 
-<main id="project-page" class="link-underline">
-  <div class="grid">
+<main id="project-page">
+  <div class="grid styled-links">
+    <div class="grid__item desk--one-half mb-2">
+      <h1>{{title}}</h1>
+      <h2 class="text-right date">/{{year}}</h2>
+    </div>
+    <div class="grid__item desk--one-half mb-2">
+      <h4>{{{description}}}</h4>
+      {{#if details}}
+      <div class="grid mt-1 details">
+        {{#each details}}
+        <div class="grid__item">
+          <h3 class="asterisks">{{title}}</h3>
+          <h4>
+            {{{content}}}
+          </h4>
+        </div>
+        {{/each}}
+        {{#if button}}
+        <div class="grid__item">
+          <a class="btn" href="{{button.link}}" target="_blank">{{button.title}}</a>
+        </div>{{/if}}
+      </div>
+      {{/if}}
+    </div>
+
+  </div>
+  <!--
+  <div class="grid hide">
     <div class="grid__item mb-2">
 
       {{#ifCond landing "!=" "none"}}
-      <img class="{{#if border}}border{{/if}}" src="/images/{{landing}}" alt="{{title}}">
+      <img src="/images/{{landing}}" alt="{{title}}">
       {{/ifCond}}
     </div>
     <div class="grid__item {{@root.col1}}">
-      <h1>{{title}}</h1>
-      {{#if sub}}
-      <p class="mb-2 translucen">{{sub}}</p>
-      {{/if}}
+      <h1 class="mb-2">{{title}}</h1>
+
       {{#if button}}<div class="portable--mb-2 portable--hide"><a class="btn" href="{{button.link}}"
           target="_blank">{{button.title}}</a></div>{{/if}}
     </div>
@@ -38,14 +63,19 @@
       {{/ifCond}}
     </div>
   </div>
+  -->
+  <hr>
   {{#each blocks}}
   {{#unless hide}}
-  <div class="grid mt-3 portable--mt-3">
+
+
+  <div class="grid grid--narrow pt-2 portable--pt-2 block">
+
 
     <!-- TEXT -->
     {{#if text}}
-    <div class="grid__item {{@root.col1}}">
-      {{#if title}}<h2 class="sub portable--mb-2">{{title}}</h2>{{/if}}
+    <div class=" grid__item {{@root.col1}}">
+      {{#if title}}<h3 class="sub portable--mb-2 title">{{title}}</h3>{{/if}}
     </div>
     <div class="grid__item {{@root.col2}}">
       {{{content}}}
@@ -57,14 +87,13 @@
     {{#ifCond captionBefore "||" title}}
     <div class="grid__item {{@root.col1}}">
       {{#if title}}
-      <h2 class="sub mb-3 portable--mb-1 {{#if captionBefore}}portable--mb-2{{/if}}">{{title}}</h2>{{/if}}
+      <h3 class="sub mb-2 portable--mb-1 title {{#if captionBefore}}portable--mb-2{{/if}}">{{title}}</h3>{{/if}}
     </div>
     <div class="grid__item {{@root.col2}}">{{{captionBefore}}}</div>
     {{/ifCond}}
     <div class="grid__item">
       {{#if link}}<a href="{{link}}" target="_blank">{{/if}}
-        <img
-          class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-2{{/if}}"
+        <img class="{{#if captionBefore}}mt-2 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-2{{/if}}"
           src="/images/{{content}}" alt="{{alt}}">{{#if link}}</a>{{/if}}
     </div>
     {{#if captionAfter}}
@@ -78,15 +107,15 @@
     {{#ifCond captionBefore "||" title}}
     <div class="grid__item {{@root.col1}}">
       {{#if title}}
-      <h2 class="sub mb-3 portable--mb-1 {{#if captionBefore}}portable--mb-2{{/if}}">{{title}}</h2>{{/if}}
+      <h3 class="title sub mb-2 portable--mb-1 {{#if captionBefore}}portable--mb-2{{/if}}">{{title}}</h3>{{/if}}
     </div>
-    <div class="grid__item mb-3 portable--mb-2 {{@root.col2}}">{{{captionBefore}}}</div>
+    <div class="grid__item mb-2 portable--mb-2 {{@root.col2}}">{{{captionBefore}}}</div>
     {{/ifCond}}
     {{#if square}}
     <!-- square gallery -->
     {{#each content}}
-    <div class="grid__item mb-1 lap--mb-2 desk--mb-2 lap-up--one-half ">
-      <img src="/images/{{image}}" alt="{{alt}}" {{#if border}} class="border" {{/if}}>
+    <div class="grid__item mb-1 lap-up--mb-1 lap-up--one-half ">
+      <img src="/images/{{image}}" alt="{{alt}}">
     </div>
     {{/each}}
     <!-- end square gallery -->
@@ -94,14 +123,14 @@
     {{else if block}}
     {{#each content}}
     {{#if full}}
-    <div class="grid__item {{#unless @last}}mb-1 lap--mb-2 desk--mb-2{{/unless}}">
+    <div class="grid__item {{#unless @last}}mb-1 lap-up--mb-1 {{/unless}}">
       {{#if link}}<a href="{{link}}" target="_blank">{{/if}}
-        <img src="/images/{{image}}" alt="{{alt}}" {{#if border}} class="border" {{/if}}>{{#if link}}</a>{{/if}}
+        <img src="/images/{{image}}" alt="{{alt}}">{{#if link}}</a>{{/if}}
     </div>
     {{/if}}
     {{#if half}}
-    <div class="grid__item mb-1 lap--mb-2 desk--mb-2 lap-up--one-half ">
-      <img src="/images/{{image}}" alt="{{alt}}" {{#if border}} class="border" {{/if}}>
+    <div class="grid__item mb-1 lap-up--mb-1 lap-up--one-half ">
+      <img src="/images/{{image}}" alt="{{alt}}">
     </div>
     {{/if}}
 
@@ -114,21 +143,21 @@
     <div class="grid__item one-half palm--hide">
       {{#each content}}
       {{#if col1}}
-      <img src="/images/{{image}}" alt="{{alt}}" class="lap--mb-2 desk--mb-2 {{#if border}}border{{/if}}">
+      <img src="/images/{{image}}" alt="{{alt}}" class="lap--mb-2 desk--mb-2 ">
       {{/if}}
       {{/each}}
     </div>
     <div class="grid__item one-half palm--hide">
       {{#each content}}
       {{#if col2}}
-      <img src="/images/{{image}}" alt="{{alt}}" class="lap--mb-2 desk--mb-2 {{#if border}}border{{/if}}">
+      <img src="/images/{{image}}" alt="{{alt}}" class="lap--mb-2 desk--mb-2 ">
       {{/if}}
       {{/each}}
     </div>
     <!-- 1 col (palm) -->
     {{#each content}}
     <div class="grid__item lap-up--hide">
-      <img src="/images/{{image}}" alt="{{alt}}" class="mt-1 {{#if border}}border{{/if}}">
+      <img src="/images/{{image}}" alt="{{alt}}" class="mt-1 ">
     </div>
     {{/each}}
     {{/if}}
@@ -140,14 +169,13 @@
     {{#ifCond captionBefore "||" title}}
     <div class="grid__item {{@root.col1}}">
       {{#if title}}
-      <h2 class="sub mb-3 portable--mb-1 {{#if captionBefore}}portable--mb-2{{/if}}">{{title}}</h2>{{/if}}
+      <h3 class="title sub mb-2 portable--mb-1 {{#if captionBefore}}portable--mb-2{{/if}}">{{title}}</h3>{{/if}}
     </div>
     <div class="grid__item {{@root.col2}}">{{{captionBefore}}}</div>
     {{/ifCond}}
     <div class="grid__item">
 
-      <iframe
-        class="{{#if border}}border{{/if}} {{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-2{{/if}}"
+      <iframe class="{{#if captionBefore}}mt-3 portable--mt-2{{/if}} {{#if captionAfter}}desk--mb-2{{/if}}"
         src="{{content}}"></iframe>
 
 
@@ -161,18 +189,47 @@
   </div>
   {{/unless}}
   {{/each}}
+  {{/with}}
+  <hr class="mt-2">
+  <div class="grid mt-2 mb-3">
+
+    <div class="grid__item lap-up--one-half palm--mb-2">
+      <a href="/{{nextProject.url}}" class="next-project-link">
+        <div class="grid grid--rev">
+          <div class="grid__item desk--four-fifths text-right">
+            <h3>{{prevProject.title}}</h3>
+          </div>
+          <div class="grid__item desk--one-fifth">
+            <h3>←</h3>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="grid__item lap-up--one-half">
+      <a href="/{{nextProject.url}}" class="next-project-link">
+        <div class="grid">
+          <div class="grid__item desk--four-fifths">
+            <h3>{{nextProject.title}}</h3>
+          </div>
+          <div class="grid__item desk--one-fifth text-right">
+            <h3>→</h3>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
 </main>
-{{/with}}
+
 
 <!--
 <div class="grid mb-4 arrows portable--hide">
   <div class="grid__item desk--one-half portable--mb-1">
-    <h2><a href="/{{./prevProject.url}}" style="text-decoration: none">
+    <h3><a href="/{{./prevProject.url}}" style="text-decoration: none">
         < {{./prevProject.title}}</a>
-    </h2>
+    </h3>
   </div>
   <div class="next-project grid__item lap-up--one-half">
-    <h2><a href="/{{./nextProject.url}}" style="text-decoration: none"> {{./nextProject.title}} ></a></h2>
+    <h3><a href="/{{./nextProject.url}}" style="text-decoration: none"> {{./nextProject.title}} ></a></h3>
   </div>
 </div>
 

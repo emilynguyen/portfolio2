@@ -3,81 +3,81 @@
  */
 
 html {
-  font-size: $body-font-size;
+  //font-size: $body-font-size;
+  //font-size: 24px;
+  font-size: 22px;
   @include grid-media-query(portable) {
-    font-size: 14px;
+    //font-size: 18px;
+    font-size: calc(12px + 1vw);
   }
   @include grid-media-query(monitor) {
-    font-size: 0.9vw;
+    font-size: 1.2vw;
   }
 }
 
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: $apercu-mono;
+  font-family: $mabry;
   font-weight: normal;
   line-height: $body-line-height;
-  //letter-spacing: -0.03em;
-
-  color: $white;
-}
-
-.bg-white {
-  body {
-    color: $black;
-    a {
-      color: $black;
-    }
-  }
-}
-
-h1,
-h2 {
-  font-family: $ogg;
-}
-
-h1,
-h2 {
-  line-height: $ogg-header-line-height;
-  letter-spacing: 0.02em;
 }
 
 h1 {
-  font-size: 4.2rem;
-  @include grid-media-query(portable) {
-    font-size: 2.8rem;
-  }
+  font-family: $continua;
+  font-weight: normal;
+  text-transform: none !important;
+  letter-spacing: -0.01em;
 }
 
+h2.date {
+  letter-spacing: 0.04em;
+}
+
+h1,
 h2 {
-  font-size: 3rem;
-  @include grid-media-query(portable) {
-    font-size: 2.2rem;
+  // font-size: 3rem; // 72px
+  font-size: 2.6rem;
+  @include grid-media-query(palm) {
+    font-size: 2rem;
   }
 }
 
-h3 {
-  font-size: 1.2em;
-  letter-spacing: 0.02em;
-}
-
-h4,
+h1,
+h3,
 h5 {
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 
+h2,
+h3,
 h4 {
-  font-size: 3.75rem;
-  font-size: 2.5rem;
-  line-height: $apercu-header-line-height;
-  @include grid-media-query(portable) {
-    font-size: 2.5rem;
-  }
+  letter-spacing: -0.01em;
+}
+
+h3,
+h4 {
+  // font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 h5 {
-  // font-size: 1rem;
-  // line-height: $body-line-height;
+  font-size: 0.75rem;
+  font-size: 0.65rem;
+}
+
+.parentheses {
+  @include parentheses;
+}
+
+.asterisks {
+  @include asterisks;
+}
+
+p {
+  line-height: 1.2;
+  @include grid-media-query(portable) {
+    line-height: 1.3;
+  }
 }
 
 a {
@@ -85,13 +85,28 @@ a {
   text-decoration: none;
 }
 
-.link-underline {
+p,
+.styled-links {
   a:not(.btn) {
-    transition: text-decoration 0.3s;
-    text-decoration: underline;
-
+    display: inline-block;
+    &:after {
+      content: "↗";
+    }
     @include hover {
-      text-decoration: none;
+      color: $light;
+      background-color: $dark;
+    }
+  }
+}
+
+.dark-mode {
+  p,
+  .styled-links {
+    a:not(.btn) {
+      @include hover {
+        color: $dark;
+        background-color: $light;
+      }
     }
   }
 }
@@ -112,57 +127,21 @@ ol {
 }
 
 ::selection {
-  background: $blue; /* WebKit/Blink Browsers */
+  background: rgba(0, 0, 0, 0.99);
+  color: $light;
 }
 ::-moz-selection {
-  background: $blue; /* Gecko Browsers */
+  background: rgba(0, 0, 0, 0.99);
+  color: $light;
 }
 
-.bg-white {
+.dark-mode {
   ::selection {
-    color: $white; /* WebKit/Blink Browsers */
+    background: rgba(252, 250, 247, 0.99);
+    color: $dark;
   }
   ::-moz-selection {
-    color: $white; /* Gecko Browsers */
-  }
-}
-
-.flicker {
-  animation-duration: 0.01s;
-  animation-name: textflicker;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-//$distance: 0.01em;
-$distance: 1px;
-
-@keyframes textflicker {
-  from {
-    text-shadow: $distance 0 0 $magenta, -$distance 0 0 $green;
-  }
-  to {
-    text-shadow: $distance 0.5px 1px $magenta, -$distance -0.5px 2px $green;
-  }
-}
-
-.flicker-block {
-  animation-duration: 0.01s;
-  animation-name: blockflicker;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-$distance-block: 2px;
-@keyframes blockflicker {
-  from {
-    text-shadow: $distance 0 0 $magenta, -$distance 0 0 $green;
-    box-shadow: $distance-block 0 0 $magenta, -$distance-block 0 0 $green;
-  }
-  to {
-    text-shadow: $distance 0.5px 1px $magenta, -$distance -0.5px 2px $green;
-
-    box-shadow: $distance-block 0.5px 1px $magenta,
-      -$distance-block -0.5px 2px $green;
+    background: rgba(252, 250, 247, 0.99);
+    color: $dark;
   }
 }

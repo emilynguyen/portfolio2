@@ -117,6 +117,22 @@
   }
 }
 
+.text-right {
+  text-align: right !important;
+}
+
+.border {
+  border: $border;
+}
+
+.border-top {
+  border-top: $border;
+}
+
+.border-bottom {
+  border-bottom: $border;
+}
+
 .hide {
   // display: none !important;
 }

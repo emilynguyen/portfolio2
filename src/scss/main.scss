@@ -11,8 +11,8 @@
 @import "layout/header", "layout/footer";
 
 // Components
-@import "components/card", "components/button";
+@import "components/card", "components/button", "components/iso";
 
 // Page specific styles
-@import "pages/home", "pages/dev", "pages/design", "pages/project",
-  "pages/about", "pages/archive", "pages/contact", "pages/404";
+@import "pages/home", "pages/dev", "pages/work", "pages/project", "pages/about",
+  "pages/archive", "pages/contact", "pages/404";

@@ -1,8 +1,126 @@
-<header class="pb-3 desk--pb-4 desk--mt-4">
-    <h5>
-        <a href="/">Home</a> > <a href="/{{path}}">{{path}}</a>{{#if currProject}} > <a
-            href="/{{url}}">{{currProject.title}}</a>{{/if}}
-    </h5>
+<header class="pb-1">
+    <div class="grid grid--rev">
 
+        <div class="grid__item desk--one-quarter text-right mb-2">
+            <ul>
+                <li>
+                    <a href="/">
+                        <h3 {{#if_eq path ""}}class="parentheses" {{/if_eq}}>Home</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="/about" class="meme-btn">
+                        <span class="meme-btn-text">
+                            <h3 {{#if_eq path "about"}}class="parentheses" {{/if_eq}}>About</h3>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact">
+                        <h3 {{#if_eq path "contact"}} class="parentheses" {{/if_eq}}>Contact</h3>
+                    </a>
+                </li>
+            </ul>
+            <div class='cube-wrapper'>
+                <div class='cube-container'>
+                    <div class='cube'>
+                        <div class='face front'></div>
+                        <div class='face back'></div>
+                        <div class='face top'></div>
+                        <div class='face bottom'></div>
+                        <div class='face left'></div>
+                        <div class='face right'></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid__item desk--three-quarters">
+            {{#if projectPage}}
+            <!--
+            {{> iso project=currProject}} -->
+            {{else if showBio}}
+            <h2 class="styled-links">
+                Emily is a multidisciplinary designer and developer based in San Francisco.
+                Currently at <a href="https://www.mongodb.com/" target="_blank">MongoDB</a> and previously at <a
+                    href="https://www.voxmedia.com/" target="_blank">Vox Media</a> and <a
+                    href="https://www.salesforce.com/" target="_blank">Salesforce</a>.
+            </h2>
+            {{else}}
+            {{/if}}
 
+        </div>
+    </div>
 </header>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+
+<script>
+    // Global variable
+    const defaultPerspective = '-150px';
+    // const pageX = window.screen.width;
+    // const pageY = window.screen.height;
+    // Track the mouse movemont
+    let mouseX = 0;
+    let mouseY = 0;
+    let lastXDeg = 180;
+    let lastYDeg = 180;
+    // The speed of the cube following movement
+    const speed = 0.05;
+
+    $(document).ready(() => {
+        // drawContent();
+        setInterval(rotateCube, 10)
+    })
+
+    $(document).mousemove(updateMousePosition);
+
+    // Set inner heml for face
+    function drawContent() {
+        $('.face').html(`
+    <div class='outer-layer'></div>
+    <div class='cover cicle'></div>
+    <div class='inner cicle'>
+ `)
+    }
+
+    // Follow mouse movement
+    function updateMousePosition(e) {
+        mouseX = e.pageX / getWidth();
+        mouseY = e.pageY / getHeight();
+    }
+
+    function rotateCube() {
+        lastXDeg = lastXDeg + (getAngle(mouseX) - lastXDeg
+        ) * speed;
+        lastYDeg = lastYDeg + (getAngle(mouseY) - lastYDeg
+        ) * speed;
+        let newStyle = `translateZ(${defaultPerspective}) rotateY(${lastXDeg}deg) rotateX(${lastYDeg}deg)`
+        // console.log(newStyle);
+        $('.cube').css('transform', newStyle);
+    }
+
+    // this function return the corresponding angle for an x value
+    function getAngle(x) {
+        return 180 - 360 * x;
+    }
+
+    function getWidth() {
+        return Math.max(
+            document.body.scrollWidth,
+            document.documentElement.scrollWidth,
+            document.body.offsetWidth,
+            document.documentElement.offsetWidth,
+            document.documentElement.clientWidth
+        )
+    }
+
+    function getHeight() {
+        return Math.max(
+            document.body.scrollHeight,
+            document.documentElement.scrollHeight,
+            document.body.offsetHeight,
+            document.documentElement.offsetHeight,
+            document.documentElement.clientHeight
+        )
+    }
+</script>

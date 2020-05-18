@@ -1,4 +1,30 @@
 @font-face {
+  font-family: "Continua";
+  src: url("../fonts/continua/Continua-Regular.woff2") format("woff2"),
+    url("../fonts/continua/Continua-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mabry Pro";
+  src: url("../fonts/mabry/MabryPro-Regular.woff2") format("woff2"),
+    url("../fonts/mabry/MabryPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+
+@font-face {
+  font-family: "Opposit";
+  src: url("../fonts/opposit/Opposit-ExtraBold.woff2") format("woff2"),
+    url("../fonts/opposit/Opposit-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Ogg";
   src: url("../fonts/ogg/Ogg-Roman.eot");
   src: url("../fonts/ogg/Ogg-Roman.eot?#iefix") format("embedded-opentype"),
@@ -17,3 +43,22 @@
   font-weight: normal;
   font-style: normal;
 }
+*/
+/*
+@font-face {
+  font-family: "Suisse Int'l";
+  src: url("../fonts/suisseintl/SuisseIntl.woff2") format("woff2"),
+    url("../fonts/suisseintl/SuisseIntl.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+/*
+@font-face {
+  font-family: "Suisse Int'l";
+  src: url("../fonts/suisseintl/SuisseIntl-SemiBold.woff2") format("woff2"),
+    url("../fonts/suisseintl/SuisseIntl-SemiBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+*/

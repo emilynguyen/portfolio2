@@ -1,47 +1,6 @@
 footer {
-  @include grid-media-query(portable) {
-    margin-bottom: $side-margin;
-  }
-  li {
-    margin-left: 0;
-    list-style: none;
-    a {
-      display: inline-block;
-      // optically equal line-height on nav list
-      padding: $nav-item-padding 0;
-      span:not(.meme-btn-text):before {
-        content: "\00a0";
-      }
-      .nav-item {
-        display: inline-block;
-        @extend .left;
-      }
-      @include hover {
-        .nav-item {
-          @include glitch;
-        }
-        span:not(.meme-btn-text):before {
-          content: ">";
-        }
-      }
-      &.active {
-        .nav-item {
-          @include glitch;
-        }
-        span:not(.meme-btn-text):before {
-          content: ">";
-        }
-      }
-    }
-  }
-}
-
-.back-btn {
-  cursor: $pointer;
-}
-
-.no-footer {
-  footer {
-    display: none;
-  }
+  position: absolute;
+  bottom: 0;
+  bottom: $side-margin;
+  left: $side-margin;
 }

@@ -1,13 +1,15 @@
+<!--
+
 {{#with dev}}
 
-<main id="dev-page">
+<main id="dev-page" class="mt-2">
     {{#each projects}}
 
-    <h1 class="">
+    <h2 class="dev-link">
         <a {{#if url}}href="{{url}}" {{else}}class="cursor-default " {{/if}} {{#if newWindow}}target="_blank"
             {{/if}}>{{title}}</a>
         {{#if img}}<img src="/images/{{img}}" alt="">{{/if}}
-    </h1>
+    </h2>
     {{/each}}
 </main>
 
@@ -18,14 +20,15 @@
 
 <script>
     var offset = 80;
-    $('#dev-page h1 a').hover(function () {
-        var $img = $(this).closest('h1').find('img');
+    $('#dev-page .dev-link a').hover(function () {
+        var $img = $(this).closest('.dev-link').find('img');
         $img.show();
         $(document).mousemove(function (e) {
             $img.css({ left: e.pageX + offset, top: e.pageY + offset });
         });
     }, function () {
-        var $img = $(this).closest('h1').find('img');
+        var $img = $(this).closest('.dev-link').find('img');
         $img.hide();
     });
 </script>
+-->

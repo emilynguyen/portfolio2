@@ -1,0 +1,46 @@
+#work-page {
+  /*
+  h2 {
+    @include removeTop($ogg-header-line-height);
+    @include removeBottom($ogg-header-line-height);
+  } */
+  .project-container {
+    // a
+    display: block;
+
+    h1 {
+      display: inline-block;
+    }
+    @include hover {
+      h1 {
+        // background-color: $dark;
+        // color: $light;
+      }
+      h2 {
+        color: rgba(0, 0, 0, 0);
+        &:after {
+          color: $dark;
+          content: "→";
+        }
+      }
+    }
+  }
+  h5 {
+    margin-top: 0.5rem;
+    // padding-bottom: 0.5rem; // offset margin ^
+  }
+}
+
+.dev-link {
+  img {
+    display: none;
+    position: absolute;
+    max-width: 15rem;
+    z-index: 9999;
+    border: $border;
+    box-shadow: $box-shadow;
+    // transform: translateY(-10rem);
+    margin-left: 4rem;
+  }
+  overflow: hidden;
+}

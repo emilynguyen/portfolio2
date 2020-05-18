@@ -3,21 +3,20 @@ $error-speed: 3s;
 #error-page {
   .scroll-container {
     cursor: $pointer;
-    height: 50px;
     height: 100vh;
     top: 0;
     overflow: hidden;
     position: absolute;
-
     width: 100vw;
     left: 0;
     display: flex;
     align-items: center;
   }
-  h4 {
+  .text {
     user-select: none;
-    font-size: 100vh;
-    font-size: 57vw;
+    padding-bottom: 3rem;
+    // font-size: 100vh;
+    font-size: 50vw;
     position: absolute;
     width: 100%;
     margin: 0;

@@ -3,32 +3,23 @@
   white-space: nowrap;
   text-decoration: none;
   display: inline-block;
-  padding: 1.5em 1.5em 1.5em;
-  border: 1px solid $white;
-  color: $white;
+  padding: 1.2em 1.5em 1.2em;
+  box-shadow: $box-shadow;
+  margin-top: 0.3em; // to account for shadow
+
+  margin-bottom: 0.5rem; // to account for shadow
+  border: $border;
   transition: 0.3s;
-  background-color: $black;
-  @extend h5;
-  @include grid-media-query(palm) {
-    //border-width: 1px;
-  }
+  background-color: $light;
   @include hover {
-    background-color: $white;
-    color: $black;
-  }
-  &:before {
-    content: "> ";
+    transform: translateY(-0.2rem);
   }
 }
 
-.bg-white {
+.dark-mode {
   .btn {
-    background-color: $white;
-    border-color: $black;
-    color: $black;
-    @include hover {
-      background-color: $black;
-      color: $white;
-    }
+    border: $border-light;
+    background-color: $dark;
+    box-shadow: $box-shadow-light;
   }
 }

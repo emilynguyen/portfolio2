@@ -1,18 +1,12 @@
+html,
+body {
+  position: relative;
+}
+
 html {
   cursor: $default;
   overflow-x: hidden;
-}
-
-.bg-white {
-  cursor: $default-white;
-  body {
-    color: $black;
-    background-color: $white;
-  }
-  a {
-    color: $black;
-    cursor: $pointer-white;
-  }
+  height: 100%;
 }
 
 a {
@@ -20,28 +14,58 @@ a {
 }
 
 body {
-  background-color: $black;
+  min-height: 100%;
+  color: $dark;
+  background-color: $light;
+}
+
+.dark-mode {
+  cursor: $default-dark;
+  body {
+    color: $light;
+    background-color: $dark;
+  }
+  a {
+    cursor: $pointer-dark;
+  }
 }
 
 #content {
   margin-right: auto;
   margin-left: auto;
   padding: 0 $side-margin;
-  max-width: $content-width;
+  // max-width: $content-width;
+  padding: $side-margin;
 }
 
 main {
-  margin-bottom: $spacer-3;
+  //  margin-bottom: $spacer-3;
   @include grid-media-query(desk) {
-    margin-bottom: $spacer-4;
+    //margin-bottom: $spacer-4;
   }
-  h1 {
-    &:first-of-type {
-      // @include removeTop($ogg-header-line-height);
-    }
-    &:last-of-type {
-      @include removeBottom($ogg-header-line-height);
-    }
+}
+
+hr {
+  /*
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+*/
+  margin: 0;
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: $dark; /* old IE */
+  background-color: $dark; /* Modern Browsers */
+}
+
+.dark-mode {
+  hr {
+    color: $light;
+    background-color: $light;
   }
 }
 
@@ -49,47 +73,6 @@ main {
   transition: opacity 0.3s;
   @include hover {
     opacity: $translucent;
-  }
-}
-
-.glitch-block {
-  animation: glitchBlock 1s linear infinite;
-}
-
-// copy of .glitch
-@mixin glitch {
-  animation: glitch 0.7s linear infinite;
-  // animation: glitch 10s linear infinite;
-
-  position: relative;
-  &:before,
-  &:after {
-    content: attr(glitch);
-    position: absolute;
-    // left: 0;
-    top: 0;
-  }
-  &.left {
-    &:before,
-    &:after {
-      left: 0;
-    }
-  }
-  &.right {
-    &:before,
-    &:after {
-      right: 0;
-    }
-  }
-  &:before {
-    animation: glitchTop 1s linear infinite;
-    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
-  }
-  &:after {
-    animation: glitchBotom 1.5s linear infinite;
-    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
-    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   }
 }
 
@@ -124,16 +107,20 @@ main {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
   }
   &:after {
-    animation: glitchBotom 1.5s linear infinite;
+    animation: glitchBottom 1.5s linear infinite;
     clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
     -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   }
 }
 
+/*
 $distance: 0.02em;
-//$distance-translate: 2px;
 $distance-translate: 0.16em;
 $distance-translate-tb: 0.02em;
+*/
+$distance: 10px;
+$distance-translate: 10px;
+$distance-translate-tb: 10px;
 
 @keyframes glitch {
   2%,
@@ -167,7 +154,7 @@ $distance-translate-tb: 0.02em;
   }
 }
 
-@keyframes glitchBotom {
+@keyframes glitchBottom {
   2%,
   64% {
     transform: translate(-$distance-translate-tb, 0);
