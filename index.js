@@ -244,7 +244,7 @@ app.get("/:project", function (req, res) {
   // Remove hidden projects
   var visibleProjects = [];
   for (var i = 0; i < projectArray.length; i++) {
-    if (!projectArray[i].hide) {
+    if (!projectArray[i].hide && !projectArray[i].unlisted) {
       visibleProjects.push(projectArray[i]);
     }
   }
