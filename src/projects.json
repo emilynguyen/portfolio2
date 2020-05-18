@@ -822,6 +822,11 @@
           "block": true,
           "content": [
             {
+              "image": "to/shop-by-collection.jpg",
+              "full": true,
+              "alt": "Shop By Collection"
+            },
+            {
               "image": "misc/leaf-sphere.jpg",
               "col1": true,
               "half": true,
@@ -861,19 +866,6 @@
               "alt": "Self-portrait"
             },
             {
-              "image": "ergo/icon-square.gif",
-              "col2": true,
-              "half": true,
-              "alt": "ERGO"
-            },
-            {
-              "image": "misc/red.png",
-              "col1": true,
-              "half": true,
-              "alt": "Eyes",
-              "caption": "<p>RED — \"Associated with energy, war, danger, strength, power, determination as well as passion, desire, and love. Enhances human metabolism, increases respiration rate, and raises blood pressure. It attracts attention more than any other color, at times signifying danger.\" <span class=\"small-text\">(Sept 2018)</span></p>"
-            },
-            {
               "image": "misc/asgs_winter.jpg",
               "col2": true,
               "full": true,
@@ -886,25 +878,10 @@
               "alt": "Burow landing page"
             },
             {
-              "image": "misc/cersei.png",
-              "col1": true,
-              "half": true,
-              "alt": "Cersei from Game of Thrones",
-              "caption": "<p>Cersei from Game of Thrones. (Oct 2015)</p>"
-            },
-            {
-              "image": "misc/moira.png",
-              "col2": true,
-              "half": true,
-              "alt": "Moira from American Horror Story: Murder House",
-              "caption": "<p>Moira from American Horror Story: Murder House. (Aug 2015)</p>"
-            },
-            {
-              "image": "misc/kaya.png",
+              "image": "google/home-min.jpg",
               "col1": true,
               "full": true,
-              "alt": "Kaya Scodelario",
-              "caption": "<p>Kaya Scodelario (Oct 2014)</p>"
+              "alt": "Google design exercise"
             },
             {
               "image": "misc/portfolio_day.jpg",
@@ -913,22 +890,10 @@
               "alt": "Design Co Portfolio Day poster"
             },
             {
-              "image": "misc/pcc.png",
+              "image": "ergo/icon-square.gif",
               "col2": true,
               "half": true,
-              "alt": "KP HSC 2018 poster"
-            },
-            {
-              "image": "google/home-min.jpg",
-              "col1": true,
-              "full": true,
-              "alt": "Google design exercise"
-            },
-            {
-              "image": "misc/old_portfolio.png",
-              "col1": true,
-              "full": true,
-              "alt": "Old portfolio"
+              "alt": "ERGO"
             }
           ]
         }
