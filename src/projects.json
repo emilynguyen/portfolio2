@@ -93,7 +93,7 @@
         },
         {
           "title": "Competitive Analysis",
-          "captionBefore": "Assessed our competitors’ design systems to identify how different placement guidelines influenced or aligned with different elements of podcast art.",
+          "captionBefore": "<p>Assessed our competitors’ design systems to identify how different placement guidelines influenced or aligned with different elements of podcast art.</p>",
           "alt": "Grid systems of podcast art from Audioboom, Earwolf, Gimlet, NPR, The New York Times, PodcastOne, Slate, TED, WNYC Studios, and Wondery",
           "gallery": true,
           "block": true,
@@ -112,7 +112,7 @@
         },
         {
           "title": "Audit",
-          "captionBefore": "Assessed our own podcast art to pinpoint areas that could benefit from structured guidelines.",
+          "captionBefore": "<p>Assessed our own podcast art to pinpoint areas that could benefit from structured guidelines.</p>",
           "gallery": true,
           "block": true,
           "content": [
