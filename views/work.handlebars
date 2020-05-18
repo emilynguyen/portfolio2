@@ -1,6 +1,7 @@
 <main id="work-page" class="mt-2">
   {{#each gallery}}
   {{#unless hide}}
+  {{#unless unlisted}}
   {{#unless dev}}
   <hr>
   <a href="/{{url}}" class="project-container portable--pb-1 desk--pb-2">
@@ -16,6 +17,7 @@
 
     </div>
   </a>
+  {{/unless}}
   {{/unless}}
   {{/unless}}
   {{/each}}

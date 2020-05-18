@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "New Website for Triton Outfitters",
-      "hide": true,
+      "unlisted": true,
       "year": 20,
       "sub": "Web Design, Web Development",
       "url": "to",
@@ -135,7 +135,7 @@
         },
         {
           "title": "Solution",
-          "captionBefore": "<p>After several rounds of exploration in both of these directions, we decided firm guidelines surrounding the placement and sizing of logos on tile art would drive consistency across Vox Media Podcast Network as a whole, while looser guidelines for ads and social assets would support each network's unique branding and illustration style.</p>",
+          "captionBefore": "<p>After several rounds of exploration in both of these directions, we decided firm guidelines surrounding the placement and sizing of logos on tile art would drive consistency across Vox Media Podcast Network as a whole, while looser guidelines for ads and social assets would support each network's unique branding and illustration style.</p><p>To push standardization, I developed a grid system that spanned tile art and 15+ different house ads and social assets. The final style guide included guidelines for placement, sizing, color, alignment, spacing, and special rules for flagship podcasts and partnerships.</p>",
           "image": true,
           "content": "vox/before-after.gif"
         }
@@ -160,7 +160,7 @@
           "start": -1
         }
       },
-      "description": "<p>From November '17 to December '19 I helped lead <a href='http://www.ucsddesign.co/' target='_blank'>Design Co</a>, the largest pre-professional design community at UC San Diego. This involved leading skill workshops, planning events, and more to help bridge the gap between student designers and industry.</p><p>We've recently launched a complete rebrand, where I worked closely alongside <a href='https://nancybui.co/' target='_blank'>Nancy</a> and <a href='http://lucylouxu.com' target='_blank'>Lucy</a> to craft a new visual identity for the organization.</p><p>Thank you to the lovely <a href='http://www.ucsddesign.co/about' target='_blank'>Design Co leadership team</a> for everything that they do. ♥</p>",
+      "description": "<p>From 2017 to 2019 I helped lead <a href='http://www.ucsddesign.co/' target='_blank'>Design Co</a>, the largest pre-professional design organization at UC San Diego. This involved leading skill workshops, planning events, and more to help bridge the gap between student designers and industry.</p><p>We've recently launched a full rebrand, where I worked closely alongside <a href='https://nancybui.co/' target='_blank'>Nancy</a> and <a href='http://lucylouxu.com' target='_blank'>Lucy</a> to craft a new visual identity for the organization.</p><p>Thank you to the lovely <a href='http://www.ucsddesign.co/about' target='_blank'>Design Co leadership team</a> for everything that they do. ♥</p>",
       "button": {
         "title": "Read More",
         "link": "https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9"
@@ -172,7 +172,7 @@
         },
         {
           "title": "Skills",
-          "content": "Brand design, motion design, web development (HTML, CSS, Sass, React)"
+          "content": "Brand design, motion design, web design, web development (HTML, CSS, Jekyll, Sass, React)"
         }
       ],
       "blocks": [

@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /*
-$box-shadow: $dark 0.4rem 0.4rem 0rem;
-$box-shadow-light: $light 0.4rem 0.4rem 0rem;
-*/
-/*
 $default: default;
 $default-white: default;
 $pointer: pointer;
@@ -2245,7 +2241,6 @@ header .iso-container {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  padding-bottom: 3rem;
   font-size: 50vw;
   position: absolute;
   width: 100%;
