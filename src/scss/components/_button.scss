@@ -20,6 +20,19 @@
   .btn {
     border: $border-light;
     background-color: $dark;
-    box-shadow: $box-shadow-light;
+    box-shadow: none;
+    position: relative;
+    transform-style: preserve-3d;
+    &:after {
+      content: "";
+      transform: translateZ(-1px);
+      border: $border-light;
+      background-color: $dark;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0.3rem;
+      left: 0.3rem;
+    }
   }
 }

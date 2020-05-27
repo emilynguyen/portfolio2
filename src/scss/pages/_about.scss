@@ -84,7 +84,8 @@ $bar-height: 1.8em;
   .popup {
     background-color: $dark;
     border: $border-light;
-    box-shadow: $box-shadow-light;
+    //box-shadow: $box-shadow-light;
+    @include box-shadow;
     .bar {
       border-bottom: $border-light;
     }

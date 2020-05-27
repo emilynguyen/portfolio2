@@ -54,3 +54,20 @@
     content: "*";
   }
 }
+
+@mixin box-shadow {
+  box-shadow: none;
+  // position: relative;
+  transform-style: preserve-3d;
+  &:after {
+    content: "";
+    transform: translateZ(-1px);
+    border: $border-light;
+    background-color: $dark;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+  }
+}

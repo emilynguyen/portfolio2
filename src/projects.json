@@ -321,18 +321,17 @@
       ]
     },
     {
-      "title": "A.S. Graphic Studio Redesign",
+      "title": "A.S. Graphic Studio—New Website",
       "year": "18",
       "hide": true,
       "display": "as_graphic_studio_redesign.sketch",
-      "sub": "UX Design, Web Design, Web Development",
+      "sub": "UX Design, Brand Design, Web Design, Web Development",
       "size": "three-fifths",
       "url": "asgs",
       "icon": "asgs/icon.png",
       "icon_square": "asgs/icon_square.png",
       "landing": "asgs/icon.png",
-      "description": "Redesigned + rebuilt the website for Associated Students Graphic Studio.",
-      "overview": "<p>One of my first projects as Associated Students Graphic Studio’s new web designer + developer was to redesign and rebuild our 9-year-old website. While maintaining our established brand, I gave the site a visual refresh that improved usability and information architecture, reflected modern design trends, and better showcased our small studio’s spunky personality.</p>",
+      "description": "<p>One of my first projects as Associated Students Graphic Studio’s new web designer + developer was to redesign and rebuild our 9-year-old website. While maintaining our established brand, I gave the site a visual refresh that also improved usability and information architecture.</p>",
       "button": {
         "title": "Visit Site",
         "link": "http://asgraphicstudio.ucsd.edu/"
@@ -340,7 +339,7 @@
       "details": [
         {
           "title": "Skills",
-          "content": "UX design, web design, web development"
+          "content": "UX design, brand design, web design, web development"
         },
         {
           "title": "Tools",
@@ -355,20 +354,20 @@
         {
           "title": "Goals",
           "text": true,
-          "content": "<p>A.S. Graphic Studio is a tight-knit collective of designers and developers who work with UC San Diego students, staff, and faculty to bring their design needs to life. While new designers bring fresh and unique perspectives to the team each year, our website hadn’t been touched in almost a decade. As the face of our studio on the web and our main source of traffic, it was crucial that our site reliably showcased our work, captured our identity, and served as an efficient information and contact portal. Because the site also needed a code refactoring, this was the perfect opportunity to rebuild it from the ground up.</p>"
+          "content": "<p>A.S. Graphic Studio is a tight-knit collective of designers and developers who work with UC San Diego students, staff, and faculty to bring their design needs to life. While new designers bring fresh perspectives to the team each year, our website hadn’t been touched in almost a decade. As the face of our studio on the web and our main source of traffic, it was crucial that our site reliably showcased our work, captured our identity, and served as an efficient information and contact portal. The site also needed a code refactoring, making this the perfect opportunity to rebuild it from the ground up.</p>"
         },
         {
           "title": "Website Audit",
           "image": true,
           "content": "asgs/old.jpg",
           "alt": "Old landing page",
-          "captionBefore": "<p>I began by taking a look at our current site and taking note of areas where the visual design or user experience could be improved. Design opportunities I identified included:</p><ul><li>Poor visibility of system status: navigation menu did not communicate the current location and pages did not include headers</li><li>Navigation menu could also be quicker and more intuitive. Submenus did not seem to be necessary and increased the interaction cost</li><li>Many different arbitrary text sizes and styles used. Missed opportunity to use text styles to signify function (e.g. discoverability of links)</li><li>The site was not responsive!</li></ul><p>Overall, the website would benefit significantly from a design + grid system that consolidated typography, drove consistency across page layouts, and supported responsive functionality.</p>"
+          "captionBefore": "<p>I started by taking a look at our current site and taking note of areas where the visual design or user experience could be improved. Design opportunities I identified included:</p><p><ul><li>Poor visibility of system status: navigation menu did not communicate the current location and pages did not include headers</li><li>Navigation menu could also be quicker and more intuitive. Submenus did not seem to be necessary and increased the interaction cost</li><li>Many different arbitrary text sizes and styles used. Missed opportunity to use text styles to signify function (e.g. discoverability of links)</li><li>The site was not responsive!</li></ul></p><p>Overall, the website would benefit significantly from a design + grid system that consolidated typography, drove consistency across page layouts, and supported responsive functionality.</p>"
         },
         {
           "title": "Explorations",
           "gallery": true,
           "block": true,
-          "captionBefore": "<p>In my initial explorations, I took inspiration from the Pantone colors that lined the interior of our office. I played around by expanding our color palette and using grid imagery that extended our logomark, but ultimately decided that a cleaner look would be timeless and would lend more emphasis to our work.</p>",
+          "captionBefore": "<p>In my initial explorations, I took inspiration from the Pantone colors that lined the interior of our office. I played around by expanding our color palette and using grid imagery that extended our logomark, but ultimately decided that a cleaner look would be timeless and  lend more emphasis to our work.</p>",
           "content": [
             {
               "image": "asgs/office.jpg",
@@ -387,7 +386,7 @@
           "gallery": true,
           "block": true,
           "alt": "Color palette: green + gray",
-          "captionBefore": "<p>To maintain our existing brand identity, I carried over our playful green and our typeface, Century Gothic. Century Gothic’s spacious curves did an excellent job of conveying our approachability and youth, so I decided to play up the classic typeface by employing large, bold headers. The current body font, a harsh black Helvetica, was also replaced by Century Gothic and made soft gray to align with our logo and appear friendlier. To further support this, I additionally chose to style headers using all lowercase instead of uppercase.</p>",
+          "captionBefore": "<p>To maintain our existing brand identity, I carried over our playful shade of green and our typeface, Century Gothic. Century Gothic’s spacious curves did an excellent job of conveying our approachability and youth, so I played up the classic typeface by employing large, bold headers. The current body font, a harsh black Helvetica, was also replaced by Century Gothic and made soft gray to align with our logo and appear friendlier. To further support this, I chose to style headers using all lowercase instead of uppercase.</p>",
           "content": [
             {
               "image": "asgs/color.png",
@@ -870,6 +869,12 @@
               "col2": true,
               "full": true,
               "alt": "AS Graphic Studio winter"
+            },
+            {
+              "image": "asgs/icon.png",
+              "col2": true,
+              "full": true,
+              "alt": "AS Graphic Studio new website"
             },
             {
               "image": "burow/burow.gif",
