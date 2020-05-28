@@ -27,51 +27,12 @@
     </div>
 
   </div>
-  <!--
-  <div class="grid hide">
-    <div class="grid__item mb-2">
 
-      {{#ifCond landing "!=" "none"}}
-      <img src="/images/{{landing}}" alt="{{title}}">
-      {{/ifCond}}
-    </div>
-    <div class="grid__item {{@root.col1}}">
-      <h1 class="mb-2">{{title}}</h1>
+  <!-- <hr> -->
 
-      {{#if button}}<div class="portable--mb-2 portable--hide"><a class="btn" href="{{button.link}}"
-          target="_blank">{{button.title}}</a></div>{{/if}}
-    </div>
-    <div class="grid__item {{@root.col2}}">
-
-      {{#ifCond overview "||" details}}
-      <div class="grid">
-        <div class="grid__item">
-          {{{overview}}}
-        </div>
-        {{#each details}}
-        <div class="grid__item mt-2 one-half {{#if wide}}palm--one-whole{{/if}} ">
-          <h3 class="mb-1">{{title}}</h3>
-          <p>{{{content}}}</p>
-        </div>
-        {{/each}}
-        <div class="grid__item">
-          {{#if button}}<div class="mt-2 desk--hide"><a class="btn" href="{{button.link}}"
-              target="_blank">{{button.title}}</a>
-          </div>{{/if}}
-        </div>
-      </div>
-      {{/ifCond}}
-    </div>
-  </div>
-  -->
-  <hr>
   {{#each blocks}}
   {{#unless hide}}
-
-
-  <div class="grid grid--narrow pt-2 portable--pt-2 block">
-
-
+  <div class="grid grid--narrow {{#unless @first}}pt-2{{/unless}} block">
     <!-- TEXT -->
     {{#if text}}
     <div class=" grid__item {{@root.col1}}">
@@ -192,7 +153,6 @@
   {{/with}}
   <hr class="mt-2">
   <div class="grid mt-2 mb-3">
-
     <div class="grid__item lap-up--one-half palm--mb-2">
       <a href="/{{prevProject.url}}" class="next-project-link">
         <div class="grid">
@@ -220,31 +180,6 @@
     </div>
   </div>
 </main>
-
-
-<!--
-<div class="grid mb-4 arrows portable--hide">
-  <div class="grid__item desk--one-half portable--mb-1">
-    <h3><a href="/{{./prevProject.url}}" style="text-decoration: none">
-        < {{./prevProject.title}}</a>
-    </h3>
-  </div>
-  <div class="next-project grid__item lap-up--one-half">
-    <h3><a href="/{{./nextProject.url}}" style="text-decoration: none"> {{./nextProject.title}} ></a></h3>
-  </div>
-</div>
-
-<div class="grid mb-4 arrows desk--hide">
-  <div class="grid__item desk--one-half portable--mb-1">
-    <h3><a href="/{{./prevProject.url}}" style="text-decoration: none">
-        < {{./prevProject.title}}</a>
-    </h3>
-  </div>
-  <div class="next-project grid__item lap-up--one-half">
-    <h3><a href="/{{./nextProject.url}}" style="text-decoration: none"> {{./nextProject.title}} ></a></h3>
-  </div>
-</div>
--->
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
