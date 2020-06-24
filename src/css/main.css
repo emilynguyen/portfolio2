@@ -871,7 +871,7 @@ table {
   .desk--eleven-twelfths {
     width: 91.666%; } }
 
-@media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 2048px) {
   /**
      * Whole
      */
@@ -1296,7 +1296,7 @@ table {
   .desk--mb-4 {
     margin-bottom: 12rem !important; } }
 
-@media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 2048px) {
   .monitor--hide {
     display: none !important; }
   /* Padding top */
@@ -1647,9 +1647,9 @@ html {
   @media only screen and (max-width: 1023px) {
     html {
       font-size: calc(12px + 1vw); } }
-  @media only screen and (min-width: 1800px) {
+  @media only screen and (min-width: 2048px) {
     html {
-      font-size: 1.2vw; } }
+      font-size: 1vw; } }
 
 body {
   -webkit-font-smoothing: antialiased;
