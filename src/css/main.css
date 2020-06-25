@@ -1403,8 +1403,7 @@ body {
 #content {
   margin-right: auto;
   margin-left: auto;
-  padding: 0 6vw;
-  padding: 6vw; }
+  padding: 4vw; }
 
 hr {
   /*
@@ -1901,8 +1900,8 @@ header html {
 footer {
   position: absolute;
   bottom: 0;
-  bottom: 6vw;
-  left: 6vw; }
+  bottom: 4vw;
+  left: 4vw; }
 
 .btn {
   line-height: 0;
@@ -2139,8 +2138,8 @@ header .iso-container {
 */
 #close-all-btn {
   position: fixed;
-  top: 6vw;
-  right: 6vw;
+  top: 4vw;
+  right: 4vw;
   cursor: url("../images/_cursors/pointer.png"), pointer;
   z-index: 99999;
   display: none; }
@@ -2191,7 +2190,7 @@ header .iso-container {
     -webkit-transform: translate(-50%, -50%) scale(1);
             transform: translate(-50%, -50%) scale(1);
     width: 30rem;
-    max-width: calc(100vw - 12vw);
+    max-width: calc(100vw - 8vw);
     z-index: 101; }
     .popup.bio .text {
       background-color: #fff;
