@@ -4,11 +4,12 @@
 
 html {
   //font-size: $body-font-size;
-  //font-size: 24px;
-  font-size: 22px;
+  // font-size: 22px;
+  font-size: 20px;
   @include grid-media-query(portable) {
     //font-size: 18px;
-    font-size: calc(12px + 1vw);
+    //font-size: calc(12px + 1vw);
+    font-size: calc(10px + 1vw);
   }
   @include grid-media-query(monitor) {
     font-size: 1vw;

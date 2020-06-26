@@ -1642,10 +1642,10 @@ $distance-translate-tb: 0.02em;
  * Typography
  */
 html {
-  font-size: 22px; }
+  font-size: 20px; }
   @media only screen and (max-width: 1023px) {
     html {
-      font-size: calc(12px + 1vw); } }
+      font-size: calc(10px + 1vw); } }
   @media only screen and (min-width: 2048px) {
     html {
       font-size: 1vw; } }
