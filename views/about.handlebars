@@ -1,6 +1,6 @@
 <main id="about-page" class="styled-links mb-3">
   <div class="grid">
-    <div class="grid__item desk--one-half">
+    <div class="grid__item desk--one-half mb-2">
       <h4>
 
         👋🏻👋🏻👋🏻<br><br>
@@ -17,6 +17,17 @@
 
         I enjoy noodles, RPGs, and the color black.
       </h4>
+    </div>
+    <div class="grid__item desk--one-half">
+
+      {{#with memes}}
+      {{#each memes}}
+      {{#unless hide}}
+
+      <img style="width: 100%;" src="/images/memes/{{src}}" alt="{{title}}" title="{{title}}" class="mb-1">
+      {{/unless}}
+      {{/each}}
+      {{/with}}
     </div>
   </div>
 

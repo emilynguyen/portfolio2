@@ -5,16 +5,20 @@
       "src": "me.jpg"
     },
     {
+      "title": "also-me.jpg",
+      "src": "cat.jpg"
+    },
+    {
+      "title": "fmdmsds.jpg",
+      "src": "avatarmemes.jpg"
+    },
+    {
       "title": "askldf.jpg",
       "src": "disco.jpg"
     },
     {
       "title": "mdjfkgha.jpg",
       "src": "brain-cells.jpg"
-    },
-    {
-      "title": "also-me.jpg",
-      "src": "cat.jpg"
     },
     {
       "title": "fkjlsdjs.jpg",
@@ -28,10 +32,6 @@
       "title": "asjkldfj.jpg",
       "src": "reality.jpg",
       "hide": true
-    },
-    {
-      "title": "fmdmsds.jpg",
-      "src": "avatarmemes.jpg"
     }
   ]
 }
