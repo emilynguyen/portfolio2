@@ -13,9 +13,8 @@
       "src": "brain-cells.jpg"
     },
     {
-      "title": "actually-me.jpg",
-      "src": "cat.jpg",
-      "hide": true
+      "title": "also-me.jpg",
+      "src": "cat.jpg"
     },
     {
       "title": "fkjlsdjs.jpg",
@@ -27,7 +26,12 @@
     },
     {
       "title": "asjkldfj.jpg",
-      "src": "reality.jpg"
+      "src": "reality.jpg",
+      "hide": true
+    },
+    {
+      "title": "fmdmsds.jpg",
+      "src": "avatarmemes.jpg"
     }
   ]
 }
