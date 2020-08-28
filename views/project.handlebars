@@ -156,7 +156,7 @@
   <hr class="mt-2">
   <div class="grid mt-2 mb-3">
     <div class="grid__item lap-up--one-half palm--mb-2">
-      <a href="{{#unless external}}/{{/unless}}{{prevProject.url}}" class="next-project-link"
+      <a href="{{#unless prevProject.external}}/{{/unless}}{{prevProject.url}}" class="next-project-link"
         {{#if external}}target="_blank" {{/if}}>
         <div class="grid">
 
@@ -170,7 +170,7 @@
       </a>
     </div>
     <div class="grid__item lap-up--one-half">
-      <a href="{{#unless external}}/{{/unless}}{{nextProject.url}}" class="next-project-link"
+      <a href="{{#unless nextProject.external}}/{{/unless}}{{nextProject.url}}" class="next-project-link"
         {{#if external}}target="_blank" {{/if}}>
         <div class="grid">
           <div class="grid__item four-fifths">
