@@ -8,8 +8,9 @@
     </div>
     <div class="grid__item desk--one-half mb-2">
       <h4>{{{description}}}</h4>
-      {{#if details}}
+      {{#ifCond details "||" button}}
       <div class="grid mt-1 details">
+        {{#if details}}
         {{#each details}}
         <div class="grid__item">
           <h3 class="asterisks">{{title}}</h3>
@@ -18,12 +19,13 @@
           </h4>
         </div>
         {{/each}}
+        {{/if}}
         {{#if button}}
         <div class="grid__item">
           <a class="btn" href="{{button.link}}" target="_blank">{{button.title}}</a>
         </div>{{/if}}
       </div>
-      {{/if}}
+      {{/ifCond}}
     </div>
 
   </div>

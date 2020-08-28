@@ -1,6 +1,85 @@
 {
   "projects": [
     {
+      "title": "MongoDB",
+      "year": "20–",
+      "sub": "Visual Design, Brand Design",
+      "url": "mongodb",
+      "description": "✿&#xFE0E; ✽&#xFE0E; ✿&#xFE0E; ✽&#xFE0E; ✿&#xFE0E;",
+      "isoPath": "mongodb",
+      "iso": {
+        "iso1": {
+          "end": 1,
+          "start": 0
+        },
+        "iso2": {
+          "end": 0,
+          "start": 0
+        },
+        "iso3": {
+          "end": -2,
+          "start": -1
+        }
+      },
+      "button": {
+        "title": "What is MongoDB?",
+        "link": "https://www.mongodb.com/"
+      },
+      "blocks": [
+        {
+          "gallery": true,
+          "block": true,
+          "content": [
+            {
+              "image": "mongodb/twitch.gif",
+              "full": true,
+              "alt": "Twitch transition animation"
+            },
+            {
+              "image": "mongodb/IG-Highlight-Covers.png",
+              "full": true,
+              "alt": "IG highlight covers"
+            },
+            {
+              "image": "mongodb/SQL-to-MongoDB-IG.png",
+              "full": true,
+              "alt": "IG swipe through"
+            },
+
+            {
+              "image": "mongodb/innovationawardlight.png",
+              "half": true,
+              "col1": true,
+              "alt": "Innovation Awards logo — light bg"
+            },
+            {
+              "image": "mongodb/innovationawarddark.png",
+              "half": true,
+              "col2": true,
+              "alt": "Innovation Awards logo — dark bg"
+            },
+            {
+              "image": "mongodb/zoom.png",
+              "full": true,
+              "alt": "Zoom office background"
+            },
+            {
+              "image": "mongodb/Banks&Finance2048x1362.png",
+              "half": true,
+              "col1": true,
+              "alt": "Banks & Finance illustration"
+            },
+            {
+              "image": "mongodb/twitchthumbnail.png",
+              "half": true,
+              "col1": true,
+              "alt": "Twitch thumbnail"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "New Website for Triton Outfitters",
       "unlisted": true,
       "year": 20,
@@ -53,7 +132,7 @@
       "sub": "Brand Design",
       "size": "two-fifths",
       "url": "vox",
-      "icon": "vox/iso.png",
+      "isoPath": "vox",
       "iso": {
         "iso1": {
           "end": 2,
@@ -146,6 +225,7 @@
       "year": "17–19",
       "sub": "Brand Design, Web Design, Web Development",
       "url": "design-co",
+      "isoPath": "design-co",
       "iso": {
         "iso1": {
           "end": 2,
@@ -786,13 +866,13 @@
       ]
     },
     {
-      "title": "Misc. Work",
+      "title": "Dribbble",
       "year": "—",
       "sub": "????",
-      "display": "Miscellaneous.zip",
       "size": "two-thirds",
-      "url": "misc",
-      "icon": "misc/iso.png",
+      "url": "https://dribbble.com/emilynguyen",
+      "external": true,
+      "isoPath": "misc",
       "iso": {
         "iso1": {
           "start": 0,

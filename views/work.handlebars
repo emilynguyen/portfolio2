@@ -4,7 +4,8 @@
   {{#unless unlisted}}
   {{#unless dev}}
   <hr>
-  <a href="/{{url}}" class="project-container portable--pb-1 desk--pb-2">
+  <a href="{{#unless external}}/{{/unless}}{{url}}" class="project-container portable--pb-1 desk--pb-2"
+    {{#if external}}target="_blank" {{/if}}>
     <h5 class="mb-1">{{sub}}</h5>
     <div class="grid">
       <div class="grid__item lap--two-thirds desk--one-half">
