@@ -240,7 +240,7 @@
           "start": -1
         }
       },
-      "description": "<p>From 2017 to 2019 I helped lead <a href='http://www.ucsddesign.co/' target='_blank'>Design Co</a>, the largest pre-professional design organization at UC San Diego. This involved leading skill workshops, planning events, and more to help bridge the gap between student designers and industry.</p><p>We've recently launched a full rebrand, where I worked closely alongside <a href='https://nancybui.co/' target='_blank'>Nancy</a> and <a href='http://lucylouxu.com' target='_blank'>Lucy</a> to craft a new visual identity for the organization.</p><p>Thank you to the lovely <a href='http://www.ucsddesign.co/about' target='_blank'>Design Co leadership team</a> for everything that they do. ♥</p>",
+      "description": "<p>From 2017 to 2019 I helped lead <a href='http://www.ucsddesign.co/' target='_blank'>Design Co</a>, the largest pre-professional design organization at UC San Diego. This involved leading skill workshops, planning events, and more to help bridge the gap between student designers and industry.</p><p>We've recently launched a full rebrand, where I worked closely alongside <a href='https://trinh.design/' target='_blank'>Trinh</a> and <a href='http://lucylouxu.com' target='_blank'>Lucy</a> to craft a new visual identity for the organization.</p><p>Thank you to the lovely <a href='http://www.ucsddesign.co/about' target='_blank'>Design Co leadership team</a> for everything that they do. ♥</p>",
       "button": {
         "title": "Read More",
         "link": "https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9"
@@ -408,13 +408,25 @@
       "sub": "UX Design, Brand Design, Web Design, Web Development",
       "size": "three-fifths",
       "url": "asgs",
-      "icon": "asgs/icon.png",
-      "icon_square": "asgs/icon_square.png",
-      "landing": "asgs/icon.png",
+      "isoPath": "asgs",
+      "iso": {
+        "iso1": {
+          "end": 2,
+          "start": 0
+        },
+        "iso2": {
+          "end": 0,
+          "start": 0
+        },
+        "iso3": {
+          "end": -2,
+          "start": -1
+        }
+      },
       "description": "<p>One of my first projects as Associated Students Graphic Studio’s new web designer + developer was to redesign and rebuild our 9-year-old website. While maintaining our established brand, I gave the site a visual refresh that also improved usability and information architecture.</p>",
       "button": {
         "title": "Visit Site",
-        "link": "http://asgraphicstudio.ucsd.edu/"
+        "link": "https://asgraphicstudio.ucsd.edu/"
       },
       "details": [
         {
@@ -441,13 +453,13 @@
           "image": true,
           "content": "asgs/old.jpg",
           "alt": "Old landing page",
-          "captionBefore": "<p>I started by taking a look at our current site and taking note of areas where the visual design or user experience could be improved. Design opportunities I identified included:</p><p><ul><li>Poor visibility of system status: navigation menu did not communicate the current location and pages did not include headers</li><li>Navigation menu could also be quicker and more intuitive. Submenus did not seem to be necessary and increased the interaction cost</li><li>Many different arbitrary text sizes and styles used. Missed opportunity to use text styles to signify function (e.g. discoverability of links)</li><li>The site was not responsive!</li></ul></p><p>Overall, the website would benefit significantly from a design + grid system that consolidated typography, drove consistency across page layouts, and supported responsive functionality.</p>"
+          "captionBefore": "<p>I started by taking a look at our current site and taking note of areas where the visual design or user experience could be improved. Design opportunities I identified included:</p><p><ul><li>Poor visibility of system status: navigation menu did not communicate the user's current location and pages did not include headers</li><li>Navigation menu could also be quicker and more intuitive. Submenus did not seem to be necessary and increased the interaction cost</li><li>Many different arbitrary text sizes and styles used. Missed opportunity to use text styles to signify hierarchy or function (e.g. discoverability of links)</li><li>The site was not responsive!</li></ul></p><p>Overall, the website would benefit significantly from a design system that consolidated typography, drove consistency across page layouts, and supported responsive functionality.</p>"
         },
         {
-          "title": "Explorations",
+          "title": "Exploration",
           "gallery": true,
           "block": true,
-          "captionBefore": "<p>In my initial explorations, I took inspiration from the Pantone colors that lined the interior of our office. I played around by expanding our color palette and using grid imagery that extended our logomark, but ultimately decided that a cleaner look would be timeless and  lend more emphasis to our work.</p>",
+          "captionBefore": "<p>In my initial exploration, I took inspiration from the Pantone colors that lined the interior of our office. I played around by expanding our color palette and using grid imagery that extended our logomark, but ultimately decided that a cleaner look would be timeless and  lend more emphasis to our work.</p>",
           "content": [
             {
               "image": "asgs/office.jpg",
@@ -466,7 +478,7 @@
           "gallery": true,
           "block": true,
           "alt": "Color palette: green + gray",
-          "captionBefore": "<p>To maintain our existing brand identity, I carried over our playful shade of green and our typeface, Century Gothic. Century Gothic’s spacious curves did an excellent job of conveying our approachability and youth, so I played up the classic typeface by employing large, bold headers. The current body font, a harsh black Helvetica, was also replaced by Century Gothic and made soft gray to align with our logo and appear friendlier. To further support this, I chose to style headers using all lowercase instead of uppercase.</p>",
+          "captionBefore": "<p>To maintain our existing brand identity, I carried over our playful shade of green and our typeface, Century Gothic. Century Gothic’s spacious curves did an excellent job of conveying our approachability, so I played up the typeface by using large, bold, lowercase headers. The current body font, harsh black and Helvetica, was also replaced by Century Gothic and made soft gray to align with our logo and appear friendlier.</p>",
           "content": [
             {
               "image": "asgs/color.png",
@@ -485,13 +497,13 @@
           "image": true,
           "content": "asgs/ia.png",
           "alt": "Old and new navigation menus",
-          "captionBefore": "<p>The primary business goal of this website was to attract more clients, but the existing navigation structure did not support this well. Potential clients need to be able to:</p><ul><li>View our work</li><li>Learn about us</li><li>Contact us</li></ul><p>While it appeared that all these actions were accessible from the menu, the Work and About items included submenus that further organized content. Most of these pages, such as the Mission page, contained very little content and could easily be integrated into other pages. To minimize the interaction cost of accessing this information, I decided to combine smaller pages, place more items on the navigation bar, and dissolve the subnavigation. Reducing the amount of clicks it took to reach our content encouraged users to find out more about who we are, our mission, and what separates us from our competitors. I also created a unique state for the active menu item so that users would always be informed of their current location.</p>"
+          "captionBefore": "<p>The primary business goal of this website was to attract more clients, but the existing navigation structure did not support this well. Potential clients needed to be able to:</p><ul><li>View our work</li><li>Learn about us</li><li>Contact us</li></ul><p>While all these actions were accessible from the menu, the Work and About items included submenus that further divided content. Most of these pages, such as the About > Mission page, contained very little content and could easily be integrated into the parent page. So to minimize the interaction cost of accessing this information, I combined smaller pages, placed more items on the main navigation bar, and dissolved the subnavigation. Reducing the amount of clicks it took to reach our content would encourage users to find out more about who we are, view our work, and contact us. I also created an active state for the active menu item so that users would always be informed of their current location on the site.</p>"
         },
         {
           "title": "Final Design",
           "image": true,
           "link": "http://asgraphicstudio.ucsd.edu/",
-          "captionBefore": "<p>The finishing touch to my final design was a large hero image on the landing page. A signature characteristic of our studio was our floor-to-ceiling glass doors, which were always covered by a seasonal illustration. As our door illustrations rotated, so would the hero image on our landing page. This added more personality to our site and allowed us to showcase the growth of our talented designers. <a href='http://asgraphicstudio.ucsd.edu/' target='_blank'>Visit A.S. Graphic Studio</a>!</p>",
+          "captionBefore": "<p>The finishing touch to my final design was a large hero image on the landing page. A signature characteristic of our studio was our floor-to-ceiling glass doors, which were always covered by a seasonal in-house illustration. As our door illustrations updated, so would the hero image on our landing page. This added more personality to our site and allowed us to showcase the art of our talented designers. <a href='http://asgraphicstudio.ucsd.edu/' target='_blank'>Visit A.S. Graphic Studio</a>!</p>",
           "content": "asgs/final.png",
           "alt": "Final mock ups"
         }
