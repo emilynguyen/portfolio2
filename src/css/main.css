@@ -1403,17 +1403,10 @@ body {
 #content {
   margin-right: auto;
   margin-left: auto;
+  max-width: 1600px;
   padding: 4vw; }
 
 hr {
-  /*
-  display: block;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-*/
   margin: 0;
   border: none;
   height: 1px;
@@ -1646,9 +1639,6 @@ html {
   @media only screen and (max-width: 1023px) {
     html {
       font-size: calc(10px + 1vw); } }
-  @media only screen and (min-width: 2048px) {
-    html {
-      font-size: 1vw; } }
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -1899,9 +1889,14 @@ header html {
 
 footer {
   position: absolute;
-  bottom: 0;
   bottom: 4vw;
-  left: 4vw; }
+  left: 4vw;
+  width: 100%;
+  max-width: calc(1600px + 4vw);
+  right: 0;
+  margin: auto;
+  left: 0;
+  padding-left: 4vw; }
 
 .btn {
   line-height: 0;

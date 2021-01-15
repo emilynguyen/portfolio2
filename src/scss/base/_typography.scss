@@ -12,7 +12,7 @@ html {
     font-size: calc(10px + 1vw);
   }
   @include grid-media-query(monitor) {
-    font-size: 1vw;
+    // font-size: 1vw;
   }
 }
 

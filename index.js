@@ -2,7 +2,7 @@ var express = require("express");
 var exphbs = require("express-handlebars");
 var hbs = require("handlebars");
 var description =
-  "Emily is a multidisciplinary designer and developer based in San Francisco. Currently at MongoDB and previously at Vox Media and Salesforce.";
+  "Emily is a visual designer and developer based in San Francisco. Currently at MongoDB and previously at Vox Media and Salesforce.";
 
 hbs.registerHelper("ifCond", function (v1, operator, v2, options) {
   switch (operator) {

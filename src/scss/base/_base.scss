@@ -34,26 +34,11 @@ body {
   margin-right: auto;
   margin-left: auto;
   // padding: 0 $side-margin;
-  // max-width: $content-width;
+  max-width: $content-width;
   padding: $side-margin;
 }
 
-main {
-  //  margin-bottom: $spacer-3;
-  @include grid-media-query(desk) {
-    //margin-bottom: $spacer-4;
-  }
-}
-
 hr {
-  /*
-  display: block;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-*/
   margin: 0;
   border: none;
   height: 1px;

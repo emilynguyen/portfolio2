@@ -1,6 +1,15 @@
 footer {
   position: absolute;
-  bottom: 0;
   bottom: $side-margin;
   left: $side-margin;
+  // new
+  width: 100%;
+  max-width: calc(#{$content-width} + #{$side-margin});
+  right: 0;
+  margin: auto;
+  left: 0;
+  padding-left: $side-margin;
+}
+
+#footer-container {
 }
