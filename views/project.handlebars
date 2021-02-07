@@ -4,12 +4,12 @@
   <div class="grid styled-links">
     <div class="grid__item desk--one-half mb-2">
       <h1>{{title}}</h1>
-      <h2 class="text-right date">/{{year}}</h2>
+      <h1 class="text-right date">/{{year}}</h1>
     </div>
     <div class="grid__item desk--one-half mb-2">
-      <h4>{{{description}}}</h4>
+      {{#if description}}<h4>{{{description}}}</h4>{{/if}}
       {{#ifCond details "||" button}}
-      <div class="grid mt-1 details">
+      <div class="grid {{#if description}} mt-1 {{/if}} details">
         {{#if details}}
         {{#each details}}
         <div class="grid__item">
@@ -156,8 +156,8 @@
   <hr class="mt-2">
   <div class="grid mt-2 mb-3">
     <div class="grid__item lap-up--one-half palm--mb-2">
-      <a href="{{#unless prevProject.external}}/{{/unless}}{{prevProject.url}}" class="next-project-link"
-        {{#if external}}target="_blank" {{/if}}>
+      <a href="{{#unless prevProject.external}}/{{/unless}}{{prevProject.url}}" class="next-project-link" {{#if
+        external}}target="_blank" {{/if}}>
         <div class="grid">
 
           <div class="grid__item one-fifth">
@@ -170,8 +170,8 @@
       </a>
     </div>
     <div class="grid__item lap-up--one-half">
-      <a href="{{#unless nextProject.external}}/{{/unless}}{{nextProject.url}}" class="next-project-link"
-        {{#if external}}target="_blank" {{/if}}>
+      <a href="{{#unless nextProject.external}}/{{/unless}}{{nextProject.url}}" class="next-project-link" {{#if
+        external}}target="_blank" {{/if}}>
         <div class="grid">
           <div class="grid__item four-fifths">
             <h3>{{nextProject.title}}</h3>

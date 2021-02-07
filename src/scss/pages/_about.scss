@@ -5,6 +5,7 @@
   cursor: $pointer;
   z-index: 99999;
   display: none;
+  @extend a;
 }
 
 $bar-height: 1.8em;

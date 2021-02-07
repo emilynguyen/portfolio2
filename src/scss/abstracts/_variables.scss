@@ -1,6 +1,7 @@
 //$opposit: "Opposit", "Helvetica", "Arial", sans-serif;
 $continua: "Continua", "Helvetica", "Arial", sans-serif;
 $mabry: "Mabry Pro", "Helvetica", "Arial", sans-serif;
+$mabry-mono: "Mabry Mono Pro", monospace;
 
 //$body-line-height: 1.1;
 
@@ -13,29 +14,24 @@ $huge: 2400px;
 $big: 1800px;
 
 //$black: #111;
-$black: #141414;
-$black: #161616;
-$gray: #f8f8f8;
-$white: #fff;
-$beige: #f6f5f1;
+//$black: #141414;
 
-$light: #fff;
+//$white: #fff;
+//$beige: #f6f5f1;
 
-$dark: #000;
-//$dark: #111;
-//$light: #fcfaf7;
-$light: #fff;
+$dark: #161c21;
+$light: #f5f5f5;
+$gray: #f3f3f3;
 
+// for glitch
 $magenta: rgba(0, 0, 0, 0.2);
 $green: rgba(0, 0, 0, 0.2);
 
-$blue: #0000ff;
+$border: 1px solid $dark;
+$border-light: 1px solid $light;
 
-$border: 2px solid $dark;
-$border-light: 2px solid $light;
-
-$box-shadow: $dark 0.3rem 0.3rem 0rem;
-$box-shadow-light: $light 0.3rem 0.3rem 0rem;
+$box-shadow: $dark 0.4rem 0.4rem 0rem;
+$box-shadow-light: $light 0.4rem 0.4rem 0rem;
 
 $footer-height-palm: 0;
 $footer-height: 0;
@@ -46,6 +42,7 @@ $side-margin: 4vw;
 
 //$content-width: 62rem;
 $content-width: 1600px;
+$content-width: 1400px;
 
 $translucent: 0.4;
 
@@ -58,6 +55,9 @@ $default: url("../images/_cursors/default.png"), default;
 $default-dark: url("../images/_cursors/default-dark.png"), default;
 $pointer: url("../images/_cursors/pointer.png"), pointer;
 $pointer-dark: url("../images/_cursors/pointer-dark.png"), pointer;
+
+//$default: crosshair;
+//$pointer: pointer;
 
 /*
 $default: default;

@@ -261,7 +261,7 @@ app.get("/:project", function (req, res) {
     if (inputTitle == currProject.url) {
       var path = currProject.dev ? "dev" : "design";
       res.render("project", {
-        darkMode: true,
+        darkMode: false,
         projectPage: true,
         projects,
         currProject,

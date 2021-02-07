@@ -2,10 +2,11 @@
   "projects": [
     {
       "title": "MongoDB",
+      "hide": true,
       "year": "20–",
       "sub": "Visual Design, Brand Design",
       "url": "mongodb",
-      "description": "✿&#xFE0E; ✽&#xFE0E; ✿&#xFE0E; ✽&#xFE0E; ✿&#xFE0E;",
+      "description": "Currently making data and clusters look beautiful at <a href='https://mongodb.com/' target='_blank'>MongoDB</a>. ✿&#xFE0E;",
       "isoPath": "mongodb",
       "iso": {
         "iso1": {
@@ -22,8 +23,8 @@
         }
       },
       "button": {
-        "title": "What is MongoDB?",
-        "link": "https://www.mongodb.com/"
+        "title": "View our Dribbble",
+        "link": "https://dribbble.com/MongoDB"
       },
       "blocks": [
         {
@@ -126,7 +127,7 @@
       ]
     },
     {
-      "title": "Vox Media—Podcast Art Design System",
+      "title": "Vox Media — Podcast Art Design System",
       "year": 19,
       "display": "Podcast_Art_Design_System.txt",
       "sub": "Brand Design",
@@ -221,7 +222,8 @@
       ]
     },
     {
-      "title": "Design Co—Growing a Design Community at UCSD",
+      "title": "Design Co_Growing a Design Community at UCSD",
+      "hide": true,
       "year": "17–19",
       "sub": "Brand Design, Web Design, Web Development",
       "url": "design-co",
@@ -401,11 +403,92 @@
       ]
     },
     {
+      "title": "Sun God Festival",
+      "year": 19,
+      "hide": false,
+      "display": "Sun_God_Festival_2019.html",
+      "size": "three-fifths",
+      "sub": "Web Development",
+      "url": "sgf",
+      "isoPath": "sgf",
+      "iso": {
+        "iso1": {
+          "start": 1,
+          "end": 2
+        },
+        "iso2": {
+          "start": 0,
+          "end": 0
+        },
+        "iso3": {
+          "start": -1,
+          "end": -2
+        }
+      },
+      "description": "Website for the 37th annual Sun God Music Festival.",
+      "button": {
+        "title": "Visit Site",
+        "link": "http://sgf.ucsd.edu/2019"
+      },
+      "details": [
+        {
+          "title": "Roles",
+          "content": "Developer, web designer"
+        },
+        {
+          "title": "Partner",
+          "content": "<a href='https://eunsoolee.co/' target='_blank'>Eunsoo Lee</a> — Creative director, lead web designer"
+        },
+        {
+          "title": "Tools",
+          "content": "HTML, CSS, Sass, Jekyll, Javascript (jQuery)"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/emilynguyen/sgf19\" target=\"_blank\">Github repo</a>"
+        }
+      ],
+      "blocks": [
+        {
+          "text": true,
+          "title": "Overview",
+          "content": "<p>Sun God Festival is a student-curated, daylong music and arts festival at UC San Diego. Named as one of Live Nation’s \"Top 5 College Concerts That Should Be Actual Festivals\", it is the largest campus-wide event and brings in 20,000+ attendees each year. Sun God Festival 2019 will be headlined by Vince Staples; past acts include Drake, Kendrick Lamar, Jhené Aiko, Khalid, and My Chemical Romance.</p><p>This year, I was given the opportunity to build the website for the festival and worked closely with the creative director to execute his vision.</p>"
+        },
+        {
+          "gallery": true,
+          "content": [
+            {
+              "image": "sgf/lineup.gif",
+              "alt": "Lineup reveal",
+              "col1": true
+            },
+            {
+              "image": "sgf/stretch.gif",
+              "alt": "Leaf stretch",
+              "col2": true
+            },
+            {
+              "image": "sgf/accordian.gif",
+              "alt": "Accordian animation",
+              "border": true,
+              "col1": true
+            },
+            {
+              "image": "sgf/lineup-glitch.gif",
+              "alt": "Lineup page glitch animation",
+              "border": true,
+              "col2": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "A.S. Graphic Studio—New Website",
       "year": "18",
       "hide": true,
       "display": "as_graphic_studio_redesign.sketch",
-      "sub": "UX Design, Brand Design, Web Design, Web Development",
+      "sub": "UX Design, Web Design, Web Development",
       "size": "three-fifths",
       "url": "asgs",
       "isoPath": "asgs",
@@ -503,84 +586,13 @@
           "title": "Final Design",
           "image": true,
           "link": "http://asgraphicstudio.ucsd.edu/",
-          "captionBefore": "<p>The finishing touch to my final design was a large hero image on the landing page. A signature characteristic of our studio was our floor-to-ceiling glass doors, which were always covered by a seasonal in-house illustration. As our door illustrations updated, so would the hero image on our landing page. This added more personality to our site and allowed us to showcase the art of our talented designers. <a href='http://asgraphicstudio.ucsd.edu/' target='_blank'>Visit A.S. Graphic Studio</a>!</p>",
+          "captionBefore": "<p>The finishing touch to my final design was a large hero image on the landing page. A signature characteristic of our studio was our floor-to-ceiling glass doors, which were always covered by a seasonal in-house illustration. As our door illustrations updated, so would the hero image on our landing page. This added more personality to our site and allowed us to showcase the art of our talented designers. <a href='https://asgraphicstudio.ucsd.edu/' target='_blank'>Visit A.S. Graphic Studio</a>!</p>",
           "content": "asgs/final.png",
           "alt": "Final mock ups"
         }
       ]
     },
-    {
-      "title": "Sun God Festival 2019",
-      "year": 19,
-      "hide": true,
-      "display": "Sun_God_Festival_2019.html",
-      "size": "three-fifths",
-      "sub": "Web Development",
-      "url": "sgf",
-      "icon": "sgf/lineup.gif",
-      "icon_square": "sgf/lineup_square.gif",
-      "landing": "none",
-      "text": "#242424",
-      "bg": "#f2f7f9",
-      "description": "Website for the 37th annual Sun God Music Festival.",
-      "button": {
-        "title": "Visit Site",
-        "link": "http://sgf.ucsd.edu/2019"
-      },
-      "details": [
-        {
-          "title": "Roles",
-          "content": "Developer, web designer"
-        },
-        {
-          "title": "Tools",
-          "content": "HTML, CSS, Sass, Jekyll, Javascript (jQuery)"
-        },
-        {
-          "title": "Partner",
-          "content": "<a href='https://eunsoolee.co/' target='_blank'>Eunsoo Lee</a> — creative director, lead web designer"
-        },
-
-        {
-          "title": "Resources",
-          "content": "<a href=\"https://github.com/emilynguyen/sgf19\" target=\"_blank\">Github repo</a>"
-        }
-      ],
-      "blocks": [
-        {
-          "text": true,
-          "title": "Overview",
-          "content": "<p>Sun God Festival is a student-curated, daylong music and arts festival at UC San Diego. Named as one of Live Nation’s \"Top 5 College Concerts That Should Be Actual Festivals\", Sun God is the largest campus-wide event and brings in 20,000+ attendees each year. Sun God Festival 2019 will be headlined by Vince Staples; past acts include Drake, Kendrick Lamar, Jhené Aiko, Khalid, and My Chemical Romance.</p><p>This year, I was given the opportunity to build the website for the festival. I worked closely with the creative director to execute his vision and also designed several pages.</p>"
-        },
-        {
-          "gallery": true,
-          "content": [
-            {
-              "image": "sgf/lineup.gif",
-              "alt": "Lineup reveal",
-              "col1": true
-            },
-            {
-              "image": "sgf/stretch.gif",
-              "alt": "Leaf stretch",
-              "col2": true
-            },
-            {
-              "image": "sgf/accordian.gif",
-              "alt": "Accordian animation",
-              "border": true,
-              "col1": true
-            },
-            {
-              "image": "sgf/lineup-glitch.gif",
-              "alt": "Lineup page glitch animation",
-              "border": true,
-              "col2": true
-            }
-          ]
-        }
-      ]
-    },
+    
     {
       "title": "ERGO",
       "hide": true,
@@ -896,7 +908,7 @@
         },
         "iso3": {
           "start": -1,
-          "end": -1
+          "end": -2
         }
       },
       "col": 2,

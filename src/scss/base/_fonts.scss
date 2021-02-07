@@ -1,12 +1,4 @@
 @font-face {
-  font-family: "Continua";
-  src: url("../fonts/continua/Continua-Regular.woff2") format("woff2"),
-    url("../fonts/continua/Continua-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Mabry Pro";
   src: url("../fonts/mabry/MabryPro-Regular.woff2") format("woff2"),
     url("../fonts/mabry/MabryPro-Regular.woff") format("woff");
@@ -14,7 +6,43 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Mabry Mono Pro";
+  src: url("../fonts/mabry/MabryMonoPro-Regular.woff2") format("woff2"),
+    url("../fonts/mabry/MabryMonoPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mabry Mono Pro";
+  src: url("../fonts/mabry/MabryMonoPro-Italic.woff2") format("woff2"),
+    url("../fonts/mabry/MabryMonoPro-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
 /*
+
+
+@font-face {
+  font-family: "Mabry Mono Pro";
+  src: url("../fonts/mabry/MabryMonoPro-Bold.woff2") format("woff2"),
+    url("../fonts/mabry/MabryMonoPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Continua";
+  src: url("../fonts/continua/Continua-Regular.woff2") format("woff2"),
+    url("../fonts/continua/Continua-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: "Opposit";

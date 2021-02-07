@@ -48,10 +48,10 @@
 
 @mixin asterisks {
   &:before {
-    content: "*";
+    content: "⁕";
   }
   &:after {
-    content: "*";
+    content: "⁕";
   }
 }
 
